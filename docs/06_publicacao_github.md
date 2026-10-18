@@ -2,15 +2,15 @@
 
 ## Estado atual
 
-O [repositório `jusdiego/tcc-visao-computacional-acessibilidade`](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade) está publicado com visibilidade pública. A branch `main` contém os notebooks, a documentação, os resultados tabulares, os manifestos e as regras de exclusão.
+O [repositório `jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES`](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES) está publicado com visibilidade pública. A branch `main` contém os notebooks, a documentação, os resultados tabulares, os manifestos e as regras de exclusão.
 
-A [Release v1.0.0](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0) disponibiliza `TCC_Resultados_Para_Apresentacao.zip` e `modelo_rfdetr24.pth`. Os links, tamanhos e hashes dos anexos estão em [arquivos_release.json](../publicacao/arquivos_release.json). Os anexos podem ser baixados sem login.
+A [Release v1.0.0](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/tag/v1.0.0) disponibiliza `TCC_Resultados_Para_Apresentacao.zip` e `modelo_rfdetr24.pth`. Os links, tamanhos e hashes dos anexos estão em [arquivos_release.json](../publicacao/arquivos_release.json). Os anexos podem ser baixados sem login.
 
 A tag `v1.0.0` identifica o commit original da versão. Correções posteriores de documentação e integridade são registradas na branch `main`. Uma futura versão deve usar uma nova tag.
 
 ## Atualizar pelo GitHub Desktop no Windows
 
-1. Entrar na conta com acesso ao projeto. No primeiro acesso, usar **File → Clone repository → URL** com `https://github.com/jusdiego/tcc-visao-computacional-acessibilidade.git` e escolher uma pasta local.
+1. Entrar na conta com acesso ao projeto. No primeiro acesso, usar **File → Clone repository → URL** com `https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES.git` e escolher uma pasta local.
 2. Abrir o repositório no Desktop, selecionar a branch `main` e usar **Fetch origin** e **Pull origin**, quando disponível, antes de editar.
 3. Usar **Repository → Show in Explorer** para abrir a cópia local e copiar os arquivos para seus caminhos correspondentes, mantendo `README.md` na raiz.
 4. Após edições intencionais, atualizar as entradas correspondentes em `SHA256SUMS`. Preservar as cópias históricas e os hashes do catálogo de origens.
@@ -25,13 +25,14 @@ O `.gitignore` exclui ZIPs, pesos, bases brutas e configurações locais de aute
 Para obter uma cópia local com Git instalado e acesso autenticado:
 
 ```powershell
-git clone https://github.com/jusdiego/tcc-visao-computacional-acessibilidade.git
+git clone https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES.git tcc-visao-computacional-acessibilidade
 cd tcc-visao-computacional-acessibilidade
 ```
 
 Em uma cópia existente, sincronizar antes de editar:
 
 ```powershell
+git remote set-url origin https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES.git
 git switch main
 git pull --ff-only origin main
 ```
@@ -47,7 +48,7 @@ git push origin main
 
 ## Arquivos grandes e futuras versões
 
-O peso final e o pacote de apresentação já estão nos [anexos da Release v1.0.0](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0). Os arquivos grandes devem ser anexados a Releases; o Git comum bloqueia arquivos acima de 100 MiB.
+O peso final e o pacote de apresentação já estão nos [anexos da Release v1.0.0](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/tag/v1.0.0). Os arquivos grandes devem ser anexados a Releases; o Git comum bloqueia arquivos acima de 100 MiB.
 
 Para uma futura versão:
 

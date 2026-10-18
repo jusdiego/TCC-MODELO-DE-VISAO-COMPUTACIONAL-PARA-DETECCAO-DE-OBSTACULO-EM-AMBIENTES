@@ -6,18 +6,18 @@
       "bytes": 348920870,
       "sha256": "5ea3e4b07026a8fbfcd1dd8adfae3755f4f19122b582641c885ea733c660e918",
       "incluido_no_git": false,
-      "url": "https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/download/v1.0.0/TCC_Resultados_Para_Apresentacao.zip"
+      "url": "https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/download/v1.0.0/TCC_Resultados_Para_Apresentacao.zip"
     },
     {
       "nome": "modelo_rfdetr24.pth",
       "bytes": 127488377,
       "sha256": "d481dcf7e96479b338cb42fd9199d8a4cccde8fbc8ed8e341f528c1e13d51900",
       "incluido_no_git": false,
-      "url": "https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/download/v1.0.0/modelo_rfdetr24.pth"
+      "url": "https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/download/v1.0.0/modelo_rfdetr24.pth"
     }
   ],
-  "repositorio": "https://github.com/jusdiego/tcc-visao-computacional-acessibilidade",
-  "release": "https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0",
+  "repositorio": "https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES",
+  "release": "https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/tag/v1.0.0",
   "tag": "v1.0.0",
   "publicado_em": "2026-10-18T23:12:08Z"
 }
