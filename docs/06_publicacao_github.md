@@ -2,9 +2,9 @@
 
 ## Estado atual
 
-O [repositório `jusdiego/tcc-visao-computacional-acessibilidade`](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade) está publicado com visibilidade privada. A branch `main` contém os notebooks, a documentação, os resultados tabulares, os manifestos e as regras de exclusão.
+O [repositório `jusdiego/tcc-visao-computacional-acessibilidade`](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade) está publicado com visibilidade pública. A branch `main` contém os notebooks, a documentação, os resultados tabulares, os manifestos e as regras de exclusão.
 
-A [Release v1.0.0](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0) disponibiliza `TCC_Resultados_Para_Apresentacao.zip` e `modelo_rfdetr24.pth`. Os links, tamanhos e hashes dos anexos estão em [arquivos_release.json](../publicacao/arquivos_release.json). Os downloads exigem acesso autorizado ao repositório.
+A [Release v1.0.0](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0) disponibiliza `TCC_Resultados_Para_Apresentacao.zip` e `modelo_rfdetr24.pth`. Os links, tamanhos e hashes dos anexos estão em [arquivos_release.json](../publicacao/arquivos_release.json). Os anexos podem ser baixados sem login.
 
 A tag `v1.0.0` identifica o commit original da versão. Correções posteriores de documentação e integridade são registradas na branch `main`. Uma futura versão deve usar uma nova tag.
 

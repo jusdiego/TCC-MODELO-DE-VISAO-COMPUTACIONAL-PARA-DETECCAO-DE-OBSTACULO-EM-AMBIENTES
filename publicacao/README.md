@@ -1,6 +1,6 @@
 # Distribuição de arquivos grandes
 
-O código e a documentação estão no [repositório privado](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade). O pacote de resultados e o peso final foram publicados na [versão v1.0.0](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0); os downloads exigem acesso autorizado no GitHub. A distribuição das bases completas de imagens será definida posteriormente.
+O código e a documentação estão no [repositório público](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade). O pacote de resultados e o peso final foram publicados na [versão v1.0.0](https://github.com/jusdiego/tcc-visao-computacional-acessibilidade/releases/tag/v1.0.0); os anexos podem ser baixados sem login. A distribuição das bases completas de imagens será definida posteriormente.
 
 | Arquivo | Finalidade | Disponibilidade |
 | --- | --- | --- |
