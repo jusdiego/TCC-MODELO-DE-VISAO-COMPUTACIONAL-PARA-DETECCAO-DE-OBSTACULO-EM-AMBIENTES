@@ -1,0 +1,14 @@
+{
+  "imagens": 456,
+  "tp": 1368,
+  "fn": 167,
+  "fp": 311,
+  "alta_sem_alerta": 25,
+  "precision_alertas": 0.8147706968433591,
+  "recall_alertas": 0.8912052117263843,
+  "f1_alertas": 0.8512756689483509,
+  "referencia": "V2 fixa nas anotações; não valida risco físico independentemente",
+  "conf": 0.3,
+  "iou_nms": 0.7,
+  "iou_correspondencia": 0.5
+}
