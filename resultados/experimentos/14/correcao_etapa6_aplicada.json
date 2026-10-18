@@ -1,0 +1,13 @@
+{
+  "id": "14-cache-validacao-1.0.1",
+  "origem": "Correção da checagem da etapa 6",
+  "conserva_propostas_numericas": true,
+  "altera_pesos": false,
+  "altera_rotulos": false,
+  "altera_grade": false,
+  "altera_associador": false,
+  "reproducao_025_mantida": true,
+  "aplicada_em": "2026-10-16T14:17:47.754190+00:00",
+  "sessao_reutilizada": true,
+  "dados_baixados_novamente": false
+}

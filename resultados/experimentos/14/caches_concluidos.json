@@ -1,0 +1,100 @@
+{
+  "home_val_historica": {
+    "solicitacao": {
+      "versao": "14-confianca-automatica-1.0",
+      "peso_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+      "parametros": {
+        "conf": 0.001,
+        "imgsz": 640,
+        "rect": true,
+        "iou": 0.7,
+        "max_det": 300,
+        "half": false,
+        "batch": 1
+      },
+      "ambiente": {
+        "python": "3.13.15",
+        "torch": "2.11.0+cu128",
+        "ultralytics": "8.4.150",
+        "numpy": "2.1.3",
+        "pillow": "12.3.0",
+        "scipy": "1.16.3",
+        "device": "0",
+        "gpu": "Tesla T4"
+      },
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "entradas_sha256": "26969df230310a821afdff80cbbbfaacff883a6db9811b3bca1ef183025ad5b7"
+    },
+    "cache_sha256": "4196b259111e397b4f953f5049e1ccc367dcecf363afc3c08f9291d3677b4784",
+    "concluido": true,
+    "validacao_previsoes": "14-cache-validacao-1.0.1",
+    "geometria_resumo": {
+      "correcao": "14-cache-validacao-1.0.1",
+      "imagens": 456,
+      "imagens_com_geometria_incomum": 94,
+      "totais": {
+        "predicoes": 46881,
+        "area_zero": 174,
+        "fora_da_imagem": 0,
+        "area_zero_na_grade": 0,
+        "fora_da_imagem_na_grade": 0
+      },
+      "propostas_removidas": 0,
+      "coordenadas_alteradas": false,
+      "observacao": "Geometria incomum preservada no cache e no protocolo; não constitui objeto aprovado. Reprodução em 0,25 continua obrigatória."
+    },
+    "imagens_atingiram_max_det": 24,
+    "limite": "Propostas pós-NMS em confiança 0,001; max_det=300, sem acesso aos logits brutos.",
+    "reutilizado_nesta_execucao": true
+  },
+  "openimages_val_nova": {
+    "solicitacao": {
+      "versao": "14-confianca-automatica-1.0",
+      "peso_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+      "parametros": {
+        "conf": 0.001,
+        "imgsz": 640,
+        "rect": true,
+        "iou": 0.7,
+        "max_det": 300,
+        "half": false,
+        "batch": 1
+      },
+      "ambiente": {
+        "python": "3.13.15",
+        "torch": "2.11.0+cu128",
+        "ultralytics": "8.4.150",
+        "numpy": "2.1.3",
+        "pillow": "12.3.0",
+        "scipy": "1.16.3",
+        "device": "0",
+        "gpu": "Tesla T4"
+      },
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "entradas_sha256": "047f11100ff6f13190a22d18dca3ce5c09b1022991e33d3cb224286270d273e2"
+    },
+    "cache_sha256": "9555f51de349f25c5a25ecec2d938ca79b6e36d9a3a6480d5eeb9a2ea0416c78",
+    "concluido": true,
+    "validacao_previsoes": "14-cache-validacao-1.0.1",
+    "geometria_resumo": {
+      "correcao": "14-cache-validacao-1.0.1",
+      "imagens": 1000,
+      "imagens_com_geometria_incomum": 148,
+      "totais": {
+        "predicoes": 193351,
+        "area_zero": 377,
+        "fora_da_imagem": 0,
+        "area_zero_na_grade": 0,
+        "fora_da_imagem_na_grade": 0
+      },
+      "propostas_removidas": 0,
+      "coordenadas_alteradas": false,
+      "observacao": "Geometria incomum preservada no cache e no protocolo; não constitui objeto aprovado. Reprodução em 0,25 continua obrigatória."
+    },
+    "imagens_atingiram_max_det": 350,
+    "limite": "Propostas pós-NMS em confiança 0,001; max_det=300, sem acesso aos logits brutos.",
+    "reutilizado_nesta_execucao": true
+  }
+}

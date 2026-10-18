@@ -1,0 +1,15 @@
+{
+  "versao": "13-consolidacao-automatica-1.0",
+  "status": "analise_automatica_consolidada",
+  "casos_avaliados_automaticamente": 108,
+  "revisao_humana_realizada": false,
+  "preenchimento_manual_obrigatorio": false,
+  "triagem": {
+    "fora_do_recorte_conservador_proposto": 44,
+    "objeto_em_foco_compativel_com_recorte_proposto": 28,
+    "somente_diagnostico_validacao": 36
+  },
+  "novo_dataset_pronto": false,
+  "rotulos_alterados": false,
+  "pacote_automatico_sha256": "30b560e47e6db7c358396b6872832b20fd99d68c89edc10467b9984ea040fd12"
+}

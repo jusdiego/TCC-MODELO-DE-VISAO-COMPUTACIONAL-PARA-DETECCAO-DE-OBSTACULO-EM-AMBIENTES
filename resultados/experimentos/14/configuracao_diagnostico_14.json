@@ -1,0 +1,246 @@
+{
+  "versao": "14-confianca-automatica-1.0",
+  "experimento": "diagnostico14_20261016_141628_653311",
+  "expected": {
+    "baseline": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "candidato": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+    "politica": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "home_zip": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+    "test_home": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+    "preparacao": "9865042654c51e83955c2aeb186a1b5e27e1028a5c56f1f163e2891abc0bec49",
+    "divisao_10": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+    "manifesto_pacotes": "655094dea28755a7bddc817ae66660d06fab28ccb8f9d140d3ffebb07f03a0d4",
+    "pacote_11": "a3f3fb500cef83fc4890f6bbec6725bbf5e080503fd0478af3dd84d6f5ef6e93",
+    "dataset_novo": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+    "zip_novo": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+    "codigo_11": {
+      "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+      "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+      "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2"
+    },
+    "pacote_12": "1c3a6016099c2bb23aca29396286497c7973f00136c1afbb0bbc62e45aa20650",
+    "codigo_12": {
+      "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+      "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+      "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2",
+      "exp10_partial.py": "86a36f93aa643853f1268dcc133bed7e7344dea269b9d1d58cf54095538fffae",
+      "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+      "exp12_data.py": "0a9de7e99d302a2690f18f51924f4dc80b32861c9d2149ccfe0572ec75499f30",
+      "exp12_training.py": "6c51c9965336b2f00bd9b282e2159c0b63f07c5c16859da78da2818bd4202fdc",
+      "exp12_reports.py": "120609247939189f895c01cdfd1411e4d2b416d1e293cb26851d63d04835b49a"
+    },
+    "B_e03": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+    "regra_12_sha256": "04c6287c2c4adb8c43baf28c10acbaa1a599198b905d48808a8f5f67f39a4909"
+  },
+  "peso_B_e03_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "associador_sha256": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d",
+  "ambiente": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.150",
+    "numpy": "2.1.3",
+    "pillow": "12.3.0",
+    "scipy": "1.16.3",
+    "device": "0",
+    "gpu": "Tesla T4"
+  },
+  "ambiente_referencia_12": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.150",
+    "device": "0"
+  },
+  "protocolo": {
+    "versao": "14-protocolo-global-1.0",
+    "grade": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.4
+    ],
+    "parametros_inferencia": {
+      "conf": 0.001,
+      "imgsz": 640,
+      "rect": true,
+      "iou": 0.7,
+      "max_det": 300,
+      "half": false,
+      "batch": 1
+    },
+    "modelo_variavel": false,
+    "regra_original_12": {
+      "versao": "12-regra-duas-validacoes-v1",
+      "home": {
+        "precision_maior_que": 0.7836456558773425,
+        "recall_minimo": 0.8990228013029316,
+        "alta_sem_alerta_maximo": 24,
+        "objetos_alerta_ref": 1535,
+        "alta_ref": 536
+      },
+      "externa": {
+        "precision_minima": 0.5982256020278834,
+        "recall_minimo": 0.6035805626598465,
+        "alta_sem_alerta_maximo": 120,
+        "objetos_alerta_ref": 782,
+        "alta_ref": 420
+      },
+      "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+      "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+      "conf_alertas": 0.25,
+      "testes_consultados": false,
+      "tolerancia_numerica": 1e-12,
+      "criterio": "Home supera precisão do baseline, preserva recall e omissões altas; externa preserva precisão, recall e omissões altas do candidato 10.",
+      "desempate": "Precisão Home, recall Home, omissões altas Home, F1 externa, menos atualizações, identificador.",
+      "sem_elegivel": "Preservar baseline em uso; candidato 10 e todos os checkpoints continuam disponíveis."
+    },
+    "regra_12_sha256": "04c6287c2c4adb8c43baf28c10acbaa1a599198b905d48808a8f5f67f39a4909",
+    "reproducao_obrigatoria": true,
+    "referencias_reinferidas": false,
+    "origem_referencias": "pacote 12 autenticado, baseline e candidato 10 em 0,25",
+    "desempate": [
+      "maior precisão Home",
+      "maior recall Home",
+      "menos omissões altas Home",
+      "maior F1 externa",
+      "mais próximo de 0,25",
+      "maior confiança"
+    ],
+    "limiar_galeria_sem_elegivel": 0.1,
+    "testes_consultados": false,
+    "preenchimento_manual_obrigatorio": false,
+    "substituicao_automatica_de_modelo": false
+  },
+  "semente": 42,
+  "preenchimento_manual_obrigatorio": false,
+  "codigo_embutido_sha256": {
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+    "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2",
+    "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+    "exp12_data.py": "0a9de7e99d302a2690f18f51924f4dc80b32861c9d2149ccfe0572ec75499f30",
+    "conf14_data.py": "f73232836278c08edf0f955ae8fe50a33cb1d4eabe2b2cc35a5f410f095bae66",
+    "conf14_evaluation.py": "6ca75e2cca022fb22f9479832e8c28c08c7c3cbc58483d478712dc65ec71088e",
+    "conf14_reports.py": "3ab8dd81564646373f718a265dfe452abdc28fdb3ffed182477eeae1e1845a3b"
+  },
+  "coortes": {
+    "home_val_historica": 456,
+    "openimages_val_nova": 1000
+  },
+  "novos_treinamentos": 0,
+  "correcao_cache": {
+    "id": "14-cache-validacao-1.0.1",
+    "origem": "Correção da checagem da etapa 6",
+    "conserva_propostas_numericas": true,
+    "altera_pesos": false,
+    "altera_rotulos": false,
+    "altera_grade": false,
+    "altera_associador": false,
+    "reproducao_025_mantida": true
+  },
+  "caches": {
+    "home_val_historica": {
+      "solicitacao": {
+        "versao": "14-confianca-automatica-1.0",
+        "peso_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+        "parametros": {
+          "conf": 0.001,
+          "imgsz": 640,
+          "rect": true,
+          "iou": 0.7,
+          "max_det": 300,
+          "half": false,
+          "batch": 1
+        },
+        "ambiente": {
+          "python": "3.13.15",
+          "torch": "2.11.0+cu128",
+          "ultralytics": "8.4.150",
+          "numpy": "2.1.3",
+          "pillow": "12.3.0",
+          "scipy": "1.16.3",
+          "device": "0",
+          "gpu": "Tesla T4"
+        },
+        "coorte": "home_val_historica",
+        "imagens": 456,
+        "entradas_sha256": "26969df230310a821afdff80cbbbfaacff883a6db9811b3bca1ef183025ad5b7"
+      },
+      "cache_sha256": "4196b259111e397b4f953f5049e1ccc367dcecf363afc3c08f9291d3677b4784",
+      "concluido": true,
+      "validacao_previsoes": "14-cache-validacao-1.0.1",
+      "geometria_resumo": {
+        "correcao": "14-cache-validacao-1.0.1",
+        "imagens": 456,
+        "imagens_com_geometria_incomum": 94,
+        "totais": {
+          "predicoes": 46881,
+          "area_zero": 174,
+          "fora_da_imagem": 0,
+          "area_zero_na_grade": 0,
+          "fora_da_imagem_na_grade": 0
+        },
+        "propostas_removidas": 0,
+        "coordenadas_alteradas": false,
+        "observacao": "Geometria incomum preservada no cache e no protocolo; não constitui objeto aprovado. Reprodução em 0,25 continua obrigatória."
+      },
+      "imagens_atingiram_max_det": 24,
+      "limite": "Propostas pós-NMS em confiança 0,001; max_det=300, sem acesso aos logits brutos.",
+      "reutilizado_nesta_execucao": true
+    },
+    "openimages_val_nova": {
+      "solicitacao": {
+        "versao": "14-confianca-automatica-1.0",
+        "peso_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+        "parametros": {
+          "conf": 0.001,
+          "imgsz": 640,
+          "rect": true,
+          "iou": 0.7,
+          "max_det": 300,
+          "half": false,
+          "batch": 1
+        },
+        "ambiente": {
+          "python": "3.13.15",
+          "torch": "2.11.0+cu128",
+          "ultralytics": "8.4.150",
+          "numpy": "2.1.3",
+          "pillow": "12.3.0",
+          "scipy": "1.16.3",
+          "device": "0",
+          "gpu": "Tesla T4"
+        },
+        "coorte": "openimages_val_nova",
+        "imagens": 1000,
+        "entradas_sha256": "047f11100ff6f13190a22d18dca3ce5c09b1022991e33d3cb224286270d273e2"
+      },
+      "cache_sha256": "9555f51de349f25c5a25ecec2d938ca79b6e36d9a3a6480d5eeb9a2ea0416c78",
+      "concluido": true,
+      "validacao_previsoes": "14-cache-validacao-1.0.1",
+      "geometria_resumo": {
+        "correcao": "14-cache-validacao-1.0.1",
+        "imagens": 1000,
+        "imagens_com_geometria_incomum": 148,
+        "totais": {
+          "predicoes": 193351,
+          "area_zero": 377,
+          "fora_da_imagem": 0,
+          "area_zero_na_grade": 0,
+          "fora_da_imagem_na_grade": 0
+        },
+        "propostas_removidas": 0,
+        "coordenadas_alteradas": false,
+        "observacao": "Geometria incomum preservada no cache e no protocolo; não constitui objeto aprovado. Reprodução em 0,25 continua obrigatória."
+      },
+      "imagens_atingiram_max_det": 350,
+      "limite": "Propostas pós-NMS em confiança 0,001; max_det=300, sem acesso aos logits brutos.",
+      "reutilizado_nesta_execucao": true
+    }
+  },
+  "imagens_inferidas_nesta_execucao": 0
+}

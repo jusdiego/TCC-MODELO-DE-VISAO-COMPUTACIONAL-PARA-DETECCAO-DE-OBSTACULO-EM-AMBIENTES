@@ -1,0 +1,43 @@
+{
+  "versao": "12-home-replay-controlado-1.0",
+  "experimento": "ajuste12_20261016_033819_596490",
+  "concluido": true,
+  "integridade_conferida": true,
+  "novos_treinamentos": 2,
+  "orcamentos": [
+    {
+      "arm": "A_home",
+      "atualizacoes": 342,
+      "batches": 342,
+      "exposicoes": {
+        "home": 5472
+      },
+      "epocas": 3
+    },
+    {
+      "arm": "B_home_replay",
+      "atualizacoes": 342,
+      "batches": 342,
+      "exposicoes": {
+        "home": 4104,
+        "openimages": 1368
+      },
+      "epocas": 3
+    }
+  ],
+  "status": "Nenhum checkpoint cumpriu todos os requisitos. O baseline continua sendo a referência em uso. O melhor resultado exploratório é apresentado para diagnóstico.",
+  "elegivel": null,
+  "exploratorio": "candidato_10_inicial",
+  "checkpoint_galeria": "candidato_10_inicial",
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "regra_sha256": "04c6287c2c4adb8c43baf28c10acbaa1a599198b905d48808a8f5f67f39a4909",
+  "modelo_em_uso_continua_baseline": true,
+  "modelos_substituidos": false,
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "validacao_externa_usada_na_selecao": true,
+  "rotulos_originais_preservados": true,
+  "revisao_semantica_pendente": true
+}

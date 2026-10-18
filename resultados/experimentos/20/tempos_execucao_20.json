@@ -1,0 +1,41 @@
+{
+  "exclui_pip": true,
+  "exclui_zip_e_envio_final": true,
+  "etapas": [
+    {
+      "etapa": "Ambiente, código e protocolo embutido conferidos",
+      "segundos": 0.08041240500000413,
+      "acumulado_segundos": 0.08041240500000413
+    },
+    {
+      "etapa": "Protocolo 19 e pesos autenticados; contexto de retomada preparado",
+      "segundos": 28.54075520799995,
+      "acumulado_segundos": 28.621167612999955
+    },
+    {
+      "etapa": "300 imagens da reserva conferidas e grupos fixados",
+      "segundos": 49.68977447899999,
+      "acumulado_segundos": 78.31094209199995
+    },
+    {
+      "etapa": "Avaliação concluída: baseline",
+      "segundos": 30.43855329500002,
+      "acumulado_segundos": 108.74949538699997
+    },
+    {
+      "etapa": "Avaliação concluída: candidato_10",
+      "segundos": 25.200160029000017,
+      "acumulado_segundos": 133.94965541599998
+    },
+    {
+      "etapa": "Intervalos de confiança e comparação pareada concluídos",
+      "segundos": 6.528900625000006,
+      "acumulado_segundos": 140.478556041
+    },
+    {
+      "etapa": "Relatório final e texto-base concluídos",
+      "segundos": 3.5064951770000334,
+      "acumulado_segundos": 143.98505121800002
+    }
+  ]
+}

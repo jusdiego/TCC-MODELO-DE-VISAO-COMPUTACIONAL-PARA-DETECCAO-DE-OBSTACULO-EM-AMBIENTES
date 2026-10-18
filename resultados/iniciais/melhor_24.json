@@ -1,0 +1,23 @@
+{
+  "epoch": 13,
+  "metric": "val/ema_mAP_50_95",
+  "value": 0.5785046219825745,
+  "weight_sha256": "d481dcf7e96479b338cb42fd9199d8a4cccde8fbc8ed8e341f528c1e13d51900",
+  "context": "4139f0b53d89b9706ec245d4823a3cdafe9d895e6f1e8634b49e96de4827c56a",
+  "weight": "treino/melhor_ema.pth",
+  "class_names": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "optimizer_included": false
+}

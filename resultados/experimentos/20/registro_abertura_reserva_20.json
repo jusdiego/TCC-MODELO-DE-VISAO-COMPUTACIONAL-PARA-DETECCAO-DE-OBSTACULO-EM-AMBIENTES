@@ -1,0 +1,11 @@
+{
+  "registrado_em_utc": "2026-10-17T22:51:57.186236+00:00",
+  "protocolo_fonte_fixado_em_utc": "2026-10-17T21:55:49.297808+00:00",
+  "protocolo_sha256": "b13f47fe8c2bc87369ccba1f5dbdad8d4fff46651531956617d38684e0b61b38",
+  "pesos_sha256": {
+    "baseline": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "candidato_10": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f"
+  },
+  "reserva_extraida_antes_deste_registro": false,
+  "execucao_autorizada_da_avaliacao_final": true
+}

@@ -1,0 +1,24 @@
+{
+  "nome": "modelo_rfdetr24.pth",
+  "bytes": 127488377,
+  "sha256": "d481dcf7e96479b338cb42fd9199d8a4cccde8fbc8ed8e341f528c1e13d51900",
+  "arquitetura": "RFDETRSmall",
+  "classes": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "resolucao": 512,
+  "confianca": 0.5,
+  "melhor_epoca": 13,
+  "distribuicao": "Arquivo separado de Release; tambem presente em TCC_Resultados_Para_Apresentacao.zip/modelo_final/."
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/s (324).jpg",
+    "categoria": "Candidato com mais omissões",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_00.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1205.jpg",
+    "categoria": "Candidato com mais omissões",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_01.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_493.jpg",
+    "categoria": "Candidato com mais omissões",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_02.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (76).jpg",
+    "categoria": "Candidato com menos omissões",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_03.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1462.jpg",
+    "categoria": "Candidato com menos omissões",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_04.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg",
+    "categoria": "Candidato com menos omissões",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_05.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_926.jpg",
+    "categoria": "Falsos alertas avaliáveis",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_06.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_214.jpg",
+    "categoria": "Falsos alertas avaliáveis",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_07.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg",
+    "categoria": "Falsos alertas avaliáveis",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_08.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/s (315).jpg",
+    "categoria": "Amostra por hash, independente do erro",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_09.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_273.jpg",
+    "categoria": "Amostra por hash, independente do erro",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_10.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1084.jpg",
+    "categoria": "Amostra por hash, independente do erro",
+    "coorte": "home_val_historica",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/home_val_historica_11.jpg",
+    "creditos": {}
+  },
+  {
+    "id": "90cb3140198a4085",
+    "categoria": "Candidato com mais omissões",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_00.jpg",
+    "creditos": {
+      "ImageID": "90cb3140198a4085",
+      "OriginalLandingURL": "https://www.flickr.com/photos/tarralayne/19543938695",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Tarra Layne",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "98761e550dc987f8",
+    "categoria": "Candidato com mais omissões",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_01.jpg",
+    "creditos": {
+      "ImageID": "98761e550dc987f8",
+      "OriginalLandingURL": "https://www.flickr.com/photos/yellowbookltd/8419914350",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "John Lord",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "dd1160459778fdd6",
+    "categoria": "Candidato com mais omissões",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_02.jpg",
+    "creditos": {
+      "ImageID": "dd1160459778fdd6",
+      "OriginalLandingURL": "https://www.flickr.com/photos/peterdflickr/6777419151",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Peter D.",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "cd2ded9ae21c7f0e",
+    "categoria": "Candidato com menos omissões",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_03.jpg",
+    "creditos": {
+      "ImageID": "cd2ded9ae21c7f0e",
+      "OriginalLandingURL": "https://www.flickr.com/photos/baranclesdublingalway/3833475468",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Barnacles Budget Accommodation",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "9fc4cded7b202656",
+    "categoria": "Candidato com menos omissões",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_04.jpg",
+    "creditos": {
+      "ImageID": "9fc4cded7b202656",
+      "OriginalLandingURL": "https://www.flickr.com/photos/amandacbb/16278499102",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Eternity Portifolio",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "616452c4d84e6d60",
+    "categoria": "Candidato com menos omissões",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_05.jpg",
+    "creditos": {
+      "ImageID": "616452c4d84e6d60",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sashafujin/3284682028",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Sasha Fujin",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "7fb7af9ec65b43b3",
+    "categoria": "Falsos alertas avaliáveis",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_06.jpg",
+    "creditos": {
+      "ImageID": "7fb7af9ec65b43b3",
+      "OriginalLandingURL": "https://www.flickr.com/photos/14646075@N03/3314327113",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "digital cat",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "dcd27a3569b179cd",
+    "categoria": "Falsos alertas avaliáveis",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_07.jpg",
+    "creditos": {
+      "ImageID": "dcd27a3569b179cd",
+      "OriginalLandingURL": "https://www.flickr.com/photos/cummingsproperties/19082323800",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Cummings Properties",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "78767a54758dcd79",
+    "categoria": "Falsos alertas avaliáveis",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_08.jpg",
+    "creditos": {
+      "ImageID": "78767a54758dcd79",
+      "OriginalLandingURL": "https://www.flickr.com/photos/wwworks/9536149248",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "woodleywonderworks",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "2f90aaa72744452d",
+    "categoria": "Amostra por hash, independente do erro",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_09.jpg",
+    "creditos": {
+      "ImageID": "2f90aaa72744452d",
+      "OriginalLandingURL": "https://www.flickr.com/photos/27690172@N02/3108795486",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "MixedGrill",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "35fd8d54e418baef",
+    "categoria": "Amostra por hash, independente do erro",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_10.jpg",
+    "creditos": {
+      "ImageID": "35fd8d54e418baef",
+      "OriginalLandingURL": "https://www.flickr.com/photos/9680862@N05/14615972881",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "Steve and Tracy",
+      "Rotation": "0.0"
+    }
+  },
+  {
+    "id": "eeba4dab4ff7aa27",
+    "categoria": "Amostra por hash, independente do erro",
+    "coorte": "openimages_val_nova",
+    "checkpoint": "candidato_10_inicial",
+    "arquivo": "galeria/openimages_val_nova_11.jpg",
+    "creditos": {
+      "ImageID": "eeba4dab4ff7aa27",
+      "OriginalLandingURL": "https://www.flickr.com/photos/27164521@N00/10346716005",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "Author": "syvwlch",
+      "Rotation": "0.0"
+    }
+  }
+]

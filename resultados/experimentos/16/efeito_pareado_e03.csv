@@ -1,0 +1,17 @@
+﻿coorte,metrica,controle_e03,mascara_e03,delta_mascara_menos_controle,unidade
+home_val_historica,tp,1342,1339,-3,contagem
+home_val_historica,fn,193,196,3,contagem
+home_val_historica,fp,334,328,-6,contagem
+home_val_historica,precision,0.8007159904534606,0.8032393521295741,0.0025233616761134448,proporcao; multiplicar delta por 100 para pontos percentuais
+home_val_historica,recall,0.8742671009771987,0.8723127035830619,-0.001954397394136831,proporcao; multiplicar delta por 100 para pontos percentuais
+home_val_historica,f1,0.8358766739333541,0.8363522798251093,0.0004756058917552153,proporcao; multiplicar delta por 100 para pontos percentuais
+home_val_historica,alta_ref,536,536,0,contagem
+home_val_historica,alta_sem_alerta,30,30,0,contagem
+openimages_val_nova,tp,443,444,1,contagem
+openimages_val_nova,fn,339,338,-1,contagem
+openimages_val_nova,fp,257,254,-3,contagem
+openimages_val_nova,precision,0.6328571428571429,0.6361031518624641,0.0032460090053212376,proporcao; multiplicar delta por 100 para pontos percentuais
+openimages_val_nova,recall,0.5664961636828645,0.5677749360613811,0.0012787723785165905,proporcao; multiplicar delta por 100 para pontos percentuais
+openimages_val_nova,f1,0.5978407557354926,0.6,0.0021592442645074206,proporcao; multiplicar delta por 100 para pontos percentuais
+openimages_val_nova,alta_ref,420,420,0,contagem
+openimages_val_nova,alta_sem_alerta,140,138,-2,contagem

@@ -1,0 +1,42 @@
+[
+  {
+    "coorte": "home_val_historica",
+    "limite": 12,
+    "selecionados": 12,
+    "disponiveis_por_categoria": {
+      "controle": 685,
+      "omissao_persistente": 85,
+      "perda_de_alerta": 4,
+      "nova_omissao_alta": 2,
+      "melhora": 5
+    },
+    "selecionados_por_categoria": {
+      "nova_omissao_alta": 2,
+      "perda_de_alerta": 4,
+      "omissao_persistente": 3,
+      "melhora": 2,
+      "controle": 1
+    },
+    "referencias_duplicadas_ambiguas_excluidas": 0
+  },
+  {
+    "coorte": "openimages_val_nova",
+    "limite": 24,
+    "selecionados": 24,
+    "disponiveis_por_categoria": {
+      "controle": 304,
+      "omissao_persistente": 243,
+      "nova_omissao_alta": 14,
+      "perda_de_alerta": 8,
+      "melhora": 6
+    },
+    "selecionados_por_categoria": {
+      "nova_omissao_alta": 14,
+      "perda_de_alerta": 3,
+      "omissao_persistente": 3,
+      "melhora": 2,
+      "controle": 2
+    },
+    "referencias_duplicadas_ambiguas_excluidas": 0
+  }
+]

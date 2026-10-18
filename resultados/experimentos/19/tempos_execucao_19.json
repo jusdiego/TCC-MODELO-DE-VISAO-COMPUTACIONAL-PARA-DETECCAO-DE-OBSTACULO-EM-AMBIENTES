@@ -1,0 +1,30 @@
+{
+  "exclui_pip": true,
+  "etapas": [
+    {
+      "etapa": "Código e política conferidos",
+      "segundos": 0.19992165700000442,
+      "acumulado_segundos": 0.19992165700000442
+    },
+    {
+      "etapa": "Pacotes autenticados e protocolo posterior fixado",
+      "segundos": 53.82821683100002,
+      "acumulado_segundos": 54.028138488000025
+    },
+    {
+      "etapa": "Tabelas prontas e casos da demonstração selecionados",
+      "segundos": 15.078382192999982,
+      "acumulado_segundos": 69.106520681
+    },
+    {
+      "etapa": "Imagens da demonstração conferidas",
+      "segundos": 348.56730072100004,
+      "acumulado_segundos": 417.67382140200004
+    },
+    {
+      "etapa": "Demonstração, relatório e protocolo concluídos",
+      "segundos": 9.33018838299995,
+      "acumulado_segundos": 427.004009785
+    }
+  ]
+}

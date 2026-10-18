@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-18",
+  "status": "verificado",
+  "notebooks_idênticos_as_copias_organizadas": 71,
+  "principais": 32,
+  "variantes": 39,
+  "scripts_novos_testados": 2,
+  "testes_funcionais_dados": 6,
+  "testes_funcionais_falhos": 0,
+  "arquivos_python_compilados": 155,
+  "links_relativos_conferidos": 192,
+  "gitignore_verificado": true,
+  "bytes_preservados_com_autocrlf_windows": true,
+  "conferencia_previa_notebooks": {
+    "notebooks_validos": 71,
+    "celulas_compiladas": 1037,
+    "modulos_embutidos_compilados": 151,
+    "parametros_numericos_e_estrutura_preservados": 1028,
+    "saidas_originais_preservadas": 647,
+    "correcoes_de_formatacao": [
+      {
+        "celula": 55,
+        "ajuste": "Tabela Markdown anteriormente marcada como código; conteúdo preservado."
+      },
+      {
+        "celula": 194,
+        "ajuste": "Tabela Markdown anteriormente marcada como código; conteúdo preservado."
+      },
+      {
+        "celula": 6,
+        "ajuste": "Removida indentação acidental do primeiro import."
+      }
+    ],
+    "resultados_com_hash_conferido": 1776,
+    "links_do_guia_conferidos": 46
+  },
+  "nota": "A validação completa de células/nbformat da organização anterior é reutilizada por identidade de hash dos 71 arquivos. Nesta rodada compilou-se o código Python copiado e os scripts novos, sem executar notebooks.",
+  "novos_treinamentos": 0,
+  "novas_inferencias": 0,
+  "imagens_completas_incluidas": false
+}

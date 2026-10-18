@@ -1,0 +1,50 @@
+{
+  "exclui_instalacao_pip": true,
+  "etapas": [
+    {
+      "etapa": "API e perda conferidas",
+      "segundos": 4.775778682999999,
+      "acumulado_segundos": 4.775778682999999
+    },
+    {
+      "etapa": "Entradas autenticadas",
+      "segundos": 128.890626761,
+      "acumulado_segundos": 133.666405444
+    },
+    {
+      "etapa": "Treino e validações preparados",
+      "segundos": 205.62749025299996,
+      "acumulado_segundos": 339.2938956969999
+    },
+    {
+      "etapa": "Protocolo congelado e recuperação conferida",
+      "segundos": 4.797224006000079,
+      "acumulado_segundos": 344.091119703
+    },
+    {
+      "etapa": "Referências reproduzidas",
+      "segundos": 140.23948679199998,
+      "acumulado_segundos": 484.330606495
+    },
+    {
+      "etapa": "Braço concluído: C12_4",
+      "segundos": 404.00959710899997,
+      "acumulado_segundos": 888.340203604
+    },
+    {
+      "etapa": "Braço concluído: E8_8",
+      "segundos": 383.33755737599995,
+      "acumulado_segundos": 1271.67776098
+    },
+    {
+      "etapa": "Relatório e integridade concluídos",
+      "segundos": 1393.614589295,
+      "acumulado_segundos": 2665.292350275
+    },
+    {
+      "etapa": "Relatório e integridade concluídos",
+      "segundos": 23.334156854999947,
+      "acumulado_segundos": 2688.62650713
+    }
+  ]
+}

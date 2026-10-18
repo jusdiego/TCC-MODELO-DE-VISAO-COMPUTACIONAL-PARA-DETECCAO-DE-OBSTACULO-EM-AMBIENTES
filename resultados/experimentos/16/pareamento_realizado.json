@@ -1,0 +1,13 @@
+{
+  "pareamento_conferido": true,
+  "batches_por_braco": 342,
+  "mesmos_ids_na_mesma_ordem": true,
+  "mesmos_hashes_imagem": true,
+  "amostras_tensor_iguais": true,
+  "gradiente_negativo_desconhecido_zero": true,
+  "gradiente_home7_experimental_zero": true,
+  "exposicoes_home7_ignoradas_somente_M": 844,
+  "exposicoes_oi7_preservadas_em_ambos": 50,
+  "outros_alvos_e_mascaras_preservados": true,
+  "tensor_limite": "SHA de amostras espaciais de pixels, combinado a identidade das imagens e ausência de augmentações; não é um hash de cada pixel do tensor completo."
+}

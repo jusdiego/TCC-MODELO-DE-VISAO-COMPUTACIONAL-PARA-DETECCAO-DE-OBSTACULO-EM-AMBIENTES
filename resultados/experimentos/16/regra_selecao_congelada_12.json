@@ -1,0 +1,25 @@
+{
+  "versao": "12-regra-duas-validacoes-v1",
+  "home": {
+    "precision_maior_que": 0.7836456558773425,
+    "recall_minimo": 0.8990228013029316,
+    "alta_sem_alerta_maximo": 24,
+    "objetos_alerta_ref": 1535,
+    "alta_ref": 536
+  },
+  "externa": {
+    "precision_minima": 0.5982256020278834,
+    "recall_minimo": 0.6035805626598465,
+    "alta_sem_alerta_maximo": 120,
+    "objetos_alerta_ref": 782,
+    "alta_ref": 420
+  },
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "conf_alertas": 0.25,
+  "testes_consultados": false,
+  "tolerancia_numerica": 1e-12,
+  "criterio": "Home supera precisão do baseline, preserva recall e omissões altas; externa preserva precisão, recall e omissões altas do candidato 10.",
+  "desempate": "Precisão Home, recall Home, omissões altas Home, F1 externa, menos atualizações, identificador.",
+  "sem_elegivel": "Preservar baseline em uso; candidato 10 e todos os checkpoints continuam disponíveis."
+}

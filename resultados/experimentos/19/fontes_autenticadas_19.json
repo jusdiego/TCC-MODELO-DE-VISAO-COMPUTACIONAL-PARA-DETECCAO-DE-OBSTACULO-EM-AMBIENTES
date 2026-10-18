@@ -1,0 +1,14 @@
+{
+  "16": {
+    "sha256": "cd9acf4eba29bb28dee20465ec2503b72cc65302f3d7c8377dd442455a4d16fa",
+    "status": "nenhum_checkpoint_final_elegivel"
+  },
+  "17": {
+    "sha256": "0ef3ce66a70216c641176a8c682e74b7a08c758f5d98ccb1ebd3db31943fde93",
+    "status": "nenhuma_configuracao_elegivel_na_calibracao"
+  },
+  "18": {
+    "sha256": "f3ea533498d5af59f6bb94a919e71c4a2e8970aae488802d5418e584e19b07d6",
+    "status": "E8_8_e03_nao_cumpre_seis_criterios"
+  }
+}

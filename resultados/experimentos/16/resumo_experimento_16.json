@@ -1,0 +1,252 @@
+{
+  "versao": "16-home-unknown7-pareado-1.0.0",
+  "concluido": true,
+  "status": "nenhum_checkpoint_final_elegivel",
+  "mensagem": "Nenhum dos dois checkpoints finais cumpriu todos os requisitos. O baseline continua como referência.",
+  "checkpoint_final_elegivel": null,
+  "desfecho_primario": "comparacao_e03_vs_e03",
+  "atualizacoes_finais_por_braco": 342,
+  "orcamentos": [
+    {
+      "arm": "C_original",
+      "epoch": 3,
+      "updates": 342,
+      "batches_seen": 342,
+      "source_views": {
+        "home": 4104,
+        "openimages": 1368
+      },
+      "amp": false,
+      "accumulate": 1
+    },
+    {
+      "arm": "M_home_unknown7",
+      "epoch": 3,
+      "updates": 342,
+      "batches_seen": 342,
+      "source_views": {
+        "home": 4104,
+        "openimages": 1368
+      },
+      "amp": false,
+      "accumulate": 1
+    }
+  ],
+  "pareamento": {
+    "pareamento_conferido": true,
+    "batches_por_braco": 342,
+    "mesmos_ids_na_mesma_ordem": true,
+    "mesmos_hashes_imagem": true,
+    "amostras_tensor_iguais": true,
+    "gradiente_negativo_desconhecido_zero": true,
+    "gradiente_home7_experimental_zero": true,
+    "exposicoes_home7_ignoradas_somente_M": 844,
+    "exposicoes_oi7_preservadas_em_ambos": 50,
+    "outros_alvos_e_mascaras_preservados": true,
+    "tensor_limite": "SHA de amostras espaciais de pixels, combinado a identidade das imagens e ausência de augmentações; não é um hash de cada pixel do tensor completo."
+  },
+  "novos_bracos_concluidos": 2,
+  "modelo_substituido": false,
+  "modelo_em_uso_continua_baseline": true,
+  "rotulos_originais_preservados": true,
+  "projecao_treino_home7_documentada": true,
+  "validacao_rotulos_alterados": false,
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "preenchimento_manual_obrigatorio": false,
+  "limites": [
+    "Uma semente e orçamento curto; não prova superioridade geral ou causalidade fora deste controle.",
+    "As duas validações já participaram do desenvolvimento; não são teste final independente.",
+    "Home pode ter diferenças semânticas também na avaliação, preservada igualmente para ambos.",
+    "A máscara não desaprende supervisão anterior do candidato 10; altera apenas o ajuste atual.",
+    "Alertas medem concordância com a política V2, sem validação independente de risco físico.",
+    "A origem do treino original do baseline permanece não determinada."
+  ],
+  "configuracao": {
+    "versao": "16-home-unknown7-pareado-1.0.0",
+    "experimento": "controle16_44a814e0a728085209af51a3",
+    "context_key": "44a814e0a728085209af51a3da632ef7568722115204a93e6a223ef49fde399b",
+    "ambiente": {
+      "python": "3.13.15",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "ultralytics": "8.4.150",
+      "numpy": "2.1.3",
+      "pillow": "12.3.0",
+      "scipy": "1.16.3",
+      "opencv": "4.14.0",
+      "device": "0",
+      "gpu": "Tesla T4",
+      "cuda": "12.8",
+      "cudnn": 91900,
+      "threads": 2
+    },
+    "plano": {
+      "versao": "16-home-unknown7-pareado-1.0.0",
+      "spec": {
+        "epochs": 3,
+        "batches": 114,
+        "batch": 16,
+        "oi_per_batch": 4,
+        "lr0": 3e-06,
+        "home_unique": 1820,
+        "oi_unique": 2000,
+        "seed": 42
+      },
+      "seed": 42,
+      "arms": [
+        "C_original",
+        "M_home_unknown7"
+      ],
+      "initial_checkpoint_sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+      "supervisao_sha256": "f93908cff355a72349b0ba5cd95573e08741db70161228393417f6896b7498d8",
+      "replay12_sha256": "01aa2b905cd7d23aa4351e4072ee1db5056e7443dfcf36dd6fd29de1c1f01fb1",
+      "cronograma_sha256": "4f9008b024f8dae4f75b0cd386521fe7b2067062383538c98f6d9271b1eb31f7",
+      "regra_12_sha256": "04c6287c2c4adb8c43baf28c10acbaa1a599198b905d48808a8f5f67f39a4909",
+      "primary_endpoint": "e03_vs_e03",
+      "intermediarios": "somente diagnóstico",
+      "argumentos_treino": {
+        "epochs": 3,
+        "imgsz": 640,
+        "batch": 16,
+        "nbs": 16,
+        "workers": 0,
+        "device": 0,
+        "amp": false,
+        "optimizer": "AdamW",
+        "lr0": 3e-06,
+        "lrf": 1.0,
+        "cos_lr": false,
+        "momentum": 0.937,
+        "weight_decay": 0.0005,
+        "warmup_epochs": 0.0,
+        "close_mosaic": 0,
+        "pretrained": true,
+        "rect": false,
+        "compile": false,
+        "seed": 42,
+        "deterministic": true,
+        "patience": 0,
+        "save": true,
+        "save_period": 1,
+        "plots": false,
+        "cache": false,
+        "val": false,
+        "conf": 0.001,
+        "iou": 0.7,
+        "max_det": 300,
+        "resume": false,
+        "exist_ok": false,
+        "verbose": false,
+        "mosaic": 0.0,
+        "mixup": 0.0,
+        "cutmix": 0.0,
+        "copy_paste": 0.0,
+        "scale": 0.0,
+        "translate": 0.0,
+        "fliplr": 0.0,
+        "flipud": 0.0,
+        "degrees": 0.0,
+        "shear": 0.0,
+        "perspective": 0.0,
+        "hsv_h": 0.0,
+        "hsv_s": 0.0,
+        "hsv_v": 0.0,
+        "multi_scale": 0.0
+      },
+      "conf_alertas": 0.25,
+      "augmentation": "zero em ambos",
+      "workers": 0,
+      "source_loss_mask": "Home classe 7 desconhecida e sem GT7 somente no braço M",
+      "quarentena_comum": [
+        "home:homeobjects_yolo/images/train/raw_train/living_room_1p (200).jpg",
+        "home:homeobjects_yolo/images/train/raw_train/living_room_1p (203).jpg",
+        "home:homeobjects_yolo/images/train/raw_train/living_room_590.jpg",
+        "home:homeobjects_yolo/images/train/raw_train/living_room_718.jpg"
+      ],
+      "validacao_rotulos_alterados": false,
+      "reserva_futura_inferida": false,
+      "retomada": "reutilizar braço completo verificado; reiniciar braço parcial do mesmo candidato 10",
+      "codigo_sha256": {
+        "conf14_data.py": "f73232836278c08edf0f955ae8fe50a33cb1d4eabe2b2cc35a5f410f095bae66",
+        "conf14_evaluation.py": "3e64c612ffcd7cb75fdf05707affc45cafa91acd1882ab311425c2752ed01656",
+        "control16_data.py": "b82dd42c119da0d86c26ff621e8383836285a699d4ad19dd20082614c72c60b4",
+        "control16_eval.py": "b1e619e2cb32e2c24966584974dd85cf1edc97a3bb25b60221ee496a52dc5b7f",
+        "control16_protocol.py": "43665e10eca68b52149fb32bcdcf3fdd8ebc9e755dd59edc097cea6c9f313c22",
+        "control16_reports.py": "bb6eaef87fae670b0f47949878c40c1c75b5f79cb5c17e0a81b94363fc8673b3",
+        "control16_run.py": "b0dac7a828b3f63ffcd3ceccdcd08fd646480abddabb18d367162201e6c918f5",
+        "control16_state.py": "c9609ff9054ee178ec1d53fa21a5262a0a57550f483bc51ad8488bb849033bd2",
+        "control16_training.py": "6422f1c705fcd390221ee469a94c07c7eab21e54c577555ef2b6acad46845c38",
+        "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+        "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+        "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2",
+        "exp10_partial.py": "86a36f93aa643853f1268dcc133bed7e7344dea269b9d1d58cf54095538fffae",
+        "exp12_data.py": "0a9de7e99d302a2690f18f51924f4dc80b32861c9d2149ccfe0572ec75499f30",
+        "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+        "exp12_training.py": "6c51c9965336b2f00bd9b282e2159c0b63f07c5c16859da78da2818bd4202fdc"
+      }
+    },
+    "spec": {
+      "epochs": 3,
+      "batches": 114,
+      "batch": 16,
+      "oi_per_batch": 4,
+      "lr0": 3e-06,
+      "home_unique": 1820,
+      "oi_unique": 2000,
+      "seed": 42
+    },
+    "inferencia_reserva": false,
+    "origem_baseline": "nao_determinado",
+    "projecao_treino_home7": true,
+    "rotulos_originais_preservados": true,
+    "entradas_conferidas": [
+      {
+        "arquivo": "pacote_11.zip",
+        "sha256": "a3f3fb500cef83fc4890f6bbec6725bbf5e080503fd0478af3dd84d6f5ef6e93"
+      },
+      {
+        "arquivo": "pacote_12.zip",
+        "sha256": "1c3a6016099c2bb23aca29396286497c7973f00136c1afbb0bbc62e45aa20650"
+      },
+      {
+        "arquivo": "pacote_15.zip",
+        "sha256": "266c0b4a0b8e7ac7fa940a009e0a009c22ab1cd17f403a4917d4ab3abe514487"
+      },
+      {
+        "arquivo": "configuracao_preparacao.json",
+        "sha256": "d5fada9f82dc0c8115a127ed6ed11a85d1a6041b35b03f7b844751c92d13dcc7"
+      },
+      {
+        "arquivo": "manifesto_pacotes.json",
+        "sha256": "655094dea28755a7bddc817ae66660d06fab28ccb8f9d140d3ffebb07f03a0d4"
+      },
+      {
+        "arquivo": "divisao_10.csv",
+        "sha256": "fd256a11a8a062fa012855382c0a79a15075aaecb7bdc77042ee1ae7db10b0b0"
+      },
+      {
+        "arquivo": "divisao_10.json",
+        "sha256": "a792e145141909c20ec06c3385c820b39f01ab9cf324ccdc0f3686a741d02c3b"
+      },
+      {
+        "arquivo": "home.zip",
+        "sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676"
+      },
+      {
+        "arquivo": "validacao_11.zip",
+        "sha256": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c"
+      },
+      {
+        "arquivo": "baseline.pt",
+        "sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9"
+      },
+      {
+        "arquivo": "candidato_10.pt",
+        "sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f"
+      }
+    ]
+  }
+}

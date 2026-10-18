@@ -1,0 +1,3 @@
+﻿Conjunto,Imagens,Precisão,Recall,F1,Meta 80/70
+Validação,161,"52,38%","45,23%","48,55%",não
+Teste reservado,654,"54,34%","50,28%","52,23%",não

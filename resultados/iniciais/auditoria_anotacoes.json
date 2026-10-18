@@ -1,0 +1,37 @@
+{
+  "meta_imagens": 100000,
+  "imagens_candidatas_com_alvos": 150382,
+  "imagens_elegiveis_antes_download": 128853,
+  "meta_alcancavel_antes_download": true,
+  "previstas": 100000,
+  "cobertura_12_classes_antes_download": 0,
+  "distribuicao_numero_classes_conhecidas": {
+    "0": 209,
+    "1": 79535,
+    "2": 35904,
+    "3": 7670,
+    "4": 1663,
+    "5": 334,
+    "6": 1883,
+    "7": 1487,
+    "8": 157,
+    "9": 10,
+    "10": 1
+  },
+  "exclusoes": {
+    "categoria_ambigua": 1206,
+    "grupo_depicao_ou_atributo_desconhecido": 14498,
+    "negativo_contradiz_caixa_ou_positivo": 3927,
+    "positivo_sem_caixa_correspondente": 3083
+  },
+  "contagens_de_exclusoes_podem_se_sobrepor": true,
+  "origem": "train oficial Open Images; as 12 classes permanecem nos IDs atuais",
+  "semantica": "Houseplant e Picture frame precisam de conferência visual em relação ao HomeObjects",
+  "relevancia": "Classe alvo anotada; filtro não comprova que toda foto seja de ambiente interno",
+  "pronto_para_yolo_padrao": false,
+  "tratamento_rotulos_parciais": "Máscara por imagem/classe no próximo treinador; positivos de caixas sempre supervisionados. Nenhum pseudo-rótulo criado.",
+  "linhas_caixas_lidas": 14610229,
+  "linhas_caixas_de_interesse": 812451,
+  "linhas_rotulos_humanos_lidas": 8996795,
+  "linhas_metadata_lidas": 1743042
+}

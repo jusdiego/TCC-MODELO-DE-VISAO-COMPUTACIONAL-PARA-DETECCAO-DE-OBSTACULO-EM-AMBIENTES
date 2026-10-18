@@ -1,0 +1,6 @@
+{
+  "promissor_na_validacao": false,
+  "criterio": "Precisão de alertas maior, recall preservado e omissões de alta prioridade não maiores",
+  "observacao": "Triagem exploratória; baseline pode ter visto parte de Home VAL. Referência V2 não valida risco físico independentemente.",
+  "proximo_passo": "Se promissor, planejar avaliação final preservada. Se não, manter antigo e revisar dados/treino antes de ampliar."
+}

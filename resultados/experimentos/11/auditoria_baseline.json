@@ -1,0 +1,33 @@
+{
+  "separacao_atual": {
+    "home_train_atual": 1824,
+    "home_val_atual": 456,
+    "test_home_preservado": 403,
+    "test_extraido": false,
+    "intersecao_bytes_home_train_val_atual": 0,
+    "divergencia_documental_1822_1824": "Não reconciliada; o pacote atual tem 1824.",
+    "separacao_atual_nao_comprova_historico_baseline": true
+  },
+  "baseline_original": {
+    "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "data_checkpoint": "2026-09-13T17:08:48.014038+00:00",
+    "train_args_preservados": {
+      "data": "/content/tcc_visao_computacional/homeobjects_yolo/data_colab.yaml",
+      "epochs": 50,
+      "batch": 26,
+      "imgsz": 640,
+      "seed": 42,
+      "optimizer": "auto",
+      "lr0": 0.01,
+      "project": "/content/experimentos",
+      "name": "yolov8n_baseline",
+      "fraction": 1.0
+    },
+    "estado_proveniencia_original": "nao_determinado",
+    "home_val_usada_no_treino_original": null,
+    "motivo": "Caminhos e argumentos não contêm a lista de imagens vistas no treino original."
+  },
+  "test_home_extraido_ou_inferido": false,
+  "test_oi20k_inferido": false,
+  "novos_treinamentos": 0
+}

@@ -1,0 +1,81 @@
+{
+  "versao": "18-auditoria-pos-loader-1.0.1",
+  "imagens": 3820,
+  "imagens_com_alvos_filtrados": 1,
+  "alvos_filtrados_unicos": 2,
+  "ultralytics": "8.4.150",
+  "augment_source_sha256": "3631af29958e17bc442cbaa49a6bd32b660615b1bb1171a4e8e8692bace1f428",
+  "reference_sha256": "6634686e5e658af2a4cbd0373f29720e19ecb1155c504e56fc419484ef6cca17",
+  "argumentos": {
+    "epochs": 3,
+    "imgsz": 640,
+    "batch": 16,
+    "nbs": 16,
+    "workers": 0,
+    "device": 0,
+    "amp": false,
+    "optimizer": "AdamW",
+    "lr0": 3e-06,
+    "lrf": 1.0,
+    "cos_lr": false,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 0.0,
+    "close_mosaic": 0,
+    "pretrained": true,
+    "rect": false,
+    "compile": false,
+    "seed": 42,
+    "deterministic": true,
+    "patience": 0,
+    "save": true,
+    "save_period": 1,
+    "plots": false,
+    "cache": false,
+    "val": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "resume": false,
+    "exist_ok": false,
+    "verbose": false,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "scale": 0.0,
+    "translate": 0.0,
+    "fliplr": 0.0,
+    "flipud": 0.0,
+    "degrees": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "hsv_h": 0.0,
+    "hsv_s": 0.0,
+    "hsv_v": 0.0,
+    "multi_scale": 0.0
+  },
+  "treino_alterado": false,
+  "rotulos_alterados": false,
+  "cobertura_alterada": false,
+  "explicacao": "A contagem é comparada após o mesmo pipeline TRAIN. O filtro padrão de caixas pode remover alvos pequenos/degenerados; a cobertura e os bytes originais continuam obrigatórios.",
+  "diferencas": [
+    {
+      "id": "oi:0ca95e3d2f9692f6",
+      "image_sha256": "8d13e88313c4f37a69e27aa9f81e87a8c7e36ac3e688f3f4f033c89a46902727",
+      "label_sha256": "98f55e88f8014c35bf3b4468afb03e7e10c0bfab10edb142afa3f98821a7a27c",
+      "known_mask": 270,
+      "raw_unique_counts": {
+        "3": 1,
+        "8": 20
+      },
+      "processed_counts": {
+        "3": 1,
+        "8": 18
+      },
+      "discarded_by_class": {
+        "8": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "urls": {
+    "classes": "https://storage.googleapis.com/openimages/v7/oidv7-class-descriptions-boxable.csv",
+    "hierarquia": "https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy.json",
+    "caixas": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "rotulos": "https://storage.googleapis.com/openimages/v5/validation-annotations-human-imagelabels-boxable.csv",
+    "metadata": "https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv"
+  },
+  "sha256": {
+    "classes": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9",
+    "hierarquia": "a28f06e83c8378c4285d92d768ceda7568a48cac3c02994b6c346df804e7d612",
+    "caixas": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2",
+    "rotulos": "d5ff236d3cdbba36dac1ee6f7fdf9a26934205cbec5b933b0872722e2b6d3417",
+    "metadata": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+  },
+  "filtros_caixas": {
+    "caixas_subclasse_ambigua": 144,
+    "grupo_ou_atributo_desconhecido": 405,
+    "representacao_ou_atributo_desconhecido": 132
+  },
+  "filtros_metadata": {
+    "rotacao_nao_zero_ou_desconhecida": 309
+  },
+  "elegiveis": 1712,
+  "planejadas_download": 1650
+}

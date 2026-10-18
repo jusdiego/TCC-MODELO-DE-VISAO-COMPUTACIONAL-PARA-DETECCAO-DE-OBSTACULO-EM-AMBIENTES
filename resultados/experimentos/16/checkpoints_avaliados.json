@@ -1,0 +1,610 @@
+[
+  {
+    "id": "candidato_10_inicial",
+    "arm": "inicial",
+    "epoch": 0,
+    "updates": 0,
+    "weight_relative": "",
+    "weight_sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+    "home": {
+      "modelo": "candidato_10",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1359,
+        "fn": 176,
+        "fp": 382,
+        "precision": 0.7805858701895463,
+        "recall": 0.885342019543974,
+        "f1": 0.8296703296703297
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 27,
+      "taxa_alta_sem_alerta": 0.05037313432835821,
+      "detector_no_limiar": {
+        "tp": 3117,
+        "fn": 565,
+        "fp": 1111,
+        "precision": 0.7372280037842952,
+        "recall": 0.8465507876154263,
+        "f1": 0.7881163084702908
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 7,
+        "precision": 0.9841628959276018,
+        "recall": 0.9977064220183486,
+        "f1": 0.9908883826879271
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "candidato_10",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 472,
+        "fn": 310,
+        "fp": 317,
+        "precision": 0.5982256020278834,
+        "recall": 0.6035805626598465,
+        "f1": 0.6008911521323997
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 120,
+      "taxa_alta_sem_alerta": 0.2857142857142857,
+      "detector_no_limiar": {
+        "tp": 1740,
+        "fn": 2383,
+        "fp": 1500,
+        "precision": 0.5370370370370371,
+        "recall": 0.4220227989328159,
+        "f1": 0.47263343745755804
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 2135,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 4,
+        "fn": 0,
+        "fp": 12,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    }
+  },
+  {
+    "id": "C_original_e01",
+    "arm": "C_original",
+    "epoch": 1,
+    "updates": 114,
+    "weight_relative": "bracos/C_original/tentativas/20261017_155105_877500/pesos/C_original_e01.pt",
+    "weight_sha256": "f605eaa10725874c56881b620e14a95148a4b55d5b7474623fc8d25683e05d0c",
+    "home": {
+      "modelo": "C_original_e01",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1348,
+        "fn": 187,
+        "fp": 354,
+        "precision": 0.7920094007050529,
+        "recall": 0.8781758957654723,
+        "f1": 0.8328699413036762
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 27,
+      "taxa_alta_sem_alerta": 0.05037313432835821,
+      "detector_no_limiar": {
+        "tp": 3090,
+        "fn": 592,
+        "fp": 969,
+        "precision": 0.7612712490761271,
+        "recall": 0.8392178164041282,
+        "f1": 0.7983464668647462
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 436,
+        "fn": 0,
+        "fp": 6,
+        "precision": 0.9864253393665159,
+        "recall": 1.0,
+        "f1": 0.9931662870159453
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "C_original_e01",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 457,
+        "fn": 325,
+        "fp": 275,
+        "precision": 0.6243169398907104,
+        "recall": 0.5843989769820972,
+        "f1": 0.6036988110964333
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 130,
+      "taxa_alta_sem_alerta": 0.30952380952380953,
+      "detector_no_limiar": {
+        "tp": 1661,
+        "fn": 2462,
+        "fp": 1341,
+        "precision": 0.5532978014656895,
+        "recall": 0.4028619936939122,
+        "f1": 0.46624561403508774
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1814,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 9,
+        "precision": 0.25,
+        "recall": 0.75,
+        "f1": 0.375
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/C_original/tentativas/20261017_155105_877500/avaliacoes/C_original_e01/avaliacao_snapshot.json.gz"
+  },
+  {
+    "id": "C_original_e02",
+    "arm": "C_original",
+    "epoch": 2,
+    "updates": 228,
+    "weight_relative": "bracos/C_original/tentativas/20261017_155105_877500/pesos/C_original_e02.pt",
+    "weight_sha256": "36a6edfedbf4b907cd46ca918756d05066f95444bb0e66bee9d17e8ae539694c",
+    "home": {
+      "modelo": "C_original_e02",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1341,
+        "fn": 194,
+        "fp": 333,
+        "precision": 0.8010752688172043,
+        "recall": 0.8736156351791531,
+        "f1": 0.8357743845434715
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 31,
+      "taxa_alta_sem_alerta": 0.05783582089552239,
+      "detector_no_limiar": {
+        "tp": 3085,
+        "fn": 597,
+        "fp": 951,
+        "precision": 0.764370664023786,
+        "recall": 0.8378598587724063,
+        "f1": 0.7994299041202384
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.9863945578231292,
+        "recall": 0.9977064220183486,
+        "f1": 0.992018244013683
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "C_original_e02",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 448,
+        "fn": 334,
+        "fp": 255,
+        "precision": 0.6372688477951636,
+        "recall": 0.5728900255754475,
+        "f1": 0.6033670033670033
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 137,
+      "taxa_alta_sem_alerta": 0.3261904761904762,
+      "detector_no_limiar": {
+        "tp": 1607,
+        "fn": 2516,
+        "fp": 1208,
+        "precision": 0.5708703374777975,
+        "recall": 0.38976473441668685,
+        "f1": 0.4632458921879504
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1765,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1": 0.46153846153846156
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/C_original/tentativas/20261017_155105_877500/avaliacoes/C_original_e02/avaliacao_snapshot.json.gz"
+  },
+  {
+    "id": "C_original_e03",
+    "arm": "C_original",
+    "epoch": 3,
+    "updates": 342,
+    "weight_relative": "bracos/C_original/tentativas/20261017_155105_877500/pesos/C_original_e03.pt",
+    "weight_sha256": "10a35b054c0a810d24cdb569c6d79a97b6fad9657cbaed7347a62f40bb30a8fb",
+    "home": {
+      "modelo": "C_original_e03",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1342,
+        "fn": 193,
+        "fp": 334,
+        "precision": 0.8007159904534606,
+        "recall": 0.8742671009771987,
+        "f1": 0.8358766739333541
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 30,
+      "taxa_alta_sem_alerta": 0.055970149253731345,
+      "detector_no_limiar": {
+        "tp": 3083,
+        "fn": 599,
+        "fp": 937,
+        "precision": 0.7669154228855721,
+        "recall": 0.8373166757197176,
+        "f1": 0.8005712801869644
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.9863945578231292,
+        "recall": 0.9977064220183486,
+        "f1": 0.992018244013683
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "C_original_e03",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 443,
+        "fn": 339,
+        "fp": 257,
+        "precision": 0.6328571428571429,
+        "recall": 0.5664961636828645,
+        "f1": 0.5978407557354926
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 140,
+      "taxa_alta_sem_alerta": 0.3333333333333333,
+      "detector_no_limiar": {
+        "tp": 1587,
+        "fn": 2536,
+        "fp": 1165,
+        "precision": 0.576671511627907,
+        "recall": 0.3849138976473442,
+        "f1": 0.4616727272727273
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1713,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1": 0.46153846153846156
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/C_original/tentativas/20261017_155105_877500/avaliacoes/C_original_e03/avaliacao_snapshot.json.gz"
+  },
+  {
+    "id": "M_home_unknown7_e01",
+    "arm": "M_home_unknown7",
+    "epoch": 1,
+    "updates": 114,
+    "weight_relative": "bracos/M_home_unknown7/tentativas/20261017_155734_200991/pesos/M_home_unknown7_e01.pt",
+    "weight_sha256": "8ef73822cf764c50b748fa7f0e5a55efacd77b0ccd4433428dc5bae72b36a6c8",
+    "home": {
+      "modelo": "M_home_unknown7_e01",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1348,
+        "fn": 187,
+        "fp": 355,
+        "precision": 0.7915443335290664,
+        "recall": 0.8781758957654723,
+        "f1": 0.8326127239036443
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 27,
+      "taxa_alta_sem_alerta": 0.05037313432835821,
+      "detector_no_limiar": {
+        "tp": 3088,
+        "fn": 594,
+        "fp": 972,
+        "precision": 0.7605911330049261,
+        "recall": 0.8386746333514394,
+        "f1": 0.7977266856109533
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 436,
+        "fn": 0,
+        "fp": 6,
+        "precision": 0.9864253393665159,
+        "recall": 1.0,
+        "f1": 0.9931662870159453
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "M_home_unknown7_e01",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 456,
+        "fn": 326,
+        "fp": 274,
+        "precision": 0.6246575342465753,
+        "recall": 0.5831202046035806,
+        "f1": 0.6031746031746031
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 131,
+      "taxa_alta_sem_alerta": 0.3119047619047619,
+      "detector_no_limiar": {
+        "tp": 1658,
+        "fn": 2465,
+        "fp": 1338,
+        "precision": 0.5534045393858478,
+        "recall": 0.4021343681785108,
+        "f1": 0.46579575783115607
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1812,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 10,
+        "precision": 0.23076923076923078,
+        "recall": 0.75,
+        "f1": 0.35294117647058826
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/M_home_unknown7/tentativas/20261017_155734_200991/avaliacoes/M_home_unknown7_e01/avaliacao_snapshot.json.gz"
+  },
+  {
+    "id": "M_home_unknown7_e02",
+    "arm": "M_home_unknown7",
+    "epoch": 2,
+    "updates": 228,
+    "weight_relative": "bracos/M_home_unknown7/tentativas/20261017_155734_200991/pesos/M_home_unknown7_e02.pt",
+    "weight_sha256": "0d2f6725ca789dbf1a23568064bc87d845afd9fcd08ddac2765c871abf353d5e",
+    "home": {
+      "modelo": "M_home_unknown7_e02",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1341,
+        "fn": 194,
+        "fp": 330,
+        "precision": 0.8025134649910234,
+        "recall": 0.8736156351791531,
+        "f1": 0.8365564566437929
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 31,
+      "taxa_alta_sem_alerta": 0.05783582089552239,
+      "detector_no_limiar": {
+        "tp": 3084,
+        "fn": 598,
+        "fp": 944,
+        "precision": 0.7656405163853028,
+        "recall": 0.837588267246062,
+        "f1": 0.8
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.9863945578231292,
+        "recall": 0.9977064220183486,
+        "f1": 0.992018244013683
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "M_home_unknown7_e02",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 447,
+        "fn": 335,
+        "fp": 256,
+        "precision": 0.635846372688478,
+        "recall": 0.571611253196931,
+        "f1": 0.602020202020202
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 137,
+      "taxa_alta_sem_alerta": 0.3261904761904762,
+      "detector_no_limiar": {
+        "tp": 1604,
+        "fn": 2519,
+        "fp": 1201,
+        "precision": 0.5718360071301247,
+        "recall": 0.38903710890128546,
+        "f1": 0.4630484988452656
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1749,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1": 0.46153846153846156
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/M_home_unknown7/tentativas/20261017_155734_200991/avaliacoes/M_home_unknown7_e02/avaliacao_snapshot.json.gz"
+  },
+  {
+    "id": "M_home_unknown7_e03",
+    "arm": "M_home_unknown7",
+    "epoch": 3,
+    "updates": 342,
+    "weight_relative": "bracos/M_home_unknown7/tentativas/20261017_155734_200991/pesos/M_home_unknown7_e03.pt",
+    "weight_sha256": "12f16580650401d98e3b750e051e949064229bbf9d1575694be69018cadf7b1e",
+    "home": {
+      "modelo": "M_home_unknown7_e03",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1339,
+        "fn": 196,
+        "fp": 328,
+        "precision": 0.8032393521295741,
+        "recall": 0.8723127035830619,
+        "f1": 0.8363522798251093
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 30,
+      "taxa_alta_sem_alerta": 0.055970149253731345,
+      "detector_no_limiar": {
+        "tp": 3083,
+        "fn": 599,
+        "fp": 931,
+        "precision": 0.768061783756851,
+        "recall": 0.8373166757197176,
+        "f1": 0.8011954261954262
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.9863945578231292,
+        "recall": 0.9977064220183486,
+        "f1": 0.992018244013683
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "M_home_unknown7_e03",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 444,
+        "fn": 338,
+        "fp": 254,
+        "precision": 0.6361031518624641,
+        "recall": 0.5677749360613811,
+        "f1": 0.6
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 138,
+      "taxa_alta_sem_alerta": 0.32857142857142857,
+      "detector_no_limiar": {
+        "tp": 1586,
+        "fn": 2537,
+        "fp": 1158,
+        "precision": 0.5779883381924198,
+        "recall": 0.384671355808877,
+        "f1": 0.4619193243046454
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1700,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1": 0.46153846153846156
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/M_home_unknown7/tentativas/20261017_155734_200991/avaliacoes/M_home_unknown7_e03/avaliacao_snapshot.json.gz"
+  }
+]

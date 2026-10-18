@@ -1,0 +1,43 @@
+{
+  "limiares": [
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "modelo_sha256": {
+    "antigo": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "candidato": "563c669661055763a3c46252ffecc48555d839cfb08bea751619063d41469732"
+  },
+  "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "avaliacao_codigo_sha256": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d",
+  "dispositivo": 0,
+  "home_val_imagens": 456,
+  "conf_original_restaurada": 0.25,
+  "metodo_calibracao": "CONF_ALERTA temporária no módulo; restaurada com finally",
+  "referencia_antigo_conf_025": {
+    "precision_detector": 0.8829269312612261,
+    "recall_detector": 0.7650520454753748,
+    "map50": 0.8592075615741858,
+    "map50_95": 0.6640024863972928,
+    "imagens": 456,
+    "tp": 1380,
+    "fn": 155,
+    "fp": 381,
+    "alta_sem_alerta": 24,
+    "precision_alertas": 0.7836456558773425,
+    "recall_alertas": 0.8990228013029316,
+    "f1_alertas": 0.837378640776699,
+    "referencia": "V2 fixa nas anotações; não valida risco físico independentemente",
+    "conf": 0.25,
+    "iou_nms": 0.7,
+    "iou_correspondencia": 0.5
+  },
+  "contagens_conf_025_reproduzidas": true,
+  "criterio": "Precisão maior, recall preservado e alta_sem_alerta não maior que antigo em 0,25",
+  "ordem_escolha": "Maior precisão entre configurações que cumprem o critério; desempate por recall, alta_sem_alerta e preferência pelo antigo",
+  "melhor_configuracao_na_validacao": null,
+  "candidato_tem_configuracao_elegivel": false,
+  "test_utilizado": false,
+  "observacao": "Calibração exploratória em Home VAL. Não altera o resultado do treino 09 nem substitui automaticamente o modelo em uso."
+}

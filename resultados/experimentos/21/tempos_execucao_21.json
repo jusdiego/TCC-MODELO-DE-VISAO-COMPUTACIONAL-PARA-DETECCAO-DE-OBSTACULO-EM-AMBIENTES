@@ -1,0 +1,40 @@
+{
+  "exclui_pip": true,
+  "etapas": [
+    {
+      "etapa": "Ambiente, política e perda parcial conferidos",
+      "segundos": 1.8864440830000149,
+      "acumulado_segundos": 1.8864440830000149
+    },
+    {
+      "etapa": "Drive conectado e peso público conferido",
+      "segundos": 13.39318252399994,
+      "acumulado_segundos": 15.279626606999955
+    },
+    {
+      "etapa": "Preparação automática concluída",
+      "segundos": 1023.4327001470001,
+      "acumulado_segundos": 1038.712326754
+    },
+    {
+      "etapa": "Contexto e retomada conferidos",
+      "segundos": 11.566376127000012,
+      "acumulado_segundos": 1050.278702881
+    },
+    {
+      "etapa": "Sessão de treinamento encerrada: pausado_retomavel",
+      "segundos": 29363.779969026,
+      "acumulado_segundos": 30414.058671906998
+    },
+    {
+      "etapa": "Melhor peso exportado avaliado e relatório gerado",
+      "segundos": 44.11268370200196,
+      "acumulado_segundos": 30458.171355609
+    },
+    {
+      "etapa": "Preparando o pacote final desta sessão",
+      "segundos": 10.978803193000203,
+      "acumulado_segundos": 30469.150158802
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Ao utilizar este material, cite o repositório e os trabalhos das bases e bibliotecas correspondentes."
+type: software
+title: "Modelo de visão computacional para detecção de obstáculos em ambientes internos aplicado à acessibilidade de pessoas com deficiência visual"
+version: "1.0.0-documentacao"
+date-released: 2026-10-18
+authors:
+  - family-names: "Justina"
+    given-names: "Diego Ramos"
+  - family-names: "Santos"
+    given-names: "Fernanda Silva"
+  - family-names: "dos Santos"
+    given-names: "Guilherme Almeida"
+  - family-names: "da Silva Junior"
+    given-names: "João Antônio"
+  - family-names: "de Souza"
+    given-names: "Samanta Aparecida"
+abstract: "Investigação de detecção de objetos em ambientes internos com YOLOv8 e RF-DETR Small, incluindo preparação de dados, auditorias, avaliação do detector e alertas heurísticos em imagens 2D. Material complementar de TCC em Ciência da Computação, Faculdade Impacta Tecnologia, 2026."
+keywords:
+  - visão computacional
+  - detecção de objetos
+  - acessibilidade
+  - YOLOv8
+  - RF-DETR

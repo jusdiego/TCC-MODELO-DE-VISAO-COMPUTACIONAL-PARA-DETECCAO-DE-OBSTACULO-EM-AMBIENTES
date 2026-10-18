@@ -1,0 +1,225 @@
+{
+  "spec": {
+    "version": "19-consolidacao-demonstracao-1.0.0",
+    "models": [
+      "baseline",
+      "candidato_10"
+    ],
+    "confidence": 0.25,
+    "policy": "v2",
+    "iou_match": 0.5,
+    "training": false,
+    "inference": false,
+    "demo_images_per_cohort": 12,
+    "demo_per_category": 2,
+    "demo_seed": "19-galeria-42",
+    "demo_categories": [
+      "mais_tp_candidato10",
+      "mais_tp_baseline",
+      "omissao_alta",
+      "falso_alerta",
+      "acerto_sem_erro",
+      "sem_alerta_referencia"
+    ],
+    "selection": "categorias ilustrativas com ordem por SHA; sem trocar pesos/limiares",
+    "evaluation": "duas validacoes ja expostas; todas as imagens, sem usar a galeria como metrica",
+    "final_reserve_opened": false,
+    "new_weight_selection": false
+  },
+  "selecionadas": [
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1065.jpg",
+      "image_sha256": "8c4e026b75e0ece2989faca79ade45237c5056fbca8a41a20f197c07738a358f",
+      "categoria": "mais_tp_candidato10",
+      "ordem_hash": "01ec841e7f67ecbfc4172379de729716cb115e0e969f08bc26bd0cd04a1e99eb",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg",
+      "image_sha256": "ded753dd1e2a38dfeb6bc7ceda02f8e83c6229aaef27516c3e6ab9e5db40716d",
+      "categoria": "mais_tp_candidato10",
+      "ordem_hash": "1b2f20b62e41a19afc63c7fd5d86dc4a19c9b8eed2dccba99ee00f446dd1d393",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1160.jpg",
+      "image_sha256": "34e5d6e7415381244e3d4117a522dea371ee3d205523b0ae1baee95e77939149",
+      "categoria": "mais_tp_baseline",
+      "ordem_hash": "030cfa067d56b1d76283820260a12756da860e394f6cba62981a53388d5d3018",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_108.jpg",
+      "image_sha256": "a35742cfc6527621ace84e883bcb4abf2cf66280d525399e954e9b89bb7131b8",
+      "categoria": "mais_tp_baseline",
+      "ordem_hash": "0407fb93d1fa9ceacd44e3785ef4ad120fb82527cba6421a49fbf29d3aa403b5",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (62).jpg",
+      "image_sha256": "5873407d4a1c9a892199963434555e8c3b6d32c4f6fc83238fff012fd20ff754",
+      "categoria": "omissao_alta",
+      "ordem_hash": "06099c5377c25a0099ecd40da0790560fbf7edf1f657d7f785629577c6b585d5",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_957.jpg",
+      "image_sha256": "c084169852a7991173f2a7fa1e3784c45d1b824e43c945d78f5e6a6c8b301c61",
+      "categoria": "omissao_alta",
+      "ordem_hash": "123edb9caf1fab99e629d0772f195c5b2ef2962d038915dc31011137e4159848",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/s (226).jpg",
+      "image_sha256": "c31660a6c825e7692b412dfa0876e5afe591df5524694e7ee6bf2681195aa4d1",
+      "categoria": "falso_alerta",
+      "ordem_hash": "065075063c2e8a2e3de4b7c2c46942c01c1e92fe15dbf7a37fa1d5d129df4664",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1314.jpg",
+      "image_sha256": "3c27c3e64903da976f5efe0d21f459c22a83c6a122651608a9cba6fd34604a4a",
+      "categoria": "falso_alerta",
+      "ordem_hash": "09898c9872e8ec83e5b36ac2e34d6e633a880ba4118d4e4e3a0e470beb697762",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (449).jpg",
+      "image_sha256": "f319c4226cce92f52b6af66bc65f7217007c2b0709cb8c95102b25c3dcc477a4",
+      "categoria": "acerto_sem_erro",
+      "ordem_hash": "005f2203c4611df41d16054dc62bef51320731be66b88f66cd2b8912edaac374",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1136.jpg",
+      "image_sha256": "d48d808f49fe2fb2ebcfcf2b4755b922e12a086d56723b1de1699383ba55da01",
+      "categoria": "acerto_sem_erro",
+      "ordem_hash": "02ec769335ae18d9757457c90e3afdf73e3782770dce3f84a92a3a16d868b33b",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1097.jpg",
+      "image_sha256": "cf5ed1eccc3657d14bc8198d121c4915f568063c9dfd6044ad0598524002c8a6",
+      "categoria": "sem_alerta_referencia",
+      "ordem_hash": "3229e3b2cb9cd3cada498f782e91e85e80753d2282472297d6c7b5d99fd36330",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "home_val_historica",
+      "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (162).jpg",
+      "image_sha256": "d42f502505b4b10e721a4aec477354bdfd3c0a8a7b7a2dff48a6a72abab13906",
+      "categoria": "sem_alerta_referencia",
+      "ordem_hash": "37386340d9688694e17d7f08419816a4847917e29c6862133a1d69b657031d91",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "408bfc9875660552",
+      "image_sha256": "a5286b1c4d21104df8de6a3fd6440ea3c6978dc1ebf9ddf62cc5cfdcb2aabdc0",
+      "categoria": "mais_tp_candidato10",
+      "ordem_hash": "04a523e7f29325e8e28bbaa885789c19a3cb5bdf32644bfc35800136a1280baa",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "214a4b9be6fdd6c2",
+      "image_sha256": "c770d3a8fd8537905cf839f69b72ee1e63a91ac52b912329f34a7ff0d6d7c2da",
+      "categoria": "mais_tp_candidato10",
+      "ordem_hash": "052bfa863b5a7ac360c2101aa79196c92ea3dd5bb8b4c56b690a6682743de113",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "9afab31afacbba12",
+      "image_sha256": "faeee7fdda30e51544ef97cc61e456e5201f955323a6ece122bffedbf57183db",
+      "categoria": "mais_tp_baseline",
+      "ordem_hash": "0019997494c97299892403bd2efe99b053b699c7f0374911833eb5797c9a8ef7",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "acbde44d15c33442",
+      "image_sha256": "eec6c1ce36c3e95c226b5b8f3b6050f30fcc22dc13805d2ba107eaeaadd89d93",
+      "categoria": "mais_tp_baseline",
+      "ordem_hash": "0a61345e6cdc44b53d65f509ee6866a97409575ec18024dba58958b3a8b8c918",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "91bf0d9c81e17a6b",
+      "image_sha256": "c9eaf64cd914e1b6cbaec1955c8882503b648039aefd0bf0e4dd9347ae954fa5",
+      "categoria": "omissao_alta",
+      "ordem_hash": "03495e207de1f524719e0ec615175dd19fbf18f58ef5394d2aa8e87229de3f74",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "2830555fb925b7cd",
+      "image_sha256": "bf2412665dd9b040fb19b720bac6eb3dac736836367d818f0357f3436b42f055",
+      "categoria": "omissao_alta",
+      "ordem_hash": "0414025c3db577ac89af87e78eed875528b5f2a7455190f94d322fabe84abe91",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "beafcc5909c27004",
+      "image_sha256": "fa21155ca2fee5191fe8d753b4977a977fc03bdffde9793c376d4e9fe026dfae",
+      "categoria": "falso_alerta",
+      "ordem_hash": "010a5b506afbaf0bf235d6d51ba70c78dcf883a687d5efb03d14dad169d4df94",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "4afce4e856a68aed",
+      "image_sha256": "db94fafc8c901fe8874fcaad8112c0bc5f5163755db5a83edc0107158fd8ef6d",
+      "categoria": "falso_alerta",
+      "ordem_hash": "01f78e62cfbb9ddc9ce1b722c66f8b3370284cb4d0075ef697c0d55dc2556b82",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "81eab2350699a82e",
+      "image_sha256": "0ba1ebeacc4b01e18a86a8ea2929a329ba869b27077f264e840e667cd27a0937",
+      "categoria": "acerto_sem_erro",
+      "ordem_hash": "04a1cb131a8be80f537cedfae9534ec73ed07a53df6995de636f78e43624ba57",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "4b03233bd0db4335",
+      "image_sha256": "6f3838fd7f2262803c4dc90fe74662f591e2a92a42ad99901534d6fff48531c1",
+      "categoria": "acerto_sem_erro",
+      "ordem_hash": "066ed4d7d105f34758c760f7ee4de810b287d43a39f8db3d48fa118b45806f66",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "2923012e4f856a0e",
+      "image_sha256": "320563a972926cac2dcd3b93c6ebfc54fa93c34aa13163bf5252e23a448ed343",
+      "categoria": "sem_alerta_referencia",
+      "ordem_hash": "0034966a77ad9daa637dcb51c9505d742a743fd39e5d37588f782f4313073492",
+      "ilustrativa_sem_peso_nas_metricas": true
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "id": "43279ad5d74d5f67",
+      "image_sha256": "567e827a164338b22d968efe3513a8ff0efb3ac33c61c3da6199230bb0e6fdb1",
+      "categoria": "sem_alerta_referencia",
+      "ordem_hash": "00721a705565a3b2452d4029d632b7f6114f2245d8fd454b74ccd8bffa0908ce",
+      "ilustrativa_sem_peso_nas_metricas": true
+    }
+  ],
+  "sha256_canonico": "7b47fbaab9593ac30d9ce33b89ca5872f4246504db86048ccc94688e2d51d977",
+  "metricas_usam_toda_validacao": true
+}

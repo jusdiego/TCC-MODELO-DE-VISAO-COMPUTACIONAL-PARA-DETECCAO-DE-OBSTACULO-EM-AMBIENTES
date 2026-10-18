@@ -1,0 +1,8 @@
+﻿conf,home_precision_superior,home_recall_preservado,home_altas_preservadas,externa_precision_preservada,externa_recall_preservado,externa_altas_preservadas,elegivel,retencao_externa,metricas_com_suporte,comparavel_historico,elegivel_final
+0.05,False,True,True,False,True,True,False,False,True,True,False
+0.1,False,True,True,False,True,True,False,False,True,True,False
+0.15,False,True,True,False,True,True,False,False,True,True,False
+0.2,False,False,False,False,False,False,False,False,True,True,False
+0.25,True,False,False,True,False,False,False,False,True,True,False
+0.3,True,False,False,True,False,False,False,False,True,True,False
+0.4,True,False,False,True,False,False,False,False,True,True,False

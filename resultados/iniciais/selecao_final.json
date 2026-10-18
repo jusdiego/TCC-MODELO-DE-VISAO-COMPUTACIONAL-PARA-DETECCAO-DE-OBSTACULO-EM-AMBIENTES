@@ -1,0 +1,19 @@
+{
+  "modelo": "antigo",
+  "conf": 0.25,
+  "motivo": "Mantido baseline: nenhuma configuração elegível na Home VAL",
+  "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+  "arquivo_modelo": "/kaggle/working/resultados_tcc/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010/modelo_selecionado.pt",
+  "origem_peso": "/tmp/tcc_openimages_100k/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010/baseline_inicial.pt",
+  "selecionado_em": "2026-10-15T04:08:41.430440+00:00",
+  "conjunto_selecao": "Home VAL",
+  "home_val_imagens": 456,
+  "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "test_utilizado_para_selecao": false,
+  "criterio": "Precisão de alertas maior, recall preservado e alta_sem_alerta não maior que antigo em 0,25",
+  "configuracao_congelada_antes_test": true,
+  "openimages_divisao_sha256": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+  "openimages_teste_reservado": 20000,
+  "openimages_teste_usado_para_selecao": false,
+  "observacao": "Seleção exploratória na Home VAL; não substitui os pesos do baseline no Drive"
+}

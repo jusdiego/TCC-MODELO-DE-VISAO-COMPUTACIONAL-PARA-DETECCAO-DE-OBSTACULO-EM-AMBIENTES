@@ -1,0 +1,1555 @@
+﻿imagem,objetos_gt,objetos_pred,correspondencias,nao_detectados,previsoes_nao_associadas,prioridade_ref_politica,prioridade_pred,ha_alerta_ref_politica,ha_alerta_pred,mensagem_alerta,tempo_previsao_ms
+living_room_10.jpg,4,4,4,0,0,medio,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade alta.",19.063
+living_room_1000.jpg,7,7,3,4,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",26.855
+living_room_1004.jpg,1,1,1,0,0,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,20.342
+living_room_1008.jpg,6,6,6,0,0,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",18.762
+living_room_1012.jpg,15,16,8,7,8,medio,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",19.351
+living_room_1016.jpg,8,13,6,2,7,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",17.596
+living_room_1020.jpg,9,19,6,3,13,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",17.069
+living_room_1024.jpg,18,10,9,9,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",17.201
+living_room_1028.jpg,9,7,6,3,1,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",16.59
+living_room_103.jpg,9,14,7,2,7,medio,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",20.963
+living_room_1032.jpg,2,2,1,1,1,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",22.36
+living_room_1036.jpg,10,16,9,1,7,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.446
+living_room_1040.jpg,6,7,5,1,2,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",18.137
+living_room_1047.jpg,9,13,9,0,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.974
+living_room_1051.jpg,4,7,1,3,6,alto,alto,True,True,"Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",23.309
+living_room_1055.jpg,7,10,6,1,4,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.068
+living_room_1059.jpg,19,16,12,7,4,alto,medio,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",17.55
+living_room_1063.jpg,8,8,6,2,2,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",25.767
+living_room_1067.jpg,3,5,2,1,3,baixo,alto,False,True,Atenção: mesa detectada na região central da imagem. Prioridade alta.,18.388
+living_room_107.jpg,14,17,12,2,5,medio,medio,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.906
+living_room_1072.jpg,12,13,10,2,3,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",21.271
+living_room_1076.jpg,6,7,5,1,2,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.61
+living_room_1082.jpg,17,15,10,7,5,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",20.03
+living_room_1086.jpg,8,10,6,2,4,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",18.886
+living_room_1091.jpg,8,8,6,2,2,alto,medio,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",16.687
+living_room_1095.jpg,3,3,3,0,0,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",19.686
+living_room_1099.jpg,5,7,4,1,3,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",18.577
+living_room_1103.jpg,3,3,2,1,1,baixo,medio,False,True,Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.,18.679
+living_room_1107.jpg,3,3,1,2,2,alto,alto,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",24.474
+living_room_111.jpg,7,9,7,0,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",18.35
+living_room_115.jpg,11,14,10,1,4,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.17
+living_room_119.jpg,3,3,2,1,1,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,16.639
+living_room_123.jpg,2,4,1,1,3,medio,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.621
+living_room_127.jpg,3,3,3,0,0,medio,medio,True,True,Atenção: sofá detectado na região direita da imagem. Prioridade média.,16.635
+living_room_131.jpg,16,20,11,5,9,medio,medio,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.202
+living_room_135.jpg,6,12,6,0,6,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.924
+living_room_139.jpg,2,3,2,0,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",17.89
+living_room_14.jpg,11,14,11,0,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",19.78
+living_room_144.jpg,8,12,4,4,8,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",18.926
+living_room_148.jpg,13,11,6,7,5,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.934
+living_room_152.jpg,7,7,5,2,2,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",16.524
+living_room_156.jpg,13,16,9,4,7,medio,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.398
+living_room_160.jpg,8,11,5,3,6,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",17.514
+living_room_164.jpg,5,4,2,3,2,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",16.6
+living_room_168.jpg,8,8,4,4,4,alto,alto,True,True,"Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: cama detectada na região central da imagem. Prioridade alta.",26.132
+living_room_172.jpg,8,6,5,3,1,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",17.861
+living_room_176.jpg,8,9,5,3,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",21.396
+living_room_180.jpg,31,29,21,10,8,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",19.668
+living_room_184.jpg,3,2,1,2,1,medio,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",24.613
+living_room_188.jpg,9,8,6,3,2,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.47
+living_room_192.jpg,10,9,8,2,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.507
+living_room_196.jpg,14,11,10,4,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.964
+living_room_1p (10).jpg,5,8,4,1,4,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,13.104
+living_room_1p (101).jpg,13,11,10,3,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",13.439
+living_room_1p (106).jpg,10,11,9,1,2,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",12.548
+living_room_1p (110).jpg,4,4,3,1,1,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.",12.905
+living_room_1p (114).jpg,8,8,7,1,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",11.866
+living_room_1p (118).jpg,9,17,8,1,9,alto,alto,True,True,"Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",11.964
+living_room_1p (122).jpg,12,18,11,1,7,medio,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",13.558
+living_room_1p (127).jpg,7,6,5,2,1,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",13.833
+living_room_1p (131).jpg,18,15,9,9,6,medio,medio,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",11.865
+living_room_1p (135).jpg,2,3,1,1,2,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,13.088
+living_room_1p (139).jpg,8,10,6,2,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",12.281
+living_room_1p (14).jpg,3,4,3,0,1,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,12.472
+living_room_1p (143).jpg,13,9,8,5,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",15.2
+living_room_1p (147).jpg,7,10,6,1,4,medio,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",11.676
+living_room_1p (151).jpg,10,11,8,2,3,medio,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.",12.836
+living_room_1p (155).jpg,10,12,3,7,9,medio,medio,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",13.18
+living_room_1p (160).jpg,12,13,12,0,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",11.451
+living_room_1p (164).jpg,25,30,17,8,13,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.",13.671
+living_room_1p (169).jpg,14,21,11,3,10,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",16.733
+living_room_1p (173).jpg,17,20,17,0,3,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",12.021
+living_room_1p (177).jpg,3,8,3,0,5,alto,alto,True,True,"Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",12.221
+living_room_1p (18).jpg,11,8,6,5,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",12.026
+living_room_1p (182).jpg,10,20,8,2,12,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",12.825
+living_room_1p (187).jpg,4,6,1,3,5,alto,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",12.056
+living_room_1p (193).jpg,4,6,2,2,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",13.104
+living_room_1p (197).jpg,6,12,5,1,7,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.848
+living_room_1p (205).jpg,9,14,7,2,7,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",12.652
+living_room_1p (209).jpg,12,11,8,4,3,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",12.501
+living_room_1p (213).jpg,8,14,7,1,7,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",11.616
+living_room_1p (218).jpg,10,11,9,1,2,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",13.234
+living_room_1p (22).jpg,5,6,3,2,3,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",12.465
+living_room_1p (222).jpg,4,7,3,1,4,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cama detectada na região esquerda da imagem. Prioridade média.",12.668
+living_room_1p (226).jpg,6,9,4,2,5,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.",13.44
+living_room_1p (230).jpg,3,3,3,0,0,alto,alto,True,True,"Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",11.509
+living_room_1p (235).jpg,9,7,5,4,2,medio,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",13.282
+living_room_1p (239).jpg,7,10,6,1,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",13.582
+living_room_1p (243).jpg,19,16,10,9,6,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",12.64
+living_room_1p (247).jpg,7,10,6,1,4,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",13.175
+living_room_1p (251).jpg,7,10,6,1,4,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",12.256
+living_room_1p (256).jpg,7,22,4,3,18,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",12.507
+living_room_1p (26).jpg,7,7,2,5,5,medio,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade alta.",13.495
+living_room_1p (260).jpg,7,10,5,2,5,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",13.112
+living_room_1p (264).jpg,1,2,1,0,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",10.96
+living_room_1p (268).jpg,4,2,2,2,0,alto,alto,True,True,Atenção: mesa detectada na região central da imagem. Prioridade alta.,12.293
+living_room_1p (272).jpg,11,11,6,5,5,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",12.263
+living_room_1p (276).jpg,5,10,5,0,5,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",11.543
+living_room_1p (280).jpg,4,4,3,1,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",12.765
+living_room_1p (284).jpg,7,6,3,4,3,alto,medio,True,True,"Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",11.618
+living_room_1p (288).jpg,9,10,8,1,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",12.004
+living_room_1p (293).jpg,10,10,4,6,6,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",13.228
+living_room_1p (298).jpg,13,20,13,0,7,medio,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",11.605
+living_room_1p (3).jpg,16,16,9,7,7,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",14.071
+living_room_1p (30).jpg,1,2,1,0,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",11.914
+living_room_1p (302).jpg,5,6,4,1,2,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",14.91
+living_room_1p (306).jpg,15,17,7,8,10,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cama detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.",46.188
+living_room_1p (310).jpg,12,13,10,2,3,medio,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",11.85
+living_room_1p (314).jpg,7,5,3,4,2,medio,baixo,True,False,,14.802
+living_room_1p (318).jpg,12,14,10,2,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",13.74
+living_room_1p (322).jpg,8,4,3,5,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.883
+living_room_1p (326).jpg,8,13,4,4,9,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",11.667
+living_room_1p (330).jpg,10,14,6,4,8,medio,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",13.798
+living_room_1p (335).jpg,6,8,6,0,2,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cama detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",12.145
+living_room_1p (339).jpg,16,11,8,8,3,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",12.801
+living_room_1p (344).jpg,3,3,3,0,0,alto,alto,True,True,"Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade alta.",11.779
+living_room_1p (348).jpg,8,10,6,2,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",18.978
+living_room_1p (35).jpg,15,13,9,6,4,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",22.952
+living_room_1p (353).jpg,20,13,13,7,0,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",24.946
+living_room_1p (357).jpg,4,5,4,0,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",18.085
+living_room_1p (361).jpg,8,8,4,4,4,alto,medio,True,True,Atenção: cadeira detectada na região direita da imagem. Prioridade média.,14.199
+living_room_1p (365).jpg,17,17,14,3,3,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",13.322
+living_room_1p (369).jpg,7,7,6,1,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",13.533
+living_room_1p (374).jpg,15,14,14,1,0,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.727
+living_room_1p (378).jpg,7,9,5,2,4,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",11.276
+living_room_1p (382).jpg,4,6,3,1,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",12.105
+living_room_1p (386).jpg,3,3,2,1,1,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",13.35
+living_room_1p (39).jpg,1,1,1,0,0,baixo,baixo,False,False,,15.793
+living_room_1p (391).jpg,5,10,4,1,6,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",14.842
+living_room_1p (396).jpg,3,5,3,0,2,alto,alto,True,True,"Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",12.45
+living_room_1p (400).jpg,1,1,1,0,0,alto,alto,True,True,Atenção: cadeira detectada na região direita da imagem. Prioridade alta.,12.619
+living_room_1p (404).jpg,2,2,1,1,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.735
+living_room_1p (408).jpg,12,11,11,1,0,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",12.9
+living_room_1p (412).jpg,14,13,10,4,3,medio,medio,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",13.28
+living_room_1p (416).jpg,2,2,1,1,1,alto,baixo,True,False,,12.233
+living_room_1p (420).jpg,5,10,5,0,5,alto,alto,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",12.253
+living_room_1p (425).jpg,16,11,8,8,3,alto,alto,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",13.814
+living_room_1p (429).jpg,4,4,4,0,0,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",13.492
+living_room_1p (43).jpg,6,8,5,1,3,alto,alto,True,True,"Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",11.812
+living_room_1p (434).jpg,8,7,2,6,5,medio,medio,True,True,Atenção: sofá detectado na região direita da imagem. Prioridade média.,11.018
+living_room_1p (439).jpg,14,12,7,7,5,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",12.488
+living_room_1p (444).jpg,9,16,9,0,7,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",12.183
+living_room_1p (448).jpg,6,6,6,0,0,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",12.81
+living_room_1p (453).jpg,7,11,5,2,6,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",12.886
+living_room_1p (460).jpg,6,5,3,3,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",14.401
+living_room_1p (464).jpg,10,16,7,3,9,alto,alto,True,True,"Atenção: cama detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.524
+living_room_1p (469).jpg,13,13,12,1,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",16.261
+living_room_1p (47).jpg,7,16,3,4,13,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.799
+living_room_1p (473).jpg,6,3,2,4,1,medio,medio,True,True,Atenção: sofá detectado na região esquerda da imagem. Prioridade média.,13.252
+living_room_1p (478).jpg,10,14,8,2,6,medio,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",12.842
+living_room_1p (482).jpg,9,7,7,2,0,medio,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",13.074
+living_room_1p (487).jpg,2,2,2,0,0,medio,medio,True,True,Atenção: sofá detectado na região esquerda da imagem. Prioridade média.,12.51
+living_room_1p (491).jpg,5,9,5,0,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",12.619
+living_room_1p (496).jpg,9,11,7,2,4,medio,medio,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",11.834
+living_room_1p (501).jpg,10,10,8,2,2,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",13.093
+living_room_1p (505).jpg,12,9,7,5,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",13.539
+living_room_1p (509).jpg,6,8,6,0,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",12.736
+living_room_1p (514).jpg,27,24,14,13,10,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",13.386
+living_room_1p (518).jpg,10,8,4,6,4,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.397
+living_room_1p (52).jpg,23,18,14,9,4,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",13.2
+living_room_1p (523).jpg,6,9,5,1,4,medio,medio,True,True,Atenção: sofá detectado na região central da imagem. Prioridade média.,11.805
+living_room_1p (527).jpg,4,3,2,2,1,medio,alto,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",13.156
+living_room_1p (531).jpg,4,4,2,2,2,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",16.617
+living_room_1p (536).jpg,4,2,2,2,0,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",11.69
+living_room_1p (541).jpg,10,12,6,4,6,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.",14.725
+living_room_1p (546).jpg,15,19,11,4,8,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",13.356
+living_room_1p (553).jpg,7,12,6,1,6,medio,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade alta.",11.899
+living_room_1p (557).jpg,3,4,3,0,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",13.081
+living_room_1p (56).jpg,17,19,15,2,4,medio,medio,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",12.457
+living_room_1p (562).jpg,6,6,3,3,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",12.214
+living_room_1p (567).jpg,4,11,3,1,8,alto,medio,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",11.76
+living_room_1p (574).jpg,3,2,1,2,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.",12.809
+living_room_1p (579).jpg,10,9,4,6,5,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.737
+living_room_1p (584).jpg,9,12,9,0,3,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",12.56
+living_room_1p (589).jpg,7,10,7,0,3,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",13.995
+living_room_1p (593).jpg,6,16,3,3,13,medio,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",13.697
+living_room_1p (597).jpg,22,20,15,7,5,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",12.426
+living_room_1p (60).jpg,4,5,1,3,4,sem_prioridade,sem_prioridade,False,False,,12.052
+living_room_1p (64).jpg,7,7,6,1,1,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade alta.",13.44
+living_room_1p (68).jpg,6,9,4,2,5,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",12.718
+living_room_1p (72).jpg,7,8,4,3,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",12.994
+living_room_1p (77).jpg,8,7,7,1,0,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",12.686
+living_room_1p (81).jpg,10,12,6,4,6,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",14.505
+living_room_1p (85).jpg,8,14,5,3,9,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",12.693
+living_room_1p (89).jpg,10,10,6,4,4,alto,alto,True,True,"Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",11.778
+living_room_1p (93).jpg,10,10,9,1,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",12.158
+living_room_1p (97).jpg,24,27,13,11,14,alto,medio,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",13.319
+living_room_2.jpg,10,12,9,1,3,medio,medio,True,True,Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.,16.24
+living_room_200.jpg,16,11,6,10,5,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",16.526
+living_room_205.jpg,7,5,5,2,0,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",16.949
+living_room_209.jpg,17,9,6,11,3,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",16.949
+living_room_213.jpg,10,10,5,5,5,alto,alto,True,True,"Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",14.681
+living_room_217.jpg,5,8,4,1,4,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: cama detectada na região direita da imagem. Prioridade alta.
+Atenção: cama detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.072
+living_room_22.jpg,17,13,9,8,4,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",16.477
+living_room_222.jpg,2,3,2,0,1,medio,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",53.756
+living_room_226.jpg,4,4,3,1,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.",18.558
+living_room_230.jpg,8,10,6,2,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.699
+living_room_234.jpg,7,10,4,3,6,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",17.689
+living_room_238.jpg,4,5,4,0,1,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",20.759
+living_room_242.jpg,8,15,4,4,11,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",19.428
+living_room_246.jpg,13,23,11,2,12,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",19.735
+living_room_250.jpg,3,5,2,1,3,medio,medio,True,True,Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.,16.994
+living_room_254.jpg,10,13,4,6,9,medio,medio,True,True,"Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",15.768
+living_room_258.jpg,14,18,12,2,6,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",19.536
+living_room_26.jpg,16,21,10,6,11,alto,medio,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",17.355
+living_room_262.jpg,8,6,5,3,1,alto,alto,True,True,Atenção: mesa detectada na região central da imagem. Prioridade alta.,17.548
+living_room_266.jpg,13,16,8,5,8,alto,alto,True,True,Atenção: cama detectada na região central da imagem. Prioridade alta.,16.016
+living_room_270.jpg,13,21,10,3,11,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.207
+living_room_274.jpg,4,5,3,1,2,alto,alto,True,True,"Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",16.642
+living_room_278.jpg,14,21,10,4,11,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.339
+living_room_282.jpg,16,18,14,2,4,alto,alto,True,True,"Atenção: cama detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",19.12
+living_room_286.jpg,15,19,11,4,8,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",17.889
+living_room_291.jpg,2,5,2,0,3,alto,alto,True,True,"Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",17.08
+living_room_295.jpg,4,4,4,0,0,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",17.335
+living_room_299.jpg,13,15,11,2,4,alto,alto,True,True,"Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",17.129
+living_room_30.jpg,6,7,6,0,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",16.611
+living_room_303.jpg,10,10,9,1,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",17.343
+living_room_307.jpg,9,11,8,1,3,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",16.128
+living_room_311.jpg,16,17,14,2,3,medio,medio,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",18.243
+living_room_315.jpg,10,10,6,4,4,alto,alto,True,True,"Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.469
+living_room_319.jpg,8,8,7,1,1,alto,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",17.734
+living_room_323.jpg,6,6,5,1,1,alto,alto,True,True,"Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.",18.183
+living_room_327.jpg,5,5,4,1,1,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade alta.",16.814
+living_room_331.jpg,2,2,2,0,0,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,17.534
+living_room_335.jpg,6,7,4,2,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",18.812
+living_room_339.jpg,3,5,3,0,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.064
+living_room_34.jpg,13,19,8,5,11,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",19.352
+living_room_343.jpg,6,7,5,1,2,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",24.17
+living_room_347.jpg,2,10,1,1,9,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",22.59
+living_room_351.jpg,2,7,2,0,5,medio,medio,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",18.581
+living_room_355.jpg,4,4,3,1,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",24.177
+living_room_359.jpg,15,20,15,0,5,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.652
+living_room_363.jpg,21,17,11,10,6,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",19.848
+living_room_367.jpg,10,12,7,3,5,medio,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.",19.424
+living_room_371.jpg,4,7,4,0,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",19.93
+living_room_376.jpg,9,13,9,0,4,alto,alto,True,True,"Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",18.02
+living_room_38.jpg,2,2,2,0,0,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,17.382
+living_room_380.jpg,4,5,3,1,2,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",17.606
+living_room_384.jpg,26,27,15,11,12,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cama detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",18.113
+living_room_388.jpg,9,10,7,2,3,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.452
+living_room_392.jpg,16,14,12,4,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: cama detectada na região direita da imagem. Prioridade média.",19.069
+living_room_396.jpg,9,9,5,4,4,medio,medio,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.867
+living_room_400.jpg,3,3,3,0,0,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,17.316
+living_room_404.jpg,21,23,17,4,6,medio,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",19.8
+living_room_408.jpg,15,11,9,6,2,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",18.16
+living_room_412.jpg,7,6,4,3,2,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",16.713
+living_room_416.jpg,4,9,4,0,5,medio,medio,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",17.9
+living_room_42.jpg,13,16,11,2,5,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",19.826
+living_room_420.jpg,14,15,10,4,5,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",16.808
+living_room_424.jpg,11,16,11,0,5,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.915
+living_room_428.jpg,7,7,5,2,2,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",17.257
+living_room_432.jpg,5,6,5,0,1,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.86
+living_room_436.jpg,7,4,2,5,2,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",18.57
+living_room_440.jpg,12,13,8,4,5,medio,medio,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.9
+living_room_444.jpg,12,14,10,2,4,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.685
+living_room_448.jpg,11,11,6,5,5,alto,alto,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",20.436
+living_room_453.jpg,2,4,1,1,3,baixo,baixo,False,False,,17.126
+living_room_457.jpg,9,9,5,4,4,medio,baixo,True,False,,17.302
+living_room_46.jpg,21,19,15,6,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",15.776
+living_room_461.jpg,8,12,6,2,6,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",17.004
+living_room_465.jpg,6,8,4,2,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.42
+living_room_469.jpg,9,12,7,2,5,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",20.28
+living_room_474.jpg,6,8,6,0,2,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",17.266
+living_room_478.jpg,11,17,9,2,8,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",16.809
+living_room_482.jpg,7,7,6,1,1,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.741
+living_room_486.jpg,16,18,10,6,8,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",17.997
+living_room_490.jpg,7,8,7,0,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",16.52
+living_room_494.jpg,4,5,4,0,1,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cama detectada na região esquerda da imagem. Prioridade alta.",18.266
+living_room_498.jpg,6,8,5,1,3,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.",18.152
+living_room_50.jpg,11,9,7,4,2,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.16
+living_room_502.jpg,8,14,7,1,7,alto,alto,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",17.715
+living_room_506.jpg,12,13,9,3,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",24.544
+living_room_510.jpg,3,3,3,0,0,alto,alto,True,True,Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.,18.965
+living_room_514.jpg,13,20,10,3,10,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",17.556
+living_room_518.jpg,6,7,6,0,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",19.168
+living_room_522.jpg,4,9,2,2,7,medio,medio,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",15.665
+living_room_526.jpg,7,6,5,2,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.",16.634
+living_room_530.jpg,11,17,11,0,6,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",16.605
+living_room_534.jpg,7,7,4,3,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.743
+living_room_538.jpg,4,0,0,4,0,alto,sem_prioridade,True,False,,17.742
+living_room_54.jpg,9,11,9,0,2,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.719
+living_room_542.jpg,8,10,8,0,2,medio,medio,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",20.713
+living_room_546.jpg,3,4,2,1,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",17.228
+living_room_550.jpg,8,8,5,3,3,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.109
+living_room_554.jpg,8,14,7,1,7,medio,medio,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",17.237
+living_room_558.jpg,6,8,5,1,3,medio,medio,True,True,Atenção: mesa detectada na região direita da imagem. Prioridade média.,18.972
+living_room_562.jpg,11,11,8,3,3,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",17.391
+living_room_566.jpg,6,7,6,0,1,medio,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.",17.817
+living_room_570.jpg,14,11,8,6,3,medio,medio,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",20.606
+living_room_575.jpg,6,7,5,1,2,alto,alto,True,True,"Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",17.128
+living_room_58.jpg,9,13,8,1,5,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.434
+living_room_580.jpg,15,15,10,5,5,medio,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.",17.989
+living_room_584.jpg,10,11,6,4,5,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",16.789
+living_room_588.jpg,10,9,5,5,4,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",18.224
+living_room_593.jpg,15,16,12,3,4,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",18.101
+living_room_598.jpg,7,11,6,1,5,alto,alto,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",18.057
+living_room_6.jpg,10,13,10,0,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",19.381
+living_room_603.jpg,3,3,3,0,0,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.",18.208
+living_room_607.jpg,6,8,5,1,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.565
+living_room_611.jpg,7,8,5,2,3,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",17.131
+living_room_615.jpg,13,13,11,2,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.",18.767
+living_room_619.jpg,6,6,6,0,0,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.073
+living_room_62.jpg,10,6,4,6,2,medio,medio,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",19.353
+living_room_623.jpg,8,9,3,5,6,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",18.062
+living_room_627.jpg,13,13,11,2,2,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.044
+living_room_631.jpg,10,19,6,4,13,medio,medio,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",16.093
+living_room_635.jpg,4,7,3,1,4,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade alta.",19.905
+living_room_639.jpg,4,5,1,3,4,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",17.431
+living_room_643.jpg,2,4,1,1,3,alto,alto,True,True,Atenção: cama detectada na região central da imagem. Prioridade alta.,15.667
+living_room_647.jpg,25,22,13,12,9,medio,medio,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.",17.788
+living_room_651.jpg,7,3,3,4,0,medio,medio,True,True,Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.,16.872
+living_room_655.jpg,7,7,5,2,2,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.818
+living_room_659.jpg,5,6,2,3,4,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",19.136
+living_room_66.jpg,7,9,7,0,2,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",23.868
+living_room_663.jpg,3,4,2,1,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",19.323
+living_room_667.jpg,6,7,5,1,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",17.612
+living_room_671.jpg,4,7,4,0,3,medio,medio,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",16.86
+living_room_675.jpg,22,15,8,14,7,medio,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",24.339
+living_room_679.jpg,2,2,2,0,0,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.",17.779
+living_room_683.jpg,6,9,6,0,3,medio,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.865
+living_room_687.jpg,4,5,2,2,3,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",18.742
+living_room_691.jpg,5,9,5,0,4,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",17.882
+living_room_696.jpg,13,13,6,7,7,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",19.296
+living_room_70.jpg,3,3,3,0,0,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.",17.296
+living_room_700.jpg,7,7,7,0,0,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",16.74
+living_room_704.jpg,5,8,5,0,3,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.471
+living_room_708.jpg,17,17,11,6,6,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",16.707
+living_room_712.jpg,8,10,6,2,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",17.348
+living_room_716.jpg,2,6,2,0,4,medio,medio,True,True,Atenção: sofá detectado na região direita da imagem. Prioridade média.,19.407
+living_room_720.jpg,7,6,6,1,0,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",15.049
+living_room_724.jpg,1,0,0,1,0,sem_prioridade,sem_prioridade,False,False,,16.068
+living_room_728.jpg,12,11,9,3,2,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.522
+living_room_732.jpg,6,11,5,1,6,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.",17.815
+living_room_736.jpg,17,17,10,7,7,medio,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",25.208
+living_room_74.jpg,10,10,9,1,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",20.598
+living_room_740.jpg,7,8,6,1,2,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",18.151
+living_room_744.jpg,6,3,2,4,1,baixo,medio,False,True,Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.,17.811
+living_room_748.jpg,16,10,7,9,3,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade média.",17.149
+living_room_752.jpg,19,14,12,7,2,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",16.32
+living_room_756.jpg,4,4,4,0,0,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.345
+living_room_760.jpg,7,6,4,3,2,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.807
+living_room_764.jpg,8,10,6,2,4,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.",17.838
+living_room_768.jpg,10,12,10,0,2,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,17.504
+living_room_772.jpg,16,17,11,5,6,alto,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.358
+living_room_776.jpg,4,3,2,2,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cama detectada na região central da imagem. Prioridade alta.",16.622
+living_room_78.jpg,9,12,6,3,6,alto,alto,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",24.547
+living_room_780.jpg,4,5,3,1,2,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",19.594
+living_room_784.jpg,3,3,3,0,0,alto,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.084
+living_room_788.jpg,11,13,9,2,4,medio,medio,True,True,"Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",20.826
+living_room_793.jpg,7,5,5,2,0,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade média.",16.448
+living_room_797.jpg,7,8,5,2,3,medio,medio,True,True,"Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",26.667
+living_room_801.jpg,10,11,10,0,1,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,17.909
+living_room_805.jpg,8,8,8,0,0,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",17.433
+living_room_809.jpg,16,12,6,10,6,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",17.175
+living_room_814.jpg,11,12,11,0,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.786
+living_room_818.jpg,9,10,7,2,3,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.",17.691
+living_room_82.jpg,13,14,12,1,2,alto,alto,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",23.225
+living_room_822.jpg,5,6,4,1,2,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.",17.367
+living_room_826.jpg,3,4,3,0,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",18.503
+living_room_830.jpg,10,12,8,2,4,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.",17.284
+living_room_834.jpg,4,5,4,0,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",16.915
+living_room_838.jpg,5,6,5,0,1,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",20.739
+living_room_843.jpg,18,18,13,5,5,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",17.85
+living_room_847.jpg,3,6,1,2,5,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",19.951
+living_room_851.jpg,3,4,3,0,1,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.966
+living_room_855.jpg,3,3,2,1,1,alto,alto,True,True,Atenção: sofá detectado na região central da imagem. Prioridade alta.,19.233
+living_room_86.jpg,19,20,13,6,7,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",19.161
+living_room_860.jpg,6,6,6,0,0,alto,alto,True,True,Atenção: sofá detectado na região esquerda da imagem. Prioridade alta.,17.272
+living_room_866.jpg,4,6,3,1,3,medio,medio,True,True,"Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.",19.577
+living_room_870.jpg,7,7,6,1,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",18.127
+living_room_875.jpg,6,11,6,0,5,medio,medio,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.",17.954
+living_room_879.jpg,11,13,8,3,5,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.",17.79
+living_room_883.jpg,5,4,4,1,0,alto,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.066
+living_room_888.jpg,4,4,3,1,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: cama detectada na região central da imagem. Prioridade alta.",16.705
+living_room_892.jpg,16,15,11,5,4,medio,alto,True,True,"Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",18.478
+living_room_896.jpg,6,5,3,3,2,alto,alto,True,True,Atenção: guarda-roupa detectado na região central da imagem. Prioridade alta.,18.283
+living_room_90.jpg,9,9,6,3,3,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",20.868
+living_room_900.jpg,3,3,1,2,2,baixo,alto,False,True,Atenção: cama detectada na região central da imagem. Prioridade alta.,18.38
+living_room_904.jpg,6,6,6,0,0,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.",18.178
+living_room_908.jpg,7,7,7,0,0,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",18.115
+living_room_912.jpg,7,10,6,1,4,alto,alto,True,True,"Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: guarda-roupa detectado na região central da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",20.897
+living_room_916.jpg,4,2,2,2,0,alto,alto,True,True,Atenção: cadeira detectada na região central da imagem. Prioridade alta.,17.84
+living_room_920.jpg,5,4,4,1,0,alto,alto,True,True,"Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",19.716
+living_room_924.jpg,3,2,2,1,0,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",17.86
+living_room_928.jpg,3,3,2,1,1,alto,alto,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",16.926
+living_room_932.jpg,13,16,9,4,7,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",17.68
+living_room_936.jpg,3,3,1,2,2,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",20.279
+living_room_94.jpg,4,4,4,0,0,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.088
+living_room_941.jpg,6,6,4,2,2,alto,alto,True,True,"Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.",19.764
+living_room_945.jpg,1,2,1,0,1,alto,alto,True,True,Atenção: cadeira detectada na região direita da imagem. Prioridade alta.,17.032
+living_room_950.jpg,7,4,3,4,1,alto,medio,True,True,"Atenção: planta em vaso detectada na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",17.712
+living_room_954.jpg,27,25,21,6,4,alto,alto,True,True,"Atenção: sofá detectado na região direita da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.",18.92
+living_room_958.jpg,6,6,4,2,2,medio,medio,True,True,Atenção: cadeira detectada na região central da imagem. Prioridade média.,18.128
+living_room_962.jpg,4,5,3,1,2,medio,baixo,True,False,,18.506
+living_room_966.jpg,5,6,3,2,3,medio,medio,True,True,"Atenção: planta em vaso detectada na região central da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",18.88
+living_room_971.jpg,17,10,8,9,2,medio,medio,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade média.",19.321
+living_room_975.jpg,27,27,25,2,2,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região direita da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região direita da imagem. Prioridade média.",18.857
+living_room_979.jpg,8,10,5,3,5,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: guarda-roupa detectado na região direita da imagem. Prioridade alta.",17.239
+living_room_983.jpg,2,3,1,1,2,alto,alto,True,True,Atenção: planta em vaso detectada na região central da imagem. Prioridade alta.,17.154
+living_room_987.jpg,11,16,9,2,7,alto,alto,True,True,"Atenção: guarda-roupa detectado na região esquerda da imagem. Prioridade média.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.",18.4
+living_room_99.jpg,11,11,7,4,4,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: sofá detectado na região esquerda da imagem. Prioridade média.
+Atenção: planta em vaso detectada na região central da imagem. Prioridade média.",18.315
+living_room_991.jpg,9,9,9,0,0,alto,alto,True,True,"Atenção: mesa detectada na região direita da imagem. Prioridade média.
+Atenção: cadeira detectada na região central da imagem. Prioridade alta.
+Atenção: cadeira detectada na região esquerda da imagem. Prioridade média.
+Atenção: sofá detectado na região direita da imagem. Prioridade média.
+Atenção: mesa detectada na região esquerda da imagem. Prioridade média.",18.449
+living_room_996.jpg,3,4,3,0,1,alto,alto,True,True,"Atenção: sofá detectado na região central da imagem. Prioridade alta.
+Atenção: mesa detectada na região direita da imagem. Prioridade média.",16.185

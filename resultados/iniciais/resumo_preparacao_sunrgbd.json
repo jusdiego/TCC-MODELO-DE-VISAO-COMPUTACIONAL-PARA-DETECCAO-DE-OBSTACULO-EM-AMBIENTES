@@ -1,0 +1,95 @@
+{
+  "dataset": "C:\\Users\\diego\\OneDrive\\Documentos_One_Drive\\TCC\\tcc_visao_computacional\\data\\processed\\homeobjects_sunrgbd\\20261013_035828_151374",
+  "relatorios": "C:\\Users\\diego\\OneDrive\\Documentos_One_Drive\\TCC\\tcc_visao_computacional\\reports\\preparacao_sunrgbd\\20261013_035828_151374",
+  "home_origem": "C:\\Users\\diego\\OneDrive\\Documentos_One_Drive\\TCC\\tcc_visao_computacional\\data\\processed\\homeobjects_yolo_automatico\\20261013_000954_320030",
+  "semente": 42,
+  "proporcao_sun_val_desejada": 0.2,
+  "test_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+  "test_imagens": 403,
+  "imagens_por_split": {
+    "test": 403,
+    "train": 3970,
+    "val": 993
+  },
+  "imagens_por_origem": [
+    {
+      "split": "test",
+      "origem": "homeobjects",
+      "imagens": 403
+    },
+    {
+      "split": "train",
+      "origem": "homeobjects",
+      "imagens": 1824
+    },
+    {
+      "split": "train",
+      "origem": "sunrgbd",
+      "imagens": 2146
+    },
+    {
+      "split": "val",
+      "origem": "homeobjects",
+      "imagens": 456
+    },
+    {
+      "split": "val",
+      "origem": "sunrgbd",
+      "imagens": 537
+    }
+  ],
+  "sun_split_oficial": {
+    "train": 5285,
+    "test": 5050
+  },
+  "sun_test_oficial_utilizado": false,
+  "metadados_sha256": "d42020e95c6b654b2c81f0e04c8dba615b98733075e0c8605e6bd43bbb9b2899",
+  "split_oficial_sha256": "b99846d7833728f40a02d73e0724f5bdc5a3de89573ec7ba882c9e9e7e206ee4",
+  "aliases": {
+    "bed": "bed",
+    "bunk bed": "bed",
+    "sofa": "sofa",
+    "couch": "sofa",
+    "chair": "chair",
+    "office chair": "chair",
+    "dining chair": "chair",
+    "table": "table",
+    "coffee table": "table",
+    "endtable": "table",
+    "end table": "table",
+    "dining table": "table",
+    "side table": "table",
+    "lamp": "lamp",
+    "table lamp": "lamp",
+    "floor lamp": "lamp",
+    "desk lamp": "lamp",
+    "tv": "tv",
+    "television": "tv",
+    "laptop": "laptop",
+    "notebook computer": "laptop",
+    "wardrobe": "wardrobe",
+    "armoire": "wardrobe",
+    "window": "window",
+    "door": "door",
+    "potted plant": "potted plant",
+    "photo frame": "photo frame",
+    "picture frame": "photo frame",
+    "photoframe": "photo frame",
+    "pictureframe": "photo frame"
+  },
+  "classes_ambiguas_excluem_imagem": [
+    "artificial plant",
+    "computer",
+    "desk",
+    "painting",
+    "picture",
+    "plant",
+    "plants",
+    "sofa chair"
+  ],
+  "convencao_bbox": "xywh MATLAB: x0=x-1, y0=y-1; recorte nas dimensões reais",
+  "agrupamento": "cena SUN3D/sessão Kinect2 quando identificável; SHA e dHash iguais; grupos relacionados ao Home excluídos",
+  "limite_agrupamento": "hashes não detectam toda semelhança; caminhos não identificam todas as salas físicas",
+  "exclusoes_sun": 2602,
+  "zip_colab": "C:\\Users\\diego\\OneDrive\\Documentos_One_Drive\\TCC\\tcc_visao_computacional\\exports\\datasets_sunrgbd\\20261013_040416_607492\\homeobjects_sunrgbd_validado.zip"
+}

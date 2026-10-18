@@ -1,0 +1,17 @@
+﻿modelo,coorte,metrica,notebook11,atual,delta
+baseline,home_val_historica,tp_alerta,1380,1380,0
+baseline,home_val_historica,fn_alerta,155,155,0
+baseline,home_val_historica,fp_alerta,381,381,0
+baseline,home_val_historica,alta_sem_alerta,24,24,0
+baseline,openimages_val_nova,tp_alerta,385,385,0
+baseline,openimages_val_nova,fn_alerta,397,397,0
+baseline,openimages_val_nova,fp_alerta,324,324,0
+baseline,openimages_val_nova,alta_sem_alerta,193,193,0
+candidato_10,home_val_historica,tp_alerta,1359,1359,0
+candidato_10,home_val_historica,fn_alerta,176,176,0
+candidato_10,home_val_historica,fp_alerta,382,382,0
+candidato_10,home_val_historica,alta_sem_alerta,27,27,0
+candidato_10,openimages_val_nova,tp_alerta,472,472,0
+candidato_10,openimages_val_nova,fn_alerta,310,310,0
+candidato_10,openimages_val_nova,fp_alerta,317,317,0
+candidato_10,openimages_val_nova,alta_sem_alerta,120,120,0

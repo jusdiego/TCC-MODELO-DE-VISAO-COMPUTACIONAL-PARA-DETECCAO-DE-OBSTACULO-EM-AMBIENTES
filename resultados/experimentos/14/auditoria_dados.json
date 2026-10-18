@@ -1,0 +1,35 @@
+{
+  "home": {
+    "home_train_manifesto": 1824,
+    "home_val_extraida": 456,
+    "home_train_extraida": false,
+    "home_test_extraido": false,
+    "test_home_manifesto": 403,
+    "intersecao_bytes_train_val": 0,
+    "historico_original_baseline_nao_comprovado_pela_separacao_atual": true
+  },
+  "baseline_original": {
+    "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "data_checkpoint": "2026-09-13T17:08:48.014038+00:00",
+    "train_args_preservados": {
+      "data": "/content/tcc_visao_computacional/homeobjects_yolo/data_colab.yaml",
+      "epochs": 50,
+      "batch": 26,
+      "imgsz": 640,
+      "seed": 42,
+      "optimizer": "auto",
+      "lr0": 0.01,
+      "project": "/content/experimentos",
+      "name": "yolov8n_baseline",
+      "fraction": 1.0
+    },
+    "estado_proveniencia_original": "nao_determinado",
+    "home_val_usada_no_treino_original": null,
+    "motivo": "Caminhos e argumentos não contêm a lista de imagens vistas no treino original."
+  },
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "validacao_nunca_vira_treino": true
+}

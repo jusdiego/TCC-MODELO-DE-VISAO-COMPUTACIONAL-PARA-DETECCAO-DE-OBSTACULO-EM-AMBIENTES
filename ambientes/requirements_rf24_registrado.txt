@@ -1,0 +1,11 @@
+# Versões observadas no pacote final; não é lock completo de ambiente.
+# Execução original: Python 3.13.15, PyTorch/torchvision com CUDA 13.0.
+torch==2.11.0
+torchvision==0.26.0
+rfdetr==1.11.2
+ultralytics==8.4.150
+pytorch-lightning==2.6.6
+transformers==5.20.1
+supervision==0.31.0
+numpy==2.1.3
+pillow==11.3.0

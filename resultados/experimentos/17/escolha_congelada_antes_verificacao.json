@@ -1,0 +1,15 @@
+{
+  "context_key": "6f4aa31baf57035ce481a4696b11733dd30d62fd6b89065b7e92593766d75c2d",
+  "split_sha256": "8427f4297fd4b11aab2eaa085b133fc6367f4d9af2630c8c59d4e58edf58c291",
+  "grid_sha256": "907b53ec2c748e2136f2b688972868f1b8ce0fe297065983f7048c5337d17965",
+  "selection": {
+    "selected": null,
+    "eligible_count": 0,
+    "configurations": 49,
+    "used_partition": "calibracao",
+    "verification_used_for_selection": false,
+    "status": "nenhuma_configuracao_elegivel_na_calibracao"
+  },
+  "verification_configurations_allowed": 0,
+  "verification_result_used_for_selection": false
+}

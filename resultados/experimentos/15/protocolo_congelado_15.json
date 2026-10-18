@@ -1,0 +1,202 @@
+{
+  "versao": "15-auditoria-train-1.0.0",
+  "seed": 42,
+  "classes": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "foco": [
+    2,
+    3,
+    7,
+    10
+  ],
+  "home_catalogo": 1824,
+  "openimages_catalogo": 5000,
+  "lotes": [
+    "lote_000001.zip",
+    "lote_000002.zip",
+    "lote_000003.zip",
+    "lote_000004.zip",
+    "lote_000005.zip"
+  ],
+  "peso_B": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+  "clip_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "clip_commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+  "predict_args": {
+    "imgsz": 640,
+    "conf": 0.15,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "augment": false,
+    "rect": true,
+    "verbose": false
+  },
+  "iou_associacao_treino": 0.5,
+  "confianca_associacao_treino": 0.25,
+  "semantica": {
+    "views": [
+      1.0,
+      1.2
+    ],
+    "min_crop_side": 8,
+    "min_cosine": 0.2,
+    "min_margin_over_label_both_views": 0.03,
+    "unmatched_focus_min_score": 0.25,
+    "unmatched_per_image_limit": 10,
+    "scene_min_cosine": 0.2,
+    "scene_margin": 0.02,
+    "thresholds_calibrated": false
+  },
+  "conceitos": [
+    [
+      "bed",
+      "a bed with a mattress"
+    ],
+    [
+      "sofa",
+      "a sofa or couch"
+    ],
+    [
+      "chair",
+      "a chair, stool or armchair for one person"
+    ],
+    [
+      "table",
+      "a table, dining table, coffee table or desk"
+    ],
+    [
+      "lamp",
+      "a lamp or indoor light fixture"
+    ],
+    [
+      "tv",
+      "a television screen"
+    ],
+    [
+      "laptop",
+      "a laptop computer"
+    ],
+    [
+      "wardrobe",
+      "a wardrobe or tall closet for storing clothes"
+    ],
+    [
+      "window",
+      "a window in a building"
+    ],
+    [
+      "door",
+      "a door in a building"
+    ],
+    [
+      "potted plant",
+      "a real potted plant"
+    ],
+    [
+      "photo frame",
+      "a picture frame or framed photograph"
+    ],
+    [
+      "generic cabinet",
+      "a generic storage cabinet or cupboard"
+    ],
+    [
+      "bookcase",
+      "a bookcase or open shelving unit"
+    ],
+    [
+      "tv stand",
+      "a low TV stand or media console"
+    ],
+    [
+      "chest of drawers",
+      "a chest of drawers or dresser"
+    ],
+    [
+      "sideboard",
+      "a sideboard or buffet cabinet"
+    ],
+    [
+      "refrigerator",
+      "a refrigerator"
+    ],
+    [
+      "radiator",
+      "a radiator or space heater"
+    ],
+    [
+      "outdoor vegetation",
+      "outdoor trees, bushes or grass"
+    ],
+    [
+      "person",
+      "a person"
+    ],
+    [
+      "wall or floor",
+      "an empty wall or floor"
+    ],
+    [
+      "decorative object",
+      "a vase, ornament or decorative object"
+    ],
+    [
+      "unrecognizable detail",
+      "an unrecognizable close-up detail or texture"
+    ]
+  ],
+  "templates": [
+    "a photo of {}.",
+    "a cropped photo of {}.",
+    "an image showing {}."
+  ],
+  "deduplicacao": {
+    "phash_bits": 64,
+    "distancia_maxima": 4,
+    "vizinhos_maximos_registrados_por_imagem": 5,
+    "home_val_test_e_oi_test": "somente_SHA_sem_novo_phash"
+  },
+  "cenas": [
+    [
+      "interior",
+      "a photo of the inside of a furnished room"
+    ],
+    [
+      "exterior",
+      "a photo of an outdoor scene, street or garden"
+    ],
+    [
+      "produto_fundo_liso",
+      "a studio product photograph on a plain background"
+    ],
+    [
+      "colagem_ou_desenho",
+      "a collage, illustration or drawing"
+    ],
+    [
+      "detalhe_sem_contexto",
+      "a close-up photograph with no visible room context"
+    ]
+  ],
+  "revisao_humana_realizada": false,
+  "alteracao_rotulos": false,
+  "treinamento": false,
+  "preenchimento_manual_obrigatorio": false,
+  "teste_ou_reserva_inferidos": false,
+  "home_cobertura_completa": "hipotese_herdada_nao_comprovada",
+  "scope_limit": "cinco lotes do piloto, sem representatividade garantida dos 80 mil",
+  "resultado_14": "nenhum dos sete limiares globais elegivel; baseline preservado",
+  "baseline_proveniencia_original": "nao_determinado"
+}

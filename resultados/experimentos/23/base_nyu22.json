@@ -1,0 +1,166 @@
+{
+  "version": "22-nyuv2-six-visible-instances-v1",
+  "plan_key": "3aae8a862f234d1995c65b4632a83daa836b35977993180d06ff3836586a15ac",
+  "remote": "preparado/3aae8a862f234d1995c65b46",
+  "classes": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "door",
+    "window"
+  ],
+  "development": {
+    "name": "desenvolvimento_nyu22.zip",
+    "sha256": "0e677c1e49fae0d48c9de4922ad63a84087f5f21c24592f4e50f64b56a1089ae",
+    "bytes": 295551712
+  },
+  "reserve": {
+    "name": "reserva_nyu22.zip",
+    "sha256": "64a25836d6665e9c80141ac9ae74c2c2b0fa455eb2289fe3a5fdf194ce317074",
+    "bytes": 244091212
+  },
+  "sources": {
+    "mat": {
+      "url": "https://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_v2_labeled.mat",
+      "sha256": "2d724b0c0ab358aa1ce5df855e5bd14a2279ab7202efe22f32a30d612dcb86aa",
+      "bytes": 2972037809
+    },
+    "split": {
+      "url": "https://horatio.cs.nyu.edu/mit/silberman/indoor_seg_sup/splits.mat",
+      "sha256": "6e081404491a8bfba2f066beaa9713ef6046f9007aa5f799f2a350506a580cee",
+      "bytes": 2626
+    },
+    "weight": {
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt",
+      "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a",
+      "bytes": 22588772
+    }
+  },
+  "report": {
+    "version": "22-nyuv2-six-visible-instances-v1",
+    "train_images": 634,
+    "val_images": 161,
+    "test_images_reserved": 654,
+    "train_scenes": 199,
+    "val_scenes": 50,
+    "test_scenes": 215,
+    "scene_overlap_train_val": 0,
+    "scene_overlap_development_test": 0,
+    "class_counts_development": [
+      {
+        "split": "train",
+        "class": "bed",
+        "gt": 153,
+        "images": 134
+      },
+      {
+        "split": "train",
+        "class": "sofa",
+        "gt": 197,
+        "images": 120
+      },
+      {
+        "split": "train",
+        "class": "chair",
+        "gt": 956,
+        "images": 289
+      },
+      {
+        "split": "train",
+        "class": "table",
+        "gt": 317,
+        "images": 232
+      },
+      {
+        "split": "train",
+        "class": "door",
+        "gt": 225,
+        "images": 176
+      },
+      {
+        "split": "train",
+        "class": "window",
+        "gt": 271,
+        "images": 184
+      },
+      {
+        "split": "val",
+        "class": "bed",
+        "gt": 38,
+        "images": 30
+      },
+      {
+        "split": "val",
+        "class": "sofa",
+        "gt": 55,
+        "images": 37
+      },
+      {
+        "split": "val",
+        "class": "chair",
+        "gt": 236,
+        "images": 77
+      },
+      {
+        "split": "val",
+        "class": "table",
+        "gt": 88,
+        "images": 69
+      },
+      {
+        "split": "val",
+        "class": "door",
+        "gt": 47,
+        "images": 38
+      },
+      {
+        "split": "val",
+        "class": "window",
+        "gt": 71,
+        "images": 45
+      }
+    ],
+    "allocation": {
+      "trial": 99,
+      "groups": 249,
+      "phash_pairs_across_scenes": [],
+      "criterion": "Proporções de imagens e caixas, antes de qualquer treinamento; somente TRAIN oficial. Não usa precisão, recall ou rótulos de TEST."
+    },
+    "raw_label_ids": {
+      "bed": 157,
+      "sofa": 83,
+      "chair": 5,
+      "table": 19,
+      "door": 28,
+      "window": 59
+    },
+    "unlabeled_pixel_fraction_development": 0.1760618039177149,
+    "classes": [
+      "bed",
+      "sofa",
+      "chair",
+      "table",
+      "door",
+      "window"
+    ],
+    "global_ids_old_project": [
+      0,
+      1,
+      2,
+      3,
+      9,
+      8
+    ],
+    "manual_labels_required": false,
+    "test_used_for_selection": false,
+    "task": "Detecção 2D em seis categorias NYU; caixas derivadas das máscaras visíveis, sem profundidade como entrada.",
+    "limits": [
+      "Escopo e referência distintos do experimento 21; percentuais não são diretamente comparáveis.",
+      "SUN RGB-D incorpora imagens NYU: não reutilizar pesos Home/C10/21 nem declarar comparação independente com eles.",
+      "Pixels sem rótulo existem na origem. As caixas representam os objetos anotados, não uma garantia de anotação perfeita."
+    ]
+  },
+  "test_used_for_selection": false,
+  "dataset_id": "b174f1c72bb9403a5cc1498ffa7b5c38cfa1a5cdfc3c54a79a9b679724521fd1"
+}

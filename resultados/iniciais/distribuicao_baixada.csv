@@ -1,0 +1,13 @@
+﻿id,classe,imagens_com_caixa,caixas,imagens_com_cobertura_verificada,imagens_com_background_desconhecido
+0,bed,694,795,2424,2576
+1,sofa,787,1121,2704,2296
+2,chair,1455,4603,3304,1696
+3,table,2073,3272,4158,842
+4,lamp,323,657,360,4640
+5,tv,347,441,464,4536
+6,laptop,351,563,620,4380
+7,wardrobe,173,193,1542,3458
+8,window,1517,3949,2729,2271
+9,door,674,953,1408,3592
+10,potted plant,1049,2625,1602,3398
+11,photo frame,379,1169,482,4518

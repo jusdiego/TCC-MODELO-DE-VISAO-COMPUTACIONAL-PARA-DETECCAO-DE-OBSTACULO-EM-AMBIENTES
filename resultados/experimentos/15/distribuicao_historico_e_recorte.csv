@@ -1,0 +1,25 @@
+﻿coorte,classe_id,classe,imagens,classe_primaria_imagens,classe_com_cobertura_imagens
+train_historico_80000,0,bed,80000,2051,6284
+train_historico_80000,1,sofa,80000,2297,7048
+train_historico_80000,2,chair,80000,14052,20669
+train_historico_80000,3,table,80000,17166,34429
+train_historico_80000,4,lamp,80000,1200,1307
+train_historico_80000,5,tv,80000,2053,2497
+train_historico_80000,6,laptop,80000,4285,7297
+train_historico_80000,7,wardrobe,80000,173,3328
+train_historico_80000,8,window,80000,17150,29725
+train_historico_80000,9,door,80000,9728,14935
+train_historico_80000,10,potted plant,80000,5743,12250
+train_historico_80000,11,photo frame,80000,4102,4710
+recorte_cinco_lotes,0,bed,5000,644,2424
+recorte_cinco_lotes,1,sofa,5000,644,2704
+recorte_cinco_lotes,2,chair,5000,322,3304
+recorte_cinco_lotes,3,table,5000,322,4158
+recorte_cinco_lotes,4,lamp,5000,322,360
+recorte_cinco_lotes,5,tv,5000,322,464
+recorte_cinco_lotes,6,laptop,5000,322,620
+recorte_cinco_lotes,7,wardrobe,5000,173,1542
+recorte_cinco_lotes,8,window,5000,322,2729
+recorte_cinco_lotes,9,door,5000,321,1408
+recorte_cinco_lotes,10,potted plant,5000,965,1602
+recorte_cinco_lotes,11,photo frame,5000,321,482

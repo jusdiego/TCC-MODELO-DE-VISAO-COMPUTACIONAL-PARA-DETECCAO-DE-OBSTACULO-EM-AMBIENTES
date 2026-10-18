@@ -1,0 +1,87 @@
+{
+  "criado_em": "2026-10-13T02:25:51.109375-03:00",
+  "python": "3.14.3",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "pacotes": {
+    "ultralytics": "8.4.150",
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2",
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3"
+  },
+  "modelo": "C:\\Users\\diego\\OneDrive\\Documentos_One_Drive\\TCC\\tcc_visao_computacional\\models\\yolov8n_retreino_01\\best.pt",
+  "modelo_sha256": "a2bb3f7452416b6846dcb01055ca1dddf692e2516f7a2778e49ed78337477521",
+  "dataset": "C:\\Users\\diego\\OneDrive\\Documentos_One_Drive\\TCC\\tcc_visao_computacional\\data\\processed\\homeobjects_yolo",
+  "classes": {
+    "0": "bed",
+    "1": "sofa",
+    "2": "chair",
+    "3": "table",
+    "4": "lamp",
+    "5": "tv",
+    "6": "laptop",
+    "7": "wardrobe",
+    "8": "window",
+    "9": "door",
+    "10": "potted plant",
+    "11": "photo frame"
+  },
+  "imagens_test": 403,
+  "objetos_test": 3465,
+  "test_sha256": "c02cb70935bed1d535829488a1d9a54e1d7ca8eed1053df11f3c2a0d8c9bd46b",
+  "imgsz": 640,
+  "device": "cpu",
+  "batch_avaliacao": 4,
+  "conf_alerta": 0.25,
+  "conf_map": 0.001,
+  "iou_nms": 0.7,
+  "iou_correspondencia": 0.5,
+  "max_deteccoes": 300,
+  "nivel_minimo_alerta": "medio",
+  "politica": {
+    "versao": "v2_original_congelada",
+    "pesos_classe": {
+      "bed": 3,
+      "sofa": 3,
+      "chair": 3,
+      "table": 3,
+      "wardrobe": 3,
+      "potted plant": 2
+    },
+    "limites_horizontais": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "pesos_horizontais": {
+      "esquerda": 1,
+      "centro": 3,
+      "direita": 1
+    },
+    "limites_area": [
+      0.05,
+      0.2
+    ],
+    "pesos_tamanho": {
+      "pequeno": 1,
+      "medio": 2,
+      "grande": 3
+    },
+    "limites_base_vertical": [
+      0.6,
+      0.8
+    ],
+    "ajustes_verticais": {
+      "superior": -2,
+      "intermediaria": -1,
+      "inferior": 0
+    },
+    "limite_medio": 5,
+    "limite_alto": 7,
+    "piso_pontuacao": 1
+  },
+  "politica_codigo_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "test_congelado_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+  "escopo": "concordância com política visual; não validação independente de risco físico"
+}

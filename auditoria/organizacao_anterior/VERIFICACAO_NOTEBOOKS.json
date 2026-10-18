@@ -1,0 +1,655 @@
+[
+  {
+    "arquivo": "notebooks/00_poc_analise_datasets.ipynb",
+    "celulas": 197,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 237,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [
+      {
+        "celula": 55,
+        "ajuste": "Tabela Markdown anteriormente marcada como código; conteúdo preservado."
+      },
+      {
+        "celula": 194,
+        "ajuste": "Tabela Markdown anteriormente marcada como código; conteúdo preservado."
+      }
+    ],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/01_auditoria_homeobjects.ipynb",
+    "celulas": 22,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 14,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/01/01_auditoria_homeobjects.ipynb",
+    "celulas": 22,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 13,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/01/01_auditoria_homeobjects_ajustado.ipynb",
+    "celulas": 22,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/01/01_auditoria_homeobjects__068d51c0.ipynb",
+    "celulas": 21,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/02/02_preparacao_dataset_1_.ipynb",
+    "celulas": 30,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 17,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/02/02_preparacao_dataset_1___4af5b41b.ipynb",
+    "celulas": 29,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 14,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/02_preparacao_dataset.ipynb",
+    "celulas": 11,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 6,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/02/02_preparacao_dataset.ipynb",
+    "celulas": 28,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/02/02_preparacao_dataset_ajustado.ipynb",
+    "celulas": 11,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/02/02_preparacao_dataset_corrigido.ipynb",
+    "celulas": 28,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/03/03_treinamento_yolov8n_colab_1_.ipynb",
+    "celulas": 39,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 21,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/03_treinamento_yolov8n_colab.ipynb",
+    "celulas": 39,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 20,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/03/03_treinamento_yolov8n_colab.ipynb",
+    "celulas": 39,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/03/03_treinamento_yolov8n_colab_ajustado.ipynb",
+    "celulas": 39,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/04/04_avaliacao_risco_1_.ipynb",
+    "celulas": 48,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 19,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/04/04_avaliacao_risco_1___2d783f11.ipynb",
+    "celulas": 35,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 12,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/04/04_avaliacao_risco.ipynb",
+    "celulas": 34,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/04_avaliacao_risco_v1.ipynb",
+    "celulas": 35,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 11,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/04/04_avaliacao_risco_v1_ajustado.ipynb",
+    "celulas": 35,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/04/04_avaliacao_risco_v2.ipynb",
+    "celulas": 47,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/04_avaliacao_risco_v2_ajustado.ipynb",
+    "celulas": 48,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 18,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/04/04_avaliacao_risco_v2_ajustado.ipynb",
+    "celulas": 48,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/05_validacao_risco.ipynb",
+    "celulas": 49,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 26,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05/05_validacao_risco_1_.ipynb",
+    "celulas": 48,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 13,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05/05_validacao_risco.ipynb",
+    "celulas": 48,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/05b_complemento_validacao_risco.ipynb",
+    "celulas": 35,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 14,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05b/05b_complemento_validacao_risco.ipynb",
+    "celulas": 34,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/05c_validacao_risco_final.ipynb",
+    "celulas": 45,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 21,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05c/05c_validacao_risco_final.ipynb",
+    "celulas": 44,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05d/05d_avaliacao_automatica_alertas_1_.ipynb",
+    "celulas": 25,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 13,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/05d_avaliacao_automatica_alertas.ipynb",
+    "celulas": 25,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 13,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05d/05d_avaliacao_automatica_alertas.ipynb",
+    "celulas": 25,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/05d/05d_avaliacao_automatica_alertas__6448c83e.ipynb",
+    "celulas": 25,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/06/06_preparacao_sunrgbd.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/06_preparacao_sunrgbd.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 12,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/06/06_preparacao_sunrgbd__ab47906e.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 8,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/07/07_ajuste_fino_sunrgbd_colab.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/07_ajuste_fino_sunrgbd_colab.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 12,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/07b/07b_ajuste_fino_sunrgbd_lr_menor_colab.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/07b_ajuste_fino_sunrgbd_lr_menor_colab.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 13,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/08/08_openimages_100k_preparacao_colab.ipynb",
+    "celulas": 14,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/08_openimages_100k_preparacao_colab.ipynb",
+    "celulas": 14,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 24,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/08b_completar_openimages_100k_colab.ipynb",
+    "celulas": 15,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/08c_completar_openimages_100k_kaggle.ipynb",
+    "celulas": 17,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/09/09_treino_openimages_piloto_cpu_colab_v2.ipynb",
+    "celulas": 18,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/09/09_treino_openimages_piloto_colab_1_.ipynb",
+    "celulas": 18,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 10,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [
+      {
+        "celula": 6,
+        "ajuste": "Removida indentação acidental do primeiro import."
+      }
+    ],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/09/09_treino_openimages_piloto_colab.ipynb",
+    "celulas": 18,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/09/09_treino_openimages_piloto_cpu_colab.ipynb",
+    "celulas": 20,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/09/09_treino_openimages_piloto_kaggle.ipynb",
+    "celulas": 22,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/09_treino_openimages_piloto_kaggle.ipynb",
+    "celulas": 22,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 26,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/10/10_treino_openimages_100k_kaggle.ipynb",
+    "celulas": 36,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/10_treino_openimages_100k_kaggle.ipynb",
+    "celulas": 36,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 40,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/11_diagnostico_validacao_independente_kaggle.ipynb",
+    "celulas": 24,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/12_ajuste_home_replay_controlado_kaggle.ipynb",
+    "celulas": 20,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/13_auditoria_rotulos_erros_kaggle.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 4,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/14_diagnostico_confianca_automatico_kaggle.ipynb",
+    "celulas": 19,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/14/14_retoma_etapa6.ipynb",
+    "celulas": 2,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/15_auditoria_automatica_treino_kaggle.ipynb",
+    "celulas": 18,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/16_controle_wardrobe_por_fonte_kaggle.ipynb",
+    "celulas": 18,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/17_limiares_por_classe_kaggle.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/18_equilibrio_fontes_kaggle.ipynb",
+    "celulas": 18,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/18/18_recuperar_etapa_7.ipynb",
+    "celulas": 2,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/19_consolidacao_demonstracao_kaggle.ipynb",
+    "celulas": 14,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/20_avaliacao_final_reserva_kaggle.ipynb",
+    "celulas": 14,
+    "celulas_editadas": 3,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/21_yolov8s_treinamento_ampliado_kaggle.ipynb",
+    "celulas": 16,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/22/22_nyu_compacto_preparacao_colab.ipynb",
+    "celulas": 8,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/22_nyu_compacto_preparacao_windows.ipynb",
+    "celulas": 12,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/23_nyu_compacto_treinamento_colab.ipynb",
+    "celulas": 12,
+    "celulas_editadas": 2,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "variantes/24/24_rfdetr_small_home_kaggle.ipynb",
+    "celulas": 19,
+    "celulas_editadas": 1,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  },
+  {
+    "arquivo": "notebooks/24_rfdetr_small_home_colab.ipynb",
+    "celulas": 19,
+    "celulas_editadas": 0,
+    "saidas_preservadas": 0,
+    "excecoes_registradas": 0,
+    "formatacao_corrigida": [],
+    "sintaxe_legada_a_rever": []
+  }
+]

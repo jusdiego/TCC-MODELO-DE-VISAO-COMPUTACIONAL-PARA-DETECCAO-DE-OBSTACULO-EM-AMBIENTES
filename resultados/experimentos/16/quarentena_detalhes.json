@@ -1,0 +1,22 @@
+[
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (200).jpg",
+    "image_sha256": "91762dd496112cd20e6ebe02735b26c7f36f1222e5c5e3b26a5c7feb60b6e42b",
+    "label_sha256": "d5ebe6e6428e37c50ee1c65ae7f2644c58bf07039a318c5544fd4f8f3fd53292"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (203).jpg",
+    "image_sha256": "91762dd496112cd20e6ebe02735b26c7f36f1222e5c5e3b26a5c7feb60b6e42b",
+    "label_sha256": "fa2c12b065080b9ad0844538dd8fe3f2a4d2df0ffe6cd50b54649462af20f31a"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_590.jpg",
+    "image_sha256": "b2f509d5f562790e5b552c827975f9ca94a08c0a7786faa82fa3bb0aee711309",
+    "label_sha256": "91ade1574bfb487452a5a09df4586486b42b770523b7ca14c867688f2d16e26b"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_718.jpg",
+    "image_sha256": "b2f509d5f562790e5b552c827975f9ca94a08c0a7786faa82fa3bb0aee711309",
+    "label_sha256": "956ca511d9d0852006e20105cb4a9dc70ebedadb91f2ffda0b31161b6f3b8e2a"
+  }
+]

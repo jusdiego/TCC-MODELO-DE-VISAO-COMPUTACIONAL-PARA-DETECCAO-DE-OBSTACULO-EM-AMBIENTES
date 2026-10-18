@@ -1,0 +1,7 @@
+{
+  "status": "pausado_retomavel",
+  "concluido": false,
+  "epochs": 24,
+  "motivo": "limite_tempo_sessao",
+  "retomou_de_epoch": null
+}

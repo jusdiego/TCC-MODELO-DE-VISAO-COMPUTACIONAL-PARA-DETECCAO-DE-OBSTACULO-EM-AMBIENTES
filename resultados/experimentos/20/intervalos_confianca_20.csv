@@ -1,0 +1,157 @@
+﻿escopo,modelo_ou_comparacao,metrica,estimativa,ic95_inferior,ic95_superior,replicas_validas,replicas_previstas,numerador,denominador,gt_avaliaveis,suporte_reduzido,estimando_primario,unidade
+global,baseline,precision,0.5251141552511416,0.45264121053206596,0.6,2000,2000,115,219,1292,False,False,proporcao
+global,baseline,recall,0.5203619909502263,0.4540972355232076,0.5894804318488528,2000,2000,115,221,1292,False,True,proporcao
+global,baseline,f1,0.5227272727272727,0.4602272727272727,0.5811158709463794,2000,2000,230,440,1292,False,False,proporcao
+global,baseline,taxa_alta_sem_alerta,0.4434782608695652,0.3543108247832657,0.5360895032802249,2000,2000,51,115,1292,False,False,proporcao
+global,candidato_10,precision,0.5726495726495726,0.49504700470047003,0.6565766359244619,2000,2000,134,234,1292,False,False,proporcao
+global,candidato_10,recall,0.6063348416289592,0.5364764907569473,0.67700514719162,2000,2000,134,221,1292,False,False,proporcao
+global,candidato_10,f1,0.589010989010989,0.5236836101236271,0.6515848444641015,2000,2000,268,455,1292,False,False,proporcao
+global,candidato_10,taxa_alta_sem_alerta,0.2956521739130435,0.2136574074074074,0.38319634512683565,2000,2000,34,115,1292,False,False,proporcao
+global,delta_candidato10_menos_baseline,precision,0.047535417398431035,-0.006644330846458532,0.10814723459682016,2000,2000,,,1292,False,False,diferenca_de_proporcoes
+global,delta_candidato10_menos_baseline,recall,0.08597285067873295,0.03829381536242342,0.14019101492047875,2000,2000,,,1292,False,True,diferenca_de_proporcoes
+global,delta_candidato10_menos_baseline,f1,0.06628371628371632,0.021729041935377936,0.1137668210342628,2000,2000,,,1292,False,False,diferenca_de_proporcoes
+global,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,-0.14782608695652172,-0.23257751937984497,-0.06422018348623854,2000,2000,,,1292,False,False,diferenca_de_proporcoes
+bed,baseline,precision,0.9090909090909091,0.7,1.0,2000,2000,10,11,15,True,False,proporcao
+bed,baseline,recall,0.6666666666666666,0.4166666666666667,0.9411764705882353,2000,2000,10,15,15,True,False,proporcao
+bed,baseline,f1,0.7692307692307693,0.5333333333333333,0.9696969696969697,2000,2000,20,26,15,True,False,proporcao
+bed,baseline,taxa_alta_sem_alerta,0.3076923076923077,0.0625,0.5555555555555556,2000,2000,4,13,15,True,False,proporcao
+bed,candidato_10,precision,0.6666666666666666,0.45454545454545453,0.8948684210526309,2000,2000,12,18,15,True,False,proporcao
+bed,candidato_10,recall,0.8,0.631578947368421,1.0,2000,2000,12,15,15,True,False,proporcao
+bed,candidato_10,f1,0.7272727272727273,0.5641025641025641,0.8888888888888888,2000,2000,24,33,15,True,False,proporcao
+bed,candidato_10,taxa_alta_sem_alerta,0.23076923076923078,0.0,0.45454545454545453,2000,2000,3,13,15,True,False,proporcao
+bed,delta_candidato10_menos_baseline,precision,-0.24242424242424243,-0.5,0.06681818181818108,2000,2000,,,15,True,False,diferenca_de_proporcoes
+bed,delta_candidato10_menos_baseline,recall,0.13333333333333341,0.0,0.3078124999999994,2000,2000,,,15,True,False,diferenca_de_proporcoes
+bed,delta_candidato10_menos_baseline,f1,-0.04195804195804198,-0.25210084033613445,0.18181818181818188,2000,2000,,,15,True,False,diferenca_de_proporcoes
+bed,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,-0.07692307692307693,-0.2632456140350877,0.0,2000,2000,,,15,True,False,diferenca_de_proporcoes
+sofa,baseline,precision,0.5714285714285714,0.26666666666666666,0.8571428571428571,2000,2000,8,14,11,True,False,proporcao
+sofa,baseline,recall,0.8888888888888888,0.6666666666666666,1.0,1999,2000,8,9,11,True,False,proporcao
+sofa,baseline,f1,0.6956521739130435,0.4,0.8888888888888888,2000,2000,16,23,11,True,False,proporcao
+sofa,baseline,taxa_alta_sem_alerta,0.0,0.0,0.0,1999,2000,0,7,11,True,False,proporcao
+sofa,candidato_10,precision,0.6666666666666666,0.25,1.0,2000,2000,6,9,11,True,False,proporcao
+sofa,candidato_10,recall,0.6666666666666666,0.3333333333333333,1.0,1999,2000,6,9,11,True,False,proporcao
+sofa,candidato_10,f1,0.6666666666666666,0.2857142857142857,0.9,2000,2000,12,18,11,True,False,proporcao
+sofa,candidato_10,taxa_alta_sem_alerta,0.2857142857142857,0.0,0.6666666666666666,1999,2000,2,7,11,True,False,proporcao
+sofa,delta_candidato10_menos_baseline,precision,0.09523809523809523,-0.1294502801120448,0.4,2000,2000,,,11,True,False,diferenca_de_proporcoes
+sofa,delta_candidato10_menos_baseline,recall,-0.2222222222222222,-0.6666666666666667,0.0,1999,2000,,,11,True,False,diferenca_de_proporcoes
+sofa,delta_candidato10_menos_baseline,f1,-0.02898550724637683,-0.29836523125996806,0.20324197860962542,2000,2000,,,11,True,False,diferenca_de_proporcoes
+sofa,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,0.2857142857142857,0.0,0.6666666666666666,1999,2000,,,11,True,False,diferenca_de_proporcoes
+chair,baseline,precision,0.6428571428571429,0.5,0.8043883841661257,2000,2000,36,56,82,False,False,proporcao
+chair,baseline,recall,0.5901639344262295,0.45454545454545453,0.7636363636363637,2000,2000,36,61,82,False,False,proporcao
+chair,baseline,f1,0.6153846153846154,0.4917963323145318,0.7625973448045688,2000,2000,72,117,82,False,False,proporcao
+chair,baseline,taxa_alta_sem_alerta,0.30434782608695654,0.125,0.5263931888544887,2000,2000,7,23,82,False,False,proporcao
+chair,candidato_10,precision,0.5538461538461539,0.41301150895140665,0.7142857142857143,2000,2000,36,65,82,False,False,proporcao
+chair,candidato_10,recall,0.5901639344262295,0.46937181122448984,0.7414162561576353,2000,2000,36,61,82,False,False,proporcao
+chair,candidato_10,f1,0.5714285714285714,0.45652173913043476,0.7015084153699587,2000,2000,72,126,82,False,False,proporcao
+chair,candidato_10,taxa_alta_sem_alerta,0.34782608695652173,0.15618990384615386,0.5833333333333334,2000,2000,8,23,82,False,False,proporcao
+chair,delta_candidato10_menos_baseline,precision,-0.08901098901098903,-0.1744832158232982,-0.023243408652169,2000,2000,,,82,False,False,diferenca_de_proporcoes
+chair,delta_candidato10_menos_baseline,recall,0.0,-0.05555555555555558,0.03508771929824561,2000,2000,,,82,False,False,diferenca_de_proporcoes
+chair,delta_candidato10_menos_baseline,f1,-0.04395604395604402,-0.1069520360170355,0.00035398955694243073,2000,2000,,,82,False,False,diferenca_de_proporcoes
+chair,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,0.04347826086956519,0.0,0.16000000000000003,2000,2000,,,82,False,False,diferenca_de_proporcoes
+table,baseline,precision,0.4819277108433735,0.35649299317283506,0.6250376506024095,2000,2000,40,83,135,False,False,proporcao
+table,baseline,recall,0.3883495145631068,0.29896907216494845,0.483917050691244,2000,2000,40,103,135,False,False,proporcao
+table,baseline,f1,0.43010752688172044,0.33982325324496,0.5277813028764805,2000,2000,80,186,135,False,False,proporcao
+table,baseline,taxa_alta_sem_alerta,0.660377358490566,0.5305822328931573,0.78,2000,2000,35,53,135,False,False,proporcao
+table,candidato_10,precision,0.5686274509803921,0.4403652608517048,0.7096774193548387,2000,2000,58,102,135,False,False,proporcao
+table,candidato_10,recall,0.5631067961165048,0.4615217391304348,0.6860522115823073,2000,2000,58,103,135,False,False,proporcao
+table,candidato_10,f1,0.5658536585365853,0.46294444444444444,0.6774237616781243,2000,2000,116,205,135,False,False,proporcao
+table,candidato_10,taxa_alta_sem_alerta,0.33962264150943394,0.21151315789473685,0.47058823529411764,2000,2000,18,53,135,False,False,proporcao
+table,delta_candidato10_menos_baseline,precision,0.08669974013701864,0.009170626882225648,0.1717460160407534,2000,2000,,,135,False,False,diferenca_de_proporcoes
+table,delta_candidato10_menos_baseline,recall,0.17475728155339804,0.08490166293572117,0.2870393289328933,2000,2000,,,135,False,False,diferenca_de_proporcoes
+table,delta_candidato10_menos_baseline,f1,0.13574613165486488,0.06383642514749757,0.22693462987475815,2000,2000,,,135,False,False,diferenca_de_proporcoes
+table,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,-0.32075471698113206,-0.47058823529411764,-0.17739563567362449,2000,2000,,,135,False,False,diferenca_de_proporcoes
+lamp,baseline,precision,,,,0,2000,0,0,11,True,False,proporcao
+lamp,baseline,recall,,,,0,2000,0,0,11,True,False,proporcao
+lamp,baseline,f1,,,,0,2000,0,0,11,True,False,proporcao
+lamp,baseline,taxa_alta_sem_alerta,,,,0,2000,0,0,11,True,False,proporcao
+lamp,candidato_10,precision,,,,0,2000,0,0,11,True,False,proporcao
+lamp,candidato_10,recall,,,,0,2000,0,0,11,True,False,proporcao
+lamp,candidato_10,f1,,,,0,2000,0,0,11,True,False,proporcao
+lamp,candidato_10,taxa_alta_sem_alerta,,,,0,2000,0,0,11,True,False,proporcao
+lamp,delta_candidato10_menos_baseline,precision,,,,0,2000,,,11,True,False,diferenca_de_proporcoes
+lamp,delta_candidato10_menos_baseline,recall,,,,0,2000,,,11,True,False,diferenca_de_proporcoes
+lamp,delta_candidato10_menos_baseline,f1,,,,0,2000,,,11,True,False,diferenca_de_proporcoes
+lamp,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,,,,0,2000,,,11,True,False,diferenca_de_proporcoes
+tv,baseline,precision,,,,0,2000,0,0,8,True,False,proporcao
+tv,baseline,recall,,,,0,2000,0,0,8,True,False,proporcao
+tv,baseline,f1,,,,0,2000,0,0,8,True,False,proporcao
+tv,baseline,taxa_alta_sem_alerta,,,,0,2000,0,0,8,True,False,proporcao
+tv,candidato_10,precision,,,,0,2000,0,0,8,True,False,proporcao
+tv,candidato_10,recall,,,,0,2000,0,0,8,True,False,proporcao
+tv,candidato_10,f1,,,,0,2000,0,0,8,True,False,proporcao
+tv,candidato_10,taxa_alta_sem_alerta,,,,0,2000,0,0,8,True,False,proporcao
+tv,delta_candidato10_menos_baseline,precision,,,,0,2000,,,8,True,False,diferenca_de_proporcoes
+tv,delta_candidato10_menos_baseline,recall,,,,0,2000,,,8,True,False,diferenca_de_proporcoes
+tv,delta_candidato10_menos_baseline,f1,,,,0,2000,,,8,True,False,diferenca_de_proporcoes
+tv,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,,,,0,2000,,,8,True,False,diferenca_de_proporcoes
+laptop,baseline,precision,,,,0,2000,0,0,12,True,False,proporcao
+laptop,baseline,recall,,,,0,2000,0,0,12,True,False,proporcao
+laptop,baseline,f1,,,,0,2000,0,0,12,True,False,proporcao
+laptop,baseline,taxa_alta_sem_alerta,,,,0,2000,0,0,12,True,False,proporcao
+laptop,candidato_10,precision,,,,0,2000,0,0,12,True,False,proporcao
+laptop,candidato_10,recall,,,,0,2000,0,0,12,True,False,proporcao
+laptop,candidato_10,f1,,,,0,2000,0,0,12,True,False,proporcao
+laptop,candidato_10,taxa_alta_sem_alerta,,,,0,2000,0,0,12,True,False,proporcao
+laptop,delta_candidato10_menos_baseline,precision,,,,0,2000,,,12,True,False,diferenca_de_proporcoes
+laptop,delta_candidato10_menos_baseline,recall,,,,0,2000,,,12,True,False,diferenca_de_proporcoes
+laptop,delta_candidato10_menos_baseline,f1,,,,0,2000,,,12,True,False,diferenca_de_proporcoes
+laptop,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,,,,0,2000,,,12,True,False,diferenca_de_proporcoes
+wardrobe,baseline,precision,0.0,0.0,0.0,1715,2000,0,2,1,True,False,proporcao
+wardrobe,baseline,recall,0.0,0.0,0.0,1271,2000,0,1,1,True,False,proporcao
+wardrobe,baseline,f1,0.0,0.0,0.0,1908,2000,0,3,1,True,False,proporcao
+wardrobe,baseline,taxa_alta_sem_alerta,1.0,1.0,1.0,1271,2000,1,1,1,True,False,proporcao
+wardrobe,candidato_10,precision,,,,0,2000,0,0,1,True,False,proporcao
+wardrobe,candidato_10,recall,0.0,0.0,0.0,1271,2000,0,1,1,True,False,proporcao
+wardrobe,candidato_10,f1,0.0,0.0,0.0,1271,2000,0,1,1,True,False,proporcao
+wardrobe,candidato_10,taxa_alta_sem_alerta,1.0,1.0,1.0,1271,2000,1,1,1,True,False,proporcao
+wardrobe,delta_candidato10_menos_baseline,precision,,,,0,2000,,,1,True,False,diferenca_de_proporcoes
+wardrobe,delta_candidato10_menos_baseline,recall,0.0,0.0,0.0,1271,2000,,,1,True,False,diferenca_de_proporcoes
+wardrobe,delta_candidato10_menos_baseline,f1,0.0,0.0,0.0,1271,2000,,,1,True,False,diferenca_de_proporcoes
+wardrobe,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,0.0,0.0,0.0,1271,2000,,,1,True,False,diferenca_de_proporcoes
+window,baseline,precision,,,,0,2000,0,0,912,False,False,proporcao
+window,baseline,recall,,,,0,2000,0,0,912,False,False,proporcao
+window,baseline,f1,,,,0,2000,0,0,912,False,False,proporcao
+window,baseline,taxa_alta_sem_alerta,,,,0,2000,0,0,912,False,False,proporcao
+window,candidato_10,precision,,,,0,2000,0,0,912,False,False,proporcao
+window,candidato_10,recall,,,,0,2000,0,0,912,False,False,proporcao
+window,candidato_10,f1,,,,0,2000,0,0,912,False,False,proporcao
+window,candidato_10,taxa_alta_sem_alerta,,,,0,2000,0,0,912,False,False,proporcao
+window,delta_candidato10_menos_baseline,precision,,,,0,2000,,,912,False,False,diferenca_de_proporcoes
+window,delta_candidato10_menos_baseline,recall,,,,0,2000,,,912,False,False,diferenca_de_proporcoes
+window,delta_candidato10_menos_baseline,f1,,,,0,2000,,,912,False,False,diferenca_de_proporcoes
+window,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,,,,0,2000,,,912,False,False,diferenca_de_proporcoes
+door,baseline,precision,,,,0,2000,0,0,38,False,False,proporcao
+door,baseline,recall,,,,0,2000,0,0,38,False,False,proporcao
+door,baseline,f1,,,,0,2000,0,0,38,False,False,proporcao
+door,baseline,taxa_alta_sem_alerta,,,,0,2000,0,0,38,False,False,proporcao
+door,candidato_10,precision,,,,0,2000,0,0,38,False,False,proporcao
+door,candidato_10,recall,,,,0,2000,0,0,38,False,False,proporcao
+door,candidato_10,f1,,,,0,2000,0,0,38,False,False,proporcao
+door,candidato_10,taxa_alta_sem_alerta,,,,0,2000,0,0,38,False,False,proporcao
+door,delta_candidato10_menos_baseline,precision,,,,0,2000,,,38,False,False,diferenca_de_proporcoes
+door,delta_candidato10_menos_baseline,recall,,,,0,2000,,,38,False,False,diferenca_de_proporcoes
+door,delta_candidato10_menos_baseline,f1,,,,0,2000,,,38,False,False,diferenca_de_proporcoes
+door,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,,,,0,2000,,,38,False,False,diferenca_de_proporcoes
+potted plant,baseline,precision,0.39622641509433965,0.30612244897959184,0.5,2000,2000,21,53,60,False,False,proporcao
+potted plant,baseline,recall,0.65625,0.4650737379466818,0.875,2000,2000,21,32,60,False,False,proporcao
+potted plant,baseline,f1,0.49411764705882355,0.4,0.6,2000,2000,42,85,60,False,False,proporcao
+potted plant,baseline,taxa_alta_sem_alerta,0.2222222222222222,0.05256578947368421,0.4444444444444444,2000,2000,4,18,60,False,False,proporcao
+potted plant,candidato_10,precision,0.55,0.4062127976190476,0.7073424796747966,2000,2000,22,40,60,False,False,proporcao
+potted plant,candidato_10,recall,0.6875,0.4878048780487805,0.9090909090909091,2000,2000,22,32,60,False,False,proporcao
+potted plant,candidato_10,f1,0.6111111111111112,0.47220911949685535,0.7442088463292292,2000,2000,44,72,60,False,False,proporcao
+potted plant,candidato_10,taxa_alta_sem_alerta,0.1111111111111111,0.0,0.2857142857142857,2000,2000,2,18,60,False,False,proporcao
+potted plant,delta_candidato10_menos_baseline,precision,0.1537735849056604,-0.011432712215320936,0.3178958944281524,2000,2000,,,60,False,False,diferenca_de_proporcoes
+potted plant,delta_candidato10_menos_baseline,recall,0.03125,-0.08000000000000007,0.14814814814814814,2000,2000,,,60,False,False,diferenca_de_proporcoes
+potted plant,delta_candidato10_menos_baseline,f1,0.11699346405228761,-0.01899068757257357,0.24434567434897447,2000,2000,,,60,False,False,diferenca_de_proporcoes
+potted plant,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,-0.1111111111111111,-0.2857142857142857,0.0,2000,2000,,,60,False,False,diferenca_de_proporcoes
+photo frame,baseline,precision,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,baseline,recall,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,baseline,f1,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,baseline,taxa_alta_sem_alerta,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,candidato_10,precision,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,candidato_10,recall,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,candidato_10,f1,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,candidato_10,taxa_alta_sem_alerta,,,,0,2000,0,0,7,True,False,proporcao
+photo frame,delta_candidato10_menos_baseline,precision,,,,0,2000,,,7,True,False,diferenca_de_proporcoes
+photo frame,delta_candidato10_menos_baseline,recall,,,,0,2000,,,7,True,False,diferenca_de_proporcoes
+photo frame,delta_candidato10_menos_baseline,f1,,,,0,2000,,,7,True,False,diferenca_de_proporcoes
+photo frame,delta_candidato10_menos_baseline,taxa_alta_sem_alerta,,,,0,2000,,,7,True,False,diferenca_de_proporcoes

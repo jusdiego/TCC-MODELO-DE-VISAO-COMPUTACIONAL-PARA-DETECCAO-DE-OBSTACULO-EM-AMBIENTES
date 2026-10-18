@@ -1,0 +1,5961 @@
+{
+  "version": "23-nyuv2-yolov8s-v1",
+  "completed": true,
+  "status": "concluido_meta_nao_atingida_teste",
+  "run": {
+    "completed": true,
+    "epochs": 56,
+    "status": "completed",
+    "reason": "early_stopping",
+    "resumed_from": null
+  },
+  "context": "e07346585506a2db3229645f72d287e7fa9680aa2ffed7b4ddc1514a8090d1b9",
+  "dataset_id": "b174f1c72bb9403a5cc1498ffa7b5c38cfa1a5cdfc3c54a79a9b679724521fd1",
+  "classes": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "door",
+    "window"
+  ],
+  "class_names_pt": [
+    "Cama",
+    "Sofá",
+    "Cadeira",
+    "Mesa",
+    "Porta",
+    "Janela"
+  ],
+  "old_project_class_ids": [
+    0,
+    1,
+    2,
+    3,
+    9,
+    8
+  ],
+  "model": "yolov8s",
+  "best_epoch": 41,
+  "weight_sha256": "0d87f63e1487c9dd97ce7874b9cd9d9f66ca2862f7d030e738b956ba191d3427",
+  "threshold": 0.25,
+  "goal": {
+    "precision": 0.8,
+    "recall": 0.7
+  },
+  "validation": {
+    "images": 161,
+    "threshold": 0.25,
+    "detector": {
+      "tp": 242,
+      "fn": 293,
+      "fp": 220,
+      "precision": 0.5238095238095238,
+      "recall": 0.4523364485981308,
+      "f1": 0.485456369107322
+    },
+    "fitness": 0.6461954120251274,
+    "target_met": false,
+    "classes": [
+      {
+        "class_id": 0,
+        "class": "bed",
+        "gt": 38,
+        "tp": 21,
+        "fn": 17,
+        "fp": 6,
+        "precision": 0.7777777777777778,
+        "recall": 0.5526315789473685,
+        "f1": 0.6461538461538462
+      },
+      {
+        "class_id": 1,
+        "class": "sofa",
+        "gt": 55,
+        "tp": 30,
+        "fn": 25,
+        "fp": 26,
+        "precision": 0.5357142857142857,
+        "recall": 0.5454545454545454,
+        "f1": 0.5405405405405406
+      },
+      {
+        "class_id": 2,
+        "class": "chair",
+        "gt": 236,
+        "tp": 119,
+        "fn": 117,
+        "fp": 84,
+        "precision": 0.5862068965517241,
+        "recall": 0.5042372881355932,
+        "f1": 0.5421412300683371
+      },
+      {
+        "class_id": 3,
+        "class": "table",
+        "gt": 88,
+        "tp": 31,
+        "fn": 57,
+        "fp": 43,
+        "precision": 0.4189189189189189,
+        "recall": 0.3522727272727273,
+        "f1": 0.38271604938271603
+      },
+      {
+        "class_id": 4,
+        "class": "door",
+        "gt": 47,
+        "tp": 17,
+        "fn": 30,
+        "fp": 24,
+        "precision": 0.4146341463414634,
+        "recall": 0.3617021276595745,
+        "f1": 0.38636363636363635
+      },
+      {
+        "class_id": 5,
+        "class": "window",
+        "gt": 71,
+        "tp": 24,
+        "fn": 47,
+        "fp": 37,
+        "precision": 0.39344262295081966,
+        "recall": 0.3380281690140845,
+        "f1": 0.36363636363636365
+      }
+    ],
+    "image_rows": [
+      {
+        "id": "nyu_00005",
+        "scene_group": "office_0004",
+        "tp": 4,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00006",
+        "scene_group": "office_0004",
+        "tp": 6,
+        "fn": 4,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00007",
+        "scene_group": "office_0004",
+        "tp": 7,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00008",
+        "scene_group": "office_0004",
+        "tp": 0,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00049",
+        "scene_group": "bathroom_0006",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00064",
+        "scene_group": "bedroom_0014",
+        "tp": 0,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00065",
+        "scene_group": "bedroom_0014",
+        "tp": 0,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00066",
+        "scene_group": "bedroom_0014",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00068",
+        "scene_group": "bedroom_0016",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00069",
+        "scene_group": "bedroom_0016",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00070",
+        "scene_group": "bedroom_0016",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00071",
+        "scene_group": "bedroom_0016",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00072",
+        "scene_group": "bedroom_0016",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00080",
+        "scene_group": "bedroom_0019",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00081",
+        "scene_group": "bedroom_0019",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00082",
+        "scene_group": "bedroom_0019",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00083",
+        "scene_group": "bedroom_0019",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00130",
+        "scene_group": "kitchen_0006",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00156",
+        "scene_group": "living_room_0010",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00157",
+        "scene_group": "living_room_0010",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00158",
+        "scene_group": "living_room_0010",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00159",
+        "scene_group": "living_room_0010",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00260",
+        "scene_group": "living_room_0020",
+        "tp": 2,
+        "fn": 5,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00261",
+        "scene_group": "living_room_0020",
+        "tp": 3,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00262",
+        "scene_group": "living_room_0020",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00263",
+        "scene_group": "living_room_0020",
+        "tp": 2,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00276",
+        "scene_group": "study_room_0005",
+        "tp": 13,
+        "fn": 2,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00277",
+        "scene_group": "study_room_0005",
+        "tp": 3,
+        "fn": 6,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00278",
+        "scene_group": "study_room_0005",
+        "tp": 5,
+        "fn": 11,
+        "fp": 7
+      },
+      {
+        "id": "nyu_00286",
+        "scene_group": "classroom_0003",
+        "tp": 5,
+        "fn": 6,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00287",
+        "scene_group": "classroom_0003",
+        "tp": 9,
+        "fn": 8,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00292",
+        "scene_group": "classroom_0006",
+        "tp": 6,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00293",
+        "scene_group": "classroom_0006",
+        "tp": 6,
+        "fn": 10,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00294",
+        "scene_group": "classroom_0006",
+        "tp": 2,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00295",
+        "scene_group": "classroom_0006",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00321",
+        "scene_group": "classroom_0022",
+        "tp": 2,
+        "fn": 15,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00322",
+        "scene_group": "classroom_0022",
+        "tp": 3,
+        "fn": 7,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00323",
+        "scene_group": "classroom_0022",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00324",
+        "scene_group": "classroom_0022",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00342",
+        "scene_group": "conference_room_0002",
+        "tp": 3,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00343",
+        "scene_group": "conference_room_0002",
+        "tp": 1,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00348",
+        "scene_group": "excercise_room_0001",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00349",
+        "scene_group": "excercise_room_0001",
+        "tp": 0,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00350",
+        "scene_group": "excercise_room_0001",
+        "tp": 2,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00372",
+        "scene_group": "home_office_0006",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00373",
+        "scene_group": "home_office_0006",
+        "tp": 1,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00374",
+        "scene_group": "home_office_0006",
+        "tp": 0,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00375",
+        "scene_group": "home_office_0006",
+        "tp": 5,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00376",
+        "scene_group": "home_office_0006",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00380",
+        "scene_group": "home_office_0008",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00381",
+        "scene_group": "home_office_0008",
+        "tp": 2,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00382",
+        "scene_group": "home_office_0008",
+        "tp": 3,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00383",
+        "scene_group": "home_office_0008",
+        "tp": 2,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00421",
+        "scene_group": "playroom_0003",
+        "tp": 3,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00422",
+        "scene_group": "playroom_0003",
+        "tp": 1,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00423",
+        "scene_group": "playroom_0003",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00424",
+        "scene_group": "playroom_0003",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00425",
+        "scene_group": "playroom_0003",
+        "tp": 3,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00426",
+        "scene_group": "playroom_0004",
+        "tp": 1,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00427",
+        "scene_group": "playroom_0004",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00428",
+        "scene_group": "playroom_0004",
+        "tp": 0,
+        "fn": 5,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00429",
+        "scene_group": "playroom_0004",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00449",
+        "scene_group": "printer_room_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00450",
+        "scene_group": "printer_room_0001",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00451",
+        "scene_group": "printer_room_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00490",
+        "scene_group": "basement_0001",
+        "tp": 0,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00491",
+        "scene_group": "basement_0001",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00492",
+        "scene_group": "basement_0001",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00493",
+        "scene_group": "basement_0001",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00494",
+        "scene_group": "basement_0001",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00495",
+        "scene_group": "basement_0001",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00496",
+        "scene_group": "basement_0001",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00514",
+        "scene_group": "bedroom_0132",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00584",
+        "scene_group": "living_room_0082",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00585",
+        "scene_group": "living_room_0082",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00586",
+        "scene_group": "living_room_0082",
+        "tp": 3,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00587",
+        "scene_group": "living_room_0082",
+        "tp": 2,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00597",
+        "scene_group": "living_room_0086",
+        "tp": 2,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00598",
+        "scene_group": "living_room_0086",
+        "tp": 2,
+        "fn": 4,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00599",
+        "scene_group": "living_room_0086",
+        "tp": 2,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00600",
+        "scene_group": "living_room_0086",
+        "tp": 4,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00601",
+        "scene_group": "living_room_0086",
+        "tp": 1,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00602",
+        "scene_group": "living_room_0086",
+        "tp": 0,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00624",
+        "scene_group": "office_0024",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00625",
+        "scene_group": "office_0024",
+        "tp": 4,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00626",
+        "scene_group": "office_0024",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00627",
+        "scene_group": "office_0024",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00628",
+        "scene_group": "office_0025",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00629",
+        "scene_group": "office_0025",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00646",
+        "scene_group": "study_0008",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00647",
+        "scene_group": "study_0008",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00648",
+        "scene_group": "bathroom_0007",
+        "tp": 0,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00649",
+        "scene_group": "bathroom_0007",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00654",
+        "scene_group": "bathroom_0011",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00655",
+        "scene_group": "bathroom_0011",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00684",
+        "scene_group": "bathroom_0024",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00685",
+        "scene_group": "bathroom_0024",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00700",
+        "scene_group": "bathroom_0033",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00701",
+        "scene_group": "bathroom_0033",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00735",
+        "scene_group": "bathroom_0048",
+        "tp": 0,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00736",
+        "scene_group": "bathroom_0048",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00872",
+        "scene_group": "kitchen_0047",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00873",
+        "scene_group": "kitchen_0047",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00874",
+        "scene_group": "kitchen_0047",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00875",
+        "scene_group": "kitchen_0047",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00876",
+        "scene_group": "kitchen_0048",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00877",
+        "scene_group": "kitchen_0048",
+        "tp": 2,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00878",
+        "scene_group": "kitchen_0048",
+        "tp": 3,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00879",
+        "scene_group": "kitchen_0048",
+        "tp": 4,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00909",
+        "scene_group": "bedroom_0025",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00910",
+        "scene_group": "bedroom_0025",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00911",
+        "scene_group": "bedroom_0025",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00912",
+        "scene_group": "bedroom_0025",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00938",
+        "scene_group": "bedroom_0034",
+        "tp": 0,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00939",
+        "scene_group": "bedroom_0034",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00940",
+        "scene_group": "bedroom_0034",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00986",
+        "scene_group": "bedroom_0052",
+        "tp": 3,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00987",
+        "scene_group": "bedroom_0052",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00988",
+        "scene_group": "bedroom_0052",
+        "tp": 2,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01024",
+        "scene_group": "bedroom_0065",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01025",
+        "scene_group": "bedroom_0065",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01026",
+        "scene_group": "bedroom_0065",
+        "tp": 3,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01085",
+        "scene_group": "bedroom_0086",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01086",
+        "scene_group": "bedroom_0086",
+        "tp": 0,
+        "fn": 5,
+        "fp": 7
+      },
+      {
+        "id": "nyu_01087",
+        "scene_group": "bedroom_0086",
+        "tp": 2,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01097",
+        "scene_group": "bedroom_0090",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01110",
+        "scene_group": "bedroom_0096",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01111",
+        "scene_group": "bedroom_0096",
+        "tp": 0,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01112",
+        "scene_group": "bedroom_0096",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01113",
+        "scene_group": "bedroom_0097",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01114",
+        "scene_group": "bedroom_0097",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01120",
+        "scene_group": "bedroom_0100",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01121",
+        "scene_group": "bedroom_0100",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01122",
+        "scene_group": "bedroom_0100",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01168",
+        "scene_group": "bedroom_0116",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01169",
+        "scene_group": "bedroom_0116",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01241",
+        "scene_group": "living_room_0039",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01242",
+        "scene_group": "living_room_0039",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01243",
+        "scene_group": "living_room_0039",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01266",
+        "scene_group": "living_room_0046",
+        "tp": 3,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01267",
+        "scene_group": "living_room_0046",
+        "tp": 2,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01268",
+        "scene_group": "living_room_0046",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01269",
+        "scene_group": "living_room_0046",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01270",
+        "scene_group": "living_room_0046",
+        "tp": 0,
+        "fn": 1,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01281",
+        "scene_group": "living_room_0050",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01282",
+        "scene_group": "living_room_0050",
+        "tp": 0,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01283",
+        "scene_group": "living_room_0050",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01284",
+        "scene_group": "living_room_0050",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01312",
+        "scene_group": "living_room_0063",
+        "tp": 3,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01313",
+        "scene_group": "living_room_0063",
+        "tp": 0,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01320",
+        "scene_group": "living_room_0069",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01321",
+        "scene_group": "living_room_0069",
+        "tp": 1,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01322",
+        "scene_group": "living_room_0069",
+        "tp": 1,
+        "fn": 2,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01323",
+        "scene_group": "living_room_0069",
+        "tp": 1,
+        "fn": 4,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01324",
+        "scene_group": "living_room_0070",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01325",
+        "scene_group": "living_room_0070",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01326",
+        "scene_group": "living_room_0070",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01357",
+        "scene_group": "dining_room_0007",
+        "tp": 3,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01358",
+        "scene_group": "dining_room_0007",
+        "tp": 0,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01359",
+        "scene_group": "dining_room_0007",
+        "tp": 4,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01360",
+        "scene_group": "dining_room_0007",
+        "tp": 1,
+        "fn": 2,
+        "fp": 3
+      }
+    ]
+  },
+  "test": {
+    "images": 654,
+    "threshold": 0.25,
+    "detector": {
+      "tp": 1070,
+      "fn": 1058,
+      "fp": 899,
+      "precision": 0.5434230573895379,
+      "recall": 0.5028195488721805,
+      "f1": 0.5223334146936783
+    },
+    "fitness": 0.6792793440703371,
+    "target_met": false,
+    "classes": [
+      {
+        "class_id": 0,
+        "class": "bed",
+        "gt": 167,
+        "tp": 111,
+        "fn": 56,
+        "fp": 42,
+        "precision": 0.7254901960784313,
+        "recall": 0.6646706586826348,
+        "f1": 0.69375
+      },
+      {
+        "class_id": 1,
+        "class": "sofa",
+        "gt": 243,
+        "tp": 124,
+        "fn": 119,
+        "fp": 74,
+        "precision": 0.6262626262626263,
+        "recall": 0.5102880658436214,
+        "f1": 0.562358276643991
+      },
+      {
+        "class_id": 2,
+        "class": "chair",
+        "gt": 883,
+        "tp": 523,
+        "fn": 360,
+        "fp": 316,
+        "precision": 0.6233611442193087,
+        "recall": 0.5922989807474519,
+        "f1": 0.6074332171893148
+      },
+      {
+        "class_id": 3,
+        "class": "table",
+        "gt": 321,
+        "tp": 138,
+        "fn": 183,
+        "fp": 190,
+        "precision": 0.42073170731707316,
+        "recall": 0.42990654205607476,
+        "f1": 0.4252696456086287
+      },
+      {
+        "class_id": 4,
+        "class": "door",
+        "gt": 239,
+        "tp": 83,
+        "fn": 156,
+        "fp": 116,
+        "precision": 0.41708542713567837,
+        "recall": 0.3472803347280335,
+        "f1": 0.3789954337899543
+      },
+      {
+        "class_id": 5,
+        "class": "window",
+        "gt": 275,
+        "tp": 91,
+        "fn": 184,
+        "fp": 161,
+        "precision": 0.3611111111111111,
+        "recall": 0.33090909090909093,
+        "f1": 0.34535104364326374
+      }
+    ],
+    "image_rows": [
+      {
+        "id": "nyu_00001",
+        "scene_group": "kitchen_0004",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00002",
+        "scene_group": "kitchen_0004",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00009",
+        "scene_group": "office_0005",
+        "tp": 3,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00014",
+        "scene_group": "office_0007",
+        "tp": 2,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00015",
+        "scene_group": "office_0008",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00016",
+        "scene_group": "office_0008",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00017",
+        "scene_group": "office_0008",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00018",
+        "scene_group": "office_0008",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00021",
+        "scene_group": "office_0010",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00028",
+        "scene_group": "office_0013",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00029",
+        "scene_group": "office_0013",
+        "tp": 0,
+        "fn": 7,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00030",
+        "scene_group": "office_0013",
+        "tp": 0,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00031",
+        "scene_group": "office_0013",
+        "tp": 3,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00032",
+        "scene_group": "office_0013",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00033",
+        "scene_group": "office_0013",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00034",
+        "scene_group": "office_0013",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00035",
+        "scene_group": "office_0014",
+        "tp": 2,
+        "fn": 4,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00036",
+        "scene_group": "office_0014",
+        "tp": 0,
+        "fn": 9,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00037",
+        "scene_group": "office_0014",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00038",
+        "scene_group": "office_0014",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00039",
+        "scene_group": "office_0015",
+        "tp": 3,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00040",
+        "scene_group": "office_0015",
+        "tp": 4,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00041",
+        "scene_group": "office_0015",
+        "tp": 4,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00042",
+        "scene_group": "office_0015",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00043",
+        "scene_group": "office_0015",
+        "tp": 1,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00046",
+        "scene_group": "bathroom_0003",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00047",
+        "scene_group": "bathroom_0004",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00056",
+        "scene_group": "bedroom_0011",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00057",
+        "scene_group": "bedroom_0011",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00059",
+        "scene_group": "bedroom_0013",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00060",
+        "scene_group": "bedroom_0013",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00061",
+        "scene_group": "bedroom_0013",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00062",
+        "scene_group": "bedroom_0013",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00063",
+        "scene_group": "bedroom_0013",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00076",
+        "scene_group": "bedroom_0018",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00077",
+        "scene_group": "bedroom_0018",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00078",
+        "scene_group": "bedroom_0018",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00079",
+        "scene_group": "bedroom_0018",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00084",
+        "scene_group": "bookstore_0001",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00085",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00086",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00087",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00088",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00089",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00090",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00091",
+        "scene_group": "bookstore_0001",
+        "tp": 0,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00117",
+        "scene_group": "bookstore_0001",
+        "tp": 6,
+        "fn": 8,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00118",
+        "scene_group": "bookstore_0001",
+        "tp": 5,
+        "fn": 6,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00119",
+        "scene_group": "bookstore_0001",
+        "tp": 3,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00125",
+        "scene_group": "kitchen_0005",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00126",
+        "scene_group": "kitchen_0005",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00127",
+        "scene_group": "kitchen_0005",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00128",
+        "scene_group": "kitchen_0005",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00129",
+        "scene_group": "kitchen_0005",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00131",
+        "scene_group": "kitchen_0007",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00132",
+        "scene_group": "kitchen_0007",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00133",
+        "scene_group": "kitchen_0007",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00134",
+        "scene_group": "kitchen_0007",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00137",
+        "scene_group": "kitchen_0009",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00153",
+        "scene_group": "living_room_0008",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00154",
+        "scene_group": "living_room_0008",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00155",
+        "scene_group": "living_room_0009",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00167",
+        "scene_group": "living_room_0013",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00168",
+        "scene_group": "living_room_0013",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00169",
+        "scene_group": "living_room_0014",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00171",
+        "scene_group": "bedroom_0003",
+        "tp": 1,
+        "fn": 5,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00172",
+        "scene_group": "bedroom_0003",
+        "tp": 1,
+        "fn": 7,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00173",
+        "scene_group": "bedroom_0003",
+        "tp": 1,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00174",
+        "scene_group": "bedroom_0003",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00175",
+        "scene_group": "bedroom_0003",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00176",
+        "scene_group": "bedroom_0003",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00180",
+        "scene_group": "bedroom_0005",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00181",
+        "scene_group": "bedroom_0005",
+        "tp": 0,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00182",
+        "scene_group": "bedroom_0005",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00183",
+        "scene_group": "bedroom_0006",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00184",
+        "scene_group": "bedroom_0006",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00185",
+        "scene_group": "bedroom_0006",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00186",
+        "scene_group": "bedroom_0006",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00187",
+        "scene_group": "bedroom_0006",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00188",
+        "scene_group": "bedroom_0006",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00189",
+        "scene_group": "bedroom_0007",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00190",
+        "scene_group": "bedroom_0007",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00191",
+        "scene_group": "bedroom_0007",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00192",
+        "scene_group": "bedroom_0007",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00193",
+        "scene_group": "bedroom_0007",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00194",
+        "scene_group": "kitchen_0002",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00195",
+        "scene_group": "kitchen_0002",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00196",
+        "scene_group": "kitchen_0002",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00197",
+        "scene_group": "kitchen_0002",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00198",
+        "scene_group": "kitchen_0002",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00199",
+        "scene_group": "kitchen_0002",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00200",
+        "scene_group": "kitchen_0002",
+        "tp": 0,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00201",
+        "scene_group": "kitchen_0002",
+        "tp": 1,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00202",
+        "scene_group": "kitchen_0002",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00207",
+        "scene_group": "living_room_0002",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00208",
+        "scene_group": "living_room_0003",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00209",
+        "scene_group": "living_room_0003",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00210",
+        "scene_group": "living_room_0003",
+        "tp": 6,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00211",
+        "scene_group": "living_room_0003",
+        "tp": 6,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00212",
+        "scene_group": "living_room_0003",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00220",
+        "scene_group": "bedroom_0022",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00221",
+        "scene_group": "bedroom_0024",
+        "tp": 2,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00222",
+        "scene_group": "bedroom_0024",
+        "tp": 1,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00250",
+        "scene_group": "kitchen_0015",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00264",
+        "scene_group": "living_room_0021",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00271",
+        "scene_group": "office_0016",
+        "tp": 4,
+        "fn": 3,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00272",
+        "scene_group": "office_0017",
+        "tp": 3,
+        "fn": 1,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00273",
+        "scene_group": "study_room_0001",
+        "tp": 2,
+        "fn": 18,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00279",
+        "scene_group": "study_room_0006",
+        "tp": 4,
+        "fn": 6,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00280",
+        "scene_group": "bedroom_0131",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00281",
+        "scene_group": "bedroom_0131",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00282",
+        "scene_group": "bedroom_0131",
+        "tp": 0,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00283",
+        "scene_group": "bedroom_0131",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00284",
+        "scene_group": "classroom_0001",
+        "tp": 6,
+        "fn": 3,
+        "fp": 12
+      },
+      {
+        "id": "nyu_00285",
+        "scene_group": "classroom_0001",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00296",
+        "scene_group": "classroom_0007",
+        "tp": 2,
+        "fn": 8,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00297",
+        "scene_group": "classroom_0007",
+        "tp": 1,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00298",
+        "scene_group": "classroom_0007",
+        "tp": 1,
+        "fn": 5,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00299",
+        "scene_group": "classroom_0008",
+        "tp": 6,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00300",
+        "scene_group": "classroom_0008",
+        "tp": 5,
+        "fn": 8,
+        "fp": 8
+      },
+      {
+        "id": "nyu_00301",
+        "scene_group": "classroom_0009",
+        "tp": 0,
+        "fn": 2,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00302",
+        "scene_group": "classroom_0009",
+        "tp": 5,
+        "fn": 2,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00310",
+        "scene_group": "classroom_0014",
+        "tp": 4,
+        "fn": 6,
+        "fp": 9
+      },
+      {
+        "id": "nyu_00311",
+        "scene_group": "classroom_0014",
+        "tp": 2,
+        "fn": 5,
+        "fp": 10
+      },
+      {
+        "id": "nyu_00312",
+        "scene_group": "classroom_0015",
+        "tp": 5,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00315",
+        "scene_group": "classroom_0017",
+        "tp": 4,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00316",
+        "scene_group": "classroom_0017",
+        "tp": 9,
+        "fn": 4,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00317",
+        "scene_group": "classroom_0017",
+        "tp": 6,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00325",
+        "scene_group": "classroom_0023",
+        "tp": 0,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00326",
+        "scene_group": "classroom_0023",
+        "tp": 1,
+        "fn": 8,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00327",
+        "scene_group": "classroom_0023",
+        "tp": 4,
+        "fn": 9,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00328",
+        "scene_group": "classroom_0023",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00329",
+        "scene_group": "classroom_0024",
+        "tp": 6,
+        "fn": 13,
+        "fp": 8
+      },
+      {
+        "id": "nyu_00330",
+        "scene_group": "classroom_0024",
+        "tp": 10,
+        "fn": 8,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00331",
+        "scene_group": "classroom_0026",
+        "tp": 1,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00332",
+        "scene_group": "classroom_0026",
+        "tp": 12,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00333",
+        "scene_group": "computer_lab_0001",
+        "tp": 3,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00334",
+        "scene_group": "computer_lab_0001",
+        "tp": 4,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00335",
+        "scene_group": "computer_lab_0001",
+        "tp": 5,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00351",
+        "scene_group": "foyer_0001",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00352",
+        "scene_group": "foyer_0001",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00355",
+        "scene_group": "home_office_0001",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00356",
+        "scene_group": "home_office_0001",
+        "tp": 3,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00357",
+        "scene_group": "home_office_0001",
+        "tp": 2,
+        "fn": 3,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00358",
+        "scene_group": "home_office_0001",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00359",
+        "scene_group": "home_office_0002",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00360",
+        "scene_group": "home_office_0002",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00361",
+        "scene_group": "home_office_0002",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00362",
+        "scene_group": "home_office_0002",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00363",
+        "scene_group": "home_office_0003",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00364",
+        "scene_group": "home_office_0003",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00384",
+        "scene_group": "home_office_0009",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00385",
+        "scene_group": "home_office_0009",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00386",
+        "scene_group": "home_office_0009",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00387",
+        "scene_group": "home_office_0010",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00388",
+        "scene_group": "home_office_0010",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00389",
+        "scene_group": "home_office_0010",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00390",
+        "scene_group": "home_office_0010",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00395",
+        "scene_group": "home_office_0012",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00396",
+        "scene_group": "home_office_0012",
+        "tp": 2,
+        "fn": 4,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00397",
+        "scene_group": "home_office_0012",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00411",
+        "scene_group": "office_kitchen_0002",
+        "tp": 7,
+        "fn": 4,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00412",
+        "scene_group": "office_kitchen_0002",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00413",
+        "scene_group": "office_kitchen_0002",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00414",
+        "scene_group": "office_kitchen_0002",
+        "tp": 6,
+        "fn": 3,
+        "fp": 7
+      },
+      {
+        "id": "nyu_00430",
+        "scene_group": "playroom_0005",
+        "tp": 1,
+        "fn": 3,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00431",
+        "scene_group": "playroom_0005",
+        "tp": 2,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00432",
+        "scene_group": "playroom_0005",
+        "tp": 3,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00433",
+        "scene_group": "playroom_0005",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00434",
+        "scene_group": "playroom_0005",
+        "tp": 4,
+        "fn": 3,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00435",
+        "scene_group": "playroom_0005",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00441",
+        "scene_group": "playroom_0007",
+        "tp": 4,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00442",
+        "scene_group": "playroom_0007",
+        "tp": 4,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00443",
+        "scene_group": "playroom_0007",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00444",
+        "scene_group": "playroom_0008",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00445",
+        "scene_group": "playroom_0008",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00446",
+        "scene_group": "playroom_0008",
+        "tp": 1,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00447",
+        "scene_group": "playroom_0008",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00448",
+        "scene_group": "playroom_0008",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00462",
+        "scene_group": "reception_room_0003",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00463",
+        "scene_group": "reception_room_0003",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00464",
+        "scene_group": "reception_room_0003",
+        "tp": 3,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00465",
+        "scene_group": "reception_room_0003",
+        "tp": 3,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00466",
+        "scene_group": "reception_room_0003",
+        "tp": 6,
+        "fn": 1,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00469",
+        "scene_group": "study_0001",
+        "tp": 0,
+        "fn": 5,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00470",
+        "scene_group": "study_0001",
+        "tp": 2,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00471",
+        "scene_group": "study_0001",
+        "tp": 0,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00472",
+        "scene_group": "study_0001",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00473",
+        "scene_group": "study_0001",
+        "tp": 2,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00474",
+        "scene_group": "study_0002",
+        "tp": 0,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00475",
+        "scene_group": "study_0002",
+        "tp": 1,
+        "fn": 1,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00476",
+        "scene_group": "study_0002",
+        "tp": 1,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00477",
+        "scene_group": "study_0002",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00508",
+        "scene_group": "bathroom_0058",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00509",
+        "scene_group": "bathroom_0058",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00510",
+        "scene_group": "bathroom_0058",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00511",
+        "scene_group": "bathroom_0060",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00512",
+        "scene_group": "bathroom_0060",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00513",
+        "scene_group": "bathroom_0060",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00515",
+        "scene_group": "bedroom_0133",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00516",
+        "scene_group": "bedroom_0133",
+        "tp": 2,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00517",
+        "scene_group": "bedroom_0133",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00518",
+        "scene_group": "bedroom_0133",
+        "tp": 1,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00519",
+        "scene_group": "bedroom_0133",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00520",
+        "scene_group": "bedroom_0134",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00521",
+        "scene_group": "bedroom_0134",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00522",
+        "scene_group": "bedroom_0134",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00523",
+        "scene_group": "bedroom_0135",
+        "tp": 3,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00524",
+        "scene_group": "bedroom_0135",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00525",
+        "scene_group": "bedroom_0135",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00526",
+        "scene_group": "bedroom_0135",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00531",
+        "scene_group": "bedroom_0137",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00532",
+        "scene_group": "bedroom_0137",
+        "tp": 0,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00533",
+        "scene_group": "bedroom_0137",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00537",
+        "scene_group": "bedroom_0139",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00538",
+        "scene_group": "bedroom_0139",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00539",
+        "scene_group": "bedroom_0139",
+        "tp": 3,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00549",
+        "scene_group": "dining_room_0038",
+        "tp": 0,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00550",
+        "scene_group": "dining_room_0038",
+        "tp": 7,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00551",
+        "scene_group": "dining_room_0038",
+        "tp": 7,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00555",
+        "scene_group": "home_office_0014",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00556",
+        "scene_group": "home_office_0014",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00557",
+        "scene_group": "home_office_0014",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00558",
+        "scene_group": "home_office_0014",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00559",
+        "scene_group": "kitchen_0055",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00560",
+        "scene_group": "kitchen_0055",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00561",
+        "scene_group": "kitchen_0056",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00562",
+        "scene_group": "kitchen_0056",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00563",
+        "scene_group": "kitchen_0056",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00564",
+        "scene_group": "kitchen_0056",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00565",
+        "scene_group": "kitchen_0057",
+        "tp": 2,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00566",
+        "scene_group": "kitchen_0057",
+        "tp": 1,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00567",
+        "scene_group": "kitchen_0057",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00568",
+        "scene_group": "kitchen_0057",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00569",
+        "scene_group": "kitchen_0058",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00570",
+        "scene_group": "kitchen_0058",
+        "tp": 0,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00571",
+        "scene_group": "kitchen_0058",
+        "tp": 0,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00579",
+        "scene_group": "living_room_0081",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00580",
+        "scene_group": "living_room_0081",
+        "tp": 3,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00581",
+        "scene_group": "living_room_0081",
+        "tp": 4,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00582",
+        "scene_group": "living_room_0081",
+        "tp": 3,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00583",
+        "scene_group": "living_room_0081",
+        "tp": 4,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00591",
+        "scene_group": "living_room_0084",
+        "tp": 0,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00592",
+        "scene_group": "living_room_0084",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00593",
+        "scene_group": "living_room_0084",
+        "tp": 1,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00594",
+        "scene_group": "living_room_0084",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00603",
+        "scene_group": "living_room_0087",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00604",
+        "scene_group": "living_room_0087",
+        "tp": 1,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00605",
+        "scene_group": "living_room_0087",
+        "tp": 3,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00606",
+        "scene_group": "living_room_0087",
+        "tp": 1,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00607",
+        "scene_group": "living_room_0087",
+        "tp": 0,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00612",
+        "scene_group": "office_0020",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00613",
+        "scene_group": "office_0020",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00617",
+        "scene_group": "office_0022",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00618",
+        "scene_group": "office_0022",
+        "tp": 3,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00619",
+        "scene_group": "office_0022",
+        "tp": 3,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00620",
+        "scene_group": "office_0022",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00621",
+        "scene_group": "office_0022",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00633",
+        "scene_group": "office_0027",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00634",
+        "scene_group": "office_0027",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00635",
+        "scene_group": "office_0027",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00636",
+        "scene_group": "office_0027",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00637",
+        "scene_group": "office_0027",
+        "tp": 1,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00638",
+        "scene_group": "office_0027",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00644",
+        "scene_group": "study_0007",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00645",
+        "scene_group": "study_0007",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00650",
+        "scene_group": "bathroom_0008",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00651",
+        "scene_group": "bathroom_0009",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00656",
+        "scene_group": "bathroom_0012",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00657",
+        "scene_group": "bathroom_0012",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00658",
+        "scene_group": "bathroom_0012",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00663",
+        "scene_group": "bathroom_0015",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00664",
+        "scene_group": "bathroom_0015",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00668",
+        "scene_group": "bathroom_0017",
+        "tp": 0,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00669",
+        "scene_group": "bathroom_0017",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00670",
+        "scene_group": "bathroom_0017",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00671",
+        "scene_group": "bathroom_0018",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00672",
+        "scene_group": "bathroom_0018",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00673",
+        "scene_group": "bathroom_0018",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00676",
+        "scene_group": "bathroom_0020",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00677",
+        "scene_group": "bathroom_0020",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00678",
+        "scene_group": "bathroom_0021",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00679",
+        "scene_group": "bathroom_0021",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00680",
+        "scene_group": "bathroom_0022",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00681",
+        "scene_group": "bathroom_0022",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00686",
+        "scene_group": "bathroom_0025",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00687",
+        "scene_group": "bathroom_0025",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00688",
+        "scene_group": "bathroom_0026",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00689",
+        "scene_group": "bathroom_0026",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00690",
+        "scene_group": "bathroom_0026",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00693",
+        "scene_group": "bathroom_0029",
+        "tp": 0,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00694",
+        "scene_group": "bathroom_0029",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00697",
+        "scene_group": "bathroom_0031",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00698",
+        "scene_group": "bathroom_0031",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00699",
+        "scene_group": "bathroom_0031",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00706",
+        "scene_group": "bathroom_0036",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00707",
+        "scene_group": "bathroom_0036",
+        "tp": 0,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00708",
+        "scene_group": "bathroom_0036",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00709",
+        "scene_group": "bathroom_0037",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00710",
+        "scene_group": "bathroom_0037",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00711",
+        "scene_group": "bathroom_0038",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00712",
+        "scene_group": "bathroom_0038",
+        "tp": 1,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00713",
+        "scene_group": "bathroom_0038",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00717",
+        "scene_group": "bathroom_0040",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00718",
+        "scene_group": "bathroom_0040",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00724",
+        "scene_group": "bathroom_0043",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00725",
+        "scene_group": "bathroom_0043",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00726",
+        "scene_group": "bathroom_0043",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00727",
+        "scene_group": "bathroom_0044",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00728",
+        "scene_group": "bathroom_0044",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00731",
+        "scene_group": "bathroom_0046",
+        "tp": 0,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00732",
+        "scene_group": "bathroom_0046",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00733",
+        "scene_group": "bathroom_0047",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00734",
+        "scene_group": "bathroom_0047",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00743",
+        "scene_group": "bathroom_0052",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00744",
+        "scene_group": "bathroom_0052",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00759",
+        "scene_group": "kitchen_0021",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00760",
+        "scene_group": "kitchen_0021",
+        "tp": 2,
+        "fn": 8,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00761",
+        "scene_group": "kitchen_0021",
+        "tp": 5,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00762",
+        "scene_group": "kitchen_0022",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00763",
+        "scene_group": "kitchen_0022",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00764",
+        "scene_group": "kitchen_0022",
+        "tp": 0,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00765",
+        "scene_group": "kitchen_0022",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00766",
+        "scene_group": "kitchen_0022",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00767",
+        "scene_group": "kitchen_0023",
+        "tp": 7,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00768",
+        "scene_group": "kitchen_0023",
+        "tp": 5,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00769",
+        "scene_group": "kitchen_0023",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00770",
+        "scene_group": "kitchen_0023",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00771",
+        "scene_group": "kitchen_0023",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00772",
+        "scene_group": "kitchen_0024",
+        "tp": 3,
+        "fn": 7,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00773",
+        "scene_group": "kitchen_0024",
+        "tp": 1,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00774",
+        "scene_group": "kitchen_0024",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00775",
+        "scene_group": "kitchen_0024",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00776",
+        "scene_group": "kitchen_0024",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00777",
+        "scene_group": "kitchen_0025",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00778",
+        "scene_group": "kitchen_0025",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00779",
+        "scene_group": "kitchen_0025",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00780",
+        "scene_group": "kitchen_0026",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00781",
+        "scene_group": "kitchen_0026",
+        "tp": 5,
+        "fn": 5,
+        "fp": 5
+      },
+      {
+        "id": "nyu_00782",
+        "scene_group": "kitchen_0026",
+        "tp": 5,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00783",
+        "scene_group": "kitchen_0027",
+        "tp": 1,
+        "fn": 6,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00784",
+        "scene_group": "kitchen_0027",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00785",
+        "scene_group": "kitchen_0027",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00786",
+        "scene_group": "kitchen_0027",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00787",
+        "scene_group": "kitchen_0027",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00800",
+        "scene_group": "kitchen_0030",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00801",
+        "scene_group": "kitchen_0030",
+        "tp": 4,
+        "fn": 5,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00802",
+        "scene_group": "kitchen_0030",
+        "tp": 3,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00803",
+        "scene_group": "kitchen_0030",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00804",
+        "scene_group": "kitchen_0030",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00810",
+        "scene_group": "kitchen_0032",
+        "tp": 3,
+        "fn": 7,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00811",
+        "scene_group": "kitchen_0032",
+        "tp": 1,
+        "fn": 3,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00812",
+        "scene_group": "kitchen_0032",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00813",
+        "scene_group": "kitchen_0032",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00814",
+        "scene_group": "kitchen_0032",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00821",
+        "scene_group": "kitchen_0034",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00822",
+        "scene_group": "kitchen_0034",
+        "tp": 7,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00823",
+        "scene_group": "kitchen_0034",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00833",
+        "scene_group": "kitchen_0038",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00834",
+        "scene_group": "kitchen_0038",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00835",
+        "scene_group": "kitchen_0038",
+        "tp": 1,
+        "fn": 4,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00836",
+        "scene_group": "kitchen_0038",
+        "tp": 2,
+        "fn": 8,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00837",
+        "scene_group": "kitchen_0039",
+        "tp": 0,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00838",
+        "scene_group": "kitchen_0039",
+        "tp": 0,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00839",
+        "scene_group": "kitchen_0039",
+        "tp": 2,
+        "fn": 7,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00840",
+        "scene_group": "kitchen_0039",
+        "tp": 1,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00841",
+        "scene_group": "kitchen_0039",
+        "tp": 4,
+        "fn": 5,
+        "fp": 6
+      },
+      {
+        "id": "nyu_00842",
+        "scene_group": "kitchen_0039",
+        "tp": 6,
+        "fn": 6,
+        "fp": 4
+      },
+      {
+        "id": "nyu_00843",
+        "scene_group": "kitchen_0040",
+        "tp": 4,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00844",
+        "scene_group": "kitchen_0040",
+        "tp": 0,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00845",
+        "scene_group": "kitchen_0040",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00846",
+        "scene_group": "kitchen_0040",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00850",
+        "scene_group": "kitchen_0042",
+        "tp": 2,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00851",
+        "scene_group": "kitchen_0042",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00852",
+        "scene_group": "kitchen_0042",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00857",
+        "scene_group": "kitchen_0044",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00858",
+        "scene_group": "kitchen_0044",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00859",
+        "scene_group": "kitchen_0044",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00860",
+        "scene_group": "kitchen_0044",
+        "tp": 1,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00861",
+        "scene_group": "kitchen_0044",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00862",
+        "scene_group": "kitchen_0044",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00869",
+        "scene_group": "kitchen_0046",
+        "tp": 3,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00870",
+        "scene_group": "kitchen_0046",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00871",
+        "scene_group": "kitchen_0046",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00906",
+        "scene_group": "kitchen_0054",
+        "tp": 0,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00907",
+        "scene_group": "kitchen_0054",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00908",
+        "scene_group": "kitchen_0054",
+        "tp": 1,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00917",
+        "scene_group": "bedroom_0027",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00918",
+        "scene_group": "bedroom_0027",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00919",
+        "scene_group": "bedroom_0027",
+        "tp": 2,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00926",
+        "scene_group": "bedroom_0030",
+        "tp": 1,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00927",
+        "scene_group": "bedroom_0030",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00928",
+        "scene_group": "bedroom_0030",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00932",
+        "scene_group": "bedroom_0032",
+        "tp": 0,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00933",
+        "scene_group": "bedroom_0032",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00934",
+        "scene_group": "bedroom_0032",
+        "tp": 1,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_00935",
+        "scene_group": "bedroom_0032",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00945",
+        "scene_group": "bedroom_0037",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00946",
+        "scene_group": "bedroom_0037",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00947",
+        "scene_group": "bedroom_0037",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00959",
+        "scene_group": "bedroom_0043",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00960",
+        "scene_group": "bedroom_0043",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00961",
+        "scene_group": "bedroom_0044",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00962",
+        "scene_group": "bedroom_0044",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00965",
+        "scene_group": "bedroom_0046",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00966",
+        "scene_group": "bedroom_0046",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_00967",
+        "scene_group": "bedroom_0046",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00970",
+        "scene_group": "bedroom_0048",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00971",
+        "scene_group": "bedroom_0048",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00972",
+        "scene_group": "bedroom_0048",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00973",
+        "scene_group": "bedroom_0048",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00974",
+        "scene_group": "bedroom_0048",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00975",
+        "scene_group": "bedroom_0049",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00976",
+        "scene_group": "bedroom_0049",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00977",
+        "scene_group": "bedroom_0049",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00991",
+        "scene_group": "bedroom_0054",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00992",
+        "scene_group": "bedroom_0054",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00993",
+        "scene_group": "bedroom_0054",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_00994",
+        "scene_group": "bedroom_0055",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_00995",
+        "scene_group": "bedroom_0055",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01001",
+        "scene_group": "bedroom_0058",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01002",
+        "scene_group": "bedroom_0058",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01003",
+        "scene_group": "bedroom_0058",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01004",
+        "scene_group": "bedroom_0058",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01010",
+        "scene_group": "bedroom_0061",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01011",
+        "scene_group": "bedroom_0061",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01012",
+        "scene_group": "bedroom_0061",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01021",
+        "scene_group": "bedroom_0064",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01022",
+        "scene_group": "bedroom_0064",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01023",
+        "scene_group": "bedroom_0064",
+        "tp": 2,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01032",
+        "scene_group": "bedroom_0068",
+        "tp": 3,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01033",
+        "scene_group": "bedroom_0068",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01034",
+        "scene_group": "bedroom_0068",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01038",
+        "scene_group": "bedroom_0070",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01039",
+        "scene_group": "bedroom_0070",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01048",
+        "scene_group": "bedroom_0073",
+        "tp": 2,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01049",
+        "scene_group": "bedroom_0073",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01052",
+        "scene_group": "bedroom_0075",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01053",
+        "scene_group": "bedroom_0075",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01057",
+        "scene_group": "bedroom_0077",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01058",
+        "scene_group": "bedroom_0077",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01075",
+        "scene_group": "bedroom_0083",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01076",
+        "scene_group": "bedroom_0083",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01077",
+        "scene_group": "bedroom_0084",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01078",
+        "scene_group": "bedroom_0084",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01079",
+        "scene_group": "bedroom_0084",
+        "tp": 3,
+        "fn": 4,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01080",
+        "scene_group": "bedroom_0084",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01081",
+        "scene_group": "bedroom_0085",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01082",
+        "scene_group": "bedroom_0085",
+        "tp": 1,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01083",
+        "scene_group": "bedroom_0085",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01084",
+        "scene_group": "bedroom_0085",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01088",
+        "scene_group": "bedroom_0087",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01089",
+        "scene_group": "bedroom_0087",
+        "tp": 2,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01090",
+        "scene_group": "bedroom_0087",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01091",
+        "scene_group": "bedroom_0088",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01092",
+        "scene_group": "bedroom_0088",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01093",
+        "scene_group": "bedroom_0088",
+        "tp": 0,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01094",
+        "scene_group": "bedroom_0089",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01095",
+        "scene_group": "bedroom_0089",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01096",
+        "scene_group": "bedroom_0089",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01098",
+        "scene_group": "bedroom_0091",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01099",
+        "scene_group": "bedroom_0091",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01100",
+        "scene_group": "bedroom_0092",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01101",
+        "scene_group": "bedroom_0092",
+        "tp": 1,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01102",
+        "scene_group": "bedroom_0092",
+        "tp": 1,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01103",
+        "scene_group": "bedroom_0093",
+        "tp": 0,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01104",
+        "scene_group": "bedroom_0093",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01106",
+        "scene_group": "bedroom_0095",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01107",
+        "scene_group": "bedroom_0095",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01108",
+        "scene_group": "bedroom_0095",
+        "tp": 1,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01109",
+        "scene_group": "bedroom_0095",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01117",
+        "scene_group": "bedroom_0099",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01118",
+        "scene_group": "bedroom_0099",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01119",
+        "scene_group": "bedroom_0099",
+        "tp": 3,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01123",
+        "scene_group": "bedroom_0101",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01124",
+        "scene_group": "bedroom_0101",
+        "tp": 2,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01125",
+        "scene_group": "bedroom_0101",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01126",
+        "scene_group": "bedroom_0101",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01127",
+        "scene_group": "bedroom_0102",
+        "tp": 1,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01128",
+        "scene_group": "bedroom_0102",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01129",
+        "scene_group": "bedroom_0103",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01130",
+        "scene_group": "bedroom_0103",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01131",
+        "scene_group": "bedroom_0103",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01135",
+        "scene_group": "bedroom_0105",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01136",
+        "scene_group": "bedroom_0105",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01144",
+        "scene_group": "bedroom_0108",
+        "tp": 0,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01145",
+        "scene_group": "bedroom_0108",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01146",
+        "scene_group": "bedroom_0108",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01147",
+        "scene_group": "bedroom_0109",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01148",
+        "scene_group": "bedroom_0109",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01149",
+        "scene_group": "bedroom_0109",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01150",
+        "scene_group": "bedroom_0110",
+        "tp": 3,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01151",
+        "scene_group": "bedroom_0110",
+        "tp": 2,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01152",
+        "scene_group": "bedroom_0110",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01153",
+        "scene_group": "bedroom_0111",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01154",
+        "scene_group": "bedroom_0111",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01155",
+        "scene_group": "bedroom_0111",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01156",
+        "scene_group": "bedroom_0112",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01157",
+        "scene_group": "bedroom_0112",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01158",
+        "scene_group": "bedroom_0112",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01162",
+        "scene_group": "bedroom_0114",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01163",
+        "scene_group": "bedroom_0114",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01164",
+        "scene_group": "bedroom_0114",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01165",
+        "scene_group": "bedroom_0115",
+        "tp": 2,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01166",
+        "scene_group": "bedroom_0115",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01167",
+        "scene_group": "bedroom_0115",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01170",
+        "scene_group": "bedroom_0117",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01171",
+        "scene_group": "bedroom_0117",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01174",
+        "scene_group": "bedroom_0119",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01175",
+        "scene_group": "bedroom_0119",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01176",
+        "scene_group": "bedroom_0119",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01179",
+        "scene_group": "bedroom_0121",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01180",
+        "scene_group": "bedroom_0121",
+        "tp": 0,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01181",
+        "scene_group": "bedroom_0122",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01182",
+        "scene_group": "bedroom_0122",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01183",
+        "scene_group": "bedroom_0123",
+        "tp": 0,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01184",
+        "scene_group": "bedroom_0123",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01192",
+        "scene_group": "bedroom_0127",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01193",
+        "scene_group": "bedroom_0127",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01194",
+        "scene_group": "bedroom_0127",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01195",
+        "scene_group": "bedroom_0128",
+        "tp": 1,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01196",
+        "scene_group": "bedroom_0128",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01201",
+        "scene_group": "living_room_0025",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01202",
+        "scene_group": "living_room_0025",
+        "tp": 0,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01203",
+        "scene_group": "living_room_0025",
+        "tp": 0,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01204",
+        "scene_group": "living_room_0026",
+        "tp": 4,
+        "fn": 4,
+        "fp": 6
+      },
+      {
+        "id": "nyu_01205",
+        "scene_group": "living_room_0026",
+        "tp": 2,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01206",
+        "scene_group": "living_room_0027",
+        "tp": 3,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01207",
+        "scene_group": "living_room_0027",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01208",
+        "scene_group": "living_room_0027",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01209",
+        "scene_group": "living_room_0028",
+        "tp": 1,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01210",
+        "scene_group": "living_room_0028",
+        "tp": 4,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01211",
+        "scene_group": "living_room_0028",
+        "tp": 3,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01212",
+        "scene_group": "living_room_0028",
+        "tp": 0,
+        "fn": 4,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01216",
+        "scene_group": "living_room_0030",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01217",
+        "scene_group": "living_room_0030",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01218",
+        "scene_group": "living_room_0031",
+        "tp": 3,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01219",
+        "scene_group": "living_room_0031",
+        "tp": 1,
+        "fn": 7,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01220",
+        "scene_group": "living_room_0031",
+        "tp": 2,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01226",
+        "scene_group": "living_room_0034",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01227",
+        "scene_group": "living_room_0034",
+        "tp": 1,
+        "fn": 2,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01228",
+        "scene_group": "living_room_0034",
+        "tp": 4,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01229",
+        "scene_group": "living_room_0034",
+        "tp": 5,
+        "fn": 6,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01230",
+        "scene_group": "living_room_0034",
+        "tp": 0,
+        "fn": 5,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01233",
+        "scene_group": "living_room_0036",
+        "tp": 1,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01234",
+        "scene_group": "living_room_0036",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01235",
+        "scene_group": "living_room_0036",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01247",
+        "scene_group": "living_room_0041",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01248",
+        "scene_group": "living_room_0041",
+        "tp": 2,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01249",
+        "scene_group": "living_room_0041",
+        "tp": 4,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01250",
+        "scene_group": "living_room_0041",
+        "tp": 4,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01254",
+        "scene_group": "living_room_0043",
+        "tp": 3,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01255",
+        "scene_group": "living_room_0043",
+        "tp": 3,
+        "fn": 3,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01256",
+        "scene_group": "living_room_0043",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01257",
+        "scene_group": "living_room_0043",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01258",
+        "scene_group": "living_room_0044",
+        "tp": 4,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01259",
+        "scene_group": "living_room_0044",
+        "tp": 2,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01260",
+        "scene_group": "living_room_0044",
+        "tp": 2,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01261",
+        "scene_group": "living_room_0044",
+        "tp": 2,
+        "fn": 0,
+        "fp": 6
+      },
+      {
+        "id": "nyu_01262",
+        "scene_group": "living_room_0045",
+        "tp": 1,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01263",
+        "scene_group": "living_room_0045",
+        "tp": 0,
+        "fn": 4,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01264",
+        "scene_group": "living_room_0045",
+        "tp": 2,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01265",
+        "scene_group": "living_room_0045",
+        "tp": 2,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01275",
+        "scene_group": "living_room_0048",
+        "tp": 1,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01276",
+        "scene_group": "living_room_0048",
+        "tp": 0,
+        "fn": 5,
+        "fp": 6
+      },
+      {
+        "id": "nyu_01277",
+        "scene_group": "living_room_0049",
+        "tp": 5,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01278",
+        "scene_group": "living_room_0049",
+        "tp": 2,
+        "fn": 5,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01279",
+        "scene_group": "living_room_0049",
+        "tp": 2,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01280",
+        "scene_group": "living_room_0049",
+        "tp": 5,
+        "fn": 4,
+        "fp": 8
+      },
+      {
+        "id": "nyu_01285",
+        "scene_group": "living_room_0051",
+        "tp": 2,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01286",
+        "scene_group": "living_room_0051",
+        "tp": 4,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01287",
+        "scene_group": "living_room_0051",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01288",
+        "scene_group": "living_room_0051",
+        "tp": 3,
+        "fn": 2,
+        "fp": 6
+      },
+      {
+        "id": "nyu_01289",
+        "scene_group": "living_room_0052",
+        "tp": 5,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01290",
+        "scene_group": "living_room_0052",
+        "tp": 4,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01291",
+        "scene_group": "living_room_0053",
+        "tp": 2,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01292",
+        "scene_group": "living_room_0053",
+        "tp": 2,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01293",
+        "scene_group": "living_room_0053",
+        "tp": 1,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01294",
+        "scene_group": "living_room_0054",
+        "tp": 5,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01295",
+        "scene_group": "living_room_0054",
+        "tp": 1,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01297",
+        "scene_group": "living_room_0056",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01298",
+        "scene_group": "living_room_0057",
+        "tp": 6,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01299",
+        "scene_group": "living_room_0057",
+        "tp": 2,
+        "fn": 7,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01302",
+        "scene_group": "living_room_0059",
+        "tp": 3,
+        "fn": 1,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01303",
+        "scene_group": "living_room_0059",
+        "tp": 3,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01304",
+        "scene_group": "living_room_0059",
+        "tp": 3,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01305",
+        "scene_group": "living_room_0059",
+        "tp": 2,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01306",
+        "scene_group": "living_room_0060",
+        "tp": 1,
+        "fn": 1,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01307",
+        "scene_group": "living_room_0060",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01308",
+        "scene_group": "living_room_0061",
+        "tp": 5,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01314",
+        "scene_group": "living_room_0064",
+        "tp": 1,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01315",
+        "scene_group": "living_room_0066",
+        "tp": 4,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01329",
+        "scene_group": "living_room_0072",
+        "tp": 2,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01330",
+        "scene_group": "living_room_0075",
+        "tp": 3,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01331",
+        "scene_group": "living_room_0075",
+        "tp": 2,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01332",
+        "scene_group": "living_room_0076",
+        "tp": 0,
+        "fn": 4,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01335",
+        "scene_group": "living_room_0079",
+        "tp": 2,
+        "fn": 5,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01336",
+        "scene_group": "living_room_0079",
+        "tp": 1,
+        "fn": 3,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01337",
+        "scene_group": "living_room_0079",
+        "tp": 5,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01338",
+        "scene_group": "living_room_0080",
+        "tp": 1,
+        "fn": 5,
+        "fp": 6
+      },
+      {
+        "id": "nyu_01339",
+        "scene_group": "living_room_0080",
+        "tp": 2,
+        "fn": 0,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01340",
+        "scene_group": "living_room_0080",
+        "tp": 4,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01347",
+        "scene_group": "dining_room_0003",
+        "tp": 10,
+        "fn": 1,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01348",
+        "scene_group": "dining_room_0003",
+        "tp": 0,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01349",
+        "scene_group": "dining_room_0003",
+        "tp": 9,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01353",
+        "scene_group": "dining_room_0005",
+        "tp": 2,
+        "fn": 6,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01354",
+        "scene_group": "dining_room_0005",
+        "tp": 0,
+        "fn": 6,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01355",
+        "scene_group": "dining_room_0006",
+        "tp": 2,
+        "fn": 9,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01356",
+        "scene_group": "dining_room_0006",
+        "tp": 3,
+        "fn": 4,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01364",
+        "scene_group": "dining_room_0009",
+        "tp": 4,
+        "fn": 5,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01365",
+        "scene_group": "dining_room_0009",
+        "tp": 2,
+        "fn": 5,
+        "fp": 7
+      },
+      {
+        "id": "nyu_01368",
+        "scene_group": "dining_room_0011",
+        "tp": 9,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01369",
+        "scene_group": "dining_room_0011",
+        "tp": 5,
+        "fn": 3,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01384",
+        "scene_group": "dining_room_0017",
+        "tp": 4,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01385",
+        "scene_group": "dining_room_0017",
+        "tp": 6,
+        "fn": 3,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01386",
+        "scene_group": "dining_room_0017",
+        "tp": 3,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01387",
+        "scene_group": "dining_room_0018",
+        "tp": 5,
+        "fn": 11,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01388",
+        "scene_group": "dining_room_0018",
+        "tp": 2,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01389",
+        "scene_group": "dining_room_0018",
+        "tp": 0,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01390",
+        "scene_group": "dining_room_0018",
+        "tp": 5,
+        "fn": 7,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01391",
+        "scene_group": "dining_room_0018",
+        "tp": 3,
+        "fn": 0,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01394",
+        "scene_group": "dining_room_0020",
+        "tp": 10,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01395",
+        "scene_group": "dining_room_0020",
+        "tp": 3,
+        "fn": 4,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01396",
+        "scene_group": "dining_room_0020",
+        "tp": 12,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01397",
+        "scene_group": "dining_room_0021",
+        "tp": 8,
+        "fn": 3,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01398",
+        "scene_group": "dining_room_0021",
+        "tp": 3,
+        "fn": 2,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01399",
+        "scene_group": "dining_room_0021",
+        "tp": 2,
+        "fn": 4,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01400",
+        "scene_group": "dining_room_0022",
+        "tp": 6,
+        "fn": 5,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01401",
+        "scene_group": "dining_room_0022",
+        "tp": 6,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01407",
+        "scene_group": "dining_room_0025",
+        "tp": 9,
+        "fn": 1,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01408",
+        "scene_group": "dining_room_0025",
+        "tp": 5,
+        "fn": 1,
+        "fp": 8
+      },
+      {
+        "id": "nyu_01409",
+        "scene_group": "dining_room_0025",
+        "tp": 6,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01410",
+        "scene_group": "dining_room_0025",
+        "tp": 0,
+        "fn": 4,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01411",
+        "scene_group": "dining_room_0025",
+        "tp": 2,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01412",
+        "scene_group": "dining_room_0026",
+        "tp": 6,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01413",
+        "scene_group": "dining_room_0026",
+        "tp": 3,
+        "fn": 0,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01414",
+        "scene_group": "dining_room_0026",
+        "tp": 1,
+        "fn": 3,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01421",
+        "scene_group": "dining_room_0030",
+        "tp": 5,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01422",
+        "scene_group": "dining_room_0030",
+        "tp": 0,
+        "fn": 0,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01423",
+        "scene_group": "dining_room_0030",
+        "tp": 1,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01424",
+        "scene_group": "dining_room_0030",
+        "tp": 5,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01430",
+        "scene_group": "dining_room_0032",
+        "tp": 1,
+        "fn": 1,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01431",
+        "scene_group": "dining_room_0032",
+        "tp": 6,
+        "fn": 4,
+        "fp": 5
+      },
+      {
+        "id": "nyu_01432",
+        "scene_group": "dining_room_0032",
+        "tp": 5,
+        "fn": 3,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01433",
+        "scene_group": "dining_room_0032",
+        "tp": 6,
+        "fn": 6,
+        "fp": 8
+      },
+      {
+        "id": "nyu_01441",
+        "scene_group": "dining_room_0035",
+        "tp": 1,
+        "fn": 2,
+        "fp": 2
+      },
+      {
+        "id": "nyu_01442",
+        "scene_group": "dining_room_0035",
+        "tp": 0,
+        "fn": 6,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01443",
+        "scene_group": "dining_room_0035",
+        "tp": 1,
+        "fn": 7,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01444",
+        "scene_group": "dining_room_0036",
+        "tp": 1,
+        "fn": 1,
+        "fp": 1
+      },
+      {
+        "id": "nyu_01445",
+        "scene_group": "dining_room_0036",
+        "tp": 4,
+        "fn": 3,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01446",
+        "scene_group": "dining_room_0036",
+        "tp": 7,
+        "fn": 2,
+        "fp": 3
+      },
+      {
+        "id": "nyu_01447",
+        "scene_group": "dining_room_0036",
+        "tp": 8,
+        "fn": 2,
+        "fp": 4
+      },
+      {
+        "id": "nyu_01448",
+        "scene_group": "dining_room_0036",
+        "tp": 9,
+        "fn": 2,
+        "fp": 0
+      },
+      {
+        "id": "nyu_01449",
+        "scene_group": "dining_room_0036",
+        "tp": 6,
+        "fn": 2,
+        "fp": 3
+      }
+    ],
+    "confidence_intervals": {
+      "method": "Bootstrap de cenas, não de caixas individuais",
+      "groups": 215,
+      "replicates": 1000,
+      "interval_95": {
+        "precision": [
+          0.5160434094614709,
+          0.5729737159999906
+        ],
+        "recall": [
+          0.4702727559721339,
+          0.5333394243947007
+        ],
+        "f1": [
+          0.4957725040715981,
+          0.5484933117283646
+        ]
+      }
+    },
+    "native_ap": {
+      "map50": 0.4654606314864786,
+      "map50_95": 0.29824344279508586
+    },
+    "frozen_key": "bec02dc8e4ce0dda5c98836d18298691a158bc7c4afdc9b1d8a161f29479474a",
+    "complete": true
+  },
+  "target_met_validation": false,
+  "target_met_test": false,
+  "test_used_for_selection": false,
+  "same_benchmark_as_21": false,
+  "existing_model_replaced": false,
+  "manual_labels_required": false,
+  "train_images": 634,
+  "val_images": 161,
+  "test_images": 654,
+  "limits": [
+    "Escopo e referência distintos do experimento 21; percentuais não são diretamente comparáveis.",
+    "SUN RGB-D incorpora imagens NYU: não reutilizar pesos Home/C10/21 nem declarar comparação independente com eles.",
+    "Pixels sem rótulo existem na origem. As caixas representam os objetos anotados, não uma garantia de anotação perfeita.",
+    "Atingir a meta nesta base e em seis classes não garante o mesmo resultado nas 12 classes nem em fotos do usuário.",
+    "Treino usa somente RGB; as caixas vêm de máscaras humanas de partes visíveis. Não são caixas amodais de objetos completos.",
+    "Não valida distância nem segurança de locomoção."
+  ]
+}

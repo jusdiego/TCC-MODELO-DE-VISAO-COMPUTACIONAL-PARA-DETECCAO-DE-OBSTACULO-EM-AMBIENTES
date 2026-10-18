@@ -1,0 +1,72 @@
+{
+  "context_key": "6f4aa31baf57035ce481a4696b11733dd30d62fd6b89065b7e92593766d75c2d",
+  "protocol": {
+    "version": "17-limiares-chair-table-1.0.0",
+    "model": "candidato_10",
+    "tuned_class_ids": [
+      2,
+      3
+    ],
+    "threshold_grid": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "fixed_threshold_other_classes": 0.25,
+    "configurations": 49,
+    "split_seed": "17-grupos-42",
+    "split": "grupos SHA256/pHash64 distancia<=4; hash do grupo, sem previsoes",
+    "split_fraction_target": 0.5,
+    "min_images_per_cohort_partition": 50,
+    "min_alert_objects_per_tuned_class_cohort_partition": 30,
+    "selection": "somente calibracao; requisitos relativos as referencias do mesmo subconjunto",
+    "ranking": "precisao Home; recall Home; menos altas omitidas Home; F1 externa; menos classes alteradas; distancia de 0.25; limiares",
+    "verification": "uma configuracao congelada; sem segunda escolha se falhar",
+    "full_validation": "descritiva, apos a escolha; seis limites numericos originais",
+    "preexposure": "ambas as validacoes ja influenciaram o desenvolvimento",
+    "training": false,
+    "test_inference": false,
+    "reserved_inference": false
+  },
+  "source16_sha256": "cd9acf4eba29bb28dee20465ec2503b72cc65302f3d7c8377dd442455a4d16fa",
+  "dataset_external_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "home_sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+  "split_sha256": "8427f4297fd4b11aab2eaa085b133fc6367f4d9af2630c8c59d4e58edf58c291",
+  "code_sha256": {
+    "conf14_data.py": "f73232836278c08edf0f955ae8fe50a33cb1d4eabe2b2cc35a5f410f095bae66",
+    "conf14_evaluation.py": "3e64c612ffcd7cb75fdf05707affc45cafa91acd1882ab311425c2752ed01656",
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+    "exp12_data.py": "0a9de7e99d302a2690f18f51924f4dc80b32861c9d2149ccfe0572ec75499f30",
+    "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+    "lim17_evaluation.py": "b73248c348aee6dfe47d6aa31f3a6cafa90530a8f74898750e33d20fc80666dc",
+    "lim17_inputs.py": "baba76692931493e4dfecc41e75b48bc52626b03a807ed2689a12e8b7ef4ef12",
+    "lim17_io.py": "6e32d0dce0cbbe0e66b076a92a0e23dc081e8e34c50e10ea0072a27649ecf466",
+    "lim17_protocol.py": "261094dde02a062137c5a1fcf46641cf5a0321c16e5d88facbaf4da09c182d0d",
+    "lim17_reports.py": "e78ad650ec4c7d08dd6309996b3261708786728eeeb43bda1a0d2d79ef8eb5a8",
+    "lim17_run.py": "60128b4d63800dd95bc579e76916f3cbcae39acf7339ca9ce71fb02b14763035",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/politica_alertas.py": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "src/validacao_alertas.py": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d"
+  },
+  "cache_sha256": {
+    "baseline": {
+      "home_val_historica": "d0b00219ec59b7509c4ef188f02caf29809619eba84362ccb7599d7068354238",
+      "openimages_val_nova": "c4b9edafc07d7818065c9e87f6bf90915eca5a29adacf3e3df88d185c45d6024"
+    },
+    "candidato_10": {
+      "home_val_historica": "39daf59b3f5f0b9caef863aa4eefe7e406bc68f9d9af97ca5f6562debda2511e",
+      "openimages_val_nova": "165b142b98c666543adfaef6fb3f7f17ec8a55a5e91e668576524f7f8a0b2f5f"
+    }
+  },
+  "evaluation_environment": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pillow": "12.3.0",
+    "scipy": "1.16.3"
+  }
+}

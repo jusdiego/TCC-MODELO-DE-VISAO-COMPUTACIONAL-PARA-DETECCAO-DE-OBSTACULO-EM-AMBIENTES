@@ -1,0 +1,8 @@
+{
+  "stage": "6-selecao-congelamento-test-historico",
+  "type": "IndexError",
+  "message": "list index out of range",
+  "manual_form_required": false,
+  "test_opening_not_assumed": true,
+  "action": "Preserve o runtime ou execute Run All novamente; retomada usa o último slot completo."
+}

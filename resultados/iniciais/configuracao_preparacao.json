@@ -1,0 +1,63 @@
+{
+  "versao": "08-openimages-1.0",
+  "meta_imagens": 100000,
+  "imagens_por_lote": 1000,
+  "seed": 42,
+  "lado_minimo": 32,
+  "nomes": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "mids_raizes": [
+    "/m/03ssj5",
+    "/m/02crq1",
+    "/m/01mzpv",
+    "/m/04bcr3",
+    "/m/0dtln",
+    "/m/07c52",
+    "/m/01c648",
+    "/m/02vkqh8",
+    "/m/0d4v4",
+    "/m/02dgv",
+    "/m/03fp41",
+    "/m/06z37_"
+  ],
+  "ambiguas_excluidas": [
+    "Infant bed",
+    "Sofa bed",
+    "Studio couch"
+  ],
+  "pesos_prioridade": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    3,
+    1
+  ],
+  "fontes": {
+    "classes": "https://storage.googleapis.com/openimages/v7/oidv7-class-descriptions-boxable.csv",
+    "hierarquia": "https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy.json",
+    "caixas": "https://storage.googleapis.com/openimages/v6/oidv6-train-annotations-bbox.csv",
+    "rotulos_humanos": "https://storage.googleapis.com/openimages/v5/train-annotations-human-imagelabels-boxable.csv",
+    "imagens_metadata": "https://storage.googleapis.com/openimages/2018_04/train/train-images-boxable-with-rotation.csv"
+  },
+  "home_zip_sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+  "test_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89"
+}

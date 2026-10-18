@@ -1,0 +1,80 @@
+{
+  "fonte": "experimentos/24/resumo_experimento_24.json",
+  "conjunto_principal": "Home TEST historico",
+  "meta": {
+    "precision": 0.8,
+    "recall": 0.7
+  },
+  "confianca": 0.5,
+  "home_test": {
+    "candidato10": {
+      "images": 403,
+      "tp": 2189,
+      "fn": 1276,
+      "fp": 611,
+      "precision": 0.7817857142857143,
+      "recall": 0.6317460317460317,
+      "f1": 0.698802873104549
+    },
+    "21_epoca21": {
+      "images": 403,
+      "tp": 2273,
+      "fn": 1192,
+      "fp": 610,
+      "precision": 0.7884148456468956,
+      "recall": 0.655988455988456,
+      "f1": 0.7161310649023315
+    },
+    "rfdetr_small24": {
+      "images": 403,
+      "tp": 2474,
+      "fn": 991,
+      "fp": 549,
+      "precision": 0.8183923255044657,
+      "recall": 0.713997113997114,
+      "f1": 0.7626387176325524
+    }
+  },
+  "rf_6_classes": {
+    "tp": 1600,
+    "fn": 487,
+    "fp": 308,
+    "precision": 0.8385744234800838,
+    "recall": 0.7666506947771922,
+    "f1": 0.8010012515644556
+  },
+  "rf_alertas_v2": {
+    "tp": 1072,
+    "fn": 259,
+    "fp": 200,
+    "precision": 0.8427672955974843,
+    "recall": 0.8054094665664914,
+    "f1": 0.8236650019208606
+  },
+  "rf_nyu_diagnostico": {
+    "images": 654,
+    "tp": 966,
+    "fn": 1162,
+    "fp": 398,
+    "precision": 0.7082111436950147,
+    "recall": 0.45394736842105265,
+    "f1": 0.5532646048109966
+  },
+  "ic95_home_rf": {
+    "precision": [
+      0.800637737968955,
+      0.8364317599128923
+    ],
+    "recall": [
+      0.6946435042673448,
+      0.7350202117756692
+    ],
+    "f1": [
+      0.7465130180759333,
+      0.7791760935519096
+    ]
+  },
+  "meta_pontual_home": true,
+  "teste_home_novo_independente": false,
+  "bases_completas_distribuidas": false
+}

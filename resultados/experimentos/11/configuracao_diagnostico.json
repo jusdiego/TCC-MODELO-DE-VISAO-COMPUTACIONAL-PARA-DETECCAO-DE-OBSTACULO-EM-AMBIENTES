@@ -1,0 +1,39 @@
+{
+  "versao": "11-diagnostico-validacao-independente-1.0",
+  "experimento": "diagnostico11_20261016_024603_683411",
+  "seed": 42,
+  "modelos_sha256": {
+    "antigo": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "candidato": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f"
+  },
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "conf_alertas": 0.25,
+  "conf_ap": 0.001,
+  "iou_nms": 0.7,
+  "iou_correspondencia": 0.5,
+  "imgsz": 640,
+  "max_det": 300,
+  "rect": true,
+  "half": false,
+  "batch_inferencia": 1,
+  "novos_treinamentos": 0,
+  "limiares_calibrados": false,
+  "selecao_automatica_de_modelo": false,
+  "reserva_futura_inferida": false,
+  "coortes": {
+    "home_val_historica": 456,
+    "openimages_val_nova": 1000
+  },
+  "codigo_embutido_sha256": {
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+    "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2"
+  },
+  "ambiente": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cpu",
+    "ultralytics": "8.4.150",
+    "device": "cpu"
+  }
+}

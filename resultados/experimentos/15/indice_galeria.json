@@ -1,0 +1,290 @@
+[
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_719.jpg",
+    "source": "home",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_000.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/s (80).jpg",
+    "source": "home",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_001.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1130.jpg",
+    "source": "home",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_002.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1856.jpg",
+    "source": "home",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_003.jpg"
+  },
+  {
+    "id": "oi:686a4dd51bafad50",
+    "source": "openimages",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_004.jpg"
+  },
+  {
+    "id": "oi:c84afd7e860f6c3c",
+    "source": "openimages",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_005.jpg"
+  },
+  {
+    "id": "oi:4cb16ce63b492b20",
+    "source": "openimages",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_006.jpg"
+  },
+  {
+    "id": "oi:ffbd867bed4a9285",
+    "source": "openimages",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_007.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1881.jpg",
+    "source": "home",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_008.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1658.jpg",
+    "source": "home",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_009.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (457).jpg",
+    "source": "home",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_010.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (332).jpg",
+    "source": "home",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_011.jpg"
+  },
+  {
+    "id": "oi:3ce0b81495c20bd2",
+    "source": "openimages",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_012.jpg"
+  },
+  {
+    "id": "oi:d5233c3ed841e153",
+    "source": "openimages",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_013.jpg"
+  },
+  {
+    "id": "oi:3c452902250f0307",
+    "source": "openimages",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_014.jpg"
+  },
+  {
+    "id": "oi:dd7a711400c25f08",
+    "source": "openimages",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_015.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1643.jpg",
+    "source": "home",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_016.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_155.jpg",
+    "source": "home",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_017.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (172).jpg",
+    "source": "home",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_018.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (214).jpg",
+    "source": "home",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_019.jpg"
+  },
+  {
+    "id": "oi:dcb5151cf7d3e992",
+    "source": "openimages",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_020.jpg"
+  },
+  {
+    "id": "oi:00133d0c06c0a0da",
+    "source": "openimages",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_021.jpg"
+  },
+  {
+    "id": "oi:22eeba277b9051b6",
+    "source": "openimages",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_022.jpg"
+  },
+  {
+    "id": "oi:ca3ed955272622fe",
+    "source": "openimages",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_023.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_454.jpg",
+    "source": "home",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_024.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (175).jpg",
+    "source": "home",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_025.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1623.jpg",
+    "source": "home",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_026.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/s (5).jpg",
+    "source": "home",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_027.jpg"
+  },
+  {
+    "id": "oi:5887c050ab045907",
+    "source": "openimages",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_028.jpg"
+  },
+  {
+    "id": "oi:00c31e8e43adf95d",
+    "source": "openimages",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_029.jpg"
+  },
+  {
+    "id": "oi:380d05e1842cc584",
+    "source": "openimages",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_030.jpg"
+  },
+  {
+    "id": "oi:f6971e9f31b5fc6b",
+    "source": "openimages",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_031.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1883.jpg",
+    "source": "home",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_032.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/s (117).jpg",
+    "source": "home",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_033.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/s (331).jpg",
+    "source": "home",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_034.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (108).jpg",
+    "source": "home",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_035.jpg"
+  },
+  {
+    "id": "oi:ba57e00ec9fc61d4",
+    "source": "openimages",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_036.jpg"
+  },
+  {
+    "id": "oi:7ef5e2e06c7f996b",
+    "source": "openimages",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_037.jpg"
+  },
+  {
+    "id": "oi:eb2c7bb62e03c6ec",
+    "source": "openimages",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_038.jpg"
+  },
+  {
+    "id": "oi:6bb6519092918348",
+    "source": "openimages",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_039.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1707.jpg",
+    "source": "home",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_040.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1630.jpg",
+    "source": "home",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_041.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (418).jpg",
+    "source": "home",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_042.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/train/raw_train/living_room_1p (95).jpg",
+    "source": "home",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_043.jpg"
+  },
+  {
+    "id": "oi:2b7715e98a41b15c",
+    "source": "openimages",
+    "categoria": "comparacao_sem_sinal",
+    "arquivo": "galeria/caso_044.jpg"
+  },
+  {
+    "id": "oi:d3e51ce2a8f67288",
+    "source": "openimages",
+    "categoria": "dificuldade_detector",
+    "arquivo": "galeria/caso_045.jpg"
+  },
+  {
+    "id": "oi:a1668c3c2ba1a866",
+    "source": "openimages",
+    "categoria": "geometria_contexto",
+    "arquivo": "galeria/caso_046.jpg"
+  },
+  {
+    "id": "oi:bf73026e1eaa02e6",
+    "source": "openimages",
+    "categoria": "semantica",
+    "arquivo": "galeria/caso_047.jpg"
+  }
+]

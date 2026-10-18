@@ -1,0 +1,10 @@
+{
+  "context_key": "6f4aa31baf57035ce481a4696b11733dd30d62fd6b89065b7e92593766d75c2d",
+  "choice_sha256": "a034dd48e698c4001918c6c60e94a926304416dba7488d0dc8b28f89bd9ed839",
+  "split_sha256": "8427f4297fd4b11aab2eaa085b133fc6367f4d9af2630c8c59d4e58edf58c291",
+  "grade_usou_somente_calibracao": true,
+  "verificacao_usou_no_maximo_uma_configuracao": true,
+  "reproducao_025_conferida": true,
+  "rotulos_e_pesos_preservados": true,
+  "testes_e_reserva_inferidos": false
+}

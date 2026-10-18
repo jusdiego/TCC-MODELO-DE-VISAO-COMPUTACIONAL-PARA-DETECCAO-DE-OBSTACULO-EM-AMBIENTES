@@ -1,0 +1,26 @@
+[
+  {
+    "arm": "C_original",
+    "epoch": 3,
+    "updates": 342,
+    "batches_seen": 342,
+    "source_views": {
+      "home": 4104,
+      "openimages": 1368
+    },
+    "amp": false,
+    "accumulate": 1
+  },
+  {
+    "arm": "M_home_unknown7",
+    "epoch": 3,
+    "updates": 342,
+    "batches_seen": 342,
+    "source_views": {
+      "home": 4104,
+      "openimages": 1368
+    },
+    "amp": false,
+    "accumulate": 1
+  }
+]

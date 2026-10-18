@@ -1,0 +1,14 @@
+{
+  "candidato10": {
+    "path": "/content/tcc24/referencias/candidato10.pt",
+    "sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+    "imgsz": 640,
+    "epoch": "histórico"
+  },
+  "21_epoca21": {
+    "path": "/content/tcc24/referencias/21_epoca21.pt",
+    "sha256": "5d084e766be8c7a98ee93365e2d14e246dfe7d18cdcabd87df566ff39acc2ee3",
+    "imgsz": 768,
+    "epoch": 21
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "bce_full_matches_standard": true,
+  "home_full_coverage_preserved": true,
+  "openimages7_positive_preserved": true,
+  "unknown_negative_gradient_zero": true,
+  "real_yolo_loss_backward_finite": true,
+  "device": "cuda:0",
+  "synthetic_only": true
+}

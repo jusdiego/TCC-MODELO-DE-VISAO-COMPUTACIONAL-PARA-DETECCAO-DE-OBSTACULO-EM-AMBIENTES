@@ -1,0 +1,48 @@
+{
+  "frozen": true,
+  "context": "4139f0b53d89b9706ec245d4823a3cdafe9d895e6f1e8634b49e96de4827c56a",
+  "dataset_id": "5b01c369bdd8dd1a424dedcf202b803165d009ee2c82141b38b9074c39035662",
+  "models": {
+    "candidato10": {
+      "weight_sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+      "threshold": 0.5,
+      "imgsz": 640
+    },
+    "21_epoca21": {
+      "weight_sha256": "5d084e766be8c7a98ee93365e2d14e246dfe7d18cdcabd87df566ff39acc2ee3",
+      "threshold": 0.5,
+      "imgsz": 768
+    },
+    "rfdetr_small24": {
+      "weight_sha256": "d481dcf7e96479b338cb42fd9199d8a4cccde8fbc8ed8e341f528c1e13d51900",
+      "threshold": 0.5,
+      "resolution": 512,
+      "epoch": 13
+    }
+  },
+  "class_names": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "secondary_ids": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    10
+  ],
+  "match_iou": 0.5,
+  "decision_uses_test": false,
+  "test_history": "Home TEST histórico já exposto no projeto; não é confirmação em reserva nova."
+}

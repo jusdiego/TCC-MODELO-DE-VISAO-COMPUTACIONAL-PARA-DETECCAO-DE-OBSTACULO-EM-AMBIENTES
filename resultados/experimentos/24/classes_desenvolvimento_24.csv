@@ -1,0 +1,25 @@
+﻿split,class_id,class,gt,images
+train,0,bed,121,118
+train,1,sofa,1643,1173
+train,2,chair,1764,797
+train,3,table,2034,1319
+train,4,lamp,1443,862
+train,5,tv,265,251
+train,6,laptop,79,70
+train,7,wardrobe,372,318
+train,8,window,1307,575
+train,9,door,411,296
+train,10,potted plant,3396,1259
+train,11,photo frame,2204,842
+val,0,bed,29,29
+val,1,sofa,420,294
+val,2,chair,428,200
+val,3,table,513,331
+val,4,lamp,370,216
+val,5,tv,67,63
+val,6,laptop,23,17
+val,7,wardrobe,94,80
+val,8,window,323,144
+val,9,door,94,74
+val,10,potted plant,823,316
+val,11,photo frame,498,212

@@ -1,0 +1,3 @@
+﻿escopo,modelo_ou_comparacao,metrica,estimativa,ic95_inferior,ic95_superior,replicas_validas,replicas_previstas,numerador,denominador,gt_avaliaveis,suporte_reduzido,estimando_primario,unidade
+global,baseline,recall,0.5203619909502263,0.4540972355232076,0.5894804318488528,2000,2000,115,221,1292,False,True,proporcao
+global,delta_candidato10_menos_baseline,recall,0.08597285067873295,0.03829381536242342,0.14019101492047875,2000,2000,,,1292,False,True,diferenca_de_proporcoes

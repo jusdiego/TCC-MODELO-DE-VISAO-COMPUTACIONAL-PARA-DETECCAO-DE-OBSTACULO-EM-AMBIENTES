@@ -1,0 +1,63 @@
+{
+  "version": "20-plano-avaliacao-final-congelado-em-19-v1",
+  "status": "planejado; reserva nao consultada no 19",
+  "primary_model": "baseline",
+  "comparison_model": "candidato_10",
+  "weight_sha256": {
+    "baseline": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "candidato_10": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f"
+  },
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "archive_sha256": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+  "dataset_location": "datasets/validacao_independente_11_v1/695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0/validacao_independente_11_695b445e15c9.zip",
+  "role": "reserva_futura",
+  "images": 300,
+  "population": "todos os 300 IDs do papel reserva_futura no manifesto autenticado; sem substituicoes",
+  "classes": "mesmo mapeamento de 12 classes; cobertura parcial original preservada",
+  "policy_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "matcher_sha256": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d",
+  "inference": {
+    "ultralytics": "8.4.150",
+    "conf": 0.001,
+    "imgsz": 640,
+    "rect": true,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "batch": 1
+  },
+  "alert_confidence": 0.25,
+  "match_iou": 0.5,
+  "policy": "v2",
+  "primary_estimands": [
+    "recall de alertas por objeto do baseline",
+    "delta recall candidato10 menos baseline"
+  ],
+  "secondary": [
+    "precisao",
+    "F1",
+    "omissoes altas: contagem e taxa por objetos GT de prioridade alta",
+    "metricas por classe e suporte",
+    "contagens TP/FN/FP e denominadores"
+  ],
+  "confidence_intervals": {
+    "method": "bootstrap pareado de grupos de imagens; manter bytes iguais e pHash64 distancia<=4 no mesmo grupo por ligacao transitiva",
+    "repetitions": 2000,
+    "seed": 19002026,
+    "confidence": 0.95,
+    "interval": "percentil 2.5 e 97.5; grupos reamostrados com reposicao; mesmos grupos para ambos os modelos",
+    "zero_denominator": "replica sem suporte fica indefinida; informar quantidade de replicas validas por metrica"
+  },
+  "low_support": "informar contagens; sinalizar classe com menos de 30 GT, sem ocultar resultados",
+  "weight_or_threshold_tuning_after_reserve": false,
+  "second_choice_after_failure": false,
+  "deployment_decision": "nenhuma troca automatica; caracterizacao dos dois modelos predefinidos",
+  "historical_rules": "os seis limites das validacoes ficam no desenvolvimento; nao aplicar limites absolutos de 1.000 imagens em 300",
+  "home_test": "fora desta avaliacao primaria; historico original do baseline nao comprovado",
+  "openimages_test20k": "fora desta etapa",
+  "training": false,
+  "limits": [
+    "A independencia refere-se a reserva preservada no fluxo documentado; nao comprova ausencia de exposicao em todo pretreino original.",
+    "Nao valida distancia, risco fisico ou uso assistivo em ambiente real."
+  ]
+}

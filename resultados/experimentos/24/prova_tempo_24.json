@@ -1,0 +1,14 @@
+{
+  "epochs_measured": 3,
+  "seconds_per_epoch_with_backup": [
+    189.27523177199998,
+    190.58267153999998,
+    194.31404497200003
+  ],
+  "median_seconds": 190.58267153999998,
+  "estimated_additional_epochs": 17,
+  "remaining_training_minutes": 56.646706249683334,
+  "includes_validation_and_checkpoint": true,
+  "continues_same_training": true,
+  "not_a_guarantee": true
+}

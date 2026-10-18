@@ -1,0 +1,25 @@
+﻿conjunto,classe_id,classe,imagens_cobertura_conhecida,imagens_positivas_avaliaveis,caixas_avaliaveis,suporte_reduzido
+reserva_futura,0,bed,32,13,15,True
+reserva_futura,1,sofa,28,9,11,True
+reserva_futura,2,chair,53,33,82,False
+reserva_futura,3,table,111,84,135,False
+reserva_futura,4,lamp,7,7,11,True
+reserva_futura,5,tv,9,7,8,True
+reserva_futura,6,laptop,15,11,12,True
+reserva_futura,7,wardrobe,15,1,1,True
+reserva_futura,8,window,146,118,912,False
+reserva_futura,9,door,59,29,38,False
+reserva_futura,10,potted plant,46,32,60,False
+reserva_futura,11,photo frame,8,6,7,True
+val_nova,0,bed,132,51,63,False
+val_nova,1,sofa,110,28,32,False
+val_nova,2,chair,199,101,250,False
+val_nova,3,table,407,290,491,False
+val_nova,4,lamp,27,23,30,False
+val_nova,5,tv,34,23,27,True
+val_nova,6,laptop,39,34,50,False
+val_nova,7,wardrobe,72,5,7,True
+val_nova,8,window,472,381,2820,False
+val_nova,9,door,163,99,145,False
+val_nova,10,potted plant,176,105,178,False
+val_nova,11,photo frame,26,19,30,False

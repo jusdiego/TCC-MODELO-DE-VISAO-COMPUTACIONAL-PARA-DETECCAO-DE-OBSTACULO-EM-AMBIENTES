@@ -1,0 +1,17 @@
+{
+  "geracao_concluida": true,
+  "casos": 108,
+  "casos_revisados": 0,
+  "casos_pendentes": 108,
+  "revisao_humana_concluida": false,
+  "decisao_wardrobe": "pendente",
+  "objetos_treino_candidatos": 0,
+  "novo_dataset_pronto": false,
+  "rotulos_alterados": false,
+  "novos_treinamentos": 0,
+  "inferencias_novas": 0,
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "validacao_excluida_de_propostas_treino": true,
+  "audit_manifest_sha256": "1aaf13761bbd059e19af8473c3b9bba463bd7579b2617675dd5e98c782744d3b"
+}

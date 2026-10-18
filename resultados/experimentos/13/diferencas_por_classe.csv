@@ -1,0 +1,25 @@
+﻿coorte,classe,classe_id,tp_candidato10,tp_B_e03,delta_tp,fn_candidato10,fn_B_e03,delta_fn,fp_candidato10,fp_B_e03,delta_fp,alta_sem_alerta_candidato10,alta_sem_alerta_B_e03,delta_alta_sem_alerta
+home_val_historica,bed,0,22,22,0,5,5,0,6,7,1,4,4,0
+home_val_historica,sofa,1,361,361,0,17,17,0,78,66,-12,4,4,0
+home_val_historica,chair,2,292,293,1,40,39,-1,82,87,5,4,4,0
+home_val_historica,table,3,399,397,-2,50,52,2,87,81,-6,12,14,2
+home_val_historica,lamp,4,0,0,0,0,0,0,0,0,0,0,0,0
+home_val_historica,tv,5,0,0,0,0,0,0,0,0,0,0,0,0
+home_val_historica,laptop,6,0,0,0,0,0,0,0,0,0,0,0,0
+home_val_historica,wardrobe,7,53,52,-1,19,20,1,41,36,-5,0,1,1
+home_val_historica,window,8,0,0,0,0,0,0,0,0,0,0,0,0
+home_val_historica,door,9,0,0,0,0,0,0,0,0,0,0,0,0
+home_val_historica,potted plant,10,232,230,-2,45,47,2,88,92,4,3,3,0
+home_val_historica,photo frame,11,0,0,0,0,0,0,0,0,0,0,0,0
+openimages_val_nova,bed,0,37,35,-2,22,24,2,12,9,-3,17,19,2
+openimages_val_nova,sofa,1,21,19,-2,11,13,2,13,12,-1,6,7,1
+openimages_val_nova,chair,2,104,101,-3,81,84,3,97,81,-16,19,20,1
+openimages_val_nova,table,3,222,209,-13,168,181,13,144,118,-26,67,80,13
+openimages_val_nova,lamp,4,0,0,0,0,0,0,0,0,0,0,0,0
+openimages_val_nova,tv,5,0,0,0,0,0,0,0,0,0,0,0,0
+openimages_val_nova,laptop,6,0,0,0,0,0,0,0,0,0,0,0,0
+openimages_val_nova,wardrobe,7,1,1,0,6,6,0,6,5,-1,6,6,0
+openimages_val_nova,window,8,0,0,0,0,0,0,0,0,0,0,0,0
+openimages_val_nova,door,9,0,0,0,0,0,0,0,0,0,0,0,0
+openimages_val_nova,potted plant,10,87,88,1,22,21,-1,45,39,-6,5,4,-1
+openimages_val_nova,photo frame,11,0,0,0,0,0,0,0,0,0,0,0,0

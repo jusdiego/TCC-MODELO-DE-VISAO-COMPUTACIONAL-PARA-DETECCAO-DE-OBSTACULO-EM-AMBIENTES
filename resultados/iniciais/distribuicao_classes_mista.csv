@@ -1,0 +1,49 @@
+﻿split,origem,id_classe,classe,objetos
+train,homeobjects,0,bed,121
+train,homeobjects,1,sofa,1653
+train,homeobjects,2,chair,1766
+train,homeobjects,3,table,2045
+train,homeobjects,4,lamp,1446
+train,homeobjects,5,tv,265
+train,homeobjects,6,laptop,79
+train,homeobjects,7,wardrobe,372
+train,homeobjects,8,window,1311
+train,homeobjects,9,door,413
+train,homeobjects,10,potted plant,3407
+train,homeobjects,11,photo frame,2210
+train,sunrgbd,0,bed,560
+train,sunrgbd,1,sofa,452
+train,sunrgbd,2,chair,6953
+train,sunrgbd,3,table,2274
+train,sunrgbd,4,lamp,368
+train,sunrgbd,5,tv,101
+train,sunrgbd,6,laptop,34
+train,sunrgbd,7,wardrobe,6
+train,sunrgbd,8,window,6
+train,sunrgbd,9,door,456
+train,sunrgbd,10,potted plant,0
+train,sunrgbd,11,photo frame,1
+val,homeobjects,0,bed,29
+val,homeobjects,1,sofa,420
+val,homeobjects,2,chair,428
+val,homeobjects,3,table,513
+val,homeobjects,4,lamp,370
+val,homeobjects,5,tv,67
+val,homeobjects,6,laptop,23
+val,homeobjects,7,wardrobe,94
+val,homeobjects,8,window,323
+val,homeobjects,9,door,94
+val,homeobjects,10,potted plant,823
+val,homeobjects,11,photo frame,498
+val,sunrgbd,0,bed,181
+val,sunrgbd,1,sofa,104
+val,sunrgbd,2,chair,2167
+val,sunrgbd,3,table,540
+val,sunrgbd,4,lamp,110
+val,sunrgbd,5,tv,24
+val,sunrgbd,6,laptop,7
+val,sunrgbd,7,wardrobe,1
+val,sunrgbd,8,window,2
+val,sunrgbd,9,door,118
+val,sunrgbd,10,potted plant,0
+val,sunrgbd,11,photo frame,0

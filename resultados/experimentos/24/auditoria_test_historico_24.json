@@ -1,0 +1,24 @@
+{
+  "images": 403,
+  "historically_exposed": true,
+  "decision_key": "4dd1ca756658a303151da9cf72ac8329eb90f9bd3a8f32d9e621c304bdb07030",
+  "test_selection": false,
+  "overlap_candidates": [
+    {
+      "id": "home:homeobjects_yolo/images/test/living_room_1p (400).jpg",
+      "pixel_overlap": false,
+      "phash_candidate": true
+    },
+    {
+      "id": "home:homeobjects_yolo/images/test/living_room_1p (505).jpg",
+      "pixel_overlap": false,
+      "phash_candidate": true
+    },
+    {
+      "id": "home:homeobjects_yolo/images/test/living_room_860.jpg",
+      "pixel_overlap": false,
+      "phash_candidate": true
+    }
+  ],
+  "nota": "Se houver coincidências, o resultado mantém as 403 imagens históricas, com exposição sinalizada; não é prova de generalização independente."
+}

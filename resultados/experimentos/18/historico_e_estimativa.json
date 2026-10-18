@@ -1,0 +1,111 @@
+{
+  "pacote16_sha256": "cd9acf4eba29bb28dee20465ec2503b72cc65302f3d7c8377dd442455a4d16fa",
+  "pacote17_sha256": "0ef3ce66a70216c641176a8c682e74b7a08c758f5d98ccb1ebd3db31943fde93",
+  "resultado16": "nenhum_checkpoint_final_elegivel",
+  "resultado17": "nenhuma_configuracao_elegivel_na_calibracao",
+  "controle16_e03": {
+    "id": "C_original_e03",
+    "arm": "C_original",
+    "epoch": 3,
+    "updates": 342,
+    "weight_relative": "bracos/C_original/tentativas/20261017_155105_877500/pesos/C_original_e03.pt",
+    "weight_sha256": "10a35b054c0a810d24cdb569c6d79a97b6fad9657cbaed7347a62f40bb30a8fb",
+    "home": {
+      "modelo": "C_original_e03",
+      "coorte": "home_val_historica",
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1342,
+        "fn": 193,
+        "fp": 334,
+        "precision": 0.8007159904534606,
+        "recall": 0.8742671009771987,
+        "f1": 0.8358766739333541
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 30,
+      "taxa_alta_sem_alerta": 0.055970149253731345,
+      "detector_no_limiar": {
+        "tp": 3083,
+        "fn": 599,
+        "fp": 937,
+        "precision": 0.7669154228855721,
+        "recall": 0.8373166757197176,
+        "f1": 0.8005712801869644
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.9863945578231292,
+        "recall": 0.9977064220183486,
+        "f1": 0.992018244013683
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "external": {
+      "modelo": "C_original_e03",
+      "coorte": "openimages_val_nova",
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 443,
+        "fn": 339,
+        "fp": 257,
+        "precision": 0.6328571428571429,
+        "recall": 0.5664961636828645,
+        "f1": 0.5978407557354926
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 140,
+      "taxa_alta_sem_alerta": 0.3333333333333333,
+      "detector_no_limiar": {
+        "tp": 1587,
+        "fn": 2536,
+        "fp": 1165,
+        "precision": 0.576671511627907,
+        "recall": 0.3849138976473442,
+        "f1": 0.4616727272727273
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf": 1713,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 3,
+        "fn": 1,
+        "fp": 6,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1": 0.46153846153846156
+      },
+      "referencia": "Concordância com política V2 nas caixas; não valida risco físico.",
+      "nao_e_openimages_challenge": true,
+      "ap_recalculada": false
+    },
+    "snapshot_relative": "bracos/C_original/tentativas/20261017_155105_877500/avaliacoes/C_original_e03/avaliacao_snapshot.json.gz"
+  },
+  "tempos_16": [
+    {
+      "arm_16": "C_original",
+      "seconds": 376.157134,
+      "includes": "treino, avaliações por época e backups; não mede só GPU"
+    },
+    {
+      "arm_16": "M_home_unknown7",
+      "seconds": 377.369423,
+      "includes": "treino, avaliações por época e backups; não mede só GPU"
+    }
+  ],
+  "decisao": "refazer 12/4 e comparar com 8/8 na mesma execução, ambos a partir de C10",
+  "estimativa_T4_minutos": [
+    20,
+    40
+  ],
+  "tempo_pode_exceder": "downloads e salvamentos lentos, instalação ou nova tentativa"
+}

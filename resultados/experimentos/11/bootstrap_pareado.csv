@@ -1,0 +1,15 @@
+﻿coorte,metrica,delta_candidato_menos_antigo,ic95_inferior,ic95_superior,reamostragens_validas,imagens,metodo
+home_val_historica,precision_alertas_pp,-0.30597856877962215,-1.9552614206908523,1.2964411850415956,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+home_val_historica,recall_alertas_pp,-1.3680781758957608,-2.404832421670389,-0.26911175411995075,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+home_val_historica,f1_alertas_pp,-0.7708311106369194,-1.8411127000744565,0.3473412070578398,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+home_val_historica,fn_alertas,21.0,4.0,37.02499999999998,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+home_val_historica,fp_alertas,1.0,-35.025,38.02499999999998,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+home_val_historica,alta_sem_alerta,3.0,-5.0,11.0,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+home_val_historica,taxa_alta_sem_alerta_pp,0.5597014925373136,-0.9295420686966571,2.0639841991640253,1000,456,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,precision_alertas_pp,5.520726634382136,2.295161853746586,8.979401071414495,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,recall_alertas_pp,11.125319693094625,8.293779323156064,14.193882091212467,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,f1_alertas_pp,8.44592272497706,5.98543958486174,11.353880293042355,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,fn_alertas,-87.0,-110.0,-65.0,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,fp_alertas,-7.0,-46.0,30.0,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,alta_sem_alerta,-73.0,-93.0,-54.0,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia
+openimages_val_nova,taxa_alta_sem_alerta_pp,-17.38095238095238,-21.995012787723784,-13.094197469197473,1000,1000,Bootstrap pareado por imagem; não corrige possível exposição prévia

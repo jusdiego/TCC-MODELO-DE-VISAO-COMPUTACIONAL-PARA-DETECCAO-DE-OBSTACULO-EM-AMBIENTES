@@ -1,0 +1,6 @@
+# Configuração operacional; não contém rótulos preenchidos manualmente.
+dataset_base: data/processed/homeobjects_yolo
+pasta_raw: data/raw
+imagens_test: 403
+proporcao_validacao: 0.20
+semente: 42

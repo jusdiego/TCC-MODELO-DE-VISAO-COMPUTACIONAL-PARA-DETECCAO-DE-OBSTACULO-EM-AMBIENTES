@@ -1,0 +1,32 @@
+{
+  "antigo": {
+    "esperado_execucao10": {
+      "tp": 1380,
+      "fn": 155,
+      "fp": 381,
+      "alta_sem_alerta": 24
+    },
+    "observado": {
+      "tp": 1380,
+      "fn": 155,
+      "fp": 381,
+      "alta_sem_alerta": 24
+    },
+    "contagens_iguais": true
+  },
+  "candidato": {
+    "esperado_execucao10": {
+      "tp": 1359,
+      "fn": 176,
+      "fp": 382,
+      "alta_sem_alerta": 27
+    },
+    "observado": {
+      "tp": 1359,
+      "fn": 176,
+      "fp": 382,
+      "alta_sem_alerta": 27
+    },
+    "contagens_iguais": true
+  }
+}

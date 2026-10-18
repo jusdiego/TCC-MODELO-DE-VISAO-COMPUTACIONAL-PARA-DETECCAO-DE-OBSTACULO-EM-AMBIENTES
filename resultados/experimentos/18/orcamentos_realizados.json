@@ -1,0 +1,26 @@
+[
+  {
+    "arm": "C12_4",
+    "epoch": 3,
+    "updates": 342,
+    "batches_seen": 342,
+    "source_views": {
+      "home": 4104,
+      "openimages": 1368
+    },
+    "amp": false,
+    "accumulate": 1
+  },
+  {
+    "arm": "E8_8",
+    "epoch": 3,
+    "updates": 342,
+    "batches_seen": 342,
+    "source_views": {
+      "home": 2736,
+      "openimages": 2736
+    },
+    "amp": false,
+    "accumulate": 1
+  }
+]

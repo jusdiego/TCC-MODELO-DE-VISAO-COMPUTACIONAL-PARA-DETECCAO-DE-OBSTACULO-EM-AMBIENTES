@@ -1,0 +1,170 @@
+[
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1065.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1065.jpg",
+    "sha256": "8c4e026b75e0ece2989faca79ade45237c5056fbca8a41a20f197c07738a358f",
+    "relative": "demonstracao/imagens/5d5f20c055d482f9a9226cd3.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1680.jpg",
+    "sha256": "ded753dd1e2a38dfeb6bc7ceda02f8e83c6229aaef27516c3e6ab9e5db40716d",
+    "relative": "demonstracao/imagens/b9c8634db207237b3afc07e9.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1160.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1160.jpg",
+    "sha256": "34e5d6e7415381244e3d4117a522dea371ee3d205523b0ae1baee95e77939149",
+    "relative": "demonstracao/imagens/14a2776f5c9a00e12fa97de6.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_108.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_108.jpg",
+    "sha256": "a35742cfc6527621ace84e883bcb4abf2cf66280d525399e954e9b89bb7131b8",
+    "relative": "demonstracao/imagens/975cba3e8823fcb0e2b567eb.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (62).jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1p (62).jpg",
+    "sha256": "5873407d4a1c9a892199963434555e8c3b6d32c4f6fc83238fff012fd20ff754",
+    "relative": "demonstracao/imagens/0c1f9e7c47770ca27707b9fc.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_957.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_957.jpg",
+    "sha256": "c084169852a7991173f2a7fa1e3784c45d1b824e43c945d78f5e6a6c8b301c61",
+    "relative": "demonstracao/imagens/b7b187c8456834828d093531.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/s (226).jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/s (226).jpg",
+    "sha256": "c31660a6c825e7692b412dfa0876e5afe591df5524694e7ee6bf2681195aa4d1",
+    "relative": "demonstracao/imagens/9e8852defaa1952fdc537c10.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1314.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1314.jpg",
+    "sha256": "3c27c3e64903da976f5efe0d21f459c22a83c6a122651608a9cba6fd34604a4a",
+    "relative": "demonstracao/imagens/d842de8be60010ec3f1a8545.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (449).jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1p (449).jpg",
+    "sha256": "f319c4226cce92f52b6af66bc65f7217007c2b0709cb8c95102b25c3dcc477a4",
+    "relative": "demonstracao/imagens/2b93ca3990515d031441e394.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1136.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1136.jpg",
+    "sha256": "d48d808f49fe2fb2ebcfcf2b4755b922e12a086d56723b1de1699383ba55da01",
+    "relative": "demonstracao/imagens/e2fd7a24e08edaa87047bbc5.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1097.jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1097.jpg",
+    "sha256": "cf5ed1eccc3657d14bc8198d121c4915f568063c9dfd6044ad0598524002c8a6",
+    "relative": "demonstracao/imagens/4563ae3a2808c1976d933ab0.jpg"
+  },
+  {
+    "id": "home:homeobjects_yolo/images/val/raw_train/living_room_1p (162).jpg",
+    "role": "home_val",
+    "member": "homeobjects_yolo/images/val/raw_train/living_room_1p (162).jpg",
+    "sha256": "d42f502505b4b10e721a4aec477354bdfd3c0a8a7b7a2dff48a6a72abab13906",
+    "relative": "demonstracao/imagens/2a9abe3a511fd6a8e8c023d7.jpg"
+  },
+  {
+    "id": "408bfc9875660552",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_408bfc9875660552.jpg",
+    "sha256": "a5286b1c4d21104df8de6a3fd6440ea3c6978dc1ebf9ddf62cc5cfdcb2aabdc0",
+    "relative": "demonstracao/imagens/bff60a2bcc37a3d74d838126.jpg"
+  },
+  {
+    "id": "214a4b9be6fdd6c2",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_214a4b9be6fdd6c2.jpg",
+    "sha256": "c770d3a8fd8537905cf839f69b72ee1e63a91ac52b912329f34a7ff0d6d7c2da",
+    "relative": "demonstracao/imagens/804f097c3cae564eef7b5675.jpg"
+  },
+  {
+    "id": "9afab31afacbba12",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_9afab31afacbba12.jpg",
+    "sha256": "faeee7fdda30e51544ef97cc61e456e5201f955323a6ece122bffedbf57183db",
+    "relative": "demonstracao/imagens/e938044e6945af139d095c2b.jpg"
+  },
+  {
+    "id": "acbde44d15c33442",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_acbde44d15c33442.jpg",
+    "sha256": "eec6c1ce36c3e95c226b5b8f3b6050f30fcc22dc13805d2ba107eaeaadd89d93",
+    "relative": "demonstracao/imagens/194e217b50b4e6692dde238b.jpg"
+  },
+  {
+    "id": "91bf0d9c81e17a6b",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_91bf0d9c81e17a6b.jpg",
+    "sha256": "c9eaf64cd914e1b6cbaec1955c8882503b648039aefd0bf0e4dd9347ae954fa5",
+    "relative": "demonstracao/imagens/ed10f88171910f90f38c92c7.jpg"
+  },
+  {
+    "id": "2830555fb925b7cd",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_2830555fb925b7cd.jpg",
+    "sha256": "bf2412665dd9b040fb19b720bac6eb3dac736836367d818f0357f3436b42f055",
+    "relative": "demonstracao/imagens/94fb70785630ca4ae26349f4.jpg"
+  },
+  {
+    "id": "beafcc5909c27004",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_beafcc5909c27004.jpg",
+    "sha256": "fa21155ca2fee5191fe8d753b4977a977fc03bdffde9793c376d4e9fe026dfae",
+    "relative": "demonstracao/imagens/d1ccacec9d5c5ceaf41a0d76.jpg"
+  },
+  {
+    "id": "4afce4e856a68aed",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_4afce4e856a68aed.jpg",
+    "sha256": "db94fafc8c901fe8874fcaad8112c0bc5f5163755db5a83edc0107158fd8ef6d",
+    "relative": "demonstracao/imagens/d8a8b8f573ebeb4dfcea915f.jpg"
+  },
+  {
+    "id": "81eab2350699a82e",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_81eab2350699a82e.jpg",
+    "sha256": "0ba1ebeacc4b01e18a86a8ea2929a329ba869b27077f264e840e667cd27a0937",
+    "relative": "demonstracao/imagens/fdae1fe5fc966505fd8ffcc9.jpg"
+  },
+  {
+    "id": "4b03233bd0db4335",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_4b03233bd0db4335.jpg",
+    "sha256": "6f3838fd7f2262803c4dc90fe74662f591e2a92a42ad99901534d6fff48531c1",
+    "relative": "demonstracao/imagens/dde388f1049e22c0ec12980c.jpg"
+  },
+  {
+    "id": "2923012e4f856a0e",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_2923012e4f856a0e.jpg",
+    "sha256": "320563a972926cac2dcd3b93c6ebfc54fa93c34aa13163bf5252e23a448ed343",
+    "relative": "demonstracao/imagens/65bc520ba97f23603661d4ef.jpg"
+  },
+  {
+    "id": "43279ad5d74d5f67",
+    "role": "val_nova",
+    "member": "images/val_nova/oi_val_43279ad5d74d5f67.jpg",
+    "sha256": "567e827a164338b22d968efe3513a8ff0efb3ac33c61c3da6199230bb0e6fdb1",
+    "relative": "demonstracao/imagens/f103bf9d5c5c0469e448b10d.jpg"
+  }
+]

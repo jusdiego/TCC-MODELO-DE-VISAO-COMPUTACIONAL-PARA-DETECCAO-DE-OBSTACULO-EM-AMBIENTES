@@ -1,0 +1,183 @@
+{
+  "versao": "14-confianca-automatica-1.0",
+  "concluido": true,
+  "status": "nenhum_limiar_elegivel",
+  "mensagem": "Nenhum limiar da grade cumpriu todos os requisitos. O baseline continua em uso.",
+  "limiar_sugerido": null,
+  "grade": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4
+  ],
+  "reproducao_confirmada": true,
+  "modelo_inferido": "B_e03",
+  "imagens_avaliadas": 1456,
+  "imagens_inferidas_nesta_execucao": 0,
+  "novos_treinamentos": 0,
+  "preenchimento_manual_obrigatorio": false,
+  "baseline_e_candidato10_reinferidos": false,
+  "referencias": "pacote 12 autenticado",
+  "modelo_em_uso_continua_baseline": true,
+  "modelos_substituidos": false,
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "rotulos_alterados": false,
+  "validacoes_usadas_na_selecao": true,
+  "nao_e_teste_final_independente": true,
+  "correcao_cache": "14-cache-validacao-1.0.1",
+  "geometria_previsoes": {
+    "home_val_historica": {
+      "correcao": "14-cache-validacao-1.0.1",
+      "imagens": 456,
+      "imagens_com_geometria_incomum": 94,
+      "totais": {
+        "predicoes": 46881,
+        "area_zero": 174,
+        "fora_da_imagem": 0,
+        "area_zero_na_grade": 0,
+        "fora_da_imagem_na_grade": 0
+      },
+      "propostas_removidas": 0,
+      "coordenadas_alteradas": false,
+      "observacao": "Geometria incomum preservada no cache e no protocolo; não constitui objeto aprovado. Reprodução em 0,25 continua obrigatória."
+    },
+    "openimages_val_nova": {
+      "correcao": "14-cache-validacao-1.0.1",
+      "imagens": 1000,
+      "imagens_com_geometria_incomum": 148,
+      "totais": {
+        "predicoes": 193351,
+        "area_zero": 377,
+        "fora_da_imagem": 0,
+        "area_zero_na_grade": 0,
+        "fora_da_imagem_na_grade": 0
+      },
+      "propostas_removidas": 0,
+      "coordenadas_alteradas": false,
+      "observacao": "Geometria incomum preservada no cache e no protocolo; não constitui objeto aprovado. Reprodução em 0,25 continua obrigatória."
+    }
+  },
+  "peso_B_e03_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "recuperacao_perdas": [
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.05,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 10,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 4
+    },
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.1,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 9,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 3
+    },
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.15,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 9,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 3
+    },
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.2,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 7,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 2
+    },
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.25,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 0,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 0
+    },
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.3,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 0,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 0
+    },
+    {
+      "coorte": "home_val_historica",
+      "conf": 0.4,
+      "perdas_B_025_vs_candidato10": 10,
+      "dessas_perdas_recuperadas": 0,
+      "perdas_altas_B_025_vs_candidato10": 4,
+      "dessas_perdas_altas_recuperadas": 0
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.05,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 23,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 16
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.1,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 22,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 15
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.15,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 18,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 12
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.2,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 11,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 7
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.25,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 0,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 0
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.3,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 0,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 0
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "conf": 0.4,
+      "perdas_B_025_vs_candidato10": 26,
+      "dessas_perdas_recuperadas": 0,
+      "perdas_altas_B_025_vs_candidato10": 17,
+      "dessas_perdas_altas_recuperadas": 0
+    }
+  ],
+  "proximo_passo": "Encerrar esta hipótese de limiar; planejar revisão automática mais ampla dos dados e novo experimento documentado."
+}

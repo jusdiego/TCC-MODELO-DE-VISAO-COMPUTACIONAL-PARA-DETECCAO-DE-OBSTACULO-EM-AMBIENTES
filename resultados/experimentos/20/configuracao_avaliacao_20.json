@@ -1,0 +1,106 @@
+{
+  "context_key": "22fdfbb82b5bab4e53223b0616640c3a89112555391af2e40bbac99eb59e4607",
+  "versao": "20-avaliacao-final-1.0.0",
+  "pacote_19_sha256": "33b9937613b3cddae984a4499adc2788318cb957628c858d525bc2a86be674e4",
+  "protocolo_sha256": "b13f47fe8c2bc87369ccba1f5dbdad8d4fff46651531956617d38684e0b61b38",
+  "codigo_sha256": {
+    "conf14_data.py": "f73232836278c08edf0f955ae8fe50a33cb1d4eabe2b2cc35a5f410f095bae66",
+    "conf14_evaluation.py": "3e64c612ffcd7cb75fdf05707affc45cafa91acd1882ab311425c2752ed01656",
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+    "final20_data.py": "0c31947fca9018c69fbd6c1933fcb51a44158ac7e7a6f709ed38638c4e5b8538",
+    "final20_drive.py": "25300e50e08260a7a0c0601fb65941605d042c97ec23cbb46811e4e0900f14eb",
+    "final20_eval.py": "3555c648a33ea58e128b66048c34b2677e3c4e53b5880e23d11cefe2b287d42d",
+    "final20_io.py": "d4fee2cffadd2578b004b2bd9f33c3caa79a97afe2f26b2ddd658a1b0a230b17",
+    "final20_report.py": "610b62465939df31ab32579e75fb9cc8c274779ce965fe6e6f90edf7a36159d3",
+    "final20_stats.py": "8120d948239baea268a10684b98049536d9c26bb2a00eb0ecf639b93cd7bc809",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/politica_alertas.py": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "src/validacao_alertas.py": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d"
+  },
+  "ambiente": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pillow": "12.3.0",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.150",
+    "cuda_runtime": "12.8",
+    "dispositivo": "0",
+    "gpu": "Tesla T4",
+    "half": false,
+    "tf32": false
+  },
+  "protocolo": {
+    "version": "20-plano-avaliacao-final-congelado-em-19-v1",
+    "status": "planejado; reserva nao consultada no 19",
+    "primary_model": "baseline",
+    "comparison_model": "candidato_10",
+    "weight_sha256": {
+      "baseline": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+      "candidato_10": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f"
+    },
+    "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+    "archive_sha256": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+    "dataset_location": "datasets/validacao_independente_11_v1/695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0/validacao_independente_11_695b445e15c9.zip",
+    "role": "reserva_futura",
+    "images": 300,
+    "population": "todos os 300 IDs do papel reserva_futura no manifesto autenticado; sem substituicoes",
+    "classes": "mesmo mapeamento de 12 classes; cobertura parcial original preservada",
+    "policy_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "matcher_sha256": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d",
+    "inference": {
+      "ultralytics": "8.4.150",
+      "conf": 0.001,
+      "imgsz": 640,
+      "rect": true,
+      "iou": 0.7,
+      "max_det": 300,
+      "half": false,
+      "batch": 1
+    },
+    "alert_confidence": 0.25,
+    "match_iou": 0.5,
+    "policy": "v2",
+    "primary_estimands": [
+      "recall de alertas por objeto do baseline",
+      "delta recall candidato10 menos baseline"
+    ],
+    "secondary": [
+      "precisao",
+      "F1",
+      "omissoes altas: contagem e taxa por objetos GT de prioridade alta",
+      "metricas por classe e suporte",
+      "contagens TP/FN/FP e denominadores"
+    ],
+    "confidence_intervals": {
+      "method": "bootstrap pareado de grupos de imagens; manter bytes iguais e pHash64 distancia<=4 no mesmo grupo por ligacao transitiva",
+      "repetitions": 2000,
+      "seed": 19002026,
+      "confidence": 0.95,
+      "interval": "percentil 2.5 e 97.5; grupos reamostrados com reposicao; mesmos grupos para ambos os modelos",
+      "zero_denominator": "replica sem suporte fica indefinida; informar quantidade de replicas validas por metrica"
+    },
+    "low_support": "informar contagens; sinalizar classe com menos de 30 GT, sem ocultar resultados",
+    "weight_or_threshold_tuning_after_reserve": false,
+    "second_choice_after_failure": false,
+    "deployment_decision": "nenhuma troca automatica; caracterizacao dos dois modelos predefinidos",
+    "historical_rules": "os seis limites das validacoes ficam no desenvolvimento; nao aplicar limites absolutos de 1.000 imagens em 300",
+    "home_test": "fora desta avaliacao primaria; historico original do baseline nao comprovado",
+    "openimages_test20k": "fora desta etapa",
+    "training": false,
+    "limits": [
+      "A independencia refere-se a reserva preservada no fluxo documentado; nao comprova ausencia de exposicao em todo pretreino original.",
+      "Nao valida distancia, risco fisico ou uso assistivo em ambiente real."
+    ]
+  },
+  "expected": {
+    "pacote_19": "33b9937613b3cddae984a4499adc2788318cb957628c858d525bc2a86be674e4",
+    "contexto_19": "4d5ea2227cb3d7146cc78d8b5d752047cad25b1121335d051e7750dc79098db6",
+    "pasta_19": "resultados/consolidacao19_4d5ea2227cb3d7146cc78d8b",
+    "protocolo_sha256": "b13f47fe8c2bc87369ccba1f5dbdad8d4fff46651531956617d38684e0b61b38",
+    "weights": {
+      "baseline": "modelos/yolov8n_baseline/best.pt",
+      "candidato_10": "resultados/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010/best.pt"
+    }
+  }
+}

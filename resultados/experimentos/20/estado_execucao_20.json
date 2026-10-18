@@ -1,0 +1,18 @@
+{
+  "concluido": true,
+  "context_key": "22fdfbb82b5bab4e53223b0616640c3a89112555391af2e40bbac99eb59e4607",
+  "etapa": "avaliação final concluída",
+  "treinamento_executado": false,
+  "modelo_substituido": false,
+  "atualizado_em_utc": "2026-10-17T22:53:52.552526+00:00",
+  "reserva_extraida": true,
+  "imagens_reserva": 300,
+  "inferencia_iniciada": true,
+  "ultimo_modelo_concluido": "candidato_10",
+  "reserva_inferida": true,
+  "modelos_concluidos": [
+    "baseline",
+    "candidato_10"
+  ],
+  "pesos_ou_limiares_ajustados": false
+}

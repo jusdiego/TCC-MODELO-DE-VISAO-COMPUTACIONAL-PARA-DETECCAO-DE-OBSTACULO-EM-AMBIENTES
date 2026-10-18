@@ -1,0 +1,119 @@
+{
+  "versao": "12-home-replay-controlado-1.0",
+  "experimento": "ajuste12_20261016_033819_596490",
+  "expected": {
+    "baseline": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "candidato": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+    "politica": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "home_zip": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+    "test_home": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+    "preparacao": "9865042654c51e83955c2aeb186a1b5e27e1028a5c56f1f163e2891abc0bec49",
+    "divisao_10": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+    "manifesto_pacotes": "655094dea28755a7bddc817ae66660d06fab28ccb8f9d140d3ffebb07f03a0d4",
+    "pacote_11": "a3f3fb500cef83fc4890f6bbec6725bbf5e080503fd0478af3dd84d6f5ef6e93",
+    "dataset_novo": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+    "zip_novo": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+    "codigo_11": {
+      "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+      "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+      "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2"
+    }
+  },
+  "semente": 42,
+  "argumentos_treino": {
+    "epochs": 3,
+    "imgsz": 640,
+    "batch": 16,
+    "nbs": 16,
+    "workers": 2,
+    "device": 0,
+    "amp": false,
+    "optimizer": "AdamW",
+    "lr0": 3e-06,
+    "lrf": 1.0,
+    "cos_lr": false,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 0.0,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "close_mosaic": 0,
+    "scale": 0.2,
+    "translate": 0.1,
+    "fliplr": 0.5,
+    "flipud": 0.0,
+    "degrees": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "multi_scale": 0.0,
+    "pretrained": true,
+    "rect": false,
+    "compile": false,
+    "seed": 42,
+    "deterministic": true,
+    "patience": 0,
+    "save": true,
+    "save_period": 1,
+    "plots": false,
+    "cache": false,
+    "val": true,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "resume": false,
+    "exist_ok": false,
+    "verbose": false
+  },
+  "regra_sha256": "04c6287c2c4adb8c43baf28c10acbaa1a599198b905d48808a8f5f67f39a4909",
+  "epocas_curtas": 3,
+  "batches_por_epoca": 114,
+  "atualizacoes_por_braco": 342,
+  "bracos": {
+    "A_home": {
+      "home_per_batch": 16,
+      "oi_per_batch": 0
+    },
+    "B_home_replay": {
+      "home_per_batch": 12,
+      "oi_per_batch": 4
+    }
+  },
+  "replay_unico": 2000,
+  "home_train_unico": 1824,
+  "exposicoes_planejadas": {
+    "A_home": {
+      "home": 5472,
+      "openimages": 0
+    },
+    "B_home_replay": {
+      "home": 4104,
+      "openimages": 1368
+    }
+  },
+  "mesmo_numero_atualizacoes_nao_mesma_exposicao_home": true,
+  "validacao_externa_agora_usada_para_selecao": true,
+  "reserva_futura_inferida": false,
+  "rotulos_originais_preservados": true,
+  "revisao_semantica": "pendente; galeria somente de treino",
+  "ambiente": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.150",
+    "device": "0"
+  },
+  "codigo_embutido_sha256": {
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+    "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2",
+    "exp10_partial.py": "86a36f93aa643853f1268dcc133bed7e7344dea269b9d1d58cf54095538fffae",
+    "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+    "exp12_data.py": "0a9de7e99d302a2690f18f51924f4dc80b32861c9d2149ccfe0572ec75499f30",
+    "exp12_training.py": "6c51c9965336b2f00bd9b282e2159c0b63f07c5c16859da78da2818bd4202fdc",
+    "exp12_reports.py": "120609247939189f895c01cdfd1411e4d2b416d1e293cb26851d63d04835b49a"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "versao": "13-auditoria-1.0",
+  "experimento": "auditoria13_20261016_043823_605427",
+  "seed": 42,
+  "inputs": {
+    "pacote12_sha256": "1c3a6016099c2bb23aca29396286497c7973f00136c1afbb0bbc62e45aa20650",
+    "pacote11_sha256": "a3f3fb500cef83fc4890f6bbec6725bbf5e080503fd0478af3dd84d6f5ef6e93",
+    "home_zip_sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+    "dataset_externo_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+    "divisao80_20_sha256": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+    "preparacao_sha256": "9865042654c51e83955c2aeb186a1b5e27e1028a5c56f1f163e2891abc0bec49"
+  },
+  "audit_manifest_sha256": "1aaf13761bbd059e19af8473c3b9bba463bd7579b2617675dd5e98c782744d3b",
+  "codigo_sha256": {
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "diag11_data.py": "c9f137d4dcc8c8f5fb156aaf25cddf6707d24e74567c05237332c2144e6e2f98",
+    "diag11_reports.py": "0068af8fd70b616cb642e9fb8a75d503cdc003f18fe79d64fd487bd7822d85e2",
+    "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+    "exp12_data.py": "0a9de7e99d302a2690f18f51924f4dc80b32861c9d2149ccfe0572ec75499f30",
+    "audit13.py": "42de0195587176dc9b1c13756dce6eb8bff616fbd8e585544a66ea6fbf259712",
+    "revisor_template.html": "d8076b93021b1073a994dc494eb4e7b19c9b81b1f56c4f522900bc1a3455f51d"
+  },
+  "ambiente": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pillow": "12.3.0",
+    "scipy": "1.16.3"
+  },
+  "ambiente_execucao": "CPU; sem Torch/Ultralytics no código executado",
+  "novos_treinamentos": 0,
+  "inferencias_novas": 0,
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "integridade_conferida": true,
+  "home": {
+    "home_train_atual": 1824,
+    "home_val_atual": 456,
+    "test_home_preservado": 403,
+    "test_extraido": false,
+    "intersecao_bytes_home_train_val_atual": 0,
+    "divergencia_documental_1822_1824": "Não reconciliada; o pacote atual tem 1824.",
+    "separacao_atual_nao_comprova_historico_baseline": true
+  },
+  "proveniencia_baseline": {
+    "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "data_checkpoint": "2026-09-13T17:08:48.014038+00:00",
+    "train_args_preservados": {
+      "data": "/content/tcc_visao_computacional/homeobjects_yolo/data_colab.yaml",
+      "epochs": 50,
+      "batch": 26,
+      "imgsz": 640,
+      "seed": 42,
+      "optimizer": "auto",
+      "lr0": 0.01,
+      "project": "/content/experimentos",
+      "name": "yolov8n_baseline",
+      "fraction": 1.0
+    },
+    "estado_proveniencia_original": "nao_determinado",
+    "home_val_usada_no_treino_original": null,
+    "motivo": "Caminhos e argumentos não contêm a lista de imagens vistas no treino original."
+  },
+  "lotes_conferidos": [
+    {
+      "arquivo": "lote_000001.zip",
+      "zip_sha256": "9be878dd7c8f91dba90deb1cea226fc28bd6e3c5ad6192ced1a0ee7e8369c949",
+      "zip_bytes": 287039437
+    },
+    {
+      "arquivo": "lote_000002.zip",
+      "zip_sha256": "e9032df3a116eddc792d645885034dc4108636f18f8636a49fd61c89d6d8cfdd",
+      "zip_bytes": 287377350
+    },
+    {
+      "arquivo": "lote_000004.zip",
+      "zip_sha256": "5f49733266a698076e0640d149a4081cba1503fb0ab0c30a329b90d4e334cf52",
+      "zip_bytes": 291726989
+    },
+    {
+      "arquivo": "lote_000005.zip",
+      "zip_sha256": "f894e78de3f6c13545c1cb68d3a59b4d8f8633b876a970af4d6c79c1f5c24f65",
+      "zip_bytes": 293332917
+    }
+  ],
+  "mids_raizes_originais": [
+    "/m/03ssj5",
+    "/m/02crq1",
+    "/m/01mzpv",
+    "/m/04bcr3",
+    "/m/0dtln",
+    "/m/07c52",
+    "/m/01c648",
+    "/m/02vkqh8",
+    "/m/0d4v4",
+    "/m/02dgv",
+    "/m/03fp41",
+    "/m/06z37_"
+  ]
+}

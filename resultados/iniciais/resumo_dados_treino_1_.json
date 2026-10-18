@@ -1,0 +1,58 @@
+{
+  "versao": "09-openimages-parcial-1.0",
+  "home_train_imagens_unicas": 1824,
+  "home_val_imagens": 456,
+  "openimages_imagens_unicas": 5000,
+  "treino_imagens_unicas": 6824,
+  "caixas_openimages": 20341,
+  "caixas_openimages_por_classe": {
+    "0": 795,
+    "7": 193,
+    "8": 3949,
+    "10": 2625,
+    "2": 4603,
+    "9": 953,
+    "1": 1121,
+    "3": 3272,
+    "4": 657,
+    "5": 441,
+    "6": 563,
+    "11": 1169
+  },
+  "lotes_utilizados": [
+    {
+      "arquivo": "lote_000001.zip",
+      "zip_sha256": "9be878dd7c8f91dba90deb1cea226fc28bd6e3c5ad6192ced1a0ee7e8369c949",
+      "zip_bytes": 287039437
+    },
+    {
+      "arquivo": "lote_000002.zip",
+      "zip_sha256": "e9032df3a116eddc792d645885034dc4108636f18f8636a49fd61c89d6d8cfdd",
+      "zip_bytes": 287377350
+    },
+    {
+      "arquivo": "lote_000003.zip",
+      "zip_sha256": "6a0d9a96647c8bc200f752a4e3d825bc371d2a6cc4d792fb779d908bcd59f0f7",
+      "zip_bytes": 291260618
+    },
+    {
+      "arquivo": "lote_000004.zip",
+      "zip_sha256": "5f49733266a698076e0640d149a4081cba1503fb0ab0c30a329b90d4e334cf52",
+      "zip_bytes": 291726989
+    },
+    {
+      "arquivo": "lote_000005.zip",
+      "zip_sha256": "f894e78de3f6c13545c1cb68d3a59b4d8f8633b876a970af4d6c79c1f5c24f65",
+      "zip_bytes": 293332917
+    }
+  ],
+  "home_zip_sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+  "test_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+  "test_imagens": 403,
+  "test_extraido_ou_avaliado": false,
+  "sun_incluida_no_novo_treino": false,
+  "amostragem": "50% Home / 50% OI em cada batch; Home reamostrado por índices, sem duplicar arquivos",
+  "selecao_checkpoint": "mAP50-95 Home VAL; triagem de alertas após treino",
+  "tratamento_parcial": "Zero gradiente BCE para negativos de classes desconhecidas; caixas positivas preservadas",
+  "config_preparacao_sha256": "9865042654c51e83955c2aeb186a1b5e27e1028a5c56f1f163e2891abc0bec49"
+}

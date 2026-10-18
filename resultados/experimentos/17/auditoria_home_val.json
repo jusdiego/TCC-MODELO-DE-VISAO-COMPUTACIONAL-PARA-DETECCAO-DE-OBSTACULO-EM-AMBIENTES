@@ -1,0 +1,9 @@
+{
+  "home_train_manifesto": 1824,
+  "home_val_extraida": 456,
+  "home_train_extraida": false,
+  "home_test_extraido": false,
+  "test_home_manifesto": 403,
+  "intersecao_bytes_train_val": 0,
+  "historico_original_baseline_nao_comprovado_pela_separacao_atual": true
+}

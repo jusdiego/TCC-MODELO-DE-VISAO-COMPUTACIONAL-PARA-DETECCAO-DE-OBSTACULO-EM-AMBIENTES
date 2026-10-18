@@ -1,0 +1,7 @@
+{
+  "completed": true,
+  "epochs": 25,
+  "reason": "early_stopping",
+  "reused": true,
+  "elapsed_training_seconds": 5001.1669854070005
+}

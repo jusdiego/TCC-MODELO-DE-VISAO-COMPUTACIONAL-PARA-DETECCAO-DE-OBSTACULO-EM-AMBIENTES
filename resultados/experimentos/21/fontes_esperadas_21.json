@@ -1,0 +1,18 @@
+{
+  "home_zip": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+  "test_home": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+  "preparacao": "9865042654c51e83955c2aeb186a1b5e27e1028a5c56f1f163e2891abc0bec49",
+  "divisao_10": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+  "manifesto_pacotes": "655094dea28755a7bddc817ae66660d06fab28ccb8f9d140d3ffebb07f03a0d4",
+  "dataset_novo": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "zip_novo": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+  "politica": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "associador": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d",
+  "pacote_19": "33b9937613b3cddae984a4499adc2788318cb957628c858d525bc2a86be674e4",
+  "pasta_19": "resultados/consolidacao19_4d5ea2227cb3d7146cc78d8b",
+  "oi_root": "datasets/openimages_v7_tcc_100k_v1",
+  "pasta10": "resultados/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010",
+  "dataset_url": "datasets/validacao_independente_11_v1/695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0/validacao_independente_11_695b445e15c9.zip",
+  "pretrained_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt",
+  "pretrained_sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a"
+}

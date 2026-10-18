@@ -1,0 +1,8 @@
+{
+  "pasta_drive": "datasets/validacao_independente_11_v1/695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "arquivo": "validacao_independente_11_695b445e15c9.zip",
+  "arquivo_sha256": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "validacao": 1000,
+  "reserva_futura": 300
+}

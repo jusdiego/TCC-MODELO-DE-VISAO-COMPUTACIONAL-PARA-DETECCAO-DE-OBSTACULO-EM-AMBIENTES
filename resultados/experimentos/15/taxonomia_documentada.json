@@ -1,0 +1,110 @@
+{
+  "nomes_originais": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "mids_raizes_originais": [
+    "/m/03ssj5",
+    "/m/02crq1",
+    "/m/01mzpv",
+    "/m/04bcr3",
+    "/m/0dtln",
+    "/m/07c52",
+    "/m/01c648",
+    "/m/02vkqh8",
+    "/m/0d4v4",
+    "/m/02dgv",
+    "/m/03fp41",
+    "/m/06z37_"
+  ],
+  "mapeamento_alterado": false,
+  "hipotese_wardrobe": "móvel alto destinado a roupas",
+  "alternativas_somente_triagem": [
+    "generic cabinet",
+    "bookcase",
+    "tv stand",
+    "chest of drawers",
+    "sideboard",
+    "refrigerator",
+    "radiator",
+    "outdoor vegetation",
+    "person",
+    "wall or floor",
+    "decorative object",
+    "unrecognizable detail"
+  ],
+  "fonte_classe_oficial": "https://storage.googleapis.com/openimages/v7/oidv7-class-descriptions-boxable.csv",
+  "rotulos_oficiais_raizes": [
+    {
+      "classe": "bed",
+      "mid": "/m/03ssj5",
+      "descricao_oficial": "Bed"
+    },
+    {
+      "classe": "sofa",
+      "mid": "/m/02crq1",
+      "descricao_oficial": "Couch"
+    },
+    {
+      "classe": "chair",
+      "mid": "/m/01mzpv",
+      "descricao_oficial": "Chair"
+    },
+    {
+      "classe": "table",
+      "mid": "/m/04bcr3",
+      "descricao_oficial": "Table"
+    },
+    {
+      "classe": "lamp",
+      "mid": "/m/0dtln",
+      "descricao_oficial": "Lamp"
+    },
+    {
+      "classe": "tv",
+      "mid": "/m/07c52",
+      "descricao_oficial": "Television"
+    },
+    {
+      "classe": "laptop",
+      "mid": "/m/01c648",
+      "descricao_oficial": "Laptop"
+    },
+    {
+      "classe": "wardrobe",
+      "mid": "/m/02vkqh8",
+      "descricao_oficial": "Wardrobe"
+    },
+    {
+      "classe": "window",
+      "mid": "/m/0d4v4",
+      "descricao_oficial": "Window"
+    },
+    {
+      "classe": "door",
+      "mid": "/m/02dgv",
+      "descricao_oficial": "Door"
+    },
+    {
+      "classe": "potted plant",
+      "mid": "/m/03fp41",
+      "descricao_oficial": "Houseplant"
+    },
+    {
+      "classe": "photo frame",
+      "mid": "/m/06z37_",
+      "descricao_oficial": "Picture frame"
+    }
+  ],
+  "descricoes_oficiais_sha256": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9"
+}

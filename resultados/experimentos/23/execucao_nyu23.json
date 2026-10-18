@@ -1,0 +1,7 @@
+{
+  "completed": true,
+  "epochs": 56,
+  "status": "completed",
+  "reason": "early_stopping",
+  "resumed_from": null
+}

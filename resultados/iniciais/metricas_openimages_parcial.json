@@ -1,0 +1,55 @@
+{
+  "imagens": 20000,
+  "conf_alertas": 0.25,
+  "protocolo": "Teste interno de 12 classes com exclusão de classes sem cobertura verificada por imagem",
+  "nao_e_metrica_oficial_openimages_challenge": true,
+  "map50_parcial": 0.33998349341141715,
+  "map50_95_parcial": 0.18641760851258526,
+  "classes_com_gt_avaliavel": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "gt_ignorados_sem_cobertura": 18,
+  "predicoes_ignoradas_sem_cobertura_conf_0001": 1622351,
+  "detector_conf_final": {
+    "tp": 19104,
+    "fn": 64906,
+    "fp": 18608,
+    "precision": 0.5065761561306746,
+    "recall": 0.22740149982144983
+  },
+  "alertas_por_objeto_com_cobertura": {
+    "tp_vs_politica": 11795,
+    "fn_vs_politica": 14263,
+    "fp_vs_politica": 9228,
+    "precision_vs_politica": 0.5610521809446797,
+    "recall_vs_politica": 0.4526441016194643,
+    "f1_vs_politica": 0.501051379537393
+  },
+  "imagens_cobertura_completa_classes_alerta": 7,
+  "alertas_por_imagem_com_cobertura_completa": {
+    "tp_vs_politica": 0,
+    "fn_vs_politica": 0,
+    "fp_vs_politica": 5,
+    "precision_vs_politica": 0.0,
+    "recall_vs_politica": null,
+    "f1_vs_politica": 0.0
+  },
+  "alta_sem_alerta_com_cobertura": 4275,
+  "textos_gerados_com_todas_deteccoes": true,
+  "observacao": "Textos usam todas as detecções acima do limiar. Métricas ignoram classes sem cobertura; ausência de anotação não vira falso positivo.",
+  "modelo_selecionado": "antigo",
+  "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+  "divisao_sha256": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+  "usado_para_selecao": false,
+  "reservado_antes_treino": true
+}

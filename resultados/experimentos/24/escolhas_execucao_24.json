@@ -1,0 +1,10 @@
+{
+  "context": "4139f0b53d89b9706ec245d4823a3cdafe9d895e6f1e8634b49e96de4827c56a",
+  "batch_size": 4,
+  "grad_accum_steps": 4,
+  "effective_batch": 16,
+  "amp_dtype": "fp16",
+  "resolution": 512,
+  "probe_safe_micro_batch": 4,
+  "probe_does_not_update_weights": true
+}

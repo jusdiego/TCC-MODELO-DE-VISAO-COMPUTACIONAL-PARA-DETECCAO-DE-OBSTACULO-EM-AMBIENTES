@@ -1,0 +1,24 @@
+{
+  "context": "e07346585506a2db3229645f72d287e7fa9680aa2ffed7b4ddc1514a8090d1b9",
+  "weight_sha256": "0d87f63e1487c9dd97ce7874b9cd9d9f66ca2862f7d030e738b956ba191d3427",
+  "threshold": 0.25,
+  "epochs": 56,
+  "classes": [
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "door",
+    "window"
+  ],
+  "dataset_id": "b174f1c72bb9403a5cc1498ffa7b5c38cfa1a5cdfc3c54a79a9b679724521fd1",
+  "inference": {
+    "imgsz": 640,
+    "inference_conf": 0.01,
+    "nms_iou": 0.7,
+    "match_iou": 0.5,
+    "max_det": 300
+  },
+  "decision_uses_test": false,
+  "selection": "Somente VAL; peso e limiar fixados antes de consultar previsões de TEST."
+}

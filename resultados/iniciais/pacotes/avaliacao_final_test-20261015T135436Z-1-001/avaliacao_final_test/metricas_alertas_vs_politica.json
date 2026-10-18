@@ -1,0 +1,35 @@
+{
+  "escopo": "Referência V2 aplicada às anotações; não valida risco físico independentemente",
+  "imagens": 403,
+  "objetos_anotados": 3465,
+  "objetos_previstos": 3910,
+  "diagnostico_detector_conf_fixa": {
+    "tp_iou50_mesma_classe": 2478,
+    "fn_iou50_mesma_classe": 987,
+    "fp_iou50_mesma_classe": 1432
+  },
+  "alertas_por_objeto_vs_politica": {
+    "tp_vs_politica": 1038,
+    "fn_vs_politica": 293,
+    "fp_vs_politica": 507,
+    "precision_vs_politica": 0.6718446601941748,
+    "recall_vs_politica": 0.7798647633358378,
+    "f1_vs_politica": 0.721835883171071
+  },
+  "alertas_por_imagem_vs_politica": {
+    "tp_vs_politica": 390,
+    "fn_vs_politica": 5,
+    "fp_vs_politica": 4,
+    "precision_vs_politica": 0.9898477157360406,
+    "recall_vs_politica": 0.9873417721518988,
+    "f1_vs_politica": 0.9885931558935361
+  },
+  "concordancia_prioridade_em_objetos_correspondentes": 0.948076923076923,
+  "concordancia_prioridade_por_imagem": 0.8883374689826302,
+  "objetos_prioridade_alta_ref_sem_alerta": 63,
+  "tempo_previsao_medio_ms": 16.808116625310173,
+  "modelo_selecionado": "antigo",
+  "conf_alerta": 0.25,
+  "test_congelado_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+  "test_utilizado_para_selecao": false
+}

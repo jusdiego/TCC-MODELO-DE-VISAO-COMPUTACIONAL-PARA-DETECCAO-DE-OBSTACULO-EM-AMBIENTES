@@ -1,0 +1,15 @@
+﻿coorte,conf,perdas_B_025_vs_candidato10,dessas_perdas_recuperadas,perdas_altas_B_025_vs_candidato10,dessas_perdas_altas_recuperadas
+home_val_historica,0.05,10,10,4,4
+home_val_historica,0.1,10,9,4,3
+home_val_historica,0.15,10,9,4,3
+home_val_historica,0.2,10,7,4,2
+home_val_historica,0.25,10,0,4,0
+home_val_historica,0.3,10,0,4,0
+home_val_historica,0.4,10,0,4,0
+openimages_val_nova,0.05,26,23,17,16
+openimages_val_nova,0.1,26,22,17,15
+openimages_val_nova,0.15,26,18,17,12
+openimages_val_nova,0.2,26,11,17,7
+openimages_val_nova,0.25,26,0,17,0
+openimages_val_nova,0.3,26,0,17,0
+openimages_val_nova,0.4,26,0,17,0

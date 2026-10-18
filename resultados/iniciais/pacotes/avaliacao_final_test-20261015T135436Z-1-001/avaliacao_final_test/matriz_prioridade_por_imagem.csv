@@ -1,0 +1,5 @@
+﻿prioridade_ref_politica,sem_prioridade,baixo,medio,alto
+sem_prioridade,2,0,0,0
+baixo,0,2,2,2
+medio,0,3,60,24
+alto,1,1,12,294

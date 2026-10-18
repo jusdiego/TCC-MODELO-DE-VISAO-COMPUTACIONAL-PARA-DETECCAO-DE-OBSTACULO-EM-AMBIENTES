@@ -1,0 +1,25 @@
+﻿split,classe_id,classe,imagens_com_caixa,caixas,imagens_cobertura_conhecida
+train,0,bed,2112,2517,6284
+test,0,bed,380,443,1009
+train,1,sofa,2460,3133,7048
+test,1,sofa,447,554,1133
+train,2,chair,15812,78158,20669
+test,2,chair,3863,19816,4629
+train,3,table,27511,50916,34429
+test,3,table,6854,12773,8090
+train,4,lamp,1201,2640,1307
+test,4,lamp,234,425,247
+train,5,tv,2095,2748,2497
+test,5,tv,464,664,537
+train,6,laptop,4349,7318,7297
+test,6,laptop,1069,1704,1747
+train,7,wardrobe,173,193,3328
+test,7,wardrobe,0,0,438
+train,8,window,23502,147114,29725
+test,8,window,5921,38839,7230
+train,9,door,10190,14603,14935
+test,9,door,2527,3570,3602
+train,10,potted plant,5866,14777,12250
+test,10,potted plant,1281,3111,2794
+train,11,photo frame,4197,8981,4710
+test,11,photo frame,1017,2129,1108

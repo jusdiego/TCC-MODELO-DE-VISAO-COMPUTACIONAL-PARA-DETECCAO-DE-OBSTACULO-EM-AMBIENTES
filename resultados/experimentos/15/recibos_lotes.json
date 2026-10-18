@@ -1,0 +1,27 @@
+[
+  {
+    "arquivo": "lote_000001.zip",
+    "zip_sha256": "9be878dd7c8f91dba90deb1cea226fc28bd6e3c5ad6192ced1a0ee7e8369c949",
+    "zip_bytes": 287039437
+  },
+  {
+    "arquivo": "lote_000002.zip",
+    "zip_sha256": "e9032df3a116eddc792d645885034dc4108636f18f8636a49fd61c89d6d8cfdd",
+    "zip_bytes": 287377350
+  },
+  {
+    "arquivo": "lote_000003.zip",
+    "zip_sha256": "6a0d9a96647c8bc200f752a4e3d825bc371d2a6cc4d792fb779d908bcd59f0f7",
+    "zip_bytes": 291260618
+  },
+  {
+    "arquivo": "lote_000004.zip",
+    "zip_sha256": "5f49733266a698076e0640d149a4081cba1503fb0ab0c30a329b90d4e334cf52",
+    "zip_bytes": 291726989
+  },
+  {
+    "arquivo": "lote_000005.zip",
+    "zip_sha256": "f894e78de3f6c13545c1cb68d3a59b4d8f8633b876a970af4d6c79c1f5c24f65",
+    "zip_bytes": 293332917
+  }
+]

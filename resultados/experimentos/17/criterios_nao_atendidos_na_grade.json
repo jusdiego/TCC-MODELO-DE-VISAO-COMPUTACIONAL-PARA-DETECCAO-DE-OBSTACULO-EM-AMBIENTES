@@ -1,0 +1,8 @@
+{
+  "home_precision_superior": 29,
+  "home_altas_preservadas": 49,
+  "externa_precision_preservada": 28,
+  "home_recall_preservado": 48,
+  "externa_altas_preservadas": 21,
+  "externa_recall_preservado": 21
+}

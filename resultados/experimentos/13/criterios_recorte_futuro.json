@@ -1,0 +1,14 @@
+{
+  "status": "proposta; não é um dataset pronto",
+  "somente_papeis": [
+    "home_train",
+    "train"
+  ],
+  "cenas": "fotografias internas revisadas",
+  "taxonomia_wardrobe": "pendente",
+  "requer_revisao_de_todos_os_rotulos_da_imagem": true,
+  "correcoes_aplicadas": false,
+  "validacao_nunca_vira_treino": true,
+  "reserva_preservada": true,
+  "proximo_treino_executado": false
+}

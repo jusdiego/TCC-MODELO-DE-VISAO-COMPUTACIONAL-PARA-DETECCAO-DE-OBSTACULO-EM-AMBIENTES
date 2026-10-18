@@ -1,0 +1,39 @@
+﻿source,conceito_mais_proximo,triagem_ia,caixas
+home,bed,inconclusivo_ia,1
+home,bookcase,divergencia_forte_ia,41
+home,bookcase,inconclusivo_ia,32
+home,chair,inconclusivo_ia,1
+home,chest of drawers,divergencia_forte_ia,29
+home,chest of drawers,inconclusivo_ia,18
+home,door,inconclusivo_ia,7
+home,generic cabinet,divergencia_forte_ia,2
+home,generic cabinet,inconclusivo_ia,31
+home,lamp,inconclusivo_ia,1
+home,radiator,divergencia_forte_ia,3
+home,radiator,inconclusivo_ia,6
+home,refrigerator,inconclusivo_ia,3
+home,sideboard,divergencia_forte_ia,60
+home,sideboard,inconclusivo_ia,60
+home,table,divergencia_forte_ia,3
+home,table,inconclusivo_ia,2
+home,tv,inconclusivo_ia,2
+home,tv stand,divergencia_forte_ia,18
+home,tv stand,inconclusivo_ia,9
+home,wall or floor,inconclusivo_ia,2
+home,wardrobe,compativel_ia,25
+home,wardrobe,inconclusivo_ia,15
+home,window,divergencia_forte_ia,1
+openimages,bookcase,divergencia_forte_ia,1
+openimages,bookcase,inconclusivo_ia,9
+openimages,chest of drawers,divergencia_forte_ia,1
+openimages,chest of drawers,inconclusivo_ia,1
+openimages,decorative object,inconclusivo_ia,1
+openimages,door,inconclusivo_ia,2
+openimages,generic cabinet,divergencia_forte_ia,1
+openimages,generic cabinet,inconclusivo_ia,38
+openimages,refrigerator,inconclusivo_ia,1
+openimages,sideboard,divergencia_forte_ia,2
+openimages,sideboard,inconclusivo_ia,7
+openimages,table,inconclusivo_ia,1
+openimages,wardrobe,compativel_ia,123
+openimages,wardrobe,inconclusivo_ia,5

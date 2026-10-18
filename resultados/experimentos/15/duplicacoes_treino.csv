@@ -1,0 +1,20 @@
+﻿id,similar_id,type,distance
+home:homeobjects_yolo/images/train/raw_train/living_room_1p (108).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_122.jpg,semelhanca_phash,2
+home:homeobjects_yolo/images/train/raw_train/living_room_1p (203).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (200).jpg,bytes_iguais,0
+home:homeobjects_yolo/images/train/raw_train/living_room_1p (203).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (200).jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_1p (21).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1510.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_1p (542).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1071.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_1p (92).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1560.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_21.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_189.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_244.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (16).jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_442.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (196).jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_489.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (15).jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/living_room_543.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (457).jpg,semelhanca_phash,2
+home:homeobjects_yolo/images/train/raw_train/living_room_718.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_590.jpg,bytes_iguais,0
+home:homeobjects_yolo/images/train/raw_train/living_room_718.jpg,home:homeobjects_yolo/images/train/raw_train/living_room_590.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/s (264).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_333.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/s (282).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_92.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/s (341).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_727.jpg,semelhanca_phash,0
+home:homeobjects_yolo/images/train/raw_train/s (366).jpg,home:homeobjects_yolo/images/train/raw_train/living_room_1p (254).jpg,semelhanca_phash,0
+oi:7a416ca7eaeb1872,oi:1df160aa74190c38,semelhanca_phash,0
+oi:b3700e5e25e70765,oi:302a4260a39ef2f8,semelhanca_phash,2

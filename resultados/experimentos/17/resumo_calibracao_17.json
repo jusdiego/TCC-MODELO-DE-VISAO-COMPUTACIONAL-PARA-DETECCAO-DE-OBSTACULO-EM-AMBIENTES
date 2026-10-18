@@ -1,0 +1,57 @@
+{
+  "version": "17-limiares-chair-table-1.0.0",
+  "concluido": true,
+  "status": "nenhuma_configuracao_elegivel_na_calibracao",
+  "mensagem": "Nenhuma das 49 configurações cumpriu os requisitos na calibração. Nenhuma configuração nova foi avaliada na verificação.",
+  "context_key": "6f4aa31baf57035ce481a4696b11733dd30d62fd6b89065b7e92593766d75c2d",
+  "primary_endpoint": "uma_escolha_calibracao_vs_referencias_na_verificacao_interna",
+  "configurations_evaluated_calibration": 49,
+  "eligible_calibration": 0,
+  "distinct_configurations_evaluated_verification": 0,
+  "selected_profile_id": null,
+  "selected_thresholds": null,
+  "avaliacao_escolha": {
+    "verificacao_interna": null,
+    "limites_globais_descritivos": null
+  },
+  "split": {
+    "version": "17-limiares-chair-table-1.0.0",
+    "seed": "17-grupos-42",
+    "group_count": 1453,
+    "similarity_links": 3,
+    "counts": {
+      "calibracao": {
+        "home_val_historica": 227,
+        "openimages_val_nova": 484
+      },
+      "verificacao_interna": {
+        "home_val_historica": 229,
+        "openimages_val_nova": 516
+      }
+    },
+    "split_sha256": "8427f4297fd4b11aab2eaa085b133fc6367f4d9af2630c8c59d4e58edf58c291",
+    "uses_predictions": false,
+    "verification_is_independent_final_test": false
+  },
+  "training_executed": false,
+  "weights_changed": false,
+  "labels_changed": false,
+  "model_replaced": false,
+  "test_home_inferred": false,
+  "test_oi20k_inferred": false,
+  "future_reserve_extracted": false,
+  "future_reserve_inferred": false,
+  "verification_is_independent_final_test": false,
+  "manual_form_required": false,
+  "source16_protocol_changed": false,
+  "source16_reproduction_passed": true,
+  "limites": [
+    "Calibração e verificação são partes das validações já usadas no desenvolvimento; não constituem teste final independente.",
+    "Ajuste restrito aos limiares de cadeira e mesa, uma grade de 49 opções e uma divisão agrupada; não garante melhora fora desses dados.",
+    "As referências e os rótulos são preservados; diferenças semânticas existentes na avaliação permanecem.",
+    "Propostas pós-NMS em confiança 0,001 e max_det=300; não há acesso a logits nem a propostas descartadas antes do cache.",
+    "Alertas medem concordância com a política V2; não validam risco físico, distância ou uso assistivo real.",
+    "Origem do treino original do baseline permanece não determinada.",
+    "Nenhum modelo ou configuração em uso é substituído automaticamente."
+  ]
+}

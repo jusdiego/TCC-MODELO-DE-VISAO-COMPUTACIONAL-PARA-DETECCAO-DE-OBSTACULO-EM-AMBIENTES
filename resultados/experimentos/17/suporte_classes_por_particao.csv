@@ -1,0 +1,9 @@
+﻿partition,coorte,classe_id,classe,objetos_alerta_ref
+calibracao,home_val_historica,2,chair,172
+calibracao,home_val_historica,3,table,227
+calibracao,openimages_val_nova,2,chair,95
+calibracao,openimages_val_nova,3,table,168
+verificacao_interna,home_val_historica,2,chair,160
+verificacao_interna,home_val_historica,3,table,222
+verificacao_interna,openimages_val_nova,2,chair,90
+verificacao_interna,openimages_val_nova,3,table,222

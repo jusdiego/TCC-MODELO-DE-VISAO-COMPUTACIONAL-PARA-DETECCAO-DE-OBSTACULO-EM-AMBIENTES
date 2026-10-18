@@ -1,0 +1,805 @@
+{
+  "eligible": null,
+  "exploratory": {
+    "id": "candidato_10_inicial",
+    "arm": "inicial",
+    "epoch": 0,
+    "updates": 0,
+    "weight": "/tmp/tcc_ajuste_12/ajuste12_20261016_033819_596490/entradas/candidato_10.pt",
+    "weight_sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+    "home": {
+      "imagens": 456,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 1359,
+        "fn": 176,
+        "fp": 382,
+        "precision": 0.7805858701895463,
+        "recall": 0.885342019543974,
+        "f1": 0.8296703296703297
+      },
+      "alta_ref": 536,
+      "alta_sem_alerta": 27,
+      "taxa_alta_sem_alerta": 0.05037313432835821,
+      "detector_conf_025": {
+        "tp": 3117,
+        "fn": 565,
+        "fp": 1111,
+        "precision": 0.7372280037842952,
+        "recall": 0.8465507876154263,
+        "f1": 0.7881163084702908
+      },
+      "gt_ignorados_sem_cobertura": 0,
+      "predicoes_ignoradas_conf_025": 0,
+      "imagens_com_cobertura_completa_alertas": 456,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 435,
+        "fn": 1,
+        "fp": 7,
+        "precision": 0.9841628959276018,
+        "recall": 0.9977064220183486,
+        "f1": 0.9908883826879271
+      },
+      "map50_recorte": 0.818593215498148,
+      "map50_95_recorte": 0.613390136297861,
+      "modelo": "candidato",
+      "coorte": "home_val_historica",
+      "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+      "nao_e_openimages_challenge": true,
+      "selecao_automatica_de_modelo": false
+    },
+    "external": {
+      "imagens": 1000,
+      "conf_alertas": 0.25,
+      "alertas_por_objeto": {
+        "tp": 472,
+        "fn": 310,
+        "fp": 317,
+        "precision": 0.5982256020278834,
+        "recall": 0.6035805626598465,
+        "f1": 0.6008911521323997
+      },
+      "alta_ref": 420,
+      "alta_sem_alerta": 120,
+      "taxa_alta_sem_alerta": 0.2857142857142857,
+      "detector_conf_025": {
+        "tp": 1740,
+        "fn": 2383,
+        "fp": 1500,
+        "precision": 0.5370370370370371,
+        "recall": 0.4220227989328159,
+        "f1": 0.47263343745755804
+      },
+      "gt_ignorados_sem_cobertura": 51,
+      "predicoes_ignoradas_conf_025": 2135,
+      "imagens_com_cobertura_completa_alertas": 24,
+      "alertas_por_imagem_cobertura_completa": {
+        "tp": 4,
+        "fn": 0,
+        "fp": 12,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "map50_recorte": 0.4846359041569522,
+      "map50_95_recorte": 0.3158801630585449,
+      "modelo": "candidato",
+      "coorte": "openimages_val_nova",
+      "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+      "nao_e_openimages_challenge": true,
+      "selecao_automatica_de_modelo": false
+    },
+    "checks": {
+      "home_precision_superior": false,
+      "home_recall_preservado": false,
+      "home_altas_preservadas": false,
+      "externa_precision_preservada": true,
+      "externa_recall_preservado": true,
+      "externa_altas_preservadas": true,
+      "elegivel": false,
+      "retencao_externa": true
+    }
+  },
+  "assessed": [
+    {
+      "id": "candidato_10_inicial",
+      "arm": "inicial",
+      "epoch": 0,
+      "updates": 0,
+      "weight": "/tmp/tcc_ajuste_12/ajuste12_20261016_033819_596490/entradas/candidato_10.pt",
+      "weight_sha256": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1359,
+          "fn": 176,
+          "fp": 382,
+          "precision": 0.7805858701895463,
+          "recall": 0.885342019543974,
+          "f1": 0.8296703296703297
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 27,
+        "taxa_alta_sem_alerta": 0.05037313432835821,
+        "detector_conf_025": {
+          "tp": 3117,
+          "fn": 565,
+          "fp": 1111,
+          "precision": 0.7372280037842952,
+          "recall": 0.8465507876154263,
+          "f1": 0.7881163084702908
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 7,
+          "precision": 0.9841628959276018,
+          "recall": 0.9977064220183486,
+          "f1": 0.9908883826879271
+        },
+        "map50_recorte": 0.818593215498148,
+        "map50_95_recorte": 0.613390136297861,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 472,
+          "fn": 310,
+          "fp": 317,
+          "precision": 0.5982256020278834,
+          "recall": 0.6035805626598465,
+          "f1": 0.6008911521323997
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 120,
+        "taxa_alta_sem_alerta": 0.2857142857142857,
+        "detector_conf_025": {
+          "tp": 1740,
+          "fn": 2383,
+          "fp": 1500,
+          "precision": 0.5370370370370371,
+          "recall": 0.4220227989328159,
+          "f1": 0.47263343745755804
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 2135,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 4,
+          "fn": 0,
+          "fp": 12,
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4
+        },
+        "map50_recorte": 0.4846359041569522,
+        "map50_95_recorte": 0.3158801630585449,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": false,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": true,
+        "externa_altas_preservadas": true,
+        "elegivel": false,
+        "retencao_externa": true
+      }
+    },
+    {
+      "id": "A_home_e01",
+      "arm": "A_home",
+      "epoch": 1,
+      "updates": 114,
+      "weight": "/kaggle/working/resultados_tcc/ajuste12_20261016_033819_596490/pesos_checkpoints/A_home_e01.pt",
+      "weight_sha256": "febd2dcff2a4914a85ba5d2086ba4541c89c2a7ff69d43cc1650510018fed2e8",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1354,
+          "fn": 181,
+          "fp": 382,
+          "precision": 0.7799539170506913,
+          "recall": 0.8820846905537459,
+          "f1": 0.8278813818404158
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 27,
+        "taxa_alta_sem_alerta": 0.05037313432835821,
+        "detector_conf_025": {
+          "tp": 3121,
+          "fn": 561,
+          "fp": 1090,
+          "precision": 0.7411541201614819,
+          "recall": 0.847637153720804,
+          "f1": 0.7908273153427088
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 7,
+          "precision": 0.9841628959276018,
+          "recall": 0.9977064220183486,
+          "f1": 0.9908883826879271
+        },
+        "map50_recorte": 0.8269037812836446,
+        "map50_95_recorte": 0.619208245556468,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 464,
+          "fn": 318,
+          "fp": 294,
+          "precision": 0.6121372031662269,
+          "recall": 0.5933503836317136,
+          "f1": 0.6025974025974026
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 125,
+        "taxa_alta_sem_alerta": 0.2976190476190476,
+        "detector_conf_025": {
+          "tp": 1697,
+          "fn": 2426,
+          "fp": 1453,
+          "precision": 0.5387301587301587,
+          "recall": 0.41159349987872906,
+          "f1": 0.4666575003437371
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 2021,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 3,
+          "fn": 1,
+          "fp": 10,
+          "precision": 0.23076923076923078,
+          "recall": 0.75,
+          "f1": 0.35294117647058826
+        },
+        "map50_recorte": 0.4846685170313744,
+        "map50_95_recorte": 0.31297680093746505,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": false,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": false,
+        "externa_altas_preservadas": false,
+        "elegivel": false,
+        "retencao_externa": false
+      }
+    },
+    {
+      "id": "A_home_e02",
+      "arm": "A_home",
+      "epoch": 2,
+      "updates": 228,
+      "weight": "/kaggle/working/resultados_tcc/ajuste12_20261016_033819_596490/pesos_checkpoints/A_home_e02.pt",
+      "weight_sha256": "bd1f63c5b263481222ee495ff713fc610e9265b32fe36a5cefae5dbe5ae9da30",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1349,
+          "fn": 186,
+          "fp": 378,
+          "precision": 0.7811233352634627,
+          "recall": 0.8788273615635179,
+          "f1": 0.8270999386879215
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 30,
+        "taxa_alta_sem_alerta": 0.055970149253731345,
+        "detector_conf_025": {
+          "tp": 3113,
+          "fn": 569,
+          "fp": 1074,
+          "precision": 0.7434917602101744,
+          "recall": 0.8454644215100489,
+          "f1": 0.7912059982208667
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 7,
+          "precision": 0.9841628959276018,
+          "recall": 0.9977064220183486,
+          "f1": 0.9908883826879271
+        },
+        "map50_recorte": 0.8261427427607532,
+        "map50_95_recorte": 0.6192360731915023,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 461,
+          "fn": 321,
+          "fp": 297,
+          "precision": 0.6081794195250659,
+          "recall": 0.5895140664961637,
+          "f1": 0.5987012987012987
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 127,
+        "taxa_alta_sem_alerta": 0.30238095238095236,
+        "detector_conf_025": {
+          "tp": 1632,
+          "fn": 2491,
+          "fp": 1280,
+          "precision": 0.5604395604395604,
+          "recall": 0.39582828037836526,
+          "f1": 0.4639658848614073
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 1917,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 3,
+          "fn": 1,
+          "fp": 9,
+          "precision": 0.25,
+          "recall": 0.75,
+          "f1": 0.375
+        },
+        "map50_recorte": 0.4816058178937797,
+        "map50_95_recorte": 0.3132979916701431,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": false,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": false,
+        "externa_altas_preservadas": false,
+        "elegivel": false,
+        "retencao_externa": false
+      }
+    },
+    {
+      "id": "A_home_e03",
+      "arm": "A_home",
+      "epoch": 3,
+      "updates": 342,
+      "weight": "/kaggle/working/resultados_tcc/ajuste12_20261016_033819_596490/pesos_checkpoints/A_home_e03.pt",
+      "weight_sha256": "b1bb8bd37eb0ac1304f51b570c7af8191b8610bcfbe8f5ecc48cc69db0557a8c",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1351,
+          "fn": 184,
+          "fp": 392,
+          "precision": 0.7751004016064257,
+          "recall": 0.8801302931596091,
+          "f1": 0.8242830994508847
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 29,
+        "taxa_alta_sem_alerta": 0.054104477611940295,
+        "detector_conf_025": {
+          "tp": 3118,
+          "fn": 564,
+          "fp": 1092,
+          "precision": 0.7406175771971496,
+          "recall": 0.8468223791417708,
+          "f1": 0.7901672579827673
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 7,
+          "precision": 0.9841628959276018,
+          "recall": 0.9977064220183486,
+          "f1": 0.9908883826879271
+        },
+        "map50_recorte": 0.8278354004432296,
+        "map50_95_recorte": 0.6202640728936479,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 461,
+          "fn": 321,
+          "fp": 302,
+          "precision": 0.6041939711664482,
+          "recall": 0.5895140664961637,
+          "f1": 0.5967637540453075
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 127,
+        "taxa_alta_sem_alerta": 0.30238095238095236,
+        "detector_conf_025": {
+          "tp": 1616,
+          "fn": 2507,
+          "fp": 1247,
+          "precision": 0.564442892071254,
+          "recall": 0.3919476109628911,
+          "f1": 0.46263956484397367
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 1927,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 4,
+          "fn": 0,
+          "fp": 8,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "map50_recorte": 0.4787706987484732,
+        "map50_95_recorte": 0.3117989840425588,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": false,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": false,
+        "externa_altas_preservadas": false,
+        "elegivel": false,
+        "retencao_externa": false
+      }
+    },
+    {
+      "id": "B_home_replay_e01",
+      "arm": "B_home_replay",
+      "epoch": 1,
+      "updates": 114,
+      "weight": "/kaggle/working/resultados_tcc/ajuste12_20261016_033819_596490/pesos_checkpoints/B_home_replay_e01.pt",
+      "weight_sha256": "41b6dffd3addf983588515b1641d5dd7ee39c1da5f4cf0995c018a0169d9ce45",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1356,
+          "fn": 179,
+          "fp": 383,
+          "precision": 0.7797584818861415,
+          "recall": 0.8833876221498371,
+          "f1": 0.8283445326817349
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 28,
+        "taxa_alta_sem_alerta": 0.05223880597014925,
+        "detector_conf_025": {
+          "tp": 3112,
+          "fn": 570,
+          "fp": 1056,
+          "precision": 0.746641074856046,
+          "recall": 0.8451928299837045,
+          "f1": 0.7928662420382165
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 7,
+          "precision": 0.9841628959276018,
+          "recall": 0.9977064220183486,
+          "f1": 0.9908883826879271
+        },
+        "map50_recorte": 0.8258164490496429,
+        "map50_95_recorte": 0.6188167328476509,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 468,
+          "fn": 314,
+          "fp": 292,
+          "precision": 0.6157894736842106,
+          "recall": 0.59846547314578,
+          "f1": 0.6070038910505836
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 125,
+        "taxa_alta_sem_alerta": 0.2976190476190476,
+        "detector_conf_025": {
+          "tp": 1654,
+          "fn": 2469,
+          "fp": 1322,
+          "precision": 0.5557795698924731,
+          "recall": 0.40116420082464227,
+          "f1": 0.4659811241019862
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 1973,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 3,
+          "fn": 1,
+          "fp": 10,
+          "precision": 0.23076923076923078,
+          "recall": 0.75,
+          "f1": 0.35294117647058826
+        },
+        "map50_recorte": 0.49013320651896536,
+        "map50_95_recorte": 0.31531038804288714,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": false,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": false,
+        "externa_altas_preservadas": false,
+        "elegivel": false,
+        "retencao_externa": false
+      }
+    },
+    {
+      "id": "B_home_replay_e02",
+      "arm": "B_home_replay",
+      "epoch": 2,
+      "updates": 228,
+      "weight": "/kaggle/working/resultados_tcc/ajuste12_20261016_033819_596490/pesos_checkpoints/B_home_replay_e02.pt",
+      "weight_sha256": "2f5c77a42282fb036ce8b19f712c1da82fd958f9aee3ba28d00e3eae9630b10a",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1353,
+          "fn": 182,
+          "fp": 390,
+          "precision": 0.7762478485370051,
+          "recall": 0.8814332247557003,
+          "f1": 0.825503355704698
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 29,
+        "taxa_alta_sem_alerta": 0.054104477611940295,
+        "detector_conf_025": {
+          "tp": 3116,
+          "fn": 566,
+          "fp": 1088,
+          "precision": 0.7411988582302569,
+          "recall": 0.846279196089082,
+          "f1": 0.7902612224194776
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 7,
+          "precision": 0.9841628959276018,
+          "recall": 0.9977064220183486,
+          "f1": 0.9908883826879271
+        },
+        "map50_recorte": 0.8271169766183956,
+        "map50_95_recorte": 0.6194337052068764,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 458,
+          "fn": 324,
+          "fp": 285,
+          "precision": 0.6164199192462988,
+          "recall": 0.5856777493606138,
+          "f1": 0.600655737704918
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 133,
+        "taxa_alta_sem_alerta": 0.31666666666666665,
+        "detector_conf_025": {
+          "tp": 1648,
+          "fn": 2475,
+          "fp": 1289,
+          "precision": 0.561116785835887,
+          "recall": 0.3997089497938394,
+          "f1": 0.4668555240793201
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 1981,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 3,
+          "fn": 1,
+          "fp": 9,
+          "precision": 0.25,
+          "recall": 0.75,
+          "f1": 0.375
+        },
+        "map50_recorte": 0.48605038997357247,
+        "map50_95_recorte": 0.31674086450690386,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": false,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": false,
+        "externa_altas_preservadas": false,
+        "elegivel": false,
+        "retencao_externa": false
+      }
+    },
+    {
+      "id": "B_home_replay_e03",
+      "arm": "B_home_replay",
+      "epoch": 3,
+      "updates": 342,
+      "weight": "/kaggle/working/resultados_tcc/ajuste12_20261016_033819_596490/pesos_checkpoints/B_home_replay_e03.pt",
+      "weight_sha256": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c",
+      "home": {
+        "imagens": 456,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 1355,
+          "fn": 180,
+          "fp": 369,
+          "precision": 0.7859628770301624,
+          "recall": 0.8827361563517915,
+          "f1": 0.8315434182264498
+        },
+        "alta_ref": 536,
+        "alta_sem_alerta": 30,
+        "taxa_alta_sem_alerta": 0.055970149253731345,
+        "detector_conf_025": {
+          "tp": 3109,
+          "fn": 573,
+          "fp": 1049,
+          "precision": 0.7477152477152477,
+          "recall": 0.8443780554046714,
+          "f1": 0.7931122448979592
+        },
+        "gt_ignorados_sem_cobertura": 0,
+        "predicoes_ignoradas_conf_025": 0,
+        "imagens_com_cobertura_completa_alertas": 456,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 435,
+          "fn": 1,
+          "fp": 6,
+          "precision": 0.9863945578231292,
+          "recall": 0.9977064220183486,
+          "f1": 0.992018244013683
+        },
+        "map50_recorte": 0.8258043249873758,
+        "map50_95_recorte": 0.6201281414776678,
+        "modelo": "candidato",
+        "coorte": "home_val_historica",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "external": {
+        "imagens": 1000,
+        "conf_alertas": 0.25,
+        "alertas_por_objeto": {
+          "tp": 453,
+          "fn": 329,
+          "fp": 264,
+          "precision": 0.6317991631799164,
+          "recall": 0.5792838874680307,
+          "f1": 0.6044029352901935
+        },
+        "alta_ref": 420,
+        "alta_sem_alerta": 136,
+        "taxa_alta_sem_alerta": 0.3238095238095238,
+        "detector_conf_025": {
+          "tp": 1600,
+          "fn": 2523,
+          "fp": 1187,
+          "precision": 0.5740940078937926,
+          "recall": 0.38806694154741694,
+          "f1": 0.4630969609261939
+        },
+        "gt_ignorados_sem_cobertura": 51,
+        "predicoes_ignoradas_conf_025": 1882,
+        "imagens_com_cobertura_completa_alertas": 24,
+        "alertas_por_imagem_cobertura_completa": {
+          "tp": 4,
+          "fn": 0,
+          "fp": 9,
+          "precision": 0.3076923076923077,
+          "recall": 1.0,
+          "f1": 0.47058823529411764
+        },
+        "map50_recorte": 0.4877302076550105,
+        "map50_95_recorte": 0.31619391364607463,
+        "modelo": "candidato",
+        "coorte": "openimages_val_nova",
+        "protocolo": "12 classes; AP por confiança; alertas por IoU; cobertura conservadora",
+        "nao_e_openimages_challenge": true,
+        "selecao_automatica_de_modelo": false
+      },
+      "checks": {
+        "home_precision_superior": true,
+        "home_recall_preservado": false,
+        "home_altas_preservadas": false,
+        "externa_precision_preservada": true,
+        "externa_recall_preservado": false,
+        "externa_altas_preservadas": false,
+        "elegivel": false,
+        "retencao_externa": false
+      }
+    }
+  ]
+}

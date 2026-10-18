@@ -1,0 +1,290 @@
+﻿coorte,modelo,classe,indicio,eventos,fn_alerta,alta_sem_alerta,observacao
+home_val_historica,antigo,bed,deteccao_abaixo_da_confianca_025,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,bed,omissao_sem_indicio_automatico,2,2,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,bed,previsao_sem_correspondencia_na_classe_avaliavel,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,bed,sobreposicao_com_previsao_de_outra_classe,3,2,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,sofa,caixa_mesma_classe_iou_010_a_050,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,sofa,deteccao_abaixo_da_confianca_025,18,12,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,sofa,objeto_pequeno_na_entrada_640,3,2,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,sofa,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,sofa,previsao_sem_correspondencia_na_classe_avaliavel,92,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,sofa,sobreposicao_com_previsao_de_outra_classe,7,6,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,chair,caixa_mesma_classe_iou_010_a_050,10,7,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,chair,deteccao_abaixo_da_confianca_025,35,25,5,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,chair,objeto_pequeno_na_entrada_640,14,8,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,chair,previsao_sem_correspondencia_na_classe_avaliavel,110,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,chair,sobreposicao_com_previsao_de_outra_classe,17,13,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,table,caixa_mesma_classe_iou_010_a_050,8,6,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,table,deteccao_abaixo_da_confianca_025,43,30,11,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,table,objeto_pequeno_na_entrada_640,11,8,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,table,previsao_sem_correspondencia_na_classe_avaliavel,133,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,table,sobreposicao_com_previsao_de_outra_classe,14,9,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,lamp,caixa_mesma_classe_iou_010_a_050,18,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,lamp,deteccao_abaixo_da_confianca_025,57,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,lamp,objeto_pequeno_na_entrada_640,77,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,lamp,previsao_sem_correspondencia_na_classe_avaliavel,127,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,lamp,sobreposicao_com_previsao_de_outra_classe,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,tv,caixa_mesma_classe_iou_010_a_050,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,tv,deteccao_abaixo_da_confianca_025,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,tv,objeto_pequeno_na_entrada_640,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,tv,previsao_sem_correspondencia_na_classe_avaliavel,13,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,tv,sobreposicao_com_previsao_de_outra_classe,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,laptop,caixa_mesma_classe_iou_010_a_050,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,laptop,deteccao_abaixo_da_confianca_025,7,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,laptop,objeto_pequeno_na_entrada_640,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,laptop,previsao_sem_correspondencia_na_classe_avaliavel,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,laptop,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,wardrobe,caixa_mesma_classe_iou_010_a_050,2,2,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,wardrobe,deteccao_abaixo_da_confianca_025,15,11,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,wardrobe,objeto_pequeno_na_entrada_640,2,2,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,wardrobe,previsao_sem_correspondencia_na_classe_avaliavel,39,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,wardrobe,sobreposicao_com_previsao_de_outra_classe,3,2,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,window,caixa_mesma_classe_iou_010_a_050,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,window,deteccao_abaixo_da_confianca_025,15,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,window,objeto_pequeno_na_entrada_640,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,window,previsao_sem_correspondencia_na_classe_avaliavel,159,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,window,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,door,deteccao_abaixo_da_confianca_025,16,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,door,objeto_pequeno_na_entrada_640,12,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,door,previsao_sem_correspondencia_na_classe_avaliavel,69,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,door,sobreposicao_com_previsao_de_outra_classe,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,potted plant,caixa_mesma_classe_iou_010_a_050,21,2,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,potted plant,deteccao_abaixo_da_confianca_025,105,27,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,potted plant,objeto_pequeno_na_entrada_640,92,21,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,potted plant,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,potted plant,previsao_sem_correspondencia_na_classe_avaliavel,227,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,potted plant,sobreposicao_com_previsao_de_outra_classe,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,photo frame,caixa_mesma_classe_iou_010_a_050,4,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,photo frame,deteccao_abaixo_da_confianca_025,35,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,photo frame,objeto_pequeno_na_entrada_640,29,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,photo frame,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,photo frame,previsao_sem_correspondencia_na_classe_avaliavel,88,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,antigo,photo frame,sobreposicao_com_previsao_de_outra_classe,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,bed,deteccao_abaixo_da_confianca_025,3,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,bed,omissao_sem_indicio_automatico,1,1,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,bed,previsao_sem_correspondencia_na_classe_avaliavel,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,bed,sobreposicao_com_previsao_de_outra_classe,5,4,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,sofa,caixa_mesma_classe_iou_010_a_050,5,3,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,sofa,deteccao_abaixo_da_confianca_025,15,11,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,sofa,objeto_pequeno_na_entrada_640,3,2,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,sofa,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,sofa,previsao_sem_correspondencia_na_classe_avaliavel,85,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,sofa,sobreposicao_com_previsao_de_outra_classe,9,6,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,chair,caixa_mesma_classe_iou_010_a_050,6,3,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,chair,deteccao_abaixo_da_confianca_025,55,31,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,chair,objeto_pequeno_na_entrada_640,19,9,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,chair,previsao_sem_correspondencia_na_classe_avaliavel,106,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,chair,sobreposicao_com_previsao_de_outra_classe,16,11,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,table,caixa_mesma_classe_iou_010_a_050,8,5,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,table,deteccao_abaixo_da_confianca_025,56,37,11,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,table,objeto_pequeno_na_entrada_640,11,8,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,table,omissao_sem_indicio_automatico,1,1,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,table,previsao_sem_correspondencia_na_classe_avaliavel,111,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,table,sobreposicao_com_previsao_de_outra_classe,15,10,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,lamp,caixa_mesma_classe_iou_010_a_050,18,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,lamp,deteccao_abaixo_da_confianca_025,59,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,lamp,objeto_pequeno_na_entrada_640,78,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,lamp,previsao_sem_correspondencia_na_classe_avaliavel,126,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,lamp,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,tv,caixa_mesma_classe_iou_010_a_050,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,tv,deteccao_abaixo_da_confianca_025,11,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,tv,objeto_pequeno_na_entrada_640,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,tv,previsao_sem_correspondencia_na_classe_avaliavel,13,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,tv,sobreposicao_com_previsao_de_outra_classe,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,laptop,caixa_mesma_classe_iou_010_a_050,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,laptop,deteccao_abaixo_da_confianca_025,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,laptop,objeto_pequeno_na_entrada_640,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,laptop,previsao_sem_correspondencia_na_classe_avaliavel,10,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,wardrobe,caixa_mesma_classe_iou_010_a_050,1,1,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,wardrobe,deteccao_abaixo_da_confianca_025,20,14,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,wardrobe,objeto_pequeno_na_entrada_640,3,3,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,wardrobe,previsao_sem_correspondencia_na_classe_avaliavel,53,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,wardrobe,sobreposicao_com_previsao_de_outra_classe,1,1,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,window,deteccao_abaixo_da_confianca_025,43,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,window,objeto_pequeno_na_entrada_640,11,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,window,previsao_sem_correspondencia_na_classe_avaliavel,202,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,window,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,door,deteccao_abaixo_da_confianca_025,20,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,door,objeto_pequeno_na_entrada_640,13,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,door,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,door,previsao_sem_correspondencia_na_classe_avaliavel,49,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,door,sobreposicao_com_previsao_de_outra_classe,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,potted plant,caixa_mesma_classe_iou_010_a_050,25,5,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,potted plant,deteccao_abaixo_da_confianca_025,119,31,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,potted plant,objeto_pequeno_na_entrada_640,96,21,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,potted plant,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,potted plant,previsao_sem_correspondencia_na_classe_avaliavel,246,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,potted plant,sobreposicao_com_previsao_de_outra_classe,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,photo frame,caixa_mesma_classe_iou_010_a_050,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,photo frame,deteccao_abaixo_da_confianca_025,29,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,photo frame,objeto_pequeno_na_entrada_640,28,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,photo frame,omissao_sem_indicio_automatico,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,photo frame,previsao_sem_correspondencia_na_classe_avaliavel,104,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+home_val_historica,candidato,photo frame,sobreposicao_com_previsao_de_outra_classe,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,caixa_mesma_classe_iou_010_a_050,6,4,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,deteccao_abaixo_da_confianca_025,14,14,12,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,objeto_pequeno_na_entrada_640,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,oclusao_anotada,13,10,8,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,omissao_sem_indicio_automatico,4,4,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,previsao_sem_correspondencia_na_classe_avaliavel,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,sobreposicao_com_previsao_de_outra_classe,2,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,bed,truncamento_anotado,19,18,15,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,sofa,caixa_mesma_classe_iou_010_a_050,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,sofa,deteccao_abaixo_da_confianca_025,6,6,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,sofa,oclusao_anotada,4,4,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,sofa,previsao_sem_correspondencia_na_classe_avaliavel,32,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,sofa,sobreposicao_com_previsao_de_outra_classe,3,3,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,sofa,truncamento_anotado,5,5,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,caixa_mesma_classe_iou_010_a_050,39,25,6,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,deteccao_abaixo_da_confianca_025,65,51,16,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,objeto_pequeno_na_entrada_640,21,10,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,oclusao_anotada,87,61,13,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,omissao_sem_indicio_automatico,2,2,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,previsao_sem_correspondencia_na_classe_avaliavel,94,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,sobreposicao_com_previsao_de_outra_classe,12,9,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,chair,truncamento_anotado,36,29,12,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,caixa_mesma_classe_iou_010_a_050,85,53,19,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,deteccao_abaixo_da_confianca_025,166,130,84,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,objeto_pequeno_na_entrada_640,37,21,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,oclusao_anotada,210,146,67,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,omissao_sem_indicio_automatico,5,3,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,previsao_sem_correspondencia_na_classe_avaliavel,151,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,sobreposicao_com_previsao_de_outra_classe,10,6,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,table,truncamento_anotado,151,118,80,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,lamp,caixa_mesma_classe_iou_010_a_050,12,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,lamp,deteccao_abaixo_da_confianca_025,8,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,lamp,oclusao_anotada,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,lamp,omissao_sem_indicio_automatico,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,lamp,previsao_sem_correspondencia_na_classe_avaliavel,8,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,lamp,truncamento_anotado,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,caixa_mesma_classe_iou_010_a_050,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,deteccao_abaixo_da_confianca_025,7,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,oclusao_anotada,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,omissao_sem_indicio_automatico,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,previsao_sem_correspondencia_na_classe_avaliavel,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,tv,truncamento_anotado,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,caixa_mesma_classe_iou_010_a_050,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,deteccao_abaixo_da_confianca_025,7,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,objeto_pequeno_na_entrada_640,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,oclusao_anotada,12,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,omissao_sem_indicio_automatico,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,previsao_sem_correspondencia_na_classe_avaliavel,41,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,sobreposicao_com_previsao_de_outra_classe,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,laptop,truncamento_anotado,23,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,wardrobe,caixa_mesma_classe_iou_010_a_050,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,wardrobe,deteccao_abaixo_da_confianca_025,3,3,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,wardrobe,previsao_sem_correspondencia_na_classe_avaliavel,13,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,wardrobe,sobreposicao_com_previsao_de_outra_classe,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,wardrobe,truncamento_anotado,2,2,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,caixa_mesma_classe_iou_010_a_050,226,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,deteccao_abaixo_da_confianca_025,370,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,objeto_pequeno_na_entrada_640,2114,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,oclusao_anotada,879,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,omissao_sem_indicio_automatico,209,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,previsao_sem_correspondencia_na_classe_avaliavel,128,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,sobreposicao_com_previsao_de_outra_classe,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,window,truncamento_anotado,260,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,caixa_mesma_classe_iou_010_a_050,26,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,deteccao_abaixo_da_confianca_025,40,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,objeto_pequeno_na_entrada_640,10,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,oclusao_anotada,37,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,omissao_sem_indicio_automatico,23,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,previsao_sem_correspondencia_na_classe_avaliavel,37,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,sobreposicao_com_previsao_de_outra_classe,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,door,truncamento_anotado,30,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,potted plant,caixa_mesma_classe_iou_010_a_050,13,4,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,potted plant,deteccao_abaixo_da_confianca_025,50,27,13,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,potted plant,objeto_pequeno_na_entrada_640,12,1,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,potted plant,oclusao_anotada,36,15,5,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,potted plant,previsao_sem_correspondencia_na_classe_avaliavel,169,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,potted plant,truncamento_anotado,25,16,10,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,photo frame,caixa_mesma_classe_iou_010_a_050,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,photo frame,deteccao_abaixo_da_confianca_025,9,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,photo frame,objeto_pequeno_na_entrada_640,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,photo frame,oclusao_anotada,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,photo frame,previsao_sem_correspondencia_na_classe_avaliavel,20,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,antigo,photo frame,truncamento_anotado,4,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,caixa_mesma_classe_iou_010_a_050,8,5,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,deteccao_abaixo_da_confianca_025,9,9,7,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,objeto_pequeno_na_entrada_640,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,oclusao_anotada,10,7,5,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,omissao_sem_indicio_automatico,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,previsao_sem_correspondencia_na_classe_avaliavel,12,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,sobreposicao_com_previsao_de_outra_classe,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,bed,truncamento_anotado,16,15,11,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,caixa_mesma_classe_iou_010_a_050,3,3,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,deteccao_abaixo_da_confianca_025,6,6,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,oclusao_anotada,5,5,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,omissao_sem_indicio_automatico,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,previsao_sem_correspondencia_na_classe_avaliavel,19,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,sobreposicao_com_previsao_de_outra_classe,4,4,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,sofa,truncamento_anotado,6,6,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,caixa_mesma_classe_iou_010_a_050,25,19,5,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,deteccao_abaixo_da_confianca_025,85,59,13,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,objeto_pequeno_na_entrada_640,22,10,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,oclusao_anotada,76,54,9,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,omissao_sem_indicio_automatico,2,2,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,previsao_sem_correspondencia_na_classe_avaliavel,126,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,sobreposicao_com_previsao_de_outra_classe,9,6,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,chair,truncamento_anotado,33,24,9,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,caixa_mesma_classe_iou_010_a_050,60,42,12,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,deteccao_abaixo_da_confianca_025,152,109,53,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,objeto_pequeno_na_entrada_640,38,22,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,oclusao_anotada,177,121,44,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,previsao_sem_correspondencia_na_classe_avaliavel,171,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,sobreposicao_com_previsao_de_outra_classe,10,6,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,table,truncamento_anotado,105,77,41,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,lamp,caixa_mesma_classe_iou_010_a_050,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,lamp,deteccao_abaixo_da_confianca_025,16,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,lamp,oclusao_anotada,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,lamp,previsao_sem_correspondencia_na_classe_avaliavel,15,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,lamp,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,lamp,truncamento_anotado,4,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,tv,deteccao_abaixo_da_confianca_025,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,tv,oclusao_anotada,3,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,tv,omissao_sem_indicio_automatico,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,tv,previsao_sem_correspondencia_na_classe_avaliavel,10,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,tv,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,tv,truncamento_anotado,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,caixa_mesma_classe_iou_010_a_050,7,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,deteccao_abaixo_da_confianca_025,8,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,objeto_pequeno_na_entrada_640,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,oclusao_anotada,9,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,previsao_sem_correspondencia_na_classe_avaliavel,40,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,sobreposicao_com_previsao_de_outra_classe,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,laptop,truncamento_anotado,13,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,wardrobe,caixa_mesma_classe_iou_010_a_050,1,1,1,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,wardrobe,deteccao_abaixo_da_confianca_025,4,4,4,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,wardrobe,previsao_sem_correspondencia_na_classe_avaliavel,7,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,wardrobe,sobreposicao_com_previsao_de_outra_classe,3,3,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,wardrobe,truncamento_anotado,2,2,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,caixa_mesma_classe_iou_010_a_050,601,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,deteccao_abaixo_da_confianca_025,808,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,objeto_pequeno_na_entrada_640,1370,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,oclusao_anotada,663,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,omissao_sem_indicio_automatico,9,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,previsao_sem_correspondencia_na_classe_avaliavel,940,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,sobreposicao_com_previsao_de_outra_classe,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,window,truncamento_anotado,173,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,caixa_mesma_classe_iou_010_a_050,17,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,deteccao_abaixo_da_confianca_025,59,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,objeto_pequeno_na_entrada_640,10,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,oclusao_anotada,28,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,omissao_sem_indicio_automatico,6,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,previsao_sem_correspondencia_na_classe_avaliavel,57,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,sobreposicao_com_previsao_de_outra_classe,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,door,truncamento_anotado,28,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,potted plant,caixa_mesma_classe_iou_010_a_050,10,2,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,potted plant,deteccao_abaixo_da_confianca_025,43,17,3,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,potted plant,objeto_pequeno_na_entrada_640,12,1,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,potted plant,oclusao_anotada,35,13,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,potted plant,previsao_sem_correspondencia_na_classe_avaliavel,75,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,potted plant,truncamento_anotado,16,7,2,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,photo frame,caixa_mesma_classe_iou_010_a_050,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,photo frame,deteccao_abaixo_da_confianca_025,5,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,photo frame,objeto_pequeno_na_entrada_640,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,photo frame,oclusao_anotada,1,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,photo frame,previsao_sem_correspondencia_na_classe_avaliavel,28,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.
+openimages_val_nova,candidato,photo frame,truncamento_anotado,2,0,0,Indícios podem se sobrepor; não estabelecem a causa do erro.

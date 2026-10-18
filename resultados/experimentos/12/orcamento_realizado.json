@@ -1,0 +1,21 @@
+[
+  {
+    "arm": "A_home",
+    "atualizacoes": 342,
+    "batches": 342,
+    "exposicoes": {
+      "home": 5472
+    },
+    "epocas": 3
+  },
+  {
+    "arm": "B_home_replay",
+    "atualizacoes": 342,
+    "batches": 342,
+    "exposicoes": {
+      "home": 4104,
+      "openimages": 1368
+    },
+    "epocas": 3
+  }
+]

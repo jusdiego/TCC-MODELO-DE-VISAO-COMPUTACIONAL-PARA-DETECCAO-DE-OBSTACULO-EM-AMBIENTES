@@ -1,0 +1,18 @@
+[
+  {
+    "arquivo": "pacote_16.zip",
+    "sha256": "cd9acf4eba29bb28dee20465ec2503b72cc65302f3d7c8377dd442455a4d16fa"
+  },
+  {
+    "arquivo": "pacote_11.zip",
+    "sha256": "a3f3fb500cef83fc4890f6bbec6725bbf5e080503fd0478af3dd84d6f5ef6e93"
+  },
+  {
+    "arquivo": "home.zip",
+    "sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676"
+  },
+  {
+    "arquivo": "validacao_11.zip",
+    "sha256": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c"
+  }
+]

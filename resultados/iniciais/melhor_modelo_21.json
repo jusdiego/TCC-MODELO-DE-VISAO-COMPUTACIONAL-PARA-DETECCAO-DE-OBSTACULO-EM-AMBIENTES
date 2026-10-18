@@ -1,0 +1,8 @@
+{
+  "epoch": 15,
+  "fitness": 0.6774089240096787,
+  "threshold": 0.2,
+  "weight_relative": "pesos/epoca_015_inferencia.pt",
+  "weight_sha256": "fad029029e2fc98f1fd92fd41d654c661a2d91af3619dcee778373a924fbc040",
+  "context_key": "5b35ca0c28f97027e7d1f324fb2ef384d1b723be04c6176f796270f92af1d6b4"
+}

@@ -1,0 +1,125 @@
+{
+  "treino_epochs_configuradas": 1,
+  "openimages_treino": 80000,
+  "home_train": 1824,
+  "home_val": 456,
+  "test": 403,
+  "selecao_final": {
+    "modelo": "antigo",
+    "conf": 0.25,
+    "motivo": "Mantido baseline: nenhuma configuração elegível na Home VAL",
+    "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "arquivo_modelo": "/kaggle/working/resultados_tcc/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010/modelo_selecionado.pt",
+    "origem_peso": "/tmp/tcc_openimages_100k/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010/baseline_inicial.pt",
+    "selecionado_em": "2026-10-15T04:08:41.430440+00:00",
+    "conjunto_selecao": "Home VAL",
+    "home_val_imagens": 456,
+    "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "test_utilizado_para_selecao": false,
+    "criterio": "Precisão de alertas maior, recall preservado e alta_sem_alerta não maior que antigo em 0,25",
+    "configuracao_congelada_antes_test": true,
+    "openimages_divisao_sha256": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+    "openimages_teste_reservado": 20000,
+    "openimages_teste_usado_para_selecao": false,
+    "observacao": "Seleção exploratória na Home VAL; não substitui os pesos do baseline no Drive"
+  },
+  "metricas_detector_test": {
+    "precision": 0.6422564711841479,
+    "recall": 0.6503951541652903,
+    "map50": 0.652211091208973,
+    "map50_95": 0.4461082547215133
+  },
+  "metricas_alertas_test": {
+    "escopo": "Referência V2 aplicada às anotações; não valida risco físico independentemente",
+    "imagens": 403,
+    "objetos_anotados": 3465,
+    "objetos_previstos": 3910,
+    "diagnostico_detector_conf_fixa": {
+      "tp_iou50_mesma_classe": 2478,
+      "fn_iou50_mesma_classe": 987,
+      "fp_iou50_mesma_classe": 1432
+    },
+    "alertas_por_objeto_vs_politica": {
+      "tp_vs_politica": 1038,
+      "fn_vs_politica": 293,
+      "fp_vs_politica": 507,
+      "precision_vs_politica": 0.6718446601941748,
+      "recall_vs_politica": 0.7798647633358378,
+      "f1_vs_politica": 0.721835883171071
+    },
+    "alertas_por_imagem_vs_politica": {
+      "tp_vs_politica": 390,
+      "fn_vs_politica": 5,
+      "fp_vs_politica": 4,
+      "precision_vs_politica": 0.9898477157360406,
+      "recall_vs_politica": 0.9873417721518988,
+      "f1_vs_politica": 0.9885931558935361
+    },
+    "concordancia_prioridade_em_objetos_correspondentes": 0.948076923076923,
+    "concordancia_prioridade_por_imagem": 0.8883374689826302,
+    "objetos_prioridade_alta_ref_sem_alerta": 63,
+    "tempo_previsao_medio_ms": 16.808116625310173,
+    "modelo_selecionado": "antigo",
+    "conf_alerta": 0.25,
+    "test_congelado_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+    "test_utilizado_para_selecao": false
+  },
+  "test_conferido_sem_alteracoes": true,
+  "textos": "/kaggle/working/resultados_tcc/yolov8n_home_openimages_80_20_1ep_kaggle_20261015_030228_068010/avaliacao_final_test/alertas_texto.txt",
+  "teste_openimages_reservado": {
+    "imagens": 20000,
+    "conf_alertas": 0.25,
+    "protocolo": "Teste interno de 12 classes com exclusão de classes sem cobertura verificada por imagem",
+    "nao_e_metrica_oficial_openimages_challenge": true,
+    "map50_parcial": 0.33998349341141715,
+    "map50_95_parcial": 0.18641760851258526,
+    "classes_com_gt_avaliavel": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "gt_ignorados_sem_cobertura": 18,
+    "predicoes_ignoradas_sem_cobertura_conf_0001": 1622351,
+    "detector_conf_final": {
+      "tp": 19104,
+      "fn": 64906,
+      "fp": 18608,
+      "precision": 0.5065761561306746,
+      "recall": 0.22740149982144983
+    },
+    "alertas_por_objeto_com_cobertura": {
+      "tp_vs_politica": 11795,
+      "fn_vs_politica": 14263,
+      "fp_vs_politica": 9228,
+      "precision_vs_politica": 0.5610521809446797,
+      "recall_vs_politica": 0.4526441016194643,
+      "f1_vs_politica": 0.501051379537393
+    },
+    "imagens_cobertura_completa_classes_alerta": 7,
+    "alertas_por_imagem_com_cobertura_completa": {
+      "tp_vs_politica": 0,
+      "fn_vs_politica": 0,
+      "fp_vs_politica": 5,
+      "precision_vs_politica": 0.0,
+      "recall_vs_politica": null,
+      "f1_vs_politica": 0.0
+    },
+    "alta_sem_alerta_com_cobertura": 4275,
+    "textos_gerados_com_todas_deteccoes": true,
+    "observacao": "Textos usam todas as detecções acima do limiar. Métricas ignoram classes sem cobertura; ausência de anotação não vira falso positivo.",
+    "modelo_selecionado": "antigo",
+    "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+    "divisao_sha256": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9",
+    "usado_para_selecao": false,
+    "reservado_antes_treino": true
+  },
+  "divisao_openimages_sha256": "a5dd35ff484dda77e8988aefdc961f05d07ea409d1336cbe90c4a5420632bab9"
+}

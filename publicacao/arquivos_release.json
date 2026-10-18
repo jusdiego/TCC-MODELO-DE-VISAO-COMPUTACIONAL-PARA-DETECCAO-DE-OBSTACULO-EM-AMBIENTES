@@ -1,0 +1,18 @@
+{
+  "publicado": false,
+  "motivo": "Repositorio remoto ainda nao definido.",
+  "arquivos": [
+    {
+      "nome": "TCC_Resultados_Para_Apresentacao.zip",
+      "bytes": 348920870,
+      "sha256": "5ea3e4b07026a8fbfcd1dd8adfae3755f4f19122b582641c885ea733c660e918",
+      "incluido_no_git": false
+    },
+    {
+      "nome": "modelo_rfdetr24.pth",
+      "bytes": 127488377,
+      "sha256": "d481dcf7e96479b338cb42fd9199d8a4cccde8fbc8ed8e341f528c1e13d51900",
+      "incluido_no_git": false
+    }
+  ]
+}

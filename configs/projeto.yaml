@@ -1,0 +1,33 @@
+projeto:
+  nome: "Detecção de objetos em ambientes internos para acessibilidade"
+  semente: 42
+
+dataset:
+  nome: "HomeObjects-3K"
+  url: "https://github.com/ultralytics/assets/releases/download/v0.0.0/homeobjects-3K.zip"
+  pasta_raw: "data/raw"
+
+classes:
+  0: bed
+  1: sofa
+  2: chair
+  3: table
+  4: lamp
+  5: tv
+  6: laptop
+  7: wardrobe
+  8: window
+  9: door
+  10: potted plant
+  11: photo frame
+
+# A lista é uma hipótese inicial. Ela só deve ser confirmada após a auditoria.
+classes_criticas_iniciais:
+  - bed
+  - sofa
+  - chair
+  - table
+  - wardrobe
+  - door
+  - potted plant
+

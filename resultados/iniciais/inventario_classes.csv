@@ -1,0 +1,13 @@
+﻿id,classe,imagens_elegiveis_com_classe,caixas_validas_em_imagens_elegiveis,imagens_previstas_com_classe,imagens_previstas_com_cobertura_verificada
+0,bed,2492,2960,2492,7293
+1,sofa,2907,3687,2907,8181
+2,chair,19676,98038,19676,25299
+3,table,42073,77552,34354,42508
+4,lamp,1435,3065,1435,1554
+5,tv,2559,3412,2559,3034
+6,laptop,5418,9022,5418,9044
+7,wardrobe,173,193,173,3766
+8,window,50567,380678,29433,36966
+9,door,12718,18177,12718,18538
+10,potted plant,7148,17889,7148,15051
+11,photo frame,5215,11116,5215,5819

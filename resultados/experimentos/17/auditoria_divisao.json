@@ -1,0 +1,19 @@
+{
+  "version": "17-limiares-chair-table-1.0.0",
+  "seed": "17-grupos-42",
+  "group_count": 1453,
+  "similarity_links": 3,
+  "counts": {
+    "calibracao": {
+      "home_val_historica": 227,
+      "openimages_val_nova": 484
+    },
+    "verificacao_interna": {
+      "home_val_historica": 229,
+      "openimages_val_nova": 516
+    }
+  },
+  "split_sha256": "8427f4297fd4b11aab2eaa085b133fc6367f4d9af2630c8c59d4e58edf58c291",
+  "uses_predictions": false,
+  "verification_is_independent_final_test": false
+}

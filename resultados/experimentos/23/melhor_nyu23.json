@@ -1,0 +1,8 @@
+{
+  "epoch": 41,
+  "fitness": 0.6461954125125334,
+  "threshold": 0.25,
+  "weight": "pesos/epoca_041.pt",
+  "weight_sha256": "0d87f63e1487c9dd97ce7874b9cd9d9f66ca2862f7d030e738b956ba191d3427",
+  "context": "e07346585506a2db3229645f72d287e7fa9680aa2ffed7b4ddc1514a8090d1b9"
+}

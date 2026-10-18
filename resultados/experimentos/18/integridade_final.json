@@ -1,0 +1,12 @@
+{
+  "conferida": true,
+  "auditoria_fontes_conferida": true,
+  "supervisao_original_preservada": true,
+  "projecao_treino_documentada": false,
+  "validacao_rotulos_alterados": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "modelo_substituido": false
+}

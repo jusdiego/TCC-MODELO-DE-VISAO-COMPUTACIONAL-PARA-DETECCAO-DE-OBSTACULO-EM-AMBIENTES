@@ -1,0 +1,30 @@
+[
+  {
+    "modelo": "baseline",
+    "coorte": "home_val_historica",
+    "checagens_imagem": 5016,
+    "objetos_GT": 3682,
+    "reproduziu": true
+  },
+  {
+    "modelo": "baseline",
+    "coorte": "openimages_val_nova",
+    "checagens_imagem": 11000,
+    "objetos_GT": 4123,
+    "reproduziu": true
+  },
+  {
+    "modelo": "candidato_10",
+    "coorte": "home_val_historica",
+    "checagens_imagem": 5016,
+    "objetos_GT": 3682,
+    "reproduziu": true
+  },
+  {
+    "modelo": "candidato_10",
+    "coorte": "openimages_val_nova",
+    "checagens_imagem": 11000,
+    "objetos_GT": 4123,
+    "reproduziu": true
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "context_key": "4d5ea2227cb3d7146cc78d8b5d752047cad25b1121335d051e7750dc79098db6",
+  "spec": {
+    "version": "19-consolidacao-demonstracao-1.0.0",
+    "models": [
+      "baseline",
+      "candidato_10"
+    ],
+    "confidence": 0.25,
+    "policy": "v2",
+    "iou_match": 0.5,
+    "training": false,
+    "inference": false,
+    "demo_images_per_cohort": 12,
+    "demo_per_category": 2,
+    "demo_seed": "19-galeria-42",
+    "demo_categories": [
+      "mais_tp_candidato10",
+      "mais_tp_baseline",
+      "omissao_alta",
+      "falso_alerta",
+      "acerto_sem_erro",
+      "sem_alerta_referencia"
+    ],
+    "selection": "categorias ilustrativas com ordem por SHA; sem trocar pesos/limiares",
+    "evaluation": "duas validacoes ja expostas; todas as imagens, sem usar a galeria como metrica",
+    "final_reserve_opened": false,
+    "new_weight_selection": false
+  },
+  "entradas": {
+    "16": "cd9acf4eba29bb28dee20465ec2503b72cc65302f3d7c8377dd442455a4d16fa",
+    "17": "0ef3ce66a70216c641176a8c682e74b7a08c758f5d98ccb1ebd3db31943fde93",
+    "18": "f3ea533498d5af59f6bb94a919e71c4a2e8970aae488802d5418e584e19b07d6"
+  },
+  "codigo_sha256": {
+    "conf14_data.py": "f73232836278c08edf0f955ae8fe50a33cb1d4eabe2b2cc35a5f410f095bae66",
+    "conf14_evaluation.py": "3e64c612ffcd7cb75fdf05707affc45cafa91acd1882ab311425c2752ed01656",
+    "cons19_demo.py": "33dfd31ef9c11b43058456fad522873fd8e0a8772a2eae17022d26ab141f45e8",
+    "cons19_inputs.py": "ed81022938e964f027da3b9fdb691eb8f9782bfedd6bdb81ad19985bbb900e6c",
+    "cons19_io.py": "5049f9ba53b8df7c9dbef0c9b195e61cc6169dd99cd4e1c9dec6cbfbda05371e",
+    "cons19_protocol.py": "d55fc25fe843a52004bb461e14612f7f116dd2019e0c721973ba2919fb5e2588",
+    "cons19_reports.py": "eb80782f599c49a403f4e790abf7ff4f095fd0522284c4d1205a49e7d764cfd2",
+    "diag11_core.py": "29e7c52fced44ab4898edfbc46477176587f290d2fbdacad4de5f595d4187670",
+    "exp12_protocol.py": "257d09b0b2aafe94da28bdcb59859778ffb31e25601db75d1058092b943b5759",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/politica_alertas.py": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "src/validacao_alertas.py": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d"
+  },
+  "protocolo_final": {
+    "version": "20-plano-avaliacao-final-congelado-em-19-v1",
+    "status": "planejado; reserva nao consultada no 19",
+    "primary_model": "baseline",
+    "comparison_model": "candidato_10",
+    "weight_sha256": {
+      "baseline": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+      "candidato_10": "97040f91876d8835a67a7db287d3e1c5f129a4068e36dd4483d947f62b260c5f"
+    },
+    "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+    "archive_sha256": "5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c",
+    "dataset_location": "datasets/validacao_independente_11_v1/695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0/validacao_independente_11_695b445e15c9.zip",
+    "role": "reserva_futura",
+    "images": 300,
+    "population": "todos os 300 IDs do papel reserva_futura no manifesto autenticado; sem substituicoes",
+    "classes": "mesmo mapeamento de 12 classes; cobertura parcial original preservada",
+    "policy_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+    "matcher_sha256": "1da5dff21a6c6f6ec53d041247ce18d012008c4b26023b52c3fd2745f4c4105d",
+    "inference": {
+      "ultralytics": "8.4.150",
+      "conf": 0.001,
+      "imgsz": 640,
+      "rect": true,
+      "iou": 0.7,
+      "max_det": 300,
+      "half": false,
+      "batch": 1
+    },
+    "alert_confidence": 0.25,
+    "match_iou": 0.5,
+    "policy": "v2",
+    "primary_estimands": [
+      "recall de alertas por objeto do baseline",
+      "delta recall candidato10 menos baseline"
+    ],
+    "secondary": [
+      "precisao",
+      "F1",
+      "omissoes altas: contagem e taxa por objetos GT de prioridade alta",
+      "metricas por classe e suporte",
+      "contagens TP/FN/FP e denominadores"
+    ],
+    "confidence_intervals": {
+      "method": "bootstrap pareado de grupos de imagens; manter bytes iguais e pHash64 distancia<=4 no mesmo grupo por ligacao transitiva",
+      "repetitions": 2000,
+      "seed": 19002026,
+      "confidence": 0.95,
+      "interval": "percentil 2.5 e 97.5; grupos reamostrados com reposicao; mesmos grupos para ambos os modelos",
+      "zero_denominator": "replica sem suporte fica indefinida; informar quantidade de replicas validas por metrica"
+    },
+    "low_support": "informar contagens; sinalizar classe com menos de 30 GT, sem ocultar resultados",
+    "weight_or_threshold_tuning_after_reserve": false,
+    "second_choice_after_failure": false,
+    "deployment_decision": "nenhuma troca automatica; caracterizacao dos dois modelos predefinidos",
+    "historical_rules": "os seis limites das validacoes ficam no desenvolvimento; nao aplicar limites absolutos de 1.000 imagens em 300",
+    "home_test": "fora desta avaliacao primaria; historico original do baseline nao comprovado",
+    "openimages_test20k": "fora desta etapa",
+    "training": false,
+    "limits": [
+      "A independencia refere-se a reserva preservada no fluxo documentado; nao comprova ausencia de exposicao em todo pretreino original.",
+      "Nao valida distancia, risco fisico ou uso assistivo em ambiente real."
+    ]
+  },
+  "ambiente": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pillow": "12.3.0",
+    "execucao": "CPU; previsoes congeladas"
+  }
+}

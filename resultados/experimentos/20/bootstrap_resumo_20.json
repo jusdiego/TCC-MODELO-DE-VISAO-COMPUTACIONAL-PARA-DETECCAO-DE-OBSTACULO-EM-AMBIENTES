@@ -1,0 +1,44 @@
+{
+  "metodo": {
+    "method": "bootstrap pareado de grupos de imagens; manter bytes iguais e pHash64 distancia<=4 no mesmo grupo por ligacao transitiva",
+    "repetitions": 2000,
+    "seed": 19002026,
+    "confidence": 0.95,
+    "interval": "percentil 2.5 e 97.5; grupos reamostrados com reposicao; mesmos grupos para ambos os modelos",
+    "zero_denominator": "replica sem suporte fica indefinida; informar quantidade de replicas validas por metrica"
+  },
+  "imagens": 300,
+  "grupos": 300,
+  "pareado": true,
+  "metricas": [
+    "precision",
+    "recall",
+    "f1",
+    "taxa_alta_sem_alerta"
+  ],
+  "escopos": [
+    "global",
+    "bed",
+    "sofa",
+    "chair",
+    "table",
+    "lamp",
+    "tv",
+    "laptop",
+    "wardrobe",
+    "window",
+    "door",
+    "potted plant",
+    "photo frame"
+  ],
+  "total_estimativas": 156,
+  "replicas_iguais_ambos_modelos": true,
+  "denominadores_zero_convertidos_em_zero": false,
+  "ordem_grupos_sha256": "e0123a7caee2f9be363e75eab03a63f4e5e14a3d92803a569a73c758d053fd7d",
+  "rng": "numpy.random.default_rng; amostra de G grupos com reposição por réplica",
+  "analise": "Razões de somas dos objetos; sem média das métricas por imagem.",
+  "limites": [
+    "Intervalos por classe e métricas secundárias são descritivos; sem ajuste por múltiplas comparações.",
+    "Grupos pequenos e poucos objetos podem produzir intervalos instáveis ou degenerados."
+  ]
+}

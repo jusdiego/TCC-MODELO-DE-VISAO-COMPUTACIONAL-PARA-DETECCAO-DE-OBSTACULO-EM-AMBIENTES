@@ -1,0 +1,151 @@
+{
+  "versao": "11-diagnostico-validacao-independente-1.0",
+  "experimento": "diagnostico11_20261016_024603_683411",
+  "concluido": true,
+  "novos_treinamentos": 0,
+  "modelos_substituidos": false,
+  "modelo_em_uso_continua_baseline": true,
+  "confianca_em_uso": 0.25,
+  "auditoria": {
+    "separacao_atual": {
+      "home_train_atual": 1824,
+      "home_val_atual": 456,
+      "test_home_preservado": 403,
+      "test_extraido": false,
+      "intersecao_bytes_home_train_val_atual": 0,
+      "divergencia_documental_1822_1824": "Não reconciliada; o pacote atual tem 1824.",
+      "separacao_atual_nao_comprova_historico_baseline": true
+    },
+    "baseline_original": {
+      "modelo_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+      "data_checkpoint": "2026-09-13T17:08:48.014038+00:00",
+      "train_args_preservados": {
+        "data": "/content/tcc_visao_computacional/homeobjects_yolo/data_colab.yaml",
+        "epochs": 50,
+        "batch": 26,
+        "imgsz": 640,
+        "seed": 42,
+        "optimizer": "auto",
+        "lr0": 0.01,
+        "project": "/content/experimentos",
+        "name": "yolov8n_baseline",
+        "fraction": 1.0
+      },
+      "estado_proveniencia_original": "nao_determinado",
+      "home_val_usada_no_treino_original": null,
+      "motivo": "Caminhos e argumentos não contêm a lista de imagens vistas no treino original."
+    },
+    "test_home_extraido_ou_inferido": false,
+    "test_oi20k_inferido": false,
+    "novos_treinamentos": 0
+  },
+  "dataset_sha256": "695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0",
+  "validacao_nova": 1000,
+  "reserva_futura": 300,
+  "reserva_futura_inferida": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "comparacao": [
+    {
+      "coorte": "home_val_historica",
+      "modelo": "antigo",
+      "imagens": 456,
+      "precision_alertas": 0.7836456558773425,
+      "recall_alertas": 0.8990228013029316,
+      "f1_alertas": 0.837378640776699,
+      "tp_alerta": 1380,
+      "fn_alerta": 155,
+      "fp_alerta": 381,
+      "alta_ref": 536,
+      "alta_sem_alerta": 24,
+      "map50_recorte": 0.8506206235120239,
+      "map50_95_recorte": 0.6495560951896294
+    },
+    {
+      "coorte": "home_val_historica",
+      "modelo": "candidato",
+      "imagens": 456,
+      "precision_alertas": 0.7805858701895463,
+      "recall_alertas": 0.885342019543974,
+      "f1_alertas": 0.8296703296703297,
+      "tp_alerta": 1359,
+      "fn_alerta": 176,
+      "fp_alerta": 382,
+      "alta_ref": 536,
+      "alta_sem_alerta": 27,
+      "map50_recorte": 0.818593215498148,
+      "map50_95_recorte": 0.6133905118417303
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "modelo": "antigo",
+      "imagens": 1000,
+      "precision_alertas": 0.5430183356840621,
+      "recall_alertas": 0.49232736572890023,
+      "f1_alertas": 0.5164319248826291,
+      "tp_alerta": 385,
+      "fn_alerta": 397,
+      "fp_alerta": 324,
+      "alta_ref": 420,
+      "alta_sem_alerta": 193,
+      "map50_recorte": 0.34048724637688516,
+      "map50_95_recorte": 0.2134497867098835
+    },
+    {
+      "coorte": "openimages_val_nova",
+      "modelo": "candidato",
+      "imagens": 1000,
+      "precision_alertas": 0.5982256020278834,
+      "recall_alertas": 0.6035805626598465,
+      "f1_alertas": 0.6008911521323997,
+      "tp_alerta": 472,
+      "fn_alerta": 310,
+      "fp_alerta": 317,
+      "alta_ref": 420,
+      "alta_sem_alerta": 120,
+      "map50_recorte": 0.4846361274033255,
+      "map50_95_recorte": 0.31588016721541384
+    }
+  ],
+  "reproducao_home_val": {
+    "antigo": {
+      "esperado_execucao10": {
+        "tp": 1380,
+        "fn": 155,
+        "fp": 381,
+        "alta_sem_alerta": 24
+      },
+      "observado": {
+        "tp": 1380,
+        "fn": 155,
+        "fp": 381,
+        "alta_sem_alerta": 24
+      },
+      "contagens_iguais": true
+    },
+    "candidato": {
+      "esperado_execucao10": {
+        "tp": 1359,
+        "fn": 176,
+        "fp": 382,
+        "alta_sem_alerta": 27
+      },
+      "observado": {
+        "tp": 1359,
+        "fn": 176,
+        "fp": 382,
+        "alta_sem_alerta": 27
+      },
+      "contagens_iguais": true
+    }
+  },
+  "integridade_conferida": true,
+  "limites": [
+    "Independência em relação aos dados conhecidos; pré-treinamentos não auditados.",
+    "Home VAL histórica exploratória; observar a auditoria da proveniência.",
+    "Open Images não garante cenas internas; revisar a adequação das cenas.",
+    "Cobertura conservadora; observar suporte reduzido por classe.",
+    "Bootstrap e indícios não estabelecem causas nem validam risco físico."
+  ],
+  "proxima_etapa": "Revisar erros e definir controle Home versus Home+recorte alinhado, com atualizações comparáveis."
+}

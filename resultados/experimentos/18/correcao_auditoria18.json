@@ -1,0 +1,8 @@
+{
+  "versao": "18-auditoria-pos-loader-1.0.1",
+  "concluida": true,
+  "checagens_mascara_gradiente_orcamento_preservadas": true,
+  "treinamento_modificado": false,
+  "referencia": "referencia_alvos_pos_loader.json.gz",
+  "diagnostico": "diagnostico_alvos_pos_loader.json"
+}

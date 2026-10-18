@@ -1,0 +1,14 @@
+{
+  "conferida": true,
+  "catalogadas": 6824,
+  "elegiveis_modelos": 6824,
+  "rotulos_alterados": false,
+  "novos_treinamentos": 0,
+  "modelo_substituido": false,
+  "test_home_extraido": false,
+  "oi_test_extraido": false,
+  "reserva_futura_extraida": false,
+  "validacoes_inferidas": false,
+  "reserva_futura_inferida": false,
+  "proveniencia_original_baseline": "nao_determinado"
+}

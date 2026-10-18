@@ -1,0 +1,6 @@
+{
+  "promissor_na_validacao": false,
+  "criterio": "Precisão dos alertas maior, Recall não menor e omissões de alta prioridade não maiores, em Home VAL.",
+  "observacao": "Triagem exploratória; não é teste de significância nem validação de risco real. Histórico do baseline pode incluir parte do Home VAL atual.",
+  "proximo_passo": "Comparar antigo e candidato no 05d local, com TEST e parâmetros preservados; não substituir o baseline automaticamente."
+}

@@ -1,0 +1,610 @@
+﻿coorte,conf,id,classe,bbox_ref,alerta_B_025,alerta_no_limiar,prioridade_ref,confianca_associada
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,table,"[54.561152, 1432.296576, 226.09472, 1745.881344]",False,True,medio,0.18304315209388733
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,table,"[452.55376, 1163.088058, 518.199008, 1233.59879]",False,True,medio,0.06553036719560623
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,potted plant,"[641.122042, 1217.164493, 700.60391, 1273.569715]",False,True,medio,0.0804314985871315
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_105.jpg,chair,"[216.680762, 1130.489952, 609.196653, 1742.026656]",False,True,medio,0.21857106685638428
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1062.jpg,chair,"[1057.639114, 844.71624, 1225.219766, 1143.967536]",False,True,medio,0.06314948201179504
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_108.jpg,potted plant,"[873.58223, 556.73163, 1008.06961, 722.096154]",False,True,medio,0.2112082988023758
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1084.jpg,chair,"[398.204352, 1087.382016, 679.736896, 1381.677312]",False,True,medio,0.08072138577699661
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1122.jpg,table,"[536.123448, 1172.091926, 953.530632, 1275.070186]",False,True,medio,0.21851985156536102
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1123.jpg,potted plant,"[789.615693, 1269.223469, 849.27866, 1361.522899]",False,True,medio,0.0839989185333252
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1160.jpg,potted plant,"[631.034496, 763.813296, 1041.419904, 1250.141904]",False,True,alto,0.07798681408166885
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1238.jpg,table,"[556.485912, 1263.556877, 1058.611752, 1394.001523]",False,True,medio,0.11596213281154633
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1258.jpg,chair,"[579.959386, 806.1664, 760.40567, 990.507136]",False,True,medio,0.18183498084545135
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1276.jpg,potted plant,"[554.716066, 1388.604, 735.678885, 1607.45616]",False,True,medio,0.1820535808801651
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1289.jpg,potted plant,"[1072.734211, 615.12601, 1225.930109, 769.746057]",False,True,medio,0.17303818464279175
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,table,"[753.709632, 783.904986, 1055.960256, 1026.603126]",False,True,alto,0.22395995259284973
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,potted plant,"[760.830038, 498.087954, 855.149482, 685.643454]",False,True,medio,0.237141951918602
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_130.jpg,chair,"[1487.753664, 1059.526102, 1860.006336, 1478.216097]",False,True,medio,0.12399231642484665
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1386.jpg,chair,"[1105.40423, 457.130376, 1291.468474, 715.687128]",False,True,medio,0.08780816197395325
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1416.jpg,table,"[763.217758, 940.487808, 1275.862129, 1307.156352]",False,True,medio,0.11716766655445099
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1462.jpg,wardrobe,"[318.748512, 1446.714912, 1614.85008, 1918.07664]",False,True,alto,0.1870429664850235
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1462.jpg,potted plant,"[1064.884598, 1422.448214, 1136.345098, 1526.21329]",False,True,medio,0.05450168997049332
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1462.jpg,potted plant,"[695.019398, 1405.118678, 778.858234, 1519.776682]",False,True,medio,0.09435310959815979
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1503.jpg,potted plant,"[755.271675, 906.9864, 1079.791334, 1616.725728]",False,True,medio,0.16672588884830475
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1504.jpg,chair,"[465.953871, 722.915424, 694.66925, 1023.402528]",False,True,medio,0.1253994256258011
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1504.jpg,table,"[507.55706, 1042.655424, 874.644341, 1390.85088]",False,True,medio,0.05767291039228439
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1615.jpg,sofa,"[1149.5112, 862.020314, 1556.196576, 1042.361848]",False,True,medio,0.15659064054489136
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1615.jpg,table,"[649.686403, 870.283962, 711.006845, 972.866965]",False,True,alto,0.08422443270683289
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1629.jpg,potted plant,"[413.811432, 797.868192, 788.407416, 1529.069664]",False,True,medio,0.06414926052093506
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,table,"[1693.871232, 1096.910208, 1918.56768, 1253.018304]",False,True,medio,0.08615701645612717
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg,table,"[75.780864, 862.636896, 924.786944, 1596.754464]",False,True,alto,0.2060186266899109
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1812.jpg,chair,"[624.520445, 1205.631322, 661.411467, 1329.719846]",False,True,medio,0.11675284802913666
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1812.jpg,potted plant,"[500.436554, 1155.27073, 561.038203, 1209.310646]",False,True,medio,0.08349348604679108
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[555.849472, 1249.970778, 1008.145664, 1858.252328]",False,True,alto,0.1725219339132309
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[407.433088, 598.253911, 999.405952, 1264.187018]",False,True,medio,0.2370765656232834
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1932.jpg,table,"[624.160224, 798.91942, 821.615136, 960.811659]",False,True,medio,0.20871607959270477
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_195.jpg,chair,"[1.775124, 1046.820768, 302.806703, 1874.595552]",False,True,medio,0.18094216287136078
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1952.jpg,table,"[1443.245472, 894.442304, 1641.866208, 1241.054912]",False,True,medio,0.1300099939107895
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (12).jpg,table,"[440.429472, 858.791386, 632.733984, 923.432486]",False,True,medio,0.09689043462276459
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (125).jpg,sofa,"[558.862144, 574.480028, 795.555008, 609.654223]",False,True,medio,0.09138630330562592
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (136).jpg,potted plant,"[584.953952, 418.110035, 625.478816, 460.048557]",False,True,medio,0.059364013373851776
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (142).jpg,chair,"[398.513536, 455.186987, 458.869376, 548.82728]",False,True,medio,0.17772625386714935
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (171).jpg,table,"[253.963502, 683.43193, 429.897665, 784.543494]",False,True,medio,0.15453748404979706
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (299).jpg,wardrobe,"[1.645376, 443.26064, 269.81216, 676.912608]",False,True,medio,0.13019099831581116
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (363).jpg,chair,"[418.889024, 467.971453, 756.666816, 843.002712]",False,True,alto,0.14012496173381805
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (40).jpg,potted plant,"[773.226861, 393.554527, 791.592083, 433.525889]",False,True,medio,0.14240022003650665
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (413).jpg,wardrobe,"[404.418739, 236.993042, 465.697869, 426.486906]",False,True,medio,0.1509217619895935
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (506).jpg,wardrobe,"[962.273216, 134.522928, 1211.349312, 498.174048]",False,True,medio,0.057966239750385284
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (519).jpg,table,"[703.729408, 396.68229, 944.950784, 456.270948]",False,True,medio,0.22072121500968933
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (556).jpg,chair,"[543.479302, 327.070746, 586.48089, 400.118237]",False,True,medio,0.055260270833969116
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (62).jpg,chair,"[187.297446, 566.655944, 273.411162, 714.392393]",False,True,medio,0.14676110446453094
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (76).jpg,wardrobe,"[257.43488, 29.318413, 936.645888, 317.616612]",False,True,medio,0.09551732987165451
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (76).jpg,table,"[415.946432, 565.156298, 697.666112, 801.888889]",False,True,alto,0.10679157078266144
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_1p (86).jpg,sofa,"[553.09824, 348.927228, 725.229824, 471.878388]",False,True,medio,0.16602934896945953
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_245.jpg,chair,"[1596.709824, 517.329472, 1919.086656, 925.48408]",False,True,medio,0.16941265761852264
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_328.jpg,potted plant,"[895.05599, 827.77401, 943.695754, 895.566028]",False,True,medio,0.06595595180988312
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_346.jpg,table,"[990.17184, 691.359936, 1195.698624, 876.081728]",False,True,medio,0.06684568524360657
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,wardrobe,"[1561.666598, 723.333312, 1746.666586, 1045.0]",False,True,medio,0.15350988507270813
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,potted plant,"[875.316682, 696.465024, 984.124214, 926.663296]",False,True,medio,0.10182792693376541
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[1024.097405, 522.976424, 1069.597699, 645.840428]",False,True,medio,0.12074292451143265
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[814.971082, 543.963925, 866.596406, 629.662655]",False,True,medio,0.12737034261226654
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_446.jpg,sofa,"[219.073576, 803.24448, 907.446711, 1779.521472]",False,True,alto,0.09333743900060654
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_493.jpg,potted plant,"[856.430534, 717.33778, 898.54777, 767.591946]",False,True,medio,0.09643688797950745
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_493.jpg,potted plant,"[1048.917005, 744.63825, 1095.907315, 802.717453]",False,True,medio,0.06706774234771729
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_527.jpg,wardrobe,"[862.532515, 399.013248, 993.075677, 802.59264]",False,True,medio,0.16386660933494568
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_532.jpg,wardrobe,"[6.709632, 488.236128, 647.526784, 1496.622624]",False,True,medio,0.05072988197207451
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_564.jpg,sofa,"[674.272704, 1078.948608, 1148.380736, 1751.65056]",False,True,medio,0.08348705619573593
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_662.jpg,chair,"[1136.47584, 1037.868384, 1352.269248, 1495.057824]",False,True,medio,0.17783428728580475
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_662.jpg,table,"[391.561632, 1119.552864, 1288.872288, 1612.098336]",False,True,alto,0.19931964576244354
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_714.jpg,potted plant,"[1034.933472, 445.642048, 1308.189216, 847.061952]",False,True,medio,0.24102170765399933
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_717.jpg,chair,"[615.699744, 1201.947264, 1065.517152, 1438.539552]",False,True,alto,0.13850143551826477
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_762.jpg,chair,"[1060.668624, 430.896128, 1227.216048, 559.691776]",False,True,medio,0.12891922891139984
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_83.jpg,table,"[1572.57761, 831.798213, 1811.79612, 1156.126587]",False,True,medio,0.08391454070806503
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_836.jpg,table,"[384.100992, 1150.399541, 842.491776, 1432.545637]",False,True,medio,0.24086114764213562
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_836.jpg,potted plant,"[582.009485, 1007.872273, 746.448115, 1272.566016]",True,False,medio,0.0569455623626709
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_854.jpg,table,"[538.334272, 1572.92352, 1165.091264, 1918.100736]",False,True,alto,0.1918385624885559
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_909.jpg,chair,"[440.528598, 896.714112, 1137.266292, 1798.296192]",False,True,alto,0.1406167447566986
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/living_room_957.jpg,sofa,"[82.294528, 1130.30208, 846.97344, 1640.34432]",False,True,alto,0.14512747526168823
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (165).jpg,potted plant,"[922.952189, 624.486848, 1005.573763, 798.462272]",False,True,medio,0.1472657173871994
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (238).jpg,chair,"[592.468723, 755.732386, 701.051789, 920.874436]",False,True,medio,0.06607858091592789
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (253).jpg,table,"[317.296512, 1004.85792, 1438.358112, 1918.357824]",False,True,alto,0.21005578339099884
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (315).jpg,sofa,"[1.003546, 672.127052, 220.098586, 1055.940988]",False,True,medio,0.060509730130434036
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (315).jpg,table,"[545.674752, 576.992949, 770.614272, 720.078215]",False,True,medio,0.12744355201721191
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (324).jpg,chair,"[514.173672, 1277.108736, 1025.27964, 1619.117568]",False,True,alto,0.16457080841064453
+home_val_historica,0.05,home:homeobjects_yolo/images/val/raw_train/s (94).jpg,table,"[134.198784, 1326.08544, 1278.052864, 1918.052928]",False,True,alto,0.21487146615982056
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,table,"[54.561152, 1432.296576, 226.09472, 1745.881344]",False,True,medio,0.18304315209388733
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_105.jpg,chair,"[216.680762, 1130.489952, 609.196653, 1742.026656]",False,True,medio,0.21857106685638428
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_108.jpg,potted plant,"[873.58223, 556.73163, 1008.06961, 722.096154]",False,True,medio,0.2112082988023758
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1122.jpg,table,"[536.123448, 1172.091926, 953.530632, 1275.070186]",False,True,medio,0.21851985156536102
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1238.jpg,table,"[556.485912, 1263.556877, 1058.611752, 1394.001523]",False,True,medio,0.11596213281154633
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1258.jpg,chair,"[579.959386, 806.1664, 760.40567, 990.507136]",False,True,medio,0.18183498084545135
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1276.jpg,potted plant,"[554.716066, 1388.604, 735.678885, 1607.45616]",False,True,medio,0.1820535808801651
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1289.jpg,potted plant,"[1072.734211, 615.12601, 1225.930109, 769.746057]",False,True,medio,0.17303818464279175
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,table,"[753.709632, 783.904986, 1055.960256, 1026.603126]",False,True,alto,0.22395995259284973
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,potted plant,"[760.830038, 498.087954, 855.149482, 685.643454]",False,True,medio,0.237141951918602
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_130.jpg,chair,"[1487.753664, 1059.526102, 1860.006336, 1478.216097]",False,True,medio,0.12399231642484665
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1386.jpg,chair,"[1105.40423, 457.130376, 1291.468474, 715.687128]",False,True,medio,0.20842932164669037
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1416.jpg,table,"[763.217758, 940.487808, 1275.862129, 1307.156352]",False,True,medio,0.11716766655445099
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1462.jpg,wardrobe,"[318.748512, 1446.714912, 1614.85008, 1918.07664]",False,True,alto,0.1870429664850235
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1503.jpg,potted plant,"[755.271675, 906.9864, 1079.791334, 1616.725728]",False,True,medio,0.16672588884830475
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1504.jpg,chair,"[465.953871, 722.915424, 694.66925, 1023.402528]",False,True,medio,0.1253994256258011
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1615.jpg,sofa,"[1149.5112, 862.020314, 1556.196576, 1042.361848]",False,True,medio,0.15659064054489136
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg,table,"[75.780864, 862.636896, 924.786944, 1596.754464]",False,True,alto,0.2060186266899109
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1812.jpg,chair,"[624.520445, 1205.631322, 661.411467, 1329.719846]",False,True,medio,0.11675284802913666
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[555.849472, 1249.970778, 1008.145664, 1858.252328]",False,True,alto,0.1725219339132309
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[407.433088, 598.253911, 999.405952, 1264.187018]",False,True,medio,0.2370765656232834
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1932.jpg,table,"[624.160224, 798.91942, 821.615136, 960.811659]",False,True,medio,0.20871607959270477
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_195.jpg,chair,"[1.775124, 1046.820768, 302.806703, 1874.595552]",False,True,medio,0.18094216287136078
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1952.jpg,table,"[1443.245472, 894.442304, 1641.866208, 1241.054912]",False,True,medio,0.1300099939107895
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (142).jpg,chair,"[398.513536, 455.186987, 458.869376, 548.82728]",False,True,medio,0.17772625386714935
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (171).jpg,table,"[253.963502, 683.43193, 429.897665, 784.543494]",False,True,medio,0.15453748404979706
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (299).jpg,wardrobe,"[1.645376, 443.26064, 269.81216, 676.912608]",False,True,medio,0.13019099831581116
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (363).jpg,chair,"[418.889024, 467.971453, 756.666816, 843.002712]",False,True,alto,0.14012496173381805
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (40).jpg,potted plant,"[773.226861, 393.554527, 791.592083, 433.525889]",False,True,medio,0.14240022003650665
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (413).jpg,wardrobe,"[404.418739, 236.993042, 465.697869, 426.486906]",False,True,medio,0.1509217619895935
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (519).jpg,table,"[703.729408, 396.68229, 944.950784, 456.270948]",False,True,medio,0.22072121500968933
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (62).jpg,chair,"[187.297446, 566.655944, 273.411162, 714.392393]",False,True,medio,0.14676110446453094
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (76).jpg,table,"[415.946432, 565.156298, 697.666112, 801.888889]",False,True,alto,0.10679157078266144
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_1p (86).jpg,sofa,"[553.09824, 348.927228, 725.229824, 471.878388]",False,True,medio,0.16602934896945953
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_245.jpg,chair,"[1596.709824, 517.329472, 1919.086656, 925.48408]",False,True,medio,0.16941265761852264
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,wardrobe,"[1561.666598, 723.333312, 1746.666586, 1045.0]",False,True,medio,0.15350988507270813
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,potted plant,"[875.316682, 696.465024, 984.124214, 926.663296]",False,True,medio,0.10182792693376541
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[1024.097405, 522.976424, 1069.597699, 645.840428]",False,True,medio,0.12074292451143265
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[814.971082, 543.963925, 866.596406, 629.662655]",False,True,medio,0.12737034261226654
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_527.jpg,wardrobe,"[862.532515, 399.013248, 993.075677, 802.59264]",False,True,medio,0.16386660933494568
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_662.jpg,chair,"[1136.47584, 1037.868384, 1352.269248, 1495.057824]",False,True,medio,0.17783428728580475
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_662.jpg,table,"[391.561632, 1119.552864, 1288.872288, 1612.098336]",False,True,alto,0.19931964576244354
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_714.jpg,potted plant,"[1034.933472, 445.642048, 1308.189216, 847.061952]",False,True,medio,0.24102170765399933
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_717.jpg,chair,"[615.699744, 1201.947264, 1065.517152, 1438.539552]",False,True,alto,0.13850143551826477
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_762.jpg,chair,"[1060.668624, 430.896128, 1227.216048, 559.691776]",False,True,medio,0.12891922891139984
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_836.jpg,table,"[384.100992, 1150.399541, 842.491776, 1432.545637]",False,True,medio,0.24086114764213562
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_854.jpg,table,"[538.334272, 1572.92352, 1165.091264, 1918.100736]",False,True,alto,0.1918385624885559
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_909.jpg,chair,"[440.528598, 896.714112, 1137.266292, 1798.296192]",False,True,alto,0.1406167447566986
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/living_room_957.jpg,sofa,"[82.294528, 1130.30208, 846.97344, 1640.34432]",False,True,alto,0.14512747526168823
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/s (165).jpg,potted plant,"[922.952189, 624.486848, 1005.573763, 798.462272]",False,True,medio,0.1472657173871994
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/s (253).jpg,table,"[317.296512, 1004.85792, 1438.358112, 1918.357824]",False,True,alto,0.21005578339099884
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/s (315).jpg,table,"[545.674752, 576.992949, 770.614272, 720.078215]",False,True,medio,0.12744355201721191
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/s (324).jpg,chair,"[514.173672, 1277.108736, 1025.27964, 1619.117568]",False,True,alto,0.16457080841064453
+home_val_historica,0.1,home:homeobjects_yolo/images/val/raw_train/s (94).jpg,table,"[134.198784, 1326.08544, 1278.052864, 1918.052928]",False,True,alto,0.21487146615982056
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,table,"[54.561152, 1432.296576, 226.09472, 1745.881344]",False,True,medio,0.18304315209388733
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_105.jpg,chair,"[216.680762, 1130.489952, 609.196653, 1742.026656]",False,True,medio,0.21857106685638428
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_108.jpg,potted plant,"[873.58223, 556.73163, 1008.06961, 722.096154]",False,True,medio,0.2112082988023758
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1122.jpg,table,"[536.123448, 1172.091926, 953.530632, 1275.070186]",False,True,medio,0.21851985156536102
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1258.jpg,chair,"[579.959386, 806.1664, 760.40567, 990.507136]",False,True,medio,0.18183498084545135
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1276.jpg,potted plant,"[554.716066, 1388.604, 735.678885, 1607.45616]",False,True,medio,0.1820535808801651
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1289.jpg,potted plant,"[1072.734211, 615.12601, 1225.930109, 769.746057]",False,True,medio,0.17303818464279175
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,table,"[753.709632, 783.904986, 1055.960256, 1026.603126]",False,True,alto,0.22395995259284973
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,potted plant,"[760.830038, 498.087954, 855.149482, 685.643454]",False,True,medio,0.237141951918602
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_130.jpg,chair,"[1487.753664, 1059.526102, 1860.006336, 1478.216097]",False,True,medio,0.23932380974292755
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1386.jpg,chair,"[1105.40423, 457.130376, 1291.468474, 715.687128]",False,True,medio,0.20842932164669037
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1462.jpg,wardrobe,"[318.748512, 1446.714912, 1614.85008, 1918.07664]",False,True,alto,0.1870429664850235
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1503.jpg,potted plant,"[755.271675, 906.9864, 1079.791334, 1616.725728]",False,True,medio,0.16672588884830475
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1615.jpg,sofa,"[1149.5112, 862.020314, 1556.196576, 1042.361848]",False,True,medio,0.15659064054489136
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg,table,"[75.780864, 862.636896, 924.786944, 1596.754464]",False,True,alto,0.2060186266899109
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[555.849472, 1249.970778, 1008.145664, 1858.252328]",False,True,alto,0.1725219339132309
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[407.433088, 598.253911, 999.405952, 1264.187018]",False,True,medio,0.2370765656232834
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1932.jpg,table,"[624.160224, 798.91942, 821.615136, 960.811659]",False,True,medio,0.20871607959270477
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_195.jpg,chair,"[1.775124, 1046.820768, 302.806703, 1874.595552]",False,True,medio,0.18094216287136078
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1p (142).jpg,chair,"[398.513536, 455.186987, 458.869376, 548.82728]",False,True,medio,0.17772625386714935
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1p (171).jpg,table,"[253.963502, 683.43193, 429.897665, 784.543494]",False,True,medio,0.15453748404979706
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1p (413).jpg,wardrobe,"[404.418739, 236.993042, 465.697869, 426.486906]",False,True,medio,0.1509217619895935
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1p (519).jpg,table,"[703.729408, 396.68229, 944.950784, 456.270948]",False,True,medio,0.22072121500968933
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_1p (86).jpg,sofa,"[553.09824, 348.927228, 725.229824, 471.878388]",False,True,medio,0.16602934896945953
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_245.jpg,chair,"[1596.709824, 517.329472, 1919.086656, 925.48408]",False,True,medio,0.16941265761852264
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,wardrobe,"[1561.666598, 723.333312, 1746.666586, 1045.0]",False,True,medio,0.15350988507270813
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[1024.097405, 522.976424, 1069.597699, 645.840428]",False,True,medio,0.1902763396501541
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_527.jpg,wardrobe,"[862.532515, 399.013248, 993.075677, 802.59264]",False,True,medio,0.16386660933494568
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_662.jpg,chair,"[1136.47584, 1037.868384, 1352.269248, 1495.057824]",False,True,medio,0.17783428728580475
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_662.jpg,table,"[391.561632, 1119.552864, 1288.872288, 1612.098336]",False,True,alto,0.19931964576244354
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_714.jpg,potted plant,"[1034.933472, 445.642048, 1308.189216, 847.061952]",False,True,medio,0.24102170765399933
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_836.jpg,table,"[384.100992, 1150.399541, 842.491776, 1432.545637]",False,True,medio,0.24086114764213562
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/living_room_854.jpg,table,"[538.334272, 1572.92352, 1165.091264, 1918.100736]",False,True,alto,0.1918385624885559
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/s (253).jpg,table,"[317.296512, 1004.85792, 1438.358112, 1918.357824]",False,True,alto,0.21005578339099884
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/s (324).jpg,chair,"[514.173672, 1277.108736, 1025.27964, 1619.117568]",False,True,alto,0.16457080841064453
+home_val_historica,0.15,home:homeobjects_yolo/images/val/raw_train/s (94).jpg,table,"[134.198784, 1326.08544, 1278.052864, 1918.052928]",False,True,alto,0.21487146615982056
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_105.jpg,chair,"[216.680762, 1130.489952, 609.196653, 1742.026656]",False,True,medio,0.21857106685638428
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_108.jpg,potted plant,"[873.58223, 556.73163, 1008.06961, 722.096154]",False,True,medio,0.2112082988023758
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1122.jpg,table,"[536.123448, 1172.091926, 953.530632, 1275.070186]",False,True,medio,0.21851985156536102
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,table,"[753.709632, 783.904986, 1055.960256, 1026.603126]",False,True,alto,0.22395995259284973
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,potted plant,"[760.830038, 498.087954, 855.149482, 685.643454]",False,True,medio,0.237141951918602
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_130.jpg,chair,"[1487.753664, 1059.526102, 1860.006336, 1478.216097]",False,True,medio,0.23932380974292755
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1386.jpg,chair,"[1105.40423, 457.130376, 1291.468474, 715.687128]",False,True,medio,0.20842932164669037
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1615.jpg,sofa,"[1149.5112, 862.020314, 1556.196576, 1042.361848]",False,True,medio,0.20487985014915466
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1680.jpg,table,"[75.780864, 862.636896, 924.786944, 1596.754464]",False,True,alto,0.2060186266899109
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1915.jpg,potted plant,"[407.433088, 598.253911, 999.405952, 1264.187018]",False,True,medio,0.2370765656232834
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1932.jpg,table,"[624.160224, 798.91942, 821.615136, 960.811659]",False,True,medio,0.20871607959270477
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_1p (519).jpg,table,"[703.729408, 396.68229, 944.950784, 456.270948]",False,True,medio,0.22072121500968933
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_714.jpg,potted plant,"[1034.933472, 445.642048, 1308.189216, 847.061952]",False,True,medio,0.24102170765399933
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/living_room_836.jpg,table,"[384.100992, 1150.399541, 842.491776, 1432.545637]",False,True,medio,0.24086114764213562
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/s (253).jpg,table,"[317.296512, 1004.85792, 1438.358112, 1918.357824]",False,True,alto,0.21005578339099884
+home_val_historica,0.2,home:homeobjects_yolo/images/val/raw_train/s (94).jpg,table,"[134.198784, 1326.08544, 1278.052864, 1918.052928]",False,True,alto,0.21487146615982056
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_105.jpg,chair,"[692.043111, 1120.029504, 1113.51505, 1738.003392]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_110.jpg,chair,"[1166.770531, 658.054848, 1263.935261, 846.8944]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_110.jpg,chair,"[1140.502954, 654.179456, 1197.190742, 833.5456]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1305.jpg,chair,"[624.419183, 1407.870432, 1277.054257, 1918.053024]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1521.jpg,sofa,"[1010.618784, 550.787328, 1577.014752, 997.577728]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1574.jpg,potted plant,"[581.697833, 1200.226646, 756.311901, 1351.059754]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,chair,"[991.024426, 843.001351, 1073.605334, 971.781401]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,chair,"[1133.945414, 801.368935, 1196.07865, 920.666009]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1717.jpg,table,"[438.16329, 1378.841414, 602.717382, 1521.952186]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1760.jpg,table,"[275.984736, 1107.0992, 1118.449056, 1278.74656]",True,False,alto,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_1p (506).jpg,table,"[768.996608, 372.633552, 899.01312, 448.404336]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_214.jpg,potted plant,"[1203.841709, 778.319006, 1244.218963, 874.92829]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_334.jpg,sofa,"[1.9472, 1143.04224, 1264.369344, 1801.216704]",True,False,alto,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,sofa,"[512.45424, 699.71616, 1157.647008, 991.805376]",True,False,alto,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[962.409514, 520.352997, 1038.534998, 657.645819]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_841.jpg,table,"[1204.100064, 1072.128768, 1524.188064, 1278.226688]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/living_room_854.jpg,sofa,"[1.80096, 1210.716672, 420.104704, 1918.19904]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/s (194).jpg,chair,"[462.479808, 1038.636989, 581.378398, 1218.620995]",True,False,medio,
+home_val_historica,0.3,home:homeobjects_yolo/images/val/raw_train/s (318).jpg,chair,"[603.567833, 713.875392, 726.633457, 885.1088]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,sofa,"[195.414272, 1380.761568, 1109.490944, 1715.681184]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1049.jpg,table,"[567.433242, 1158.669686, 688.624614, 1222.868362]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_105.jpg,chair,"[692.043111, 1120.029504, 1113.51505, 1738.003392]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_109.jpg,potted plant,"[929.265264, 1331.212685, 1017.574416, 1466.971507]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_110.jpg,chair,"[1166.770531, 658.054848, 1263.935261, 846.8944]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_110.jpg,chair,"[1140.502954, 654.179456, 1197.190742, 833.5456]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1112.jpg,potted plant,"[949.934976, 648.41376, 1185.789312, 886.928064]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1243.jpg,table,"[860.210629, 1633.752288, 1916.053326, 1918.05264]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1287.jpg,sofa,"[73.632989, 160.847807, 1917.702564, 839.262661]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1296.jpg,potted plant,"[1083.073565, 612.20232, 1167.336547, 768.278088]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1297.jpg,table,"[1355.219616, 766.61748, 1918.015968, 1163.63547]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1305.jpg,chair,"[624.419183, 1407.870432, 1277.054257, 1918.053024]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1314.jpg,sofa,"[1391.261568, 346.341753, 1844.715648, 870.394481]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1408.jpg,table,"[475.452792, 1147.681056, 742.78404, 1529.392608]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1416.jpg,potted plant,"[459.70193, 366.756672, 811.307407, 1147.4064]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1426.jpg,chair,"[1253.80896, 777.051508, 1663.315392, 1270.717124]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1509.jpg,table,"[1083.312504, 1085.482176, 1438.834536, 1565.56704]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1516.jpg,potted plant,"[521.330752, 1027.00512, 712.923072, 1484.51424]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1516.jpg,potted plant,"[332.59072, 1064.176867, 547.956096, 1249.241885]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1521.jpg,sofa,"[34.453536, 517.13696, 614.423136, 1007.091648]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1521.jpg,sofa,"[1010.618784, 550.787328, 1577.014752, 997.577728]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1574.jpg,potted plant,"[459.945475, 1173.950016, 604.547808, 1466.743872]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1574.jpg,potted plant,"[581.697833, 1200.226646, 756.311901, 1351.059754]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1637.jpg,chair,"[473.31377, 692.308544, 724.481125, 1046.359744]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,chair,"[991.024426, 843.001351, 1073.605334, 971.781401]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,chair,"[1094.531654, 798.998263, 1156.66489, 918.295337]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,chair,"[1133.945414, 801.368935, 1196.07865, 920.666009]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1652.jpg,table,"[198.769152, 1252.402344, 649.364352, 1438.761816]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1717.jpg,table,"[438.16329, 1378.841414, 602.717382, 1521.952186]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1760.jpg,table,"[275.984736, 1107.0992, 1118.449056, 1278.74656]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1789.jpg,chair,"[1709.0328, 760.941005, 1918.705056, 1094.823376]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1p (136).jpg,potted plant,"[600.032928, 384.65328, 638.201696, 452.037664]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1p (312).jpg,table,"[674.075904, 280.373807, 831.415552, 394.632389]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1p (50).jpg,potted plant,"[431.448237, 737.363136, 697.573946, 1102.150208]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1p (506).jpg,table,"[768.996608, 372.633552, 899.01312, 448.404336]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_1p (556).jpg,chair,"[496.342944, 333.13506, 552.300128, 416.10602]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_214.jpg,potted plant,"[1203.841709, 778.319006, 1244.218963, 874.92829]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_334.jpg,sofa,"[1.9472, 1143.04224, 1264.369344, 1801.216704]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_385.jpg,sofa,"[512.45424, 699.71616, 1157.647008, 991.805376]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_387.jpg,chair,"[962.409514, 520.352997, 1038.534998, 657.645819]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_493.jpg,sofa,"[927.967488, 596.416063, 1262.25216, 707.851083]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_527.jpg,table,"[1132.444656, 811.230528, 1248.194064, 939.951808]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_565.jpg,table,"[1078.372234, 692.206176, 1151.349878, 803.302066]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_706.jpg,table,"[137.880019, 874.243648, 304.714157, 1080.211648]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_813.jpg,chair,"[492.353338, 1170.855206, 596.015078, 1238.222554]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_841.jpg,table,"[1204.100064, 1072.128768, 1524.188064, 1278.226688]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/living_room_854.jpg,sofa,"[1.80096, 1210.716672, 420.104704, 1918.19904]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (165).jpg,chair,"[407.071296, 775.62368, 640.158144, 1055.0592]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (165).jpg,potted plant,"[986.093846, 643.29504, 1059.311338, 789.729984]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (194).jpg,chair,"[462.479808, 1038.636989, 581.378398, 1218.620995]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (237).jpg,sofa,"[711.1704, 938.189538, 971.921568, 1106.245918]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (318).jpg,chair,"[603.567833, 713.875392, 726.633457, 885.1088]",True,False,medio,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (329).jpg,sofa,"[1.297628, 105.070042, 1917.702372, 832.776916]",True,False,alto,
+home_val_historica,0.4,home:homeobjects_yolo/images/val/raw_train/s (94).jpg,potted plant,"[203.326528, 7.789152, 1278.0528, 1448.762784]",True,False,alto,
+openimages_val_nova,0.05,00f3dbbbf5bdf2cf,table,"[436.678733, 522.628147, 596.101094, 686.209382]",False,True,medio,0.13370004296302795
+openimages_val_nova,0.05,0472586d97db6daf,table,"[0.0, 504.694674, 1022.489702, 679.977896]",False,True,alto,0.15061476826667786
+openimages_val_nova,0.05,0623368731dd66aa,table,"[627.2, 319.999995, 1024.0, 524.800005]",False,True,medio,0.11721408367156982
+openimages_val_nova,0.05,07b12cccb39c75a5,chair,"[0.0, 193.6, 556.8, 1022.4]",False,True,alto,0.1818825900554657
+openimages_val_nova,0.05,0b03c518162a867e,table,"[0.0, 380.765348, 1024.0, 1024.0]",False,True,alto,0.08656530827283859
+openimages_val_nova,0.05,0fe036c8ee34fb29,table,"[0.0, 470.275927, 848.54358, 685.0]",False,True,alto,0.06860973685979843
+openimages_val_nova,0.05,10f64dac50ca0f16,table,"[417.6, 518.4, 929.6, 768.0]",False,True,alto,0.18254497647285461
+openimages_val_nova,0.05,1abe817c999b8b4c,table,"[0.0, 377.600003, 1024.0, 768.0]",False,True,alto,0.18159860372543335
+openimages_val_nova,0.05,1ead457c867be1cd,table,"[354.403533, 448.977879, 764.606771, 677.986745]",False,True,alto,0.24917040765285492
+openimages_val_nova,0.05,1eb99df4147f898f,chair,"[812.8, 392.000026, 1016.0, 657.6]",False,True,medio,0.1090078204870224
+openimages_val_nova,0.05,1eb99df4147f898f,chair,"[0.0, 534.399974, 252.8, 768.0]",False,True,medio,0.09931297600269318
+openimages_val_nova,0.05,1eecb0f1e2b07d33,table,"[0.0, 483.539822, 940.932127, 683.0]",False,True,alto,0.18794219195842743
+openimages_val_nova,0.05,1fe8d1c4f4853599,table,"[176.0, 307.2, 670.4, 483.199995]",False,True,alto,0.0802503377199173
+openimages_val_nova,0.05,214a4b9be6fdd6c2,table,"[0.0, 179.199997, 1024.0, 768.0]",False,True,alto,0.18999432027339935
+openimages_val_nova,0.05,21977851c6ca69ad,table,"[561.6, 409.60002, 689.6, 457.60002]",False,True,medio,0.06922302395105362
+openimages_val_nova,0.05,236e8449dcd6c7a9,table,"[196.34218, 474.473475, 1022.489702, 679.977896]",False,True,alto,0.05304870754480362
+openimages_val_nova,0.05,25a754129f91de41,table,"[0.0, 24.0, 1022.4, 766.39998]",False,True,alto,0.19857385754585266
+openimages_val_nova,0.05,2830555fb925b7cd,chair,"[632.825958, 184.619466, 928.849551, 653.734505]",False,True,medio,0.08840224146842957
+openimages_val_nova,0.05,29def08271143710,chair,"[446.4, 499.2, 736.0, 768.0]",False,True,alto,0.2232959270477295
+openimages_val_nova,0.05,2f7525f06ad69425,table,"[129.887908, 475.984496, 1024.0, 683.0]",False,True,alto,0.0714150220155716
+openimages_val_nova,0.05,3030fcc2b2c9e66c,chair,"[299.2, 382.400003, 408.0, 518.4]",False,True,medio,0.08058498054742813
+openimages_val_nova,0.05,3230dd3b88adb267,table,"[0.0, 0.0, 1024.0, 843.0]",False,True,alto,0.12768247723579407
+openimages_val_nova,0.05,3244bcda9de87cdf,table,"[0.0, 96.0, 1022.4, 766.39998]",False,True,alto,0.0986572876572609
+openimages_val_nova,0.05,3345a69be733d5f2,table,"[0.0, 662.974703, 71.221023, 746.83545]",False,True,medio,0.08152364939451218
+openimages_val_nova,0.05,334823af8772202b,table,"[0.0, 80.0, 768.0, 1024.0]",False,True,alto,0.050194013863801956
+openimages_val_nova,0.05,370affc51c3f109a,table,"[0.0, 322.959134, 1022.448486, 718.894606]",False,True,alto,0.17440244555473328
+openimages_val_nova,0.05,3a71be7ae113e593,chair,"[364.8, 409.60002, 561.6, 718.39998]",False,True,alto,0.0570383295416832
+openimages_val_nova,0.05,3e49a1c1b227ea28,table,"[124.8, 729.6, 740.8, 766.39998]",False,True,alto,0.11708639562129974
+openimages_val_nova,0.05,4002d925e4431f43,table,"[467.2, 243.199995, 1022.4, 652.8]",False,True,alto,0.18224608898162842
+openimages_val_nova,0.05,42b5fd7897853139,wardrobe,"[0.0, 0.0, 682.0, 1024.0]",False,True,alto,0.20119193196296692
+openimages_val_nova,0.05,4319a313fae699f9,bed,"[478.4, 28.8, 1024.0, 768.0]",False,True,alto,0.07179264724254608
+openimages_val_nova,0.05,44a1c33f790c5687,table,"[130.26459, 897.072026, 879.286014, 1022.284728]",False,True,alto,0.16371358931064606
+openimages_val_nova,0.05,44b31ca77b106556,potted plant,"[0.0, 0.0, 1024.0, 768.0]",False,True,alto,0.193330317735672
+openimages_val_nova,0.05,4a0dbbd8e488f387,table,"[0.0, 0.0, 1022.494136, 678.492236]",False,True,alto,0.11322108656167984
+openimages_val_nova,0.05,4a197f10b93d99d8,table,"[505.976474, 398.048764, 682.164736, 624.212868]",False,True,alto,0.11652714014053345
+openimages_val_nova,0.05,4cc5578f7628abdc,table,"[161.129411, 168.372506, 829.741158, 287.135265]",False,True,medio,0.08112888038158417
+openimages_val_nova,0.05,4e24222b68123ef3,chair,"[558.399974, 643.2, 723.199995, 1024.0]",False,True,medio,0.17131644487380981
+openimages_val_nova,0.05,50202badfd6b50fe,potted plant,"[277.490422, 588.891345, 453.938145, 681.0]",False,True,medio,0.0925271064043045
+openimages_val_nova,0.05,58b9f0a6a926368d,table,"[0.0, 473.600026, 1024.0, 768.0]",False,True,alto,0.203611820936203
+openimages_val_nova,0.05,58f48187d94f8419,table,"[465.6, 460.8, 688.0, 619.2]",False,True,alto,0.08891414850950241
+openimages_val_nova,0.05,5a31b42feebf23e9,table,"[0.0, 396.541007, 1022.494136, 678.492236]",False,True,alto,0.2143624722957611
+openimages_val_nova,0.05,5b3d1edc765cf4db,table,"[339.199995, 238.4, 484.8, 443.2]",False,True,medio,0.17008627951145172
+openimages_val_nova,0.05,5b906e188aac9f24,chair,"[223.470201, 367.00885, 323.125827, 471.221248]",False,True,medio,0.2259562611579895
+openimages_val_nova,0.05,5b906e188aac9f24,sofa,"[223.470201, 365.498532, 323.125827, 472.731566]",False,True,medio,0.21502114832401276
+openimages_val_nova,0.05,5c24a157dc99ac6b,table,"[131.398226, 531.893831, 1011.917414, 679.977896]",False,True,alto,0.21501775085926056
+openimages_val_nova,0.05,5c24a157dc99ac6b,table,"[0.0, 290.123893, 93.64012, 625.579644]",False,True,medio,0.19968241453170776
+openimages_val_nova,0.05,5c469ff89f60e948,table,"[422.268037, 477.603987, 1024.0, 681.0]",False,True,medio,0.05891953408718109
+openimages_val_nova,0.05,608fda8c976e0ac5,table,"[502.4, 302.4, 641.6, 372.80001]",False,True,medio,0.055226996541023254
+openimages_val_nova,0.05,65457227a827ae66,table,"[0.0, 171.199995, 857.6, 587.200013]",False,True,alto,0.07716445624828339
+openimages_val_nova,0.05,65457227a827ae66,table,"[0.0, 436.8, 1022.4, 766.39998]",False,True,alto,0.08120936155319214
+openimages_val_nova,0.05,66401cdc29ec244d,table,"[398.753894, 449.899395, 460.959498, 496.165608]",False,True,medio,0.10137314349412918
+openimages_val_nova,0.05,688b68d6f8fdb47c,table,"[0.0, 123.591644, 353.103462, 321.961416]",False,True,alto,0.11926421523094177
+openimages_val_nova,0.05,694ae52c4ebe3fee,table,"[0.0, 433.246853, 1024.0, 539.0]",False,True,alto,0.11057352274656296
+openimages_val_nova,0.05,6a3497dc92772008,table,"[2.948837, 7.366907, 623.679089, 963.591373]",False,True,alto,0.0837952271103859
+openimages_val_nova,0.05,6e787cd9ad89ef3e,potted plant,"[91.858825, 303.059864, 328.282348, 565.410188]",False,True,medio,0.2471485733985901
+openimages_val_nova,0.05,6f00266be7ab43f7,table,"[0.0, 593.847361, 1019.469056, 679.977896]",False,True,alto,0.06558750569820404
+openimages_val_nova,0.05,70a82a2501178f8b,bed,"[601.6, 257.600003, 1012.8, 766.39998]",False,True,alto,0.18316233158111572
+openimages_val_nova,0.05,757a1631131f4ba3,chair,"[600.0, 728.0, 731.200013, 942.4]",False,True,medio,0.0642361044883728
+openimages_val_nova,0.05,7825f9ab4054ad3d,table,"[0.0, 796.649841, 1024.0, 1024.0]",False,True,alto,0.05459063872694969
+openimages_val_nova,0.05,78767a54758dcd79,chair,"[744.882934, 426.4125, 931.531776, 626.775]",False,True,medio,0.16177111864089966
+openimages_val_nova,0.05,7f8ef92c55a63b32,table,"[823.391785, 476.290159, 1024.0, 671.0]",False,True,medio,0.1749061495065689
+openimages_val_nova,0.05,7fb7af9ec65b43b3,table,"[568.213606, 88.083518, 648.735898, 185.279129]",False,True,medio,0.07313352078199387
+openimages_val_nova,0.05,7fb7af9ec65b43b3,table,"[311.454003, 116.938462, 452.747776, 229.320885]",False,True,medio,0.13366498053073883
+openimages_val_nova,0.05,7fb7af9ec65b43b3,table,"[597.080166, 116.938462, 726.219602, 271.843961]",False,True,medio,0.24604517221450806
+openimages_val_nova,0.05,829a698741377030,sofa,"[0.0, 183.999997, 1022.4, 766.39998]",False,True,alto,0.15306854248046875
+openimages_val_nova,0.05,89d123e01134b77f,potted plant,"[850.312704, 191.904873, 1022.489702, 574.203537]",False,True,medio,0.13537925481796265
+openimages_val_nova,0.05,8a01d74cbf72e782,table,"[249.6, 440.000026, 542.4, 588.799987]",False,True,alto,0.1362241506576538
+openimages_val_nova,0.05,8b1cc95385a22519,table,"[146.072781, 398.105375, 886.870426, 635.179338]",False,True,alto,0.10021228343248367
+openimages_val_nova,0.05,8da3d7c3edb36065,wardrobe,"[0.0, 0.0, 569.29962, 1022.151608]",False,True,alto,0.24562877416610718
+openimages_val_nova,0.05,8e23d17cde0a1d20,table,"[542.206464, 648.245572, 820.106199, 683.0]",False,True,alto,0.09025844186544418
+openimages_val_nova,0.05,90cb3140198a4085,table,"[371.523482, 848.404378, 922.339328, 1022.151608]",False,True,alto,0.10265640914440155
+openimages_val_nova,0.05,96591275de430985,table,"[841.31457, 613.597904, 1024.0, 769.0]",False,True,medio,0.22791895270347595
+openimages_val_nova,0.05,96591275de430985,chair,"[826.892032, 636.027096, 1024.0, 764.19375]",False,True,medio,0.052638161927461624
+openimages_val_nova,0.05,97c34ba80dc6e247,potted plant,"[0.0, 0.0, 402.339717, 571.589413]",False,True,medio,0.12006279826164246
+openimages_val_nova,0.05,9864b21f8c09959f,sofa,"[45.82101, 45.825756, 986.147891, 492.128788]",False,True,alto,0.24929110705852509
+openimages_val_nova,0.05,98761e550dc987f8,wardrobe,"[678.135706, 148.084071, 993.793536, 631.623893]",False,True,alto,0.06559363752603531
+openimages_val_nova,0.05,988fb6132b97bd38,chair,"[650.541199, 238.226168, 688.188211, 324.168512]",False,True,medio,0.05672596022486687
+openimages_val_nova,0.05,9a18f1f319f9d79a,chair,"[542.495304, 0.0, 821.767987, 298.7625]",False,True,medio,0.11896337568759918
+openimages_val_nova,0.05,9a18f1f319f9d79a,chair,"[0.0, 0.0, 483.109714, 663.381237]",False,True,alto,0.12287840992212296
+openimages_val_nova,0.05,9afab31afacbba12,bed,"[667.2, 342.4, 768.0, 854.4]",False,True,medio,0.06397180259227753
+openimages_val_nova,0.05,9f6c11b60796e451,potted plant,"[569.891328, 356.288234, 658.607923, 461.521068]",False,True,medio,0.11044777184724808
+openimages_val_nova,0.05,a47cd83076dc497e,chair,"[712.873165, 367.18804, 975.669617, 533.404853]",False,True,medio,0.10706062614917755
+openimages_val_nova,0.05,a47cd83076dc497e,chair,"[391.174042, 252.347341, 496.896758, 418.56414]",False,True,medio,0.058296654373407364
+openimages_val_nova,0.05,a47cd83076dc497e,chair,"[434.97345, 200.971234, 531.634217, 386.831871]",False,True,medio,0.11160052567720413
+openimages_val_nova,0.05,a761673ee6dc3124,table,"[777.6, 355.2, 1024.0, 768.0]",False,True,medio,0.07662270963191986
+openimages_val_nova,0.05,ad282f8dd9b8b02b,table,"[772.517642, 506.607548, 1022.494136, 680.0]",False,True,medio,0.15047471225261688
+openimages_val_nova,0.05,ae27395fbd328ee1,table,"[113.443294, 288.405064, 722.795854, 949.468365]",False,True,alto,0.16831739246845245
+openimages_val_nova,0.05,b499182ee39701e0,table,"[74.115211, 325.110385, 806.192026, 638.1236]",False,True,alto,0.16787581145763397
+openimages_val_nova,0.05,b5bfc85ebf0c0da5,table,"[0.0, 336.263039, 123.2, 624.488485]",False,True,medio,0.05622366815805435
+openimages_val_nova,0.05,b5f7b2aa13abe836,bed,"[0.0, 286.498202, 879.826739, 1018.454897]",False,True,alto,0.09396852552890778
+openimages_val_nova,0.05,b7062525895bdac2,potted plant,"[656.0, 0.0, 1022.4, 766.39998]",False,True,medio,0.10896489769220352
+openimages_val_nova,0.05,b72781330e408cc9,table,"[0.0, 428.513285, 1022.491853, 674.455736]",False,True,alto,0.16249212622642517
+openimages_val_nova,0.05,bee51f8b4fb8aa88,table,"[0.0, 0.0, 1024.0, 546.0]",False,True,alto,0.0682416781783104
+openimages_val_nova,0.05,c1ac8ae8420e9ce0,table,"[776.67157, 557.455772, 1024.0, 681.0]",False,True,medio,0.19198620319366455
+openimages_val_nova,0.05,c1da161e75499f48,table,"[450.076692, 320.345127, 569.392333, 469.940267]",False,True,medio,0.0841129794716835
+openimages_val_nova,0.05,c1da161e75499f48,table,"[194.831862, 377.765504, 357.9469, 577.225682]",False,True,medio,0.11535682529211044
+openimages_val_nova,0.05,c2f6127bcbdd6142,table,"[0.0, 397.409287, 1022.489702, 679.977896]",False,True,alto,0.10235375910997391
+openimages_val_nova,0.05,c8c438695df2a807,potted plant,"[174.4, 0.0, 939.2, 768.0]",False,True,alto,0.08141905814409256
+openimages_val_nova,0.05,caf6a9012d9dca81,table,"[458.000005, 243.999992, 662.000026, 454.000034]",False,True,alto,0.05377828702330589
+openimages_val_nova,0.05,caf6a9012d9dca81,table,"[790.000026, 485.999986, 1024.0, 682.0]",False,True,medio,0.2491539865732193
+openimages_val_nova,0.05,cba9d69e6a1b1687,chair,"[605.76983, 0.0, 750.158817, 69.718308]",False,True,medio,0.15827146172523499
+openimages_val_nova,0.05,cba9d69e6a1b1687,chair,"[190.858998, 8.299799, 743.520256, 825.0]",False,True,alto,0.11557821929454803
+openimages_val_nova,0.05,cdeba456ade5d0e0,table,"[25.6, 0.0, 1016.0, 766.39998]",False,True,alto,0.05765802040696144
+openimages_val_nova,0.05,cf33e981b4324e59,table,"[0.0, 444.799987, 268.8, 684.799987]",False,True,medio,0.17080575227737427
+openimages_val_nova,0.05,d062647d2587e3a0,chair,"[173.070418, 389.30625, 370.178406, 769.0]",False,True,medio,0.18828819692134857
+openimages_val_nova,0.05,d794d9f52414c141,table,"[310.4, 435.199995, 467.2, 507.199995]",False,True,medio,0.0571616105735302
+openimages_val_nova,0.05,d8af5e9c82380fe5,chair,"[552.0, 627.199995, 632.0, 764.800005]",False,True,alto,0.1894378364086151
+openimages_val_nova,0.05,d8af5e9c82380fe5,chair,"[905.6, 552.0, 1024.0, 768.0]",False,True,medio,0.05979083478450775
+openimages_val_nova,0.05,d8af5e9c82380fe5,chair,"[0.0, 516.799987, 100.8, 753.6]",False,True,medio,0.15242066979408264
+openimages_val_nova,0.05,db4cf2ed649ec14c,table,"[40.0, 284.800005, 1022.4, 766.39998]",False,True,alto,0.13608640432357788
+openimages_val_nova,0.05,dd1160459778fdd6,chair,"[35.200001, 237.170586, 572.800005, 931.054746]",False,True,alto,0.06135919690132141
+openimages_val_nova,0.05,ddbb872ebdedb99a,potted plant,"[0.0, 221.572685, 336.782234, 689.0]",False,True,medio,0.0847809761762619
+openimages_val_nova,0.05,ddd8b588942ceded,bed,"[82.701912, 308.181829, 560.869325, 674.993341]",False,True,alto,0.10182233899831772
+openimages_val_nova,0.05,e216dd92c7f1e961,chair,"[912.23596, 435.18586, 1022.489702, 669.400446]",False,True,medio,0.12952913343906403
+openimages_val_nova,0.05,e3a721a89d2fd90e,potted plant,"[457.6, 545.600026, 513.6, 628.8]",False,True,medio,0.1389317363500595
+openimages_val_nova,0.05,ec2afeae6f6fcbf9,table,"[371.355894, 51.265062, 572.27606, 106.686748]",False,True,medio,0.13912202417850494
+openimages_val_nova,0.05,ecdb657b57195b3f,chair,"[708.8, 312.0, 963.2, 739.2]",False,True,medio,0.1492241770029068
+openimages_val_nova,0.05,f2a54788d0ca6008,chair,"[427.2, 129.6, 1022.4, 766.39998]",False,True,alto,0.07096356153488159
+openimages_val_nova,0.05,f2a54788d0ca6008,chair,"[473.6, 0.0, 689.6, 264.0]",False,True,medio,0.16752979159355164
+openimages_val_nova,0.05,fa8d6d40dac333ea,bed,"[234.44609, 235.894046, 656.449024, 683.487863]",False,True,alto,0.05674242228269577
+openimages_val_nova,0.05,fc8d1aa7d76b3f3e,table,"[176.816814, 326.047731, 881.00905, 709.0]",False,True,alto,0.18514703214168549
+openimages_val_nova,0.05,fcfbd8e754fea64f,table,"[249.203538, 293.146018, 956.035379, 678.46682]",False,True,alto,0.18694105744361877
+openimages_val_nova,0.1,00f3dbbbf5bdf2cf,table,"[436.678733, 522.628147, 596.101094, 686.209382]",False,True,medio,0.13370004296302795
+openimages_val_nova,0.1,0472586d97db6daf,table,"[0.0, 504.694674, 1022.489702, 679.977896]",False,True,alto,0.15061476826667786
+openimages_val_nova,0.1,0623368731dd66aa,table,"[627.2, 319.999995, 1024.0, 524.800005]",False,True,medio,0.11721408367156982
+openimages_val_nova,0.1,07b12cccb39c75a5,chair,"[0.0, 193.6, 556.8, 1022.4]",False,True,alto,0.1818825900554657
+openimages_val_nova,0.1,0b03c518162a867e,table,"[0.0, 380.765348, 1024.0, 1024.0]",False,True,alto,0.13651101291179657
+openimages_val_nova,0.1,0fe036c8ee34fb29,table,"[0.0, 470.275927, 848.54358, 685.0]",False,True,alto,0.10027597844600677
+openimages_val_nova,0.1,10f64dac50ca0f16,table,"[417.6, 518.4, 929.6, 768.0]",False,True,alto,0.18254497647285461
+openimages_val_nova,0.1,1abe817c999b8b4c,table,"[0.0, 377.600003, 1024.0, 768.0]",False,True,alto,0.18159860372543335
+openimages_val_nova,0.1,1ead457c867be1cd,table,"[354.403533, 448.977879, 764.606771, 677.986745]",False,True,alto,0.24917040765285492
+openimages_val_nova,0.1,1eb99df4147f898f,chair,"[812.8, 392.000026, 1016.0, 657.6]",False,True,medio,0.1090078204870224
+openimages_val_nova,0.1,1eecb0f1e2b07d33,table,"[0.0, 483.539822, 940.932127, 683.0]",False,True,alto,0.18794219195842743
+openimages_val_nova,0.1,214a4b9be6fdd6c2,table,"[0.0, 179.199997, 1024.0, 768.0]",False,True,alto,0.18999432027339935
+openimages_val_nova,0.1,25a754129f91de41,table,"[0.0, 24.0, 1022.4, 766.39998]",False,True,alto,0.19857385754585266
+openimages_val_nova,0.1,29def08271143710,chair,"[446.4, 499.2, 736.0, 768.0]",False,True,alto,0.2232959270477295
+openimages_val_nova,0.1,3230dd3b88adb267,table,"[0.0, 0.0, 1024.0, 843.0]",False,True,alto,0.12768247723579407
+openimages_val_nova,0.1,370affc51c3f109a,table,"[0.0, 322.959134, 1022.448486, 718.894606]",False,True,alto,0.17440244555473328
+openimages_val_nova,0.1,3e49a1c1b227ea28,table,"[124.8, 729.6, 740.8, 766.39998]",False,True,alto,0.11708639562129974
+openimages_val_nova,0.1,4002d925e4431f43,table,"[467.2, 243.199995, 1022.4, 652.8]",False,True,alto,0.18224608898162842
+openimages_val_nova,0.1,42b5fd7897853139,wardrobe,"[0.0, 0.0, 682.0, 1024.0]",False,True,alto,0.20119193196296692
+openimages_val_nova,0.1,44a1c33f790c5687,table,"[130.26459, 897.072026, 879.286014, 1022.284728]",False,True,alto,0.16371358931064606
+openimages_val_nova,0.1,44b31ca77b106556,potted plant,"[0.0, 0.0, 1024.0, 768.0]",False,True,alto,0.193330317735672
+openimages_val_nova,0.1,4a0dbbd8e488f387,table,"[0.0, 0.0, 1022.494136, 678.492236]",False,True,alto,0.11322108656167984
+openimages_val_nova,0.1,4a197f10b93d99d8,table,"[505.976474, 398.048764, 682.164736, 624.212868]",False,True,alto,0.11652714014053345
+openimages_val_nova,0.1,4e24222b68123ef3,chair,"[558.399974, 643.2, 723.199995, 1024.0]",False,True,medio,0.17131644487380981
+openimages_val_nova,0.1,58b9f0a6a926368d,table,"[0.0, 473.600026, 1024.0, 768.0]",False,True,alto,0.203611820936203
+openimages_val_nova,0.1,58f48187d94f8419,table,"[465.6, 460.8, 688.0, 619.2]",False,True,alto,0.1712660938501358
+openimages_val_nova,0.1,5a31b42feebf23e9,table,"[0.0, 396.541007, 1022.494136, 678.492236]",False,True,alto,0.2143624722957611
+openimages_val_nova,0.1,5b3d1edc765cf4db,table,"[339.199995, 238.4, 484.8, 443.2]",False,True,medio,0.17008627951145172
+openimages_val_nova,0.1,5b906e188aac9f24,chair,"[223.470201, 367.00885, 323.125827, 471.221248]",False,True,medio,0.2259562611579895
+openimages_val_nova,0.1,5b906e188aac9f24,sofa,"[223.470201, 365.498532, 323.125827, 472.731566]",False,True,medio,0.21502114832401276
+openimages_val_nova,0.1,5c24a157dc99ac6b,table,"[131.398226, 531.893831, 1011.917414, 679.977896]",False,True,alto,0.21501775085926056
+openimages_val_nova,0.1,5c24a157dc99ac6b,table,"[0.0, 290.123893, 93.64012, 625.579644]",False,True,medio,0.19968241453170776
+openimages_val_nova,0.1,65457227a827ae66,table,"[0.0, 436.8, 1022.4, 766.39998]",False,True,alto,0.18213112652301788
+openimages_val_nova,0.1,66401cdc29ec244d,table,"[398.753894, 449.899395, 460.959498, 496.165608]",False,True,medio,0.10137314349412918
+openimages_val_nova,0.1,688b68d6f8fdb47c,table,"[0.0, 123.591644, 353.103462, 321.961416]",False,True,alto,0.11926421523094177
+openimages_val_nova,0.1,694ae52c4ebe3fee,table,"[0.0, 433.246853, 1024.0, 539.0]",False,True,alto,0.11057352274656296
+openimages_val_nova,0.1,6e787cd9ad89ef3e,potted plant,"[91.858825, 303.059864, 328.282348, 565.410188]",False,True,medio,0.2471485733985901
+openimages_val_nova,0.1,70a82a2501178f8b,bed,"[601.6, 257.600003, 1012.8, 766.39998]",False,True,alto,0.18316233158111572
+openimages_val_nova,0.1,757a1631131f4ba3,chair,"[600.0, 728.0, 731.200013, 942.4]",False,True,medio,0.34442880749702454
+openimages_val_nova,0.1,78767a54758dcd79,chair,"[744.882934, 426.4125, 931.531776, 626.775]",False,True,medio,0.16177111864089966
+openimages_val_nova,0.1,7f8ef92c55a63b32,table,"[823.391785, 476.290159, 1024.0, 671.0]",False,True,medio,0.1749061495065689
+openimages_val_nova,0.1,7fb7af9ec65b43b3,table,"[311.454003, 116.938462, 452.747776, 229.320885]",False,True,medio,0.13366498053073883
+openimages_val_nova,0.1,7fb7af9ec65b43b3,table,"[597.080166, 116.938462, 726.219602, 271.843961]",False,True,medio,0.24604517221450806
+openimages_val_nova,0.1,829a698741377030,sofa,"[0.0, 183.999997, 1022.4, 766.39998]",False,True,alto,0.15306854248046875
+openimages_val_nova,0.1,89d123e01134b77f,potted plant,"[850.312704, 191.904873, 1022.489702, 574.203537]",False,True,medio,0.13537925481796265
+openimages_val_nova,0.1,8a01d74cbf72e782,table,"[249.6, 440.000026, 542.4, 588.799987]",False,True,alto,0.1362241506576538
+openimages_val_nova,0.1,8b1cc95385a22519,table,"[146.072781, 398.105375, 886.870426, 635.179338]",False,True,alto,0.10021228343248367
+openimages_val_nova,0.1,8da3d7c3edb36065,wardrobe,"[0.0, 0.0, 569.29962, 1022.151608]",False,True,alto,0.24562877416610718
+openimages_val_nova,0.1,90cb3140198a4085,table,"[371.523482, 848.404378, 922.339328, 1022.151608]",False,True,alto,0.10265640914440155
+openimages_val_nova,0.1,96591275de430985,table,"[841.31457, 613.597904, 1024.0, 769.0]",False,True,medio,0.22791895270347595
+openimages_val_nova,0.1,97c34ba80dc6e247,potted plant,"[0.0, 0.0, 402.339717, 571.589413]",False,True,medio,0.12006279826164246
+openimages_val_nova,0.1,9864b21f8c09959f,sofa,"[45.82101, 45.825756, 986.147891, 492.128788]",False,True,alto,0.24929110705852509
+openimages_val_nova,0.1,9a18f1f319f9d79a,chair,"[542.495304, 0.0, 821.767987, 298.7625]",False,True,medio,0.11896337568759918
+openimages_val_nova,0.1,9a18f1f319f9d79a,chair,"[0.0, 0.0, 483.109714, 663.381237]",False,True,alto,0.12287840992212296
+openimages_val_nova,0.1,9f6c11b60796e451,potted plant,"[569.891328, 356.288234, 658.607923, 461.521068]",False,True,medio,0.11044777184724808
+openimages_val_nova,0.1,a47cd83076dc497e,chair,"[712.873165, 367.18804, 975.669617, 533.404853]",False,True,medio,0.10706062614917755
+openimages_val_nova,0.1,a47cd83076dc497e,chair,"[434.97345, 200.971234, 531.634217, 386.831871]",False,True,medio,0.11160052567720413
+openimages_val_nova,0.1,ad282f8dd9b8b02b,table,"[772.517642, 506.607548, 1022.494136, 680.0]",False,True,medio,0.15047471225261688
+openimages_val_nova,0.1,ae27395fbd328ee1,table,"[113.443294, 288.405064, 722.795854, 949.468365]",False,True,alto,0.16831739246845245
+openimages_val_nova,0.1,b499182ee39701e0,table,"[74.115211, 325.110385, 806.192026, 638.1236]",False,True,alto,0.16787581145763397
+openimages_val_nova,0.1,b7062525895bdac2,potted plant,"[656.0, 0.0, 1022.4, 766.39998]",False,True,medio,0.10896489769220352
+openimages_val_nova,0.1,b72781330e408cc9,table,"[0.0, 428.513285, 1022.491853, 674.455736]",False,True,alto,0.16249212622642517
+openimages_val_nova,0.1,c1ac8ae8420e9ce0,table,"[776.67157, 557.455772, 1024.0, 681.0]",False,True,medio,0.19198620319366455
+openimages_val_nova,0.1,c1da161e75499f48,table,"[194.831862, 377.765504, 357.9469, 577.225682]",False,True,medio,0.11535682529211044
+openimages_val_nova,0.1,c2f6127bcbdd6142,table,"[0.0, 397.409287, 1022.489702, 679.977896]",False,True,alto,0.10235375910997391
+openimages_val_nova,0.1,caf6a9012d9dca81,table,"[790.000026, 485.999986, 1024.0, 682.0]",False,True,medio,0.2491539865732193
+openimages_val_nova,0.1,cba9d69e6a1b1687,chair,"[605.76983, 0.0, 750.158817, 69.718308]",False,True,medio,0.15827146172523499
+openimages_val_nova,0.1,cba9d69e6a1b1687,chair,"[190.858998, 8.299799, 743.520256, 825.0]",False,True,alto,0.11557821929454803
+openimages_val_nova,0.1,cf33e981b4324e59,table,"[0.0, 444.799987, 268.8, 684.799987]",False,True,medio,0.17080575227737427
+openimages_val_nova,0.1,d062647d2587e3a0,chair,"[173.070418, 389.30625, 370.178406, 769.0]",False,True,medio,0.18828819692134857
+openimages_val_nova,0.1,d8af5e9c82380fe5,chair,"[552.0, 627.199995, 632.0, 764.800005]",False,True,alto,0.1894378364086151
+openimages_val_nova,0.1,d8af5e9c82380fe5,chair,"[0.0, 516.799987, 100.8, 753.6]",False,True,medio,0.15242066979408264
+openimages_val_nova,0.1,db4cf2ed649ec14c,table,"[40.0, 284.800005, 1022.4, 766.39998]",False,True,alto,0.13608640432357788
+openimages_val_nova,0.1,ddd8b588942ceded,bed,"[82.701912, 308.181829, 560.869325, 674.993341]",False,True,alto,0.10182233899831772
+openimages_val_nova,0.1,e216dd92c7f1e961,chair,"[912.23596, 435.18586, 1022.489702, 669.400446]",False,True,medio,0.12952913343906403
+openimages_val_nova,0.1,e3a721a89d2fd90e,potted plant,"[457.6, 545.600026, 513.6, 628.8]",False,True,medio,0.1389317363500595
+openimages_val_nova,0.1,ec2afeae6f6fcbf9,table,"[371.355894, 51.265062, 572.27606, 106.686748]",False,True,medio,0.13912202417850494
+openimages_val_nova,0.1,ecdb657b57195b3f,chair,"[708.8, 312.0, 963.2, 739.2]",False,True,medio,0.1492241770029068
+openimages_val_nova,0.1,f2a54788d0ca6008,chair,"[473.6, 0.0, 689.6, 264.0]",False,True,medio,0.16752979159355164
+openimages_val_nova,0.1,fc8d1aa7d76b3f3e,table,"[176.816814, 326.047731, 881.00905, 709.0]",False,True,alto,0.18514703214168549
+openimages_val_nova,0.1,fcfbd8e754fea64f,table,"[249.203538, 293.146018, 956.035379, 678.46682]",False,True,alto,0.18694105744361877
+openimages_val_nova,0.15,0472586d97db6daf,table,"[0.0, 504.694674, 1022.489702, 679.977896]",False,True,alto,0.15061476826667786
+openimages_val_nova,0.15,07b12cccb39c75a5,chair,"[0.0, 193.6, 556.8, 1022.4]",False,True,alto,0.1818825900554657
+openimages_val_nova,0.15,10f64dac50ca0f16,table,"[417.6, 518.4, 929.6, 768.0]",False,True,alto,0.18254497647285461
+openimages_val_nova,0.15,1abe817c999b8b4c,table,"[0.0, 377.600003, 1024.0, 768.0]",False,True,alto,0.18159860372543335
+openimages_val_nova,0.15,1ead457c867be1cd,table,"[354.403533, 448.977879, 764.606771, 677.986745]",False,True,alto,0.24917040765285492
+openimages_val_nova,0.15,1eecb0f1e2b07d33,table,"[0.0, 483.539822, 940.932127, 683.0]",False,True,alto,0.18794219195842743
+openimages_val_nova,0.15,214a4b9be6fdd6c2,table,"[0.0, 179.199997, 1024.0, 768.0]",False,True,alto,0.18999432027339935
+openimages_val_nova,0.15,25a754129f91de41,table,"[0.0, 24.0, 1022.4, 766.39998]",False,True,alto,0.19857385754585266
+openimages_val_nova,0.15,29def08271143710,chair,"[446.4, 499.2, 736.0, 768.0]",False,True,alto,0.2232959270477295
+openimages_val_nova,0.15,370affc51c3f109a,table,"[0.0, 322.959134, 1022.448486, 718.894606]",False,True,alto,0.17440244555473328
+openimages_val_nova,0.15,4002d925e4431f43,table,"[467.2, 243.199995, 1022.4, 652.8]",False,True,alto,0.18224608898162842
+openimages_val_nova,0.15,42b5fd7897853139,wardrobe,"[0.0, 0.0, 682.0, 1024.0]",False,True,alto,0.20119193196296692
+openimages_val_nova,0.15,44a1c33f790c5687,table,"[130.26459, 897.072026, 879.286014, 1022.284728]",False,True,alto,0.16371358931064606
+openimages_val_nova,0.15,44b31ca77b106556,potted plant,"[0.0, 0.0, 1024.0, 768.0]",False,True,alto,0.193330317735672
+openimages_val_nova,0.15,4e24222b68123ef3,chair,"[558.399974, 643.2, 723.199995, 1024.0]",False,True,medio,0.17131644487380981
+openimages_val_nova,0.15,58b9f0a6a926368d,table,"[0.0, 473.600026, 1024.0, 768.0]",False,True,alto,0.203611820936203
+openimages_val_nova,0.15,58f48187d94f8419,table,"[465.6, 460.8, 688.0, 619.2]",False,True,alto,0.1712660938501358
+openimages_val_nova,0.15,5a31b42feebf23e9,table,"[0.0, 396.541007, 1022.494136, 678.492236]",False,True,alto,0.2143624722957611
+openimages_val_nova,0.15,5b3d1edc765cf4db,table,"[339.199995, 238.4, 484.8, 443.2]",False,True,medio,0.17008627951145172
+openimages_val_nova,0.15,5b906e188aac9f24,chair,"[223.470201, 367.00885, 323.125827, 471.221248]",False,True,medio,0.2259562611579895
+openimages_val_nova,0.15,5b906e188aac9f24,sofa,"[223.470201, 365.498532, 323.125827, 472.731566]",False,True,medio,0.21502114832401276
+openimages_val_nova,0.15,5c24a157dc99ac6b,table,"[131.398226, 531.893831, 1011.917414, 679.977896]",False,True,alto,0.21501775085926056
+openimages_val_nova,0.15,5c24a157dc99ac6b,table,"[0.0, 290.123893, 93.64012, 625.579644]",False,True,medio,0.19968241453170776
+openimages_val_nova,0.15,65457227a827ae66,table,"[0.0, 436.8, 1022.4, 766.39998]",False,True,alto,0.18213112652301788
+openimages_val_nova,0.15,694ae52c4ebe3fee,table,"[0.0, 433.246853, 1024.0, 539.0]",False,True,alto,0.23020192980766296
+openimages_val_nova,0.15,6e787cd9ad89ef3e,potted plant,"[91.858825, 303.059864, 328.282348, 565.410188]",False,True,medio,0.2471485733985901
+openimages_val_nova,0.15,70a82a2501178f8b,bed,"[601.6, 257.600003, 1012.8, 766.39998]",False,True,alto,0.18316233158111572
+openimages_val_nova,0.15,757a1631131f4ba3,chair,"[600.0, 728.0, 731.200013, 942.4]",False,True,medio,0.34442880749702454
+openimages_val_nova,0.15,78767a54758dcd79,chair,"[744.882934, 426.4125, 931.531776, 626.775]",False,True,medio,0.16177111864089966
+openimages_val_nova,0.15,7f8ef92c55a63b32,table,"[823.391785, 476.290159, 1024.0, 671.0]",False,True,medio,0.1749061495065689
+openimages_val_nova,0.15,7fb7af9ec65b43b3,table,"[597.080166, 116.938462, 726.219602, 271.843961]",False,True,medio,0.24604517221450806
+openimages_val_nova,0.15,829a698741377030,sofa,"[0.0, 183.999997, 1022.4, 766.39998]",False,True,alto,0.15306854248046875
+openimages_val_nova,0.15,8da3d7c3edb36065,wardrobe,"[0.0, 0.0, 569.29962, 1022.151608]",False,True,alto,0.24562877416610718
+openimages_val_nova,0.15,96591275de430985,table,"[841.31457, 613.597904, 1024.0, 769.0]",False,True,medio,0.22791895270347595
+openimages_val_nova,0.15,9864b21f8c09959f,sofa,"[45.82101, 45.825756, 986.147891, 492.128788]",False,True,alto,0.24929110705852509
+openimages_val_nova,0.15,ad282f8dd9b8b02b,table,"[772.517642, 506.607548, 1022.494136, 680.0]",False,True,medio,0.15047471225261688
+openimages_val_nova,0.15,ae27395fbd328ee1,table,"[113.443294, 288.405064, 722.795854, 949.468365]",False,True,alto,0.16831739246845245
+openimages_val_nova,0.15,b499182ee39701e0,table,"[74.115211, 325.110385, 806.192026, 638.1236]",False,True,alto,0.16787581145763397
+openimages_val_nova,0.15,b72781330e408cc9,table,"[0.0, 428.513285, 1022.491853, 674.455736]",False,True,alto,0.16249212622642517
+openimages_val_nova,0.15,c1ac8ae8420e9ce0,table,"[776.67157, 557.455772, 1024.0, 681.0]",False,True,medio,0.19198620319366455
+openimages_val_nova,0.15,caf6a9012d9dca81,table,"[790.000026, 485.999986, 1024.0, 682.0]",False,True,medio,0.2491539865732193
+openimages_val_nova,0.15,cba9d69e6a1b1687,chair,"[605.76983, 0.0, 750.158817, 69.718308]",False,True,medio,0.15827146172523499
+openimages_val_nova,0.15,cba9d69e6a1b1687,chair,"[190.858998, 8.299799, 743.520256, 825.0]",False,True,alto,0.18824759125709534
+openimages_val_nova,0.15,cf33e981b4324e59,table,"[0.0, 444.799987, 268.8, 684.799987]",False,True,medio,0.17080575227737427
+openimages_val_nova,0.15,d062647d2587e3a0,chair,"[173.070418, 389.30625, 370.178406, 769.0]",False,True,medio,0.18828819692134857
+openimages_val_nova,0.15,d8af5e9c82380fe5,chair,"[552.0, 627.199995, 632.0, 764.800005]",False,True,alto,0.1894378364086151
+openimages_val_nova,0.15,d8af5e9c82380fe5,chair,"[0.0, 516.799987, 100.8, 753.6]",False,True,medio,0.15242066979408264
+openimages_val_nova,0.15,f2a54788d0ca6008,chair,"[473.6, 0.0, 689.6, 264.0]",False,True,medio,0.16752979159355164
+openimages_val_nova,0.15,fc8d1aa7d76b3f3e,table,"[176.816814, 326.047731, 881.00905, 709.0]",False,True,alto,0.18514703214168549
+openimages_val_nova,0.15,fcfbd8e754fea64f,table,"[249.203538, 293.146018, 956.035379, 678.46682]",False,True,alto,0.18694105744361877
+openimages_val_nova,0.2,1ead457c867be1cd,table,"[354.403533, 448.977879, 764.606771, 677.986745]",False,True,alto,0.24917040765285492
+openimages_val_nova,0.2,1eecb0f1e2b07d33,table,"[0.0, 483.539822, 940.932127, 683.0]",False,True,alto,0.24816709756851196
+openimages_val_nova,0.2,29def08271143710,chair,"[446.4, 499.2, 736.0, 768.0]",False,True,alto,0.2232959270477295
+openimages_val_nova,0.2,42b5fd7897853139,wardrobe,"[0.0, 0.0, 682.0, 1024.0]",False,True,alto,0.20119193196296692
+openimages_val_nova,0.2,58b9f0a6a926368d,table,"[0.0, 473.600026, 1024.0, 768.0]",False,True,alto,0.203611820936203
+openimages_val_nova,0.2,5a31b42feebf23e9,table,"[0.0, 396.541007, 1022.494136, 678.492236]",False,True,alto,0.2143624722957611
+openimages_val_nova,0.2,5b906e188aac9f24,chair,"[223.470201, 367.00885, 323.125827, 471.221248]",False,True,medio,0.2259562611579895
+openimages_val_nova,0.2,5b906e188aac9f24,sofa,"[223.470201, 365.498532, 323.125827, 472.731566]",False,True,medio,0.21502114832401276
+openimages_val_nova,0.2,5c24a157dc99ac6b,table,"[131.398226, 531.893831, 1011.917414, 679.977896]",False,True,alto,0.21501775085926056
+openimages_val_nova,0.2,694ae52c4ebe3fee,table,"[0.0, 433.246853, 1024.0, 539.0]",False,True,alto,0.23020192980766296
+openimages_val_nova,0.2,6e787cd9ad89ef3e,potted plant,"[91.858825, 303.059864, 328.282348, 565.410188]",False,True,medio,0.2471485733985901
+openimages_val_nova,0.2,7fb7af9ec65b43b3,table,"[597.080166, 116.938462, 726.219602, 271.843961]",False,True,medio,0.24604517221450806
+openimages_val_nova,0.2,8da3d7c3edb36065,wardrobe,"[0.0, 0.0, 569.29962, 1022.151608]",False,True,alto,0.24562877416610718
+openimages_val_nova,0.2,96591275de430985,table,"[841.31457, 613.597904, 1024.0, 769.0]",False,True,medio,0.22791895270347595
+openimages_val_nova,0.2,9864b21f8c09959f,sofa,"[45.82101, 45.825756, 986.147891, 492.128788]",False,True,alto,0.24929110705852509
+openimages_val_nova,0.2,caf6a9012d9dca81,table,"[790.000026, 485.999986, 1024.0, 682.0]",False,True,medio,0.2491539865732193
+openimages_val_nova,0.2,d062647d2587e3a0,chair,"[173.070418, 389.30625, 370.178406, 769.0]",False,True,medio,0.22471237182617188
+openimages_val_nova,0.2,d8af5e9c82380fe5,chair,"[0.0, 516.799987, 100.8, 753.6]",False,True,medio,0.2249862253665924
+openimages_val_nova,0.3,073656ee0dc47e82,table,"[1.848375, 316.072202, 1022.151608, 1024.0]",True,False,alto,
+openimages_val_nova,0.3,0ba679b400f1ea31,table,"[509.737851, 288.405775, 948.594995, 410.713981]",True,False,medio,
+openimages_val_nova,0.3,1d7929b66a611ea8,table,"[0.0, 432.0, 766.39998, 1022.4]",True,False,alto,
+openimages_val_nova,0.3,1e45fc409ab318ab,table,"[0.0, 721.6, 768.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.3,253e9529bda382c2,table,"[820.8, 686.4, 1024.0, 768.0]",True,False,medio,
+openimages_val_nova,0.3,3a71be7ae113e593,chair,"[979.2, 480.0, 1024.0, 656.000026]",True,False,medio,
+openimages_val_nova,0.3,3ac44f0d2794e605,potted plant,"[229.810813, 0.0, 658.898088, 356.872837]",True,False,medio,
+openimages_val_nova,0.3,42cdf62be2cd206c,table,"[839.468237, 424.911699, 981.648435, 556.46797]",True,False,medio,
+openimages_val_nova,0.3,4ece4336cb293790,table,"[0.0, 426.97472, 1024.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.3,5ddad4c882eed25b,table,"[541.718077, 349.956683, 1024.0, 535.127953]",True,False,medio,
+openimages_val_nova,0.3,5fd9e3d423148e81,table,"[45.788616, 15.293975, 881.084006, 577.0]",True,False,alto,
+openimages_val_nova,0.3,75164a0a9eaec551,table,"[20.022347, 230.214951, 1003.977656, 590.551383]",True,False,alto,
+openimages_val_nova,0.3,96591275de430985,chair,"[328.513311, 456.59375, 427.868529, 696.90625]",True,False,alto,
+openimages_val_nova,0.3,9733ea3be904c0e5,chair,"[0.0, 520.177356, 85.835295, 680.0]",True,False,medio,
+openimages_val_nova,0.3,abd556f244c58f8a,table,"[0.0, 410.106689, 1005.982413, 672.995586]",True,False,alto,
+openimages_val_nova,0.3,acbde44d15c33442,potted plant,"[0.0, 0.0, 1024.0, 671.0]",True,False,alto,
+openimages_val_nova,0.3,b12ed483271bd9b2,potted plant,"[110.253685, 71.019911, 922.808289, 551.537594]",True,False,alto,
+openimages_val_nova,0.3,c243f36393661a68,table,"[696.0, 528.0, 768.0, 625.60002]",True,False,medio,
+openimages_val_nova,0.3,c7bf670efd79ca62,table,"[11.099458, 661.718385, 712.215157, 1024.0]",True,False,alto,
+openimages_val_nova,0.3,f60e55c4cdaa9b7c,potted plant,"[0.0, 0.0, 1024.0, 768.0]",True,False,alto,
+openimages_val_nova,0.3,fa2e05363e852401,table,"[0.0, 301.285192, 1024.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,06845739ca91dd3e,table,"[64.943954, 436.696882, 1024.0, 683.0]",True,False,alto,
+openimages_val_nova,0.4,073656ee0dc47e82,table,"[1.848375, 316.072202, 1022.151608, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,0ba679b400f1ea31,table,"[509.737851, 288.405775, 948.594995, 410.713981]",True,False,medio,
+openimages_val_nova,0.4,1347925c9c5e401d,table,"[167.399107, 321.625268, 665.072128, 599.461214]",True,False,alto,
+openimages_val_nova,0.4,18e8b39f23696a5f,table,"[276.389376, 380.787594, 512.0, 539.449109]",True,False,alto,
+openimages_val_nova,0.4,1ad333a66420128c,table,"[38.4, 315.199995, 1003.2, 735.999974]",True,False,alto,
+openimages_val_nova,0.4,1d685b3ade4925bb,potted plant,"[801.6, 399.999974, 1024.0, 656.000026]",True,False,medio,0.6926497220993042
+openimages_val_nova,0.4,1d7929b66a611ea8,table,"[0.0, 432.0, 766.39998, 1022.4]",True,False,alto,
+openimages_val_nova,0.4,1e45fc409ab318ab,table,"[0.0, 721.6, 768.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,207206c41c624c21,table,"[276.4, 680.640922, 522.426404, 928.284877]",True,False,alto,
+openimages_val_nova,0.4,21977851c6ca69ad,table,"[888.0, 488.000026, 1024.0, 697.60002]",True,False,medio,
+openimages_val_nova,0.4,24ecee17e7b53fab,table,"[0.0, 539.778288, 1024.0, 680.0]",True,False,alto,
+openimages_val_nova,0.4,253e9529bda382c2,table,"[820.8, 686.4, 1024.0, 768.0]",True,False,medio,
+openimages_val_nova,0.4,29fda09e47503273,table,"[580.8, 318.399997, 659.2, 558.399974]",True,False,medio,
+openimages_val_nova,0.4,3a71be7ae113e593,chair,"[979.2, 480.0, 1024.0, 656.000026]",True,False,medio,
+openimages_val_nova,0.4,3ac44f0d2794e605,potted plant,"[229.810813, 0.0, 658.898088, 356.872837]",True,False,medio,
+openimages_val_nova,0.4,3e49a1c1b227ea28,table,"[784.0, 624.0, 1022.4, 711.999974]",True,False,medio,
+openimages_val_nova,0.4,4002d925e4431f43,table,"[36.8, 489.6, 969.6, 766.39998]",True,False,alto,
+openimages_val_nova,0.4,42cdf62be2cd206c,table,"[839.468237, 424.911699, 981.648435, 556.46797]",True,False,medio,
+openimages_val_nova,0.4,4ece4336cb293790,table,"[0.0, 426.97472, 1024.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,51d93439435b2c0f,table,"[0.0, 572.800005, 556.8, 768.0]",True,False,medio,
+openimages_val_nova,0.4,582cb18866f78e79,chair,"[883.523441, 887.220224, 1024.0, 998.122742]",True,False,medio,
+openimages_val_nova,0.4,58b8894b0151952e,chair,"[487.905894, 340.753882, 560.188211, 496.053227]",True,False,medio,
+openimages_val_nova,0.4,5ddad4c882eed25b,table,"[541.718077, 349.956683, 1024.0, 535.127953]",True,False,medio,
+openimages_val_nova,0.4,5fd9e3d423148e81,table,"[45.788616, 15.293975, 881.084006, 577.0]",True,False,alto,
+openimages_val_nova,0.4,636eb68a603c051a,table,"[374.4, 579.199995, 1024.0, 768.0]",True,False,medio,
+openimages_val_nova,0.4,7099ff7cb69fc7fd,table,"[302.064906, 379.276525, 1002.855465, 584.78098]",True,False,alto,
+openimages_val_nova,0.4,72339fee52338acb,table,"[422.4, 412.8, 569.6, 596.800005]",True,False,medio,
+openimages_val_nova,0.4,740fc2fafd5b3c63,table,"[0.0, 644.800005, 337.6, 766.39998]",True,False,medio,
+openimages_val_nova,0.4,75164a0a9eaec551,table,"[20.022347, 230.214951, 1003.977656, 590.551383]",True,False,alto,
+openimages_val_nova,0.4,757a1631131f4ba3,chair,"[654.399974, 732.8, 768.0, 964.8]",True,False,medio,
+openimages_val_nova,0.4,78b957aaaef79d41,table,"[0.0, 188.8, 768.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,8748e08a3fcf868d,table,"[99.681419, 291.634962, 912.23596, 636.15706]",True,False,alto,
+openimages_val_nova,0.4,93c552aca670c885,table,"[24.0, 0.0, 758.4, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,9627e4edac0fc0f0,table,"[0.0, 551.964672, 554.85586, 909.384397]",True,False,alto,
+openimages_val_nova,0.4,96591275de430985,chair,"[328.513311, 456.59375, 427.868529, 696.90625]",True,False,alto,
+openimages_val_nova,0.4,96c539fa081cd474,table,"[897.132749, 416.150456, 1022.489702, 668.867252]",True,False,medio,
+openimages_val_nova,0.4,9733ea3be904c0e5,chair,"[0.0, 520.177356, 85.835295, 680.0]",True,False,medio,
+openimages_val_nova,0.4,9a6fce7a0afd27b5,chair,"[894.112123, 315.811947, 1022.489702, 627.090713]",True,False,medio,
+openimages_val_nova,0.4,9e5910be48010369,table,"[0.0, 19.2, 766.39998, 536.0]",True,False,alto,
+openimages_val_nova,0.4,9fc4cded7b202656,potted plant,"[0.0, 0.0, 578.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,a7c77186e6dc2c48,table,"[0.0, 392.985958, 765.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,a9b45d7dc57ec8fa,table,"[0.0, 586.861629, 535.0, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,abd556f244c58f8a,table,"[0.0, 410.106689, 1005.982413, 672.995586]",True,False,alto,
+openimages_val_nova,0.4,acbde44d15c33442,potted plant,"[0.0, 0.0, 1024.0, 671.0]",True,False,alto,
+openimages_val_nova,0.4,acf206d933e61a9e,table,"[318.399997, 84.8, 492.799987, 262.4]",True,False,medio,
+openimages_val_nova,0.4,b12ed483271bd9b2,potted plant,"[110.253685, 71.019911, 922.808289, 551.537594]",True,False,alto,
+openimages_val_nova,0.4,c1da161e75499f48,table,"[326.230098, 349.055326, 471.221248, 522.827416]",True,False,medio,
+openimages_val_nova,0.4,c243f36393661a68,table,"[696.0, 528.0, 768.0, 625.60002]",True,False,medio,
+openimages_val_nova,0.4,c7bf670efd79ca62,table,"[11.099458, 661.718385, 712.215157, 1024.0]",True,False,alto,
+openimages_val_nova,0.4,ec9f41520dcf16bb,table,"[718.4, 432.0, 969.6, 633.6]",True,False,medio,
+openimages_val_nova,0.4,ecbbb807ff44e14d,chair,"[280.855875, 402.662748, 631.170753, 862.633298]",True,False,alto,
+openimages_val_nova,0.4,f60e55c4cdaa9b7c,potted plant,"[0.0, 0.0, 1024.0, 768.0]",True,False,alto,
+openimages_val_nova,0.4,fa2e05363e852401,table,"[0.0, 301.285192, 1024.0, 1024.0]",True,False,alto,

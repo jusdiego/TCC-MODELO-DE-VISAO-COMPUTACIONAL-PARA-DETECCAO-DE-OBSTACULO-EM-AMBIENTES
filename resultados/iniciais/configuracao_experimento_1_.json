@@ -1,0 +1,33 @@
+{
+  "experimento": "yolov8n_baseline_sunrgbd_lr_menor_20261013_135714_168209",
+  "modelo_base_sha256": "4170653e0c0a604f85b6747e42b3fd2ff5ddb765ee4762915dfc9f3d33d322d9",
+  "zip_sha256": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+  "epochs": 30,
+  "patience": 10,
+  "batch": 16,
+  "imgsz": 640,
+  "seed": 42,
+  "workers": 2,
+  "optimizer": "AdamW",
+  "lr0": 3e-05,
+  "resume": false,
+  "mosaic": 0.15,
+  "close_mosaic": 5,
+  "python": "3.13.15",
+  "ultralytics": "8.4.150",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "test_sha256": "f48be0a2b3a93e59259b1ae0d3655028951bf270ef7f4e7916a9424530951a89",
+  "politica_sha256": "1aa6b13cb68d8f30a2f388c3577a61a12dcac4c604581877091d3fbdc6042845",
+  "home_val_imagens": 456,
+  "criterio_checkpoint": "best.pt por fitness de validação mista do Ultralytics",
+  "criterio_triagem": "ganho de precisão de alertas com Recall preservado, na validação Home",
+  "experimento_controle": "yolov8n_baseline_sunrgbd_20261013_120842_048419",
+  "alteracao_planejada": {
+    "lr0": {
+      "antes": 0.0003,
+      "agora": 3e-05
+    }
+  },
+  "diferencas_ambiente": {}
+}

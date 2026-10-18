@@ -1,0 +1,35 @@
+{
+  "version": "19-consolidacao-demonstracao-1.0.0",
+  "concluido": true,
+  "status": "consolidacao_e_demonstracao_concluidas",
+  "context_key": "4d5ea2227cb3d7146cc78d8b5d752047cad25b1121335d051e7750dc79098db6",
+  "modelo_principal": "baseline",
+  "comparador": "candidato_10",
+  "novos_pesos": false,
+  "treinamento_executado": false,
+  "inferencia_executada": false,
+  "previsoes_reutilizadas": true,
+  "validacoes": {
+    "home_val_historica": 456,
+    "openimages_val_nova": 1000
+  },
+  "imagens_demonstracao": 24,
+  "galeria_ilustrativa": true,
+  "selecao_demonstracao_sha256": "7b47fbaab9593ac30d9ce33b89ca5872f4246504db86048ccc94688e2d51d977",
+  "protocolo_final_sha256": "b13f47fe8c2bc87369ccba1f5dbdad8d4fff46651531956617d38684e0b61b38",
+  "reserva_futura_extraida": false,
+  "reserva_futura_inferida": false,
+  "test_home_inferido": false,
+  "test_oi20k_inferido": false,
+  "modelo_substituido": false,
+  "preenchimento_manual_obrigatorio": false,
+  "referencias_reproduzidas": true,
+  "decisao": "Encerrar os ajustes curtos desta linha; consolidar resultados e demonstrar o comportamento dos dois modelos fixos.",
+  "limites": [
+    "As validações já influenciaram o desenvolvimento; não são teste final independente.",
+    "A galeria não mede desempenho e inclui exemplos de acertos e falhas por regras fixas.",
+    "Cobertura parcial OI: classe desconhecida não vira falso positivo nem negativo conhecido.",
+    "V2 usa geometria aparente e classe, sem medir distância ou risco físico validado.",
+    "Origem do treinamento original do baseline permanece não determinada."
+  ]
+}

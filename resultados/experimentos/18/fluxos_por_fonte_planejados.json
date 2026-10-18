@@ -1,0 +1,42 @@
+{
+  "fluxos_por_fonte_com_prefixo_comum": true,
+  "antes_permutacao_intrabatch": true,
+  "checks": [
+    {
+      "epoch": 1,
+      "source": "home",
+      "common_prefix": 912,
+      "common_prefix_sha256": "bf965c4b50954a0f9308d38e1f521002fbd627fe891a470cfdf6c194f60586fc"
+    },
+    {
+      "epoch": 1,
+      "source": "openimages",
+      "common_prefix": 456,
+      "common_prefix_sha256": "129d0583e940137e93082d89346773d4796aa3758cf1f9e6d6aec72ea33f3977"
+    },
+    {
+      "epoch": 2,
+      "source": "home",
+      "common_prefix": 912,
+      "common_prefix_sha256": "ec5bb4f801005e1f165aab2a15f78ab4d3efb5d60828146a06eb6a4f86641f62"
+    },
+    {
+      "epoch": 2,
+      "source": "openimages",
+      "common_prefix": 456,
+      "common_prefix_sha256": "8c6f156ca4f976a9b9b4acd5733d03be84897900223a66a6055df3504d0758f0"
+    },
+    {
+      "epoch": 3,
+      "source": "home",
+      "common_prefix": 912,
+      "common_prefix_sha256": "b1a14eb98b8cd1f5332f940e041e008c70c72364b171f83f0d28e5349e37399c"
+    },
+    {
+      "epoch": 3,
+      "source": "openimages",
+      "common_prefix": 456,
+      "common_prefix_sha256": "3d222507097348a6878fc14e46efc664ebe81b65a25215e3d6854d9bc38a427e"
+    }
+  ]
+}

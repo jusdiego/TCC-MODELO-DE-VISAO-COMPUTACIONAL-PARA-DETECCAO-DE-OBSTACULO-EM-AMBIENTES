@@ -1,0 +1,131 @@
+{
+  "versao": "15-auditoria-train-1.0.0",
+  "concluido": true,
+  "status": "auditoria_concluida_sem_alteracao_de_dados",
+  "imagens_catalogadas": 6824,
+  "imagens_por_fonte": {
+    "home": 1824,
+    "openimages": 5000
+  },
+  "imagens_analisadas_pelos_modelos": 6824,
+  "status_entrada": {
+    "legivel": 6824
+  },
+  "caixas_validas": 35429,
+  "triagem_caixas": {
+    "inconclusivo_ia": 13818,
+    "compativel_ia": 19857,
+    "divergencia_forte_ia": 1674,
+    "recorte_pequeno_sem_analise": 80
+  },
+  "problemas_estruturais": {
+    "menor_lado_em_640_inferior_a_16": 1621,
+    "proporcao_extrema_maior_12": 57,
+    "arredondamento_na_borda_ate_1e6": 1,
+    "classes_diferentes_sobreposicao_alta": 85,
+    "caixas_mesma_classe_quase_duplicadas": 2
+  },
+  "pares_duplicacao_ou_semelhanca_registrados": 19,
+  "previsoes_sem_associacao_classe_coberta": 12523,
+  "previsoes_sem_associacao_classe_desconhecida": 9925,
+  "possiveis_objetos_sem_caixa_triagem_ia": 665,
+  "novos_treinamentos": 0,
+  "rotulos_alterados": false,
+  "modelo_substituido": false,
+  "novo_dataset_aprovado": false,
+  "preenchimento_manual_obrigatorio": false,
+  "revisao_humana_realizada": false,
+  "test_home_extraido": false,
+  "oi_test_extraido": false,
+  "reserva_futura_extraida": false,
+  "validacoes_inferidas": false,
+  "reserva_futura_inferida": false,
+  "proveniencia_treino_original_baseline": "nao_determinado",
+  "limites": [
+    "Contagens são sinais automáticos; não estimam erros reais dos rótulos.",
+    "Recorte Open Images dos cinco lotes do piloto; não representativo dos 80 mil.",
+    "YOLO viu parte destes dados no treino; sua concordância não valida generalização.",
+    "CLIP congelado pode errar; margens heurísticas não são probabilidades calibradas.",
+    "pHash de 64 bits com distância até 4 registra até cinco vizinhos por imagem; é um sinal de semelhança e pode gerar falsos positivos.",
+    "Home assume cobertura completa conforme protocolo anterior; a completude real não foi comprovada.",
+    "pHash protegido externo usa apenas metadados já preservados; Home VAL/TEST e OI TEST têm proteção por SHA, sem nova revisão perceptual.",
+    "Sem avaliação independente de risco físico ou utilidade para locomoção."
+  ],
+  "execucao": {
+    "versao": "15-auditoria-train-1.0.0",
+    "experimento": "auditoria15_20261016_150850_292698",
+    "ambiente": {
+      "python": "3.13.15",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "ultralytics": "8.4.150",
+      "numpy": "2.1.3",
+      "pillow": "12.3.0",
+      "scipy": "1.16.3",
+      "ftfy": "6.3.1",
+      "regex": "2025.11.3",
+      "clip_commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+      "gpu": "Tesla T4",
+      "device": "0"
+    },
+    "protocolo_sha256": "a7509dfcd95a52c86ad255b1086fa6f474acdd6334718b8378da1952be981d54",
+    "dados_sha256": "7a9b108138da5ad5e16dc76641a5599453e7213a49d8eafe33bb7d78fa72c728",
+    "codigo_sha256": {
+      "audit15_core.py": "80c4a2e88f6d7c19133968bcf07dc0928a14fa174606fd13f2e0a5c813efa53e",
+      "audit15_models.py": "a5ac97cb14b7703c1ad73cfeab198004f07aa1fd697c3eea733b4c6e247d33d7",
+      "audit15_reports.py": "17ee81c73dccb25dd8a97f6ac4f63fa1e96d2811195806dcb6f758a841ba7c18"
+    },
+    "entradas_sha256": {
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/configuracao_preparacao.json": "d5fada9f82dc0c8115a127ed6ed11a85d1a6041b35b03f7b844751c92d13dcc7",
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/manifesto_pacotes.json": "655094dea28755a7bddc817ae66660d06fab28ccb8f9d140d3ffebb07f03a0d4",
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/divisao_10.csv": "fd256a11a8a062fa012855382c0a79a15075aaecb7bdc77042ee1ae7db10b0b0",
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/divisao_10.json": "a792e145141909c20ec06c3385c820b39f01ab9cf324ccdc0f3686a741d02c3b",
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/pacote_11.zip": "a3f3fb500cef83fc4890f6bbec6725bbf5e080503fd0478af3dd84d6f5ef6e93",
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/home.zip": "ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676",
+      "/tmp/tcc_auditoria_15/auditoria15_20261016_150850_292698/entradas/B_home_replay_e03.pt": "b683e1ef5fac4f8ddb4fad2f610e10dcb33bc658ea72593b8088652dbdd3c21c"
+    },
+    "lotes_autenticados": [
+      {
+        "arquivo": "lote_000001.zip",
+        "zip_sha256": "9be878dd7c8f91dba90deb1cea226fc28bd6e3c5ad6192ced1a0ee7e8369c949",
+        "zip_bytes": 287039437
+      },
+      {
+        "arquivo": "lote_000002.zip",
+        "zip_sha256": "e9032df3a116eddc792d645885034dc4108636f18f8636a49fd61c89d6d8cfdd",
+        "zip_bytes": 287377350
+      },
+      {
+        "arquivo": "lote_000003.zip",
+        "zip_sha256": "6a0d9a96647c8bc200f752a4e3d825bc371d2a6cc4d792fb779d908bcd59f0f7",
+        "zip_bytes": 291260618
+      },
+      {
+        "arquivo": "lote_000004.zip",
+        "zip_sha256": "5f49733266a698076e0640d149a4081cba1503fb0ab0c30a329b90d4e334cf52",
+        "zip_bytes": 291726989
+      },
+      {
+        "arquivo": "lote_000005.zip",
+        "zip_sha256": "f894e78de3f6c13545c1cb68d3a59b4d8f8633b876a970af4d6c79c1f5c24f65",
+        "zip_bytes": 293332917
+      }
+    ],
+    "cache_key": "fb970c3f2a3587dec364fc5a625d0c1a07feee07ec2d625b0093d14991315d4f",
+    "reserva_futura_extraida": false,
+    "validacoes_inferidas": false,
+    "testes_inferidos": false,
+    "novos_treinamentos": 0,
+    "rotulos_alterados": false,
+    "inferencia_yolo": {
+      "images": 6824,
+      "new_inferences": 6824,
+      "seconds": 305.569999793
+    },
+    "inferencia_clip": {
+      "images": 6824,
+      "new_analyses": 6824,
+      "seconds": 1192.748987254
+    }
+  }
+}

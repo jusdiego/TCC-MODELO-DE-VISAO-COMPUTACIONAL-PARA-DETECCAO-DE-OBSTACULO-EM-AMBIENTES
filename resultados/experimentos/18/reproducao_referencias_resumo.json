@@ -1,0 +1,38 @@
+[
+  {
+    "modelo": "baseline",
+    "coorte": "home_val_historica",
+    "checagens_imagem": 5016,
+    "divergencias_imagem": 0,
+    "objetos_GT": 3682,
+    "divergencias_objetos": 0,
+    "reproduziu": true
+  },
+  {
+    "modelo": "baseline",
+    "coorte": "openimages_val_nova",
+    "checagens_imagem": 11000,
+    "divergencias_imagem": 0,
+    "objetos_GT": 4123,
+    "divergencias_objetos": 0,
+    "reproduziu": true
+  },
+  {
+    "modelo": "candidato_10",
+    "coorte": "home_val_historica",
+    "checagens_imagem": 5016,
+    "divergencias_imagem": 0,
+    "objetos_GT": 3682,
+    "divergencias_objetos": 0,
+    "reproduziu": true
+  },
+  {
+    "modelo": "candidato_10",
+    "coorte": "openimages_val_nova",
+    "checagens_imagem": 11000,
+    "divergencias_imagem": 0,
+    "objetos_GT": 4123,
+    "divergencias_objetos": 0,
+    "reproduziu": true
+  }
+]
