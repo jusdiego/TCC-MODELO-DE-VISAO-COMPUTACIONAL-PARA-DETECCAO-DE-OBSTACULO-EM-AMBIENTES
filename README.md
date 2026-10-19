@@ -57,7 +57,11 @@ O peso final e o arquivo `TCC_Resultados_Para_Apresentacao.zip` estão disponív
 
 ## Autores
 
-Diego Ramos Justina; Fernanda Silva Santos; Guilherme Almeida dos Santos; João Antônio da Silva Junior; Samanta Aparecida de Souza.
+- Diego Ramos Justina
+- Fernanda Silva Santos
+- Guilherme Almeida dos Santos
+- João Antônio da Silva Junior
+- Samanta Aparecida de Souza
 
 Orientação: Prof. Dr. Gilberto Perez. Faculdade Impacta Tecnologia — Ciência da Computação, 2026. Os dados para citação estão em [CITATION.cff](CITATION.cff).
 
