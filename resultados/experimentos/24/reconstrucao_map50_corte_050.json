@@ -1,0 +1,106 @@
+{
+  "fonte": {
+    "arquivo": "release_resultados.zip",
+    "sha256": "5ea3e4b07026a8fbfcd1dd8adfae3755f4f19122b582641c885ea733c660e918",
+    "objetos_test_sha256": "5730ddff081c556bf85ee8689447c93ab5afda4337d6092b145d445a40e90989",
+    "manifesto_test_sha256": "ae9e9b84ff1e0d412588c9f04f93c33c28c34650d61ffd31b8db2051c743f074"
+  },
+  "metodo": {
+    "IoU": 0.5,
+    "niveis_recall": 101,
+    "media": "macro das 12 classes",
+    "captura_conf_cache": 0.01,
+    "corte_previo_AP": 0.5,
+    "limite_captura_por_imagem": 300,
+    "pareamento_AP": "confiança decrescente; melhor IoU ainda disponível",
+    "ponto_operacional_verificado": "pareamento histórico por IoU"
+  },
+  "imagens": 403,
+  "objetos": 3465,
+  "modelos": {
+    "candidato10": {
+      "mAP50": 0.5180408778519796,
+      "AP50_por_classe": {
+        "bed": 0.5428884234577305,
+        "sofa": 0.738155585961917,
+        "chair": 0.5465467863916353,
+        "table": 0.6541093109135807,
+        "lamp": 0.3813705503392496,
+        "tv": 0.6741796775831429,
+        "laptop": 0.25742574257425743,
+        "wardrobe": 0.42042519286344376,
+        "window": 0.35177606544377255,
+        "door": 0.3771176013593284,
+        "potted plant": 0.5742964323720702,
+        "photo frame": 0.6981991649636266
+      },
+      "previsoes_capturadas": 13311,
+      "ponto_operacional": {
+        "tp": 2189,
+        "fn": 1276,
+        "fp": 611,
+        "precision": 0.7817857142857143,
+        "recall": 0.6317460317460317,
+        "f1": 0.698802873104549
+      },
+      "imagens_com_TP_FN_FP_reproduzidos": 403
+    },
+    "21_epoca21": {
+      "mAP50": 0.568820611052801,
+      "AP50_por_classe": {
+        "bed": 0.6561981990054211,
+        "sofa": 0.7461113621662484,
+        "chair": 0.6405419921140201,
+        "table": 0.6601327699022952,
+        "lamp": 0.40190373203772234,
+        "tv": 0.634003671067461,
+        "laptop": 0.5544554455445543,
+        "wardrobe": 0.38767431235398775,
+        "window": 0.3681661590804537,
+        "door": 0.4569013279230391,
+        "potted plant": 0.604480330160959,
+        "photo frame": 0.7152780312774499
+      },
+      "previsoes_capturadas": 13675,
+      "ponto_operacional": {
+        "tp": 2273,
+        "fn": 1192,
+        "fp": 610,
+        "precision": 0.7884148456468956,
+        "recall": 0.655988455988456,
+        "f1": 0.7161310649023315
+      },
+      "imagens_com_TP_FN_FP_reproduzidos": 403
+    },
+    "rfdetr_small24": {
+      "mAP50": 0.6647540178002672,
+      "AP50_por_classe": {
+        "bed": 0.8156915691569159,
+        "sofa": 0.8107448699913951,
+        "chair": 0.7642169013651805,
+        "table": 0.7647957928715643,
+        "lamp": 0.4464795722899288,
+        "tv": 0.7260642452577831,
+        "laptop": 0.9009900990099011,
+        "wardrobe": 0.3961806822726444,
+        "window": 0.3546258946334983,
+        "door": 0.5232073300406015,
+        "potted plant": 0.683657925697266,
+        "photo frame": 0.7903933310165278
+      },
+      "previsoes_capturadas": 107782,
+      "ponto_operacional": {
+        "tp": 2474,
+        "fn": 991,
+        "fp": 549,
+        "precision": 0.8183923255044657,
+        "recall": 0.713997113997114,
+        "f1": 0.7626387176325524
+      },
+      "imagens_com_TP_FN_FP_reproduzidos": 403
+    }
+  },
+  "referencias_mAP50_conferidas": false,
+  "novos_treinamentos": 0,
+  "novas_inferencias": 0
+}

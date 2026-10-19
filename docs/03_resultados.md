@@ -70,3 +70,7 @@ A avaliação foi concluída após a correção do índice de background. Apenas
 ## Arquivos para a apresentação
 
 Priorizar a comparação Home, o desempenho por classe, os intervalos, o diagnóstico NYU e a sequência de hipóteses em [experimentos](02_experimentos.md). Os relatórios HTML e a demonstração antiga estão no pacote completo de resultados destinado ao Release. A demonstração 19 apresenta os modelos daquele ciclo; não deve ser atribuída ao RF-DETR 24.
+
+## Reconstrução do mAP50 de teste
+
+O [script de reconstrução](../scripts/reconstruir_map50.py) calcula AP em 101 níveis de recall a partir dos caches Colab, com captura desde confiança 0,01 e IoU mínimo 0,50. Reproduz 67,49% para o candidato 10, 67,88% para o 21/época 21 e 78,99% para o RF-DETR Small. O limiar operacional 0,50 é aplicado à precisão, recall e F1, sem truncar previamente as previsões usadas para AP. Ver [método e execução](09_reconstrucao_map50.md) e [resultados calculados](../resultados/experimentos/24/reconstrucao_map50_colab.json).

@@ -19,6 +19,8 @@ As três primeiras linhas foram avaliadas no protocolo do notebook 24, com limia
 
 Fontes: [comparação Home](resultados/experimentos/24/comparacao_24.csv), [avaliação NYU](resultados/experimentos/24/avaliacao_externa_24.json) e [bootstrap](resultados/experimentos/24/bootstrap_test_historico_24.json). Consulte a [análise completa](docs/03_resultados.md).
 
+A coluna mAP50 dos três modelos foi reconstruída das previsões arquivadas. Consulte o [script de reprodução](scripts/reconstruir_map50.py) e a [documentação do cálculo](docs/09_reconstrucao_map50.md).
+
 ## Navegação
 
 | Material | Onde consultar |
