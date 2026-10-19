@@ -41,7 +41,9 @@ As fontes MAT, seus hashes e a referência do split oficial estão em `base_nyu2
 
 ## Entrega da base e política de versão
 
-O repositório inclui os manifestos e as listas de divisão disponíveis. Os ZIPs completos de imagens não foram localizados entre os arquivos desta organização. A obtenção dos originais é necessária para disponibilizar uma base completa verificável.
+O repositório inclui os manifestos e as listas de divisão disponíveis. Os quatro grupos de pacotes de imagens foram localizados no Drive em 19/10/2026: Home/SUN, NYU preparada, Open Images 100 mil e Open Images validação/reserva. Os links e instruções estão em [ACESSO_A_BASE.txt](../ACESSO_A_BASE.txt).
+
+O acesso no Drive é de **Leitor para contas do Centro Universitário Impacta que tenham o link**, com login institucional autorizado. A opção de compartilhamento para qualquer pessoa com o link não foi oferecida pela conta proprietária. Os hashes registrados devem ser conferidos após o download.
 
 Ao recuperar os ZIPs, executar [verificar_pacotes.py](../scripts/verificar_pacotes.py). Para Home 24, executar também o preparo portátil e conservar seu relatório. Não criar uma divisão nova para acompanhar um resultado histórico. Se qualquer arquivo de imagem ou rótulo divergir do manifesto, registrar como uma versão de dados diferente antes de repetir um experimento.
 

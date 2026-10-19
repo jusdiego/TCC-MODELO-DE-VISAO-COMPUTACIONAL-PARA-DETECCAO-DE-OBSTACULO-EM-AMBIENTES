@@ -1,0 +1,110 @@
+ACESSO ÀS BASES DE DADOS DO TCC
+Modelo de visão computacional para detecção de obstáculos em ambientes internos
+Atualização: 19/10/2026
+
+PERMISSÃO DE ACESSO
+
+Os quatro links abaixo foram configurados como Leitor para pessoas do
+CENTRO UNIVERSITÁRIO IMPACTA que tenham o link. É necessário entrar no
+Google Drive com uma conta institucional autorizada pela Impacta.
+
+O repositório GitHub é público. Os downloads das bases no Drive têm acesso
+institucional: a conta proprietária não ofereceu a opção "qualquer pessoa
+com o link". Uma conta Google pessoal pode não conseguir abrir os arquivos.
+
+1. HOMEOBJECTS / SUN RGB-D — FONTE HISTÓRICA
+
+Link do arquivo:
+https://drive.google.com/file/d/1BgKR2hGi6kJmlTKXldDFdb2paiBtiE0C/view
+
+Arquivo: homeobjects_sunrgbd_validado.zip
+Caminho sob TCC_Visao_Computacional: datasets/homeobjects_sunrgbd_validado.zip
+SHA-256 esperado:
+ada7fbee37b83f673b1b76bc57643d1fe4648941e0e8a7b895282216aed47676
+
+É o ZIP fonte exigido pelos notebooks históricos, inclusive o experimento 24.
+A seleção Home 24 tem 12 classes, 1.818 imagens de treino, 456 de validação
+e 403 de TEST histórico. O manifesto do experimento define o recorte usado;
+o ZIP fonte também contém material SUN RGB-D.
+
+2. NYU DEPTH V2 — PREPARAÇÃO DOS EXPERIMENTOS 22/23
+
+Link da pasta com os arquivos preparados:
+https://drive.google.com/drive/folders/119JvhlK0cUFCfQuGwv26BqkrFiezR3q5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
+
+Caminho sob TCC_Visao_Computacional:
+ramo_nyu22_23_v1/preparado/3aae8a862f234d1995c65b46/
+
+Arquivo: desenvolvimento_nyu22.zip
+Conteúdo: 634 imagens de treino e 161 de validação, com suas anotações.
+Tamanho: 295551712 bytes
+SHA-256 esperado:
+0e677c1e49fae0d48c9de4922ad63a84087f5f21c24592f4e50f64b56a1089ae
+
+Arquivo: reserva_nyu22.zip
+Conteúdo: 654 imagens de TEST; também usado no diagnóstico externo do 24.
+Tamanho: 244091212 bytes
+SHA-256 esperado:
+64a25836d6665e9c80141ac9ae74c2c2b0fa455eb2289fe3a5fdf194ce317074
+
+Conservar os registros de preparação que acompanham os ZIPs.
+
+3. OPEN IMAGES V7 — PREPARAÇÃO DE 100 MIL IMAGENS
+
+Link da pasta da base:
+https://drive.google.com/drive/folders/1bwYjfET7LLgdgKBUX3-BCAxsCzB8Gd2n?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
+
+Caminho sob TCC_Visao_Computacional: datasets/openimages_v7_tcc_100k_v1/
+A subpasta lotes/ contém lote_000001.zip até lote_000100.zip.
+Os 100 ZIPs foram localizados no Drive em 19/10/2026.
+
+Baixar os lotes necessários à etapa e conservar os metadados da preparação:
+manifesto_pacotes.json, configuracao_preparacao.json, fontes.json,
+mapeamento.json e os demais registros que acompanham a base.
+
+A divisão histórica registrada usa 80.000 IDs de treino e 20.000 de teste,
+com seed 42. Os recortes dos controles variam conforme o notebook.
+Os hashes esperados de cada lote estão em datasets/arquivos_esperados.csv.
+
+4. OPEN IMAGES — VALIDAÇÃO E RESERVA DO EXPERIMENTO 11
+
+Link da pasta com o ZIP e seu manifesto:
+https://drive.google.com/drive/folders/1SE36wGZbikc97AojVJ5aPUUiwaAHRxFW?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
+
+Arquivo: validacao_independente_11_695b445e15c9.zip
+Conteúdo: 1.000 imagens de validação e 300 de reserva.
+Caminho sob TCC_Visao_Computacional:
+datasets/validacao_independente_11_v1/695b445e15c905642e2b276801b71132ced28e5eaee92d9fbcdd608f582f15a0/validacao_independente_11_695b445e15c9.zip
+SHA-256 esperado:
+5af596546e2ad734c7b663f4567de2087d7fb42b41527d4852affdb4e7d2b96c
+
+A reserva de 300 imagens foi consultada no experimento 20. A validação de
+1.000 imagens foi usada nas decisões dos controles anteriores.
+
+COMO BAIXAR E UTILIZAR
+
+1. Abrir o link usando a conta institucional autorizada.
+2. Usar a opção Baixar do Google Drive e conservar os nomes dos ZIPs.
+3. Manter imagens, anotações, metadados e divisões da versão correspondente.
+4. Ajustar a raiz dos caminhos no notebook escolhido conforme seu ambiente.
+5. Conferir os pacotes baixados, na raiz do repositório:
+
+   python scripts/verificar_pacotes.py --origem "C:\caminho\TCC_Visao_Computacional"
+
+As divisões históricas estão em datasets/divisoes/ e datasets/manifestos/.
+Para reproduzir os resultados registrados, preservar as classes, partições,
+filtros e critérios da etapa. Os hashes acima são os registros históricos;
+a conferência da presença dos arquivos no Drive não substitui a comparação
+de hashes após o download.
+
+FONTES, TERMOS E DOCUMENTAÇÃO
+
+As bases mantêm as atribuições e os termos de suas fontes. Consultar:
+- AVISOS_DE_TERCEIROS.md
+- datasets/README.md
+- datasets/arquivos_esperados.csv
+- docs/07_bases.md
+- docs/04_reproducao.md
+
+O peso final e o pacote de resultados para apresentação estão na Release
+v1.0.0 do GitHub. São materiais diferentes das bases de imagens acima.

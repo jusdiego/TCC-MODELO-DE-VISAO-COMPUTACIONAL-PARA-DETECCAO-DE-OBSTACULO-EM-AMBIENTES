@@ -1,15 +1,16 @@
 # Distribuição de arquivos grandes
 
-O código e a documentação estão no [repositório público](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES). O pacote de resultados e o peso final foram publicados na [versão v1.0.0](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/tag/v1.0.0); os anexos podem ser baixados sem login. A distribuição das bases completas de imagens será definida posteriormente.
+O código e a documentação estão no [repositório público](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES). O pacote de resultados e o peso final foram publicados na [versão v1.0.0](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/tag/v1.0.0); os anexos podem ser baixados sem login. As bases preparadas são distribuídas pelos links de [ACESSO_A_BASE.txt](../ACESSO_A_BASE.txt), em modo Leitor para contas do Centro Universitário Impacta com o link. Esses downloads exigem login institucional autorizado.
 
 | Arquivo | Finalidade | Disponibilidade |
 | --- | --- | --- |
 | [TCC_Resultados_Para_Apresentacao.zip](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/download/v1.0.0/TCC_Resultados_Para_Apresentacao.zip) | Evidências completas recuperadas: relatórios, galerias, tabelas, previsões e o peso final. | Publicado na versão v1.0.0; 348.920.870 bytes. |
 | [modelo_rfdetr24.pth](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/download/v1.0.0/modelo_rfdetr24.pth) | Download direto do peso RF-DETR Small, também incluído no ZIP de resultados. | Publicado na versão v1.0.0; 127.488.377 bytes. |
+| `homeobjects_sunrgbd_validado.zip` | ZIP fonte Home/SUN exigido pelos notebooks históricos. | Disponível no Drive; acesso institucional de leitor, conforme o [TXT](../ACESSO_A_BASE.txt). |
 | `base_home24_reproducao.zip` | Imagens/rótulos do recorte Home 24 em uma embalagem portátil. | Gerado pelo script quando o ZIP original for fornecido; não incluído nesta entrega. |
 | `base_home24_reproducao.verificacao.json` | Hash, contagens e verificação do pacote portátil. | Produzido junto ao pacote, sem preencher planilhas. |
-| `desenvolvimento_nyu22.zip` e `reserva_nyu22.zip` | Imagens/rótulos da preparação NYU utilizada. | Referências e hashes preservados; imagens não localizadas nesta entrega. |
-| Lotes e metadados Open Images | Reproduzir os recortes e controles históricos. | Inventário e divisões incluídos; imagens não localizadas nesta entrega. |
+| `desenvolvimento_nyu22.zip` e `reserva_nyu22.zip` | Imagens/rótulos da preparação NYU utilizada. | Disponíveis no Drive; referências e hashes preservados. Acesso institucional de leitor. |
+| Lotes e metadados Open Images | Reproduzir os recortes e controles históricos. | Disponíveis no Drive; 100 lotes, metadados e pacote de validação/reserva. Acesso institucional de leitor. |
 
 [arquivos_release.json](arquivos_release.json) descreve os assets disponíveis. O inventário de bases fica em [datasets/arquivos_esperados.json](../datasets/arquivos_esperados.json). A pasta local `publicacao/assets/` é ignorada pelo Git e pode receber downloads e pacotes gerados.
 

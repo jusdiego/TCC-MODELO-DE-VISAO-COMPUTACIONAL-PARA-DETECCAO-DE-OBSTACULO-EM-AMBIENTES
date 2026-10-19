@@ -18,7 +18,9 @@ O script utiliza a biblioteca padrão: confere os hashes de distribuição, a or
 
 ## 3. Recuperar as bases
 
-Consultar [datasets/README.md](../datasets/README.md). O inventário informa nomes, hashes e caminhos históricos. Cada notebook exige as entradas de sua etapa; as imagens completas não acompanham este repositório.
+Abrir [ACESSO_A_BASE.txt](../ACESSO_A_BASE.txt) para os quatro links de download e entrar com uma conta institucional autorizada pelo Centro Universitário Impacta. Os links foram configurados como Leitor para pessoas da instituição com o link; o repositório público não torna esses downloads anônimos.
+
+Consultar também [datasets/README.md](../datasets/README.md). O inventário informa nomes, hashes e caminhos históricos. Cada notebook exige as entradas de sua etapa; as imagens completas ficam no Drive.
 
 Para conferir uma pasta com os ZIPs originais:
 

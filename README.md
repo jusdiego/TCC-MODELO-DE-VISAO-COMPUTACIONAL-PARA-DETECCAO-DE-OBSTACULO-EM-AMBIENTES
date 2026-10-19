@@ -28,6 +28,7 @@ Fontes: [comparação Home](resultados/experimentos/24/comparacao_24.csv), [aval
 | Sequência dos 32 notebooks principais | [Índice comentado](notebooks/README.md) |
 | 39 variantes e adaptações de ambiente | [Histórico de notebooks](historico/README.md) |
 | Bases, divisões, classes e arquivos necessários | [Bases de dados](datasets/README.md) |
+| Links e instruções para baixar as bases | [Acesso às bases](ACESSO_A_BASE.txt) |
 | Como conferir ou reproduzir o trabalho | [Reprodução](docs/04_reproducao.md) |
 | Alcance das conclusões | [Limitações](docs/05_limitacoes.md) |
 | Como publicar o material | [Publicação no GitHub](docs/06_publicacao_github.md) |
@@ -51,7 +52,9 @@ Os notebooks de treinamento precisam das bases e dos pesos indicados em cada eta
 
 ## Bases, pesos e pacotes completos
 
-Os manifestos e as divisões estão versionados em `datasets/`. Os ZIPs completos de imagens **não acompanham esta cópia**: o inventário exato está em [arquivos esperados](datasets/arquivos_esperados.csv). A base do experimento 24 contém **1.818 imagens de treino, 456 de VAL e 403 de TEST histórico**.
+Os links dos quatro grupos de bases estão em **[ACESSO_A_BASE.txt](ACESSO_A_BASE.txt)**, com nomes, versões, hashes e instruções. Os arquivos no Google Drive estão configurados como **Leitor para contas do Centro Universitário Impacta com o link**; o download exige uma conta institucional autorizada. A conta proprietária não ofereceu compartilhamento para qualquer pessoa com o link.
+
+Os manifestos e as divisões estão versionados em `datasets/`; os ZIPs de imagens são distribuídos pelo Drive. O inventário exato está em [arquivos esperados](datasets/arquivos_esperados.csv). A base do experimento 24 contém **1.818 imagens de treino, 456 de VAL e 403 de TEST histórico**.
 
 O peso final e o arquivo `TCC_Resultados_Para_Apresentacao.zip` estão disponíveis nos [anexos da versão v1.0.0](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/tag/v1.0.0): [pacote de resultados](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/download/v1.0.0/TCC_Resultados_Para_Apresentacao.zip) e [peso RF-DETR Small](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES/releases/download/v1.0.0/modelo_rfdetr24.pth). Os tamanhos e hashes estão nos [metadados da publicação](publicacao/arquivos_release.json). O [repositório](https://github.com/jusdiego/TCC-MODELO-DE-VISAO-COMPUTACIONAL-PARA-DETECCAO-DE-OBSTACULO-EM-AMBIENTES) é público; os arquivos e anexos podem ser consultados e baixados sem login. Consulte as [instruções de distribuição](publicacao/README.md).
 

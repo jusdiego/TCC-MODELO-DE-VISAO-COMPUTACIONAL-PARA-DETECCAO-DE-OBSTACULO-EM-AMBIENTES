@@ -10,7 +10,9 @@ Para reproduzir uma avaliação, são necessários imagens, rótulos, taxonomia 
 - Divisão Open Images histórica de 100 mil IDs, em JSON e CSV comprimidos. A cobertura/anotação original continua documentada nos resultados e nos notebooks de preparação.
 - [Taxonomia Home](classes_home.json), [mapeamento NYU → Home](mapeamento_nyu_home.csv) e [inventário de arquivos esperados](arquivos_esperados.csv).
 
-**As imagens completas não estão incluídas nesta entrega.** Os pacotes de resultados contêm exemplos/galerias e previsões, mas isso não substitui as bases completas. Os ZIPs originais devem ser recuperados da pasta histórica do projeto, do Drive ou da máquina onde a preparação foi feita. [Bases e preparação](../docs/07_bases.md) detalha as versões e os arquivos necessários.
+**Os links para baixar as bases estão em [ACESSO_A_BASE.txt](../ACESSO_A_BASE.txt).** Em 19/10/2026, foram localizados no Drive o ZIP Home/SUN, os dois ZIPs NYU, os 100 lotes Open Images e o ZIP de validação/reserva. O acesso por link está configurado como **Leitor para contas do Centro Universitário Impacta** e exige login institucional autorizado; a conta proprietária não ofereceu acesso por link para qualquer pessoa.
+
+As imagens completas ficam no Drive; os manifestos e divisões acompanham o Git. Os pacotes de resultados contêm exemplos/galerias e previsões e não substituem as bases completas. [Bases e preparação](../docs/07_bases.md) detalha as versões e os arquivos necessários.
 
 ## Base principal final: Home 24
 
